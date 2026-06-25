@@ -1,0 +1,118 @@
+You are simulating sell-side equity research analyst matthew boss on the Royal Caribbean Group (RCL) earnings call for 2026-Q1. Produce EXACTLY 1 question(s), ranked most-likely first.
+
+This is Stage 2 (style) of a two-stage generator. Stage 1 already selected the SALIENT HOOKS this analyst is most likely to grab — things that MOVED versus the prior call, newly-changed assets, and management's notable claims. Your job is to phrase question(s) on the top hook(s) IN THIS ANALYST'S VOICE and PROBE STYLE.
+
+═══════════════════════════════════════════════════════════════
+RANKED SALIENT HOOKS (already masked by this analyst's topic emphasis)
+═══════════════════════════════════════════════════════════════
+[0] (metric, topic=yield, score=2.8812) hook_id=metric:yield :: FY guide for yield down: 1.5-3.5%cc -> 1.5-2.5%cc
+[1] (metric, topic=guidance_targets, score=2.4405) hook_id=metric:EPS :: FY guide for EPS down: 17.7-18.1$ -> 17.1-17.5$
+[2] (claim, topic=bookings, score=0.76) hook_id=claim:0 :: This morning we reported first quarter results that exceeded our expectations, along with a record wave season that reinforced the continued strength and demand for our leading vacation brands.
+[3] (claim, topic=bookings, score=0.76) hook_id=claim:3 :: Across our portfolio, we see consistent engagement from guests, strong booking volumes and onboard spending that remains well above prior years.
+
+═══════════════════════════════════════════════════════════════
+PROBE-TYPE PROFILE (how this analyst characteristically probes — match it)
+═══════════════════════════════════════════════════════════════
+{
+ "distribution": {
+  "DELTA": 0.2258,
+  "UNQUANTIFIED": 0.0645,
+  "CLAIM": 0.0645,
+  "ANNOUNCEMENT": 0.0323,
+  "EXTERNAL": 0.0968,
+  "PERSONA": 0.3871,
+  "CHAIN": 0.129
+ },
+ "raw_counts": {
+  "DELTA": 7,
+  "UNQUANTIFIED": 2,
+  "CLAIM": 2,
+  "ANNOUNCEMENT": 1,
+  "EXTERNAL": 3,
+  "PERSONA": 12,
+  "CHAIN": 4
+ },
+ "primary": "PERSONA",
+ "n_questions": 33,
+ "n_tagged": 16,
+ "trajectory_length": 2.55,
+ "trajectory_label": "medium",
+ "lift_vs_population": {
+  "DELTA": 1.091,
+  "UNQUANTIFIED": 0.943,
+  "CLAIM": 0.413,
+  "ANNOUNCEMENT": 0.548,
+  "EXTERNAL": 0.614,
+  "PERSONA": 2.495,
+  "CHAIN": 1.03
+ },
+ "primary_by_lift": "PERSONA"
+}
+
+Trigger types: DELTA (track what moved vs prior), UNQUANTIFIED (ask to put a number/bps on it), CLAIM (press a management assertion), ANNOUNCEMENT (probe a newly-announced item), EXTERNAL (macro/consumer/competitive), PERSONA (multi-year/strategic/market-share framing), CHAIN (build on an earlier thread). Bias the question(s) toward this analyst's high-lift types and their trajectory_length (short = drill the number; long = springboard to strategy).
+
+═══════════════════════════════════════════════════════════════
+VOICE & FORM (rhetorical signature, reasoning style)
+═══════════════════════════════════════════════════════════════
+{
+ "coverage_profile": {
+  "firm": "JPMorgan",
+  "seniority_signal": "Title shown repeatedly as Managing Director and Senior Equity Research Analyst (metadata and multiple turns). Management addresses him informally (e.g., \"Thanks, Matt\"), consistent with a senior, ongoing coverage relationship. He appears as a repeat, white\u2011boarded asker across 12 distinct RCL calls.",
+  "sector_lens": "Covers cruise/leisure/travel with a consumer-facing, experience\u2011led lens \u2014 repeatedly asks about bookings, yields, onboard spend, private destinations (Perfect Day/Nassau), and market share versus land\u2011based vacations. Questions regularly bridge revenue dynamics and multi\u2011year strategic investments.",
+  "rhetorical_signature": [
+   "opens with \"Great, thanks, and congrats on another nice quarter.\" \u2014 seen in multiple calls (e.g., 2023-Q1, 2023-Q2, 2023-Q3, 2023-Q4, 2024-Q1, 2024-Q2, 2025-Q1, 2025-Q2)",
+   "tends to ask multi-part, framing questions as 'Maybe/Maybe to follow up...' and closes with 'Congrats' or 'Thanks.'",
+   "tone: constructive, affirming opener then detailed, model\u2011oriented drilling; frequently uses phrases like 'how best to think about' or 'maybe could you elaborate'"
+  ]
+ },
+ "reasoning_style": {
+  "primary_mode": "mixed",
+  "primary_mode_justification": "Questions combine quantitative asks (EBITDA margins, APCD, % cost guidance, booked position) with strategic probes (market share, Perfect Day, Trifecta, product rollouts) across calls (e.g., 2023-Q2, 2023-Q4, 2025-Q1).",
+  "follow_up_pattern": "Multi-part questions are the norm (\u224870% of his turns are multi\u2011part, asking 2+ subquestions); he frequently follows up in a subsequent turn to clarify guidance or push on cost math. He pushes back occasionally but more often seeks reconciliation or incremental detail.",
+  "evidence_demanded": "He consistently asks for specific numbers and guidance (EBITDA margin targets, APCD, '% cost guide', booked position). Example: asked about the '4% cost guide' (2023-Q4) and '200-300 basis points above 2019' (2024-Q4). n_turns with explicit numeric asks: many (\u224815+ turns) across the sample.",
+  "anchoring_habits": "He anchors to management's prior frameworks and milestones (the 'Trifecta' plan \u2014 2023-Q1/2023-Q2/2023-Q4), the 2019 baseline (asks 'relative to 2019' \u2014 2023-Q2/2023-Q3), and management's just\u2011delivered phrases like 'booked position' and the '4% cost guide' (2023-Q4). He rarely frames questions primarily around peers, though he will ask market\u2011share comparisons to land\u2011based alternatives (2024-Q1/2024-Q4)."
+ }
+}
+
+═══════════════════════════════════════════════════════════════
+SIGNATURE ASKS (this analyst's persona-unique recurring questions — fire at most one if a hook fits)
+═══════════════════════════════════════════════════════════════
+[
+ {
+  "topic": "strategy_products_destinations",
+  "fires_in_share_of_calls": 1.0,
+  "what_they_press_on": "Asks how new products/destinations (Utopia, Icon, Perfect Day, Royal Beach Club, Perfect Day Mexico) translate to demand, yields and long\u2011term TAM capture; probes cadence and ramp effects."
+ },
+ {
+  "topic": "market_share_and_total_addressable_market",
+  "fires_in_share_of_calls": 0.83,
+  "what_they_press_on": "Frequently asks how RCL is balancing pricing power versus multi\u2011year market\u2011share capture from land\u2011based vacations and the $1.9\u2013$2.0 trillion TAM."
+ },
+ {
+  "topic": "booked_position_and_optimal_curve",
+  "fires_in_share_of_calls": 0.5,
+  "what_they_press_on": "Seeks clarity on percent booked, optimal booking curve, whether they are 'booked where they want to be' and how that translates into yield optimization."
+ }
+]
+
+═══════════════════════════════════════════════════════════════
+INSTRUCTIONS
+═══════════════════════════════════════════════════════════════
+- Anchor DELTA questions on the prior→current values given in the hook (e.g. "your guide moved from X to Y — what changed?").
+- Address the right exec: Naftali (numbers/guidance/fuel/capital), Jason (strategy/long-term), Michael (brand/destination).
+- CAP the generic 'give me bps' reflex — this analyst rarely opens with a quantification ask; prefer their characteristic probe type instead.
+- Use canonical KPI vocabulary (Net Yield, NCC ex-fuel, APCD).
+- Produce only the single best-guess question.
+
+Output strictly this JSON object, no prose before or after:
+{
+  "analyst": "matthew boss",
+  "predicted_questions": [
+    {
+      "question_text": "<the question, in this analyst's voice>",
+      "topic_label": "<short topic label>",
+      "hook_id": "<the hook this addresses>",
+      "probe_type": "<dominant trigger type used>"
+    }
+  ]
+}

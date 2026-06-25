@@ -1,0 +1,530 @@
+You are building a STRUCTURED PERSONA of a sell-side equity research analyst
+who covers Royal Caribbean Cruises (RCL). The persona will later be used to
+predict what this same analyst is likely to ask in a future RCL earnings call,
+given that call's management presentation.
+
+You will be given the analyst's name, their firm/title (if known), and a
+chronological list of their prior question turns on RCL earnings calls. Each
+turn includes:
+  - The CALL it was asked on (year + quarter)
+  - A short SETUP that summarises the management presentation and any Q&A that
+    preceded the question on that call
+  - The analyst's QUESTION (verbatim)
+  - The management's RESPONSE (verbatim, may be empty)
+
+Produce a single JSON object with three top-level keys, matching the BDE
+structure adapted to sell-side analysts:
+
+{
+  "coverage_profile": { ... },         // analog of "Background"
+  "reasoning_style": { ... },          // analog of "Decision procedure"
+  "recurring_concerns": { ... }        // analog of "Evaluation"
+}
+
+Fill each sub-profile as follows. Use evidence from the turns; cite specific
+calls (e.g. "2023-Q2") where helpful. Do not invent facts not supported by the
+turns.
+
+# coverage_profile
+Who this analyst is and what lens they bring. Required fields:
+  - "firm": most recent firm/affiliation observed.
+  - "seniority_signal": evidence about their seniority (titles, length of
+    coverage, how management addresses them). 2-3 sentences.
+  - "sector_lens": what beats they appear to cover (cruise / leisure / travel /
+    consumer / gaming / lodging / airlines). 1-2 sentences.
+  - "rhetorical_signature": tics, openers, closers, tone (e.g. "always opens
+    with a thank-you", "tends to ask two-parters", "frames around model
+    inputs"). 2-3 short bullet sentences.
+
+# reasoning_style
+HOW the analyst probes management. Required fields:
+  - "primary_mode": one of {"quantitative_modeling", "qualitative_strategic",
+    "mixed"}, plus a sentence of justification.
+  - "follow_up_pattern": how their question turns are structured (single
+    question, two-parter, multi-part with sub-questions; whether they push back
+    on management answers). 2-3 sentences.
+  - "evidence_demanded": what kinds of answers they reward (specific numbers,
+    explicit guidance, mechanism/cause, anecdotes from the booking curve,
+    comparison to peers). 2-3 sentences.
+  - "anchoring_habits": where they anchor their questions (against prior
+    guidance, against consensus, against peers like NCLH/CCL, against their own
+    prior calls). 2-3 sentences.
+
+# recurring_concerns
+WHAT the analyst keeps coming back to. Required fields:
+  - "core_topics": ranked list (highest-priority first) of 3-6 topical clusters
+    the analyst returns to most often. For each, give:
+      { "topic": short label,
+        "what_they_press_on": 1-2 sentences,
+        "supporting_calls": list of calls where they raised it (e.g. ["2022-Q4", "2023-Q3"]) }
+  - "blind_spots": topics this analyst notably does NOT push on, given their
+    peers do. 1-2 sentences. If unclear, say so.
+  - "stance_drift": how their emphasis has shifted across the 2022-2025 window
+    (e.g. moved from balance-sheet/recovery questions to capital-return and
+    yield questions). 2-3 sentences.
+
+Hard rules:
+- Output ONLY the JSON object. No prose before or after.
+- All free-text fields must be 1-3 sentences each.
+- Cite specific call quarters where you make claims about recurrence.
+- If evidence is thin (few turns), say so explicitly in the relevant field;
+  do not paper over it with generic language.
+
+ANALYST NAME: matthew boss
+LAST OBSERVED FIRM/TITLE: Managing Director and Senior Equity Research Analyst, JPMorgan
+NUMBER OF QUESTIONS IN HISTORY: 33
+CALLS COVERED: 2023-Q1, 2023-Q2, 2023-Q3, 2023-Q4, 2024-Q1, 2024-Q2, 2024-Q3, 2024-Q4, 2025-Q1, 2025-Q2, 2025-Q3, 2025-Q4
+
+QUESTION HISTORY (chronological):
+--- TURN 1 | CALL: 2023-Q1 | FIRM: Analyst, J.P. Morgan ---
+            [Setup: management presentation excerpt]
+            Operator: Good morning. My name is Lisa. I will be your conference operator today. At this time, I would like to welcome everyone to the Royal Caribbean Group Q1 2023 earnings and business update conference call. If you have a question today, please press star one on your telephone keypad. I would now like to turn the conference over to Mr. Michael McCarthy, Vice President, Investor Relations. Please go ahead, sir.
+Michael McCarthy (VP of Investor Relations, Royal Caribbean Group): Good morning, everyone, and thank you for joining us today for our Q1 2023 business update conference call. Joining me here in Miami are Jason Liberty, our Chief Executive Officer, Naftali Holtz, our Chief Financial Officer, and Michael Bayley, President and CEO of Royal Caribbean International. Before we get started, I'd like to note that we'll be making forward-looking statements during this call. These statements are based on management's current expectations and are subject to risks and uncertainties. A number of factors could cause actual results to differ materially from our current expectations. Please refer to our earnings release issued this morning, as well as our filings with the SEC for a...
+
+            [Operator intro to analyst, if any]
+            Matthew Boss from J.P. Morgan is up next.
+
+            [Analyst question]
+            Great, thanks, and congrats on a really nice print.
+
+            [Management response excerpt]
+            Jason Liberty: Thanks, Matt.
+
+--- TURN 2 | CALL: 2023-Q1 | FIRM: Analyst, J.P. Morgan ---
+            [Setup: management presentation excerpt]
+            Operator: Good morning. My name is Lisa. I will be your conference operator today. At this time, I would like to welcome everyone to the Royal Caribbean Group Q1 2023 earnings and business update conference call. If you have a question today, please press star one on your telephone keypad. I would now like to turn the conference over to Mr. Michael McCarthy, Vice President, Investor Relations. Please go ahead, sir.
+Michael McCarthy (VP of Investor Relations, Royal Caribbean Group): Good morning, everyone, and thank you for joining us today for our Q1 2023 business update conference call. Joining me here in Miami are Jason Liberty, our Chief Executive Officer, Naftali Holtz, our Chief Financial Officer, and Michael Bayley, President and CEO of Royal Caribbean International. Before we get started, I'd like to note that we'll be making forward-looking statements during this call. These statements are based on management's current expectations and are subject to risks and uncertainties. A number of factors could cause actual results to differ materially from our current expectations. Please refer to our earnings release issued this morning, as well as our filings with the SEC for a...
+
+            [Operator intro to analyst, if any]
+            Matthew Boss from J.P. Morgan is up next.
+
+            [Analyst question]
+            Maybe to follow up on demand, as we think about the drivers and the magnitude of the top line upside relative to where we stood 3 months back. I guess maybe if you could help to maybe rank order the upside, could you elaborate on your most recent momentum that you cited in bookings that you've seen? Finally, maybe just relative to the Trifecta plan that you laid out in November 2022, what's your confidence today or just help us to think about puts and takes to consider relative to when you initially laid this out?
+
+            [Management response excerpt]
+            Jason Liberty: Okay. Well, I'll take a stab at it and I'll look for my teammates here to add in. I think first, just starting off on Trifecta, we feel, you know, very good about our Trifecta program. Obviously the results of what we're talking about today in terms of the acceleration, the higher pricing, our continued ability to manage our costs is all very encouraging, as we kind of think through what 2025 is going to look at or look like. There's obviously, you know, there's always headwind...
+
+--- TURN 3 | CALL: 2023-Q2 | FIRM: Managing Director and Senior Equity Research Analyst, JPMorgan ---
+            [Setup: management presentation excerpt]
+            Operator: Good morning. My name is Regina. I will be your conference operator today. At this time, I'd like to welcome everyone to the Royal Caribbean Group second quarter 2023 and business update earnings call. All participants are in a listen-only mode. After the speaker presentation, there will be a question-and-answer session. To ask a question during this session, you'll need to press star one on your telephone keypad. I would now like to introduce Michael McCarthy, Vice President of Investor Relations. Mr. McCarthy, the floor is yours.
+Michael McCarthy (VP of Investor Relations, Royal Caribbean Group): Good morning, everyone. Thank you for joining us today for our second quarter 2023 earnings call. Joining me are Jason Liberty, our Chief Executive Officer, Naftali Holtz, our Chief Financial Officer, and Michael Bayley, President and Chief Executive Officer of Royal Caribbean International. Before we get started, I'd like to note that we will be making forward-looking statements during this call. These statements are based on management's current expectations and are subject to risks and uncertainties. A number of factors could cause actual results to differ materially from...
+
+            [Operator intro to analyst, if any]
+            Your next question comes from the line of Matthew Boss with J.P. Morgan. Please go ahead.
+
+            [Analyst question]
+            Great, thanks, and congrats on another nice quarter.
+
+            [Management response excerpt]
+            Jason Liberty: Thank you.
+
+--- TURN 4 | CALL: 2023-Q2 | FIRM: Managing Director and Senior Equity Research Analyst, JPMorgan ---
+            [Setup: management presentation excerpt]
+            Operator: Good morning. My name is Regina. I will be your conference operator today. At this time, I'd like to welcome everyone to the Royal Caribbean Group second quarter 2023 and business update earnings call. All participants are in a listen-only mode. After the speaker presentation, there will be a question-and-answer session. To ask a question during this session, you'll need to press star one on your telephone keypad. I would now like to introduce Michael McCarthy, Vice President of Investor Relations. Mr. McCarthy, the floor is yours.
+Michael McCarthy (VP of Investor Relations, Royal Caribbean Group): Good morning, everyone. Thank you for joining us today for our second quarter 2023 earnings call. Joining me are Jason Liberty, our Chief Executive Officer, Naftali Holtz, our Chief Financial Officer, and Michael Bayley, President and Chief Executive Officer of Royal Caribbean International. Before we get started, I'd like to note that we will be making forward-looking statements during this call. These statements are based on management's current expectations and are subject to risks and uncertainties. A number of factors could cause actual results to differ materially from...
+
+            [Operator intro to analyst, if any]
+            Your next question comes from the line of Matthew Boss with J.P. Morgan. Please go ahead.
+
+            [Analyst question]
+            Maybe to elaborate on the acceleration in trends that you're seeing in both passenger ticket and onboard spend relative to 2019, I guess, how best to think about sustainability multi-year as you break down trends between new to cruise that you're seeing versus existing cohorts? Are there any lead indicators at all that point to any future softening on any metrics?
+
+            [Management response excerpt]
+            Jason Liberty: Yeah. Well, thanks, Matt. Well, first, I would say that I think the acceleration that we're seeing is on a few points. One, I think we're getting more share of the wallet, because, you know, we're helping, you know, better kind of curate and take friction out of the experience. You can see that in just the volumes of guests that are willing to book directly with us online, or because we're able to curate the actual cruise booking. Also all the things that we're doing pre-cruise...
+
+--- TURN 5 | CALL: 2023-Q2 | FIRM: Managing Director and Senior Equity Research Analyst, JPMorgan ---
+            [Setup: management presentation excerpt]
+            Operator: Good morning. My name is Regina. I will be your conference operator today. At this time, I'd like to welcome everyone to the Royal Caribbean Group second quarter 2023 and business update earnings call. All participants are in a listen-only mode. After the speaker presentation, there will be a question-and-answer session. To ask a question during this session, you'll need to press star one on your telephone keypad. I would now like to introduce Michael McCarthy, Vice President of Investor Relations. Mr. McCarthy, the floor is yours.
+Michael McCarthy (VP of Investor Relations, Royal Caribbean Group): Good morning, everyone. Thank you for joining us today for our second quarter 2023 earnings call. Joining me are Jason Liberty, our Chief Executive Officer, Naftali Holtz, our Chief Financial Officer, and Michael Bayley, President and Chief Executive Officer of Royal Caribbean International. Before we get started, I'd like to note that we will be making forward-looking statements during this call. These statements are based on management's current expectations and are subject to risks and uncertainties. A number of factors could cause actual results to differ materially from...
+
+            [Operator intro to analyst, if any]
+
+
+            [Analyst question]
+            Yeah, go ahead.
+
+            [Management response excerpt]
+            Naftali Holtz: Yeah, I'll just add also, you know, obviously we made great progress on, closing the gap to, to land-based vacation, but the value gap is still there, and we see this as a, as a great opportunity to continue to grow yields. Just taking market share from the global leisure market, right? You can see some of that success with new to cruise, you know, that's really core to our strategy.
+
+--- TURN 6 | CALL: 2023-Q2 | FIRM: Managing Director and Senior Equity Research Analyst, JPMorgan ---
+            [Setup: management presentation excerpt]
+            Operator: Good morning. My name is Regina. I will be your conference operator today. At this time, I'd like to welcome everyone to the Royal Caribbean Group second quarter 2023 and business update earnings call. All participants are in a listen-only mode. After the speaker presentation, there will be a question-and-answer session. To ask a question during this session, you'll need to press star one on your telephone keypad. I would now like to introduce Michael McCarthy, Vice President of Investor Relations. Mr. McCarthy, the floor is yours.
+Michael McCarthy (VP of Investor Relations, Royal Caribbean Group): Good morning, everyone. Thank you for joining us today for our second quarter 2023 earnings call. Joining me are Jason Liberty, our Chief Executive Officer, Naftali Holtz, our Chief Financial Officer, and Michael Bayley, President and Chief Executive Officer of Royal Caribbean International. Before we get started, I'd like to note that we will be making forward-looking statements during this call. These statements are based on management's current expectations and are subject to risks and uncertainties. A number of factors could cause actual results to differ materially from...
+
+            [Operator intro to analyst, if any]
+
+
+            [Analyst question]
+            Great. Just on the bottom line as a follow-up so as we think about EBITDA margins multi-year, and just looking back at prior peak levels, is there any reason to consider the Trifecta plan as a ceiling or just any unlocks to consider, which would point to this model as accretive relative to pre-pandemic profitability levels?
+
+            [Management response excerpt]
+            Naftali Holtz: Yeah. As you know, Trifecta for us, as Jason said, was base camp. If you kind of look at the triple EBITDA or APCD, triple digits EBITDA or APCD, which, you know, obviously is at least 100, it does have a margin expansion beyond 2019. As we continue to grow that, we see a lot of opportunities on multiple levels, right? Growing yields, lower acquisition costs, you know, just scaling the business as we grow, and our ambitions are above 2019 levels, that's for sure.
+Jason Liberty:...
+
+--- TURN 7 | CALL: 2023-Q2 | FIRM: Managing Director and Senior Equity Research Analyst, JPMorgan ---
+            [Setup: management presentation excerpt]
+            Operator: Good morning. My name is Regina. I will be your conference operator today. At this time, I'd like to welcome everyone to the Royal Caribbean Group second quarter 2023 and business update earnings call. All participants are in a listen-only mode. After the speaker presentation, there will be a question-and-answer session. To ask a question during this session, you'll need to press star one on your telephone keypad. I would now like to introduce Michael McCarthy, Vice President of Investor Relations. Mr. McCarthy, the floor is yours.
+Michael McCarthy (VP of Investor Relations, Royal Caribbean Group): Good morning, everyone. Thank you for joining us today for our second quarter 2023 earnings call. Joining me are Jason Liberty, our Chief Executive Officer, Naftali Holtz, our Chief Financial Officer, and Michael Bayley, President and Chief Executive Officer of Royal Caribbean International. Before we get started, I'd like to note that we will be making forward-looking statements during this call. These statements are based on management's current expectations and are subject to risks and uncertainties. A number of factors could cause actual results to differ materially from...
+
+            [Operator intro to analyst, if any]
+
+
+            [Analyst question]
+            Congrats again.
+
+            [Management response excerpt]
+
+--- TURN 8 | CALL: 2023-Q3 | FIRM: ? ---
+            [Setup: management presentation excerpt]
+            Operator: Good morning, my name is Regina, and I will be your conference operator today. At this time, I would like to welcome everyone to the Royal Caribbean Group third quarter 2023 and business update earnings call. All participants are in a listen-only mode. After the speaker presentation, there will be a question-and-answer session. To ask a question during this session, you'll need to press star one on your telephone keypad. I would now like to introduce Michael McCarthy, Vice President of Investor Relations. Mr. McCarthy, the floor is yours.
+Michael McCarthy (VP of Investor Relations, Royal Caribbean Group): Good morning, everyone, and thank you for joining us today for our third quarter 2023 earnings call. Joining me here in Miami are Jason Liberty, our Chief Executive Officer, Naftali Holtz, our Chief Financial Officer, and Michael Bayley, President and CEO of Royal Caribbean International. Before we get started, I'd like to note that we will be making forward-looking statements during this call. These statements are based on management's current expectations and are subject to risks and uncertainties. A number of factors could cause actual results to differ materially...
+
+            [Operator intro to analyst, if any]
+            Your next question will come from the line of Matthew Boss with JP Morgan. Please go ahead.
+
+            [Analyst question]
+            Equity Research Analyst, JPMorgan Chase & Co. Great, thanks, and congrats on another nice quarter. So Jason, maybe on the accelerating demand, the book position and, and the pricing relative to prior years as, as you cited as we look to 2024. I guess maybe larger picture, how are you balancing pricing power relative to the multi-year market share opportunity, relative to land-based alternatives? And then just in the strength in bookings that you cited, have you seen any near-term moderation to note related to the recent overseas conflicts?
+
+            [Management response excerpt]
+            Jason Liberty: Yeah, sure. So you know, we feel, of course, they're always getting better, that we have, you know, the best kind of yield management systems and the best revenue managers in the world. And so, you know, they are very much looking at volume versus price. And, you know, we have significantly automated that using, you know, AI and so forth, to be able to make sure that we have an understanding on the elasticity and the behaviors of the consumer, you know, minute by minute. And so...
+
+--- TURN 9 | CALL: 2023-Q3 | FIRM: ? ---
+            [Setup: management presentation excerpt]
+            Operator: Good morning, my name is Regina, and I will be your conference operator today. At this time, I would like to welcome everyone to the Royal Caribbean Group third quarter 2023 and business update earnings call. All participants are in a listen-only mode. After the speaker presentation, there will be a question-and-answer session. To ask a question during this session, you'll need to press star one on your telephone keypad. I would now like to introduce Michael McCarthy, Vice President of Investor Relations. Mr. McCarthy, the floor is yours.
+Michael McCarthy (VP of Investor Relations, Royal Caribbean Group): Good morning, everyone, and thank you for joining us today for our third quarter 2023 earnings call. Joining me here in Miami are Jason Liberty, our Chief Executive Officer, Naftali Holtz, our Chief Financial Officer, and Michael Bayley, President and CEO of Royal Caribbean International. Before we get started, I'd like to note that we will be making forward-looking statements during this call. These statements are based on management's current expectations and are subject to risks and uncertainties. A number of factors could cause actual results to differ materially...
+
+            [Operator intro to analyst, if any]
+            Your next question will come from the line of Matthew Boss with JP Morgan. Please go ahead.
+
+            [Analyst question]
+            Equity Research Analyst, JPMorgan Chase & Co. Great. And then maybe just to follow up, Naftali, on the EBITDA margin profile, as we think multi-year, and just looking back to prior peak levels, how would you size up where we stand today relative to the Trifecta plan, which I think calls for low thirties? Just maybe as we think about the puts and takes as you see it today.
+
+            [Management response excerpt]
+            Naftali Holtz: Yeah. So, I think I said it in my prepared remarks, but you know, our goal, first of all, is to obviously increase the profitability as we continue to grow the business. But this year, we will be back basically to our margin that we had in 2019, which was a record year. But, if you kind of do the math, we're not yet in our Trifecta goal. And by the way, Trifecta for us is just base camp, right? So our ambitions are beyond that. So that just leads you to. And our ambitions are t...
+
+--- TURN 10 | CALL: 2023-Q3 | FIRM: ? ---
+            [Setup: management presentation excerpt]
+            Operator: Good morning, my name is Regina, and I will be your conference operator today. At this time, I would like to welcome everyone to the Royal Caribbean Group third quarter 2023 and business update earnings call. All participants are in a listen-only mode. After the speaker presentation, there will be a question-and-answer session. To ask a question during this session, you'll need to press star one on your telephone keypad. I would now like to introduce Michael McCarthy, Vice President of Investor Relations. Mr. McCarthy, the floor is yours.
+Michael McCarthy (VP of Investor Relations, Royal Caribbean Group): Good morning, everyone, and thank you for joining us today for our third quarter 2023 earnings call. Joining me here in Miami are Jason Liberty, our Chief Executive Officer, Naftali Holtz, our Chief Financial Officer, and Michael Bayley, President and CEO of Royal Caribbean International. Before we get started, I'd like to note that we will be making forward-looking statements during this call. These statements are based on management's current expectations and are subject to risks and uncertainties. A number of factors could cause actual results to differ materially...
+
+            [Operator intro to analyst, if any]
+
+
+            [Analyst question]
+            Equity Research Analyst, JPMorgan Chase & Co. Great color. Thanks a lot.
+
+            [Management response excerpt]
+            Naftali Holtz: Thank you.
+
+--- TURN 11 | CALL: 2023-Q4 | FIRM: Managing Director and Senior Equity Analyst, JPMorgan ---
+            [Setup: management presentation excerpt]
+            Moderator: Good morning, and welcome to the Royal Caribbean Group Fourth Quarter and Full Year 2023 Earnings Conference Call. All participants are in a listen-only mode. After the speaker presentation, there will be a question-and-answer session. To ask a question during this session, you'll need to press star one on your telephone keypad. I would now like to turn the conference over to Michael McCarthy, Vice President, Investor Relations. Please go ahead.
+Michael McCarthy (VP of Investor Relations, Royal Caribbean Group): Good morning, everyone, and thank you for joining us today for our fourth quarter and full year 2023 earnings call. Joining me here in Miami are Jason Liberty, our Chief Executive Officer, Naftali Holtz, our Chief Financial Officer, and Michael Bayley, President and CEO of Royal Caribbean International. Before we get started, I'd like to note that we will be making forward-looking statements during this call. These statements are based on management's current expectations and are subject to risks and uncertainties. A number of factors could cause actual results to differ materially from our current expectations. Please refer to our earnings release issued this...
+
+            [Operator intro to analyst, if any]
+            Your next question comes from the line of Matthew Boss with JP Morgan. Please go ahead.
+
+            [Analyst question]
+            Great, thanks, and congrats on another great quarter.
+
+            [Management response excerpt]
+            Jason Liberty: Thank you.
+
+--- TURN 12 | CALL: 2023-Q4 | FIRM: Managing Director and Senior Equity Analyst, JPMorgan ---
+            [Setup: management presentation excerpt]
+            Moderator: Good morning, and welcome to the Royal Caribbean Group Fourth Quarter and Full Year 2023 Earnings Conference Call. All participants are in a listen-only mode. After the speaker presentation, there will be a question-and-answer session. To ask a question during this session, you'll need to press star one on your telephone keypad. I would now like to turn the conference over to Michael McCarthy, Vice President, Investor Relations. Please go ahead.
+Michael McCarthy (VP of Investor Relations, Royal Caribbean Group): Good morning, everyone, and thank you for joining us today for our fourth quarter and full year 2023 earnings call. Joining me here in Miami are Jason Liberty, our Chief Executive Officer, Naftali Holtz, our Chief Financial Officer, and Michael Bayley, President and CEO of Royal Caribbean International. Before we get started, I'd like to note that we will be making forward-looking statements during this call. These statements are based on management's current expectations and are subject to risks and uncertainties. A number of factors could cause actual results to differ materially from our current expectations. Please refer to our earnings release issued this...
+
+            [Operator intro to analyst, if any]
+            Your next question comes from the line of Matthew Boss with JP Morgan. Please go ahead.
+
+            [Analyst question]
+            Two-part question. Jason, when you talked about taking things to a whole new level, could you size up where you stand today versus the larger total addressable market share opportunity, and maybe you see beyond cruise and, and just the multigenerational customer base that you're attracting? And then, for Naftali, maybe just how best to think about the breakdown of the 4% cost guide this year and multiyear, what you see as the right run rate for cost going forward?
+
+            [Management response excerpt]
+            Jason Liberty: Yeah. Well, I'll start off, Matt, by I think it's important to understand what our orientation is. Our orientation is experiences, and we keep trying to advance experiences that our customers are not only do they desire, but they're also willing to pay for. And so when you have an experience mind focus, you know, obviously there are a lot of things that we're adding onto our ships. I think Icon is an incredible example of the dreaming and the delivery of endless experiences for...
+
+--- TURN 13 | CALL: 2023-Q4 | FIRM: Managing Director and Senior Equity Analyst, JPMorgan ---
+            [Setup: management presentation excerpt]
+            Moderator: Good morning, and welcome to the Royal Caribbean Group Fourth Quarter and Full Year 2023 Earnings Conference Call. All participants are in a listen-only mode. After the speaker presentation, there will be a question-and-answer session. To ask a question during this session, you'll need to press star one on your telephone keypad. I would now like to turn the conference over to Michael McCarthy, Vice President, Investor Relations. Please go ahead.
+Michael McCarthy (VP of Investor Relations, Royal Caribbean Group): Good morning, everyone, and thank you for joining us today for our fourth quarter and full year 2023 earnings call. Joining me here in Miami are Jason Liberty, our Chief Executive Officer, Naftali Holtz, our Chief Financial Officer, and Michael Bayley, President and CEO of Royal Caribbean International. Before we get started, I'd like to note that we will be making forward-looking statements during this call. These statements are based on management's current expectations and are subject to risks and uncertainties. A number of factors could cause actual results to differ materially from our current expectations. Please refer to our earnings release issued this...
+
+            [Operator intro to analyst, if any]
+
+
+            [Analyst question]
+            Great color. Congrats again.
+
+            [Management response excerpt]
+
+--- TURN 14 | CALL: 2024-Q1 | FIRM: Equity Research Analyst, JPMorgan ---
+            [Setup: management presentation excerpt]
+            Operator: Good morning, my name is Regina and I will be your conference operator today. At this time I would like to welcome everyone to the Royal Caribbean Group Q1 2024 earnings call. All participants are in the listen-only mode. After the speaker presentation, there will be a question-and-answer session. To ask a question during the session, you'll need to press star one on your telephone keypad. I would now like to introduce Michael McCarthy, Vice President of Investor Relations. Mr. McCarthy, the floor is yours.
+Michael McCarthy (Head of Investor Relations, Royal Caribbean Group): Good morning everyone, and thank you for joining us today for our Q1 2024 earnings call. Joining me here in Miami are Jason Liberty, our Chief Executive Officer; Naftali Holtz, our Chief Financial Officer; and Michael Bayley, President and CEO of Royal Caribbean International. Before we get started, I would like to note that we will be making forward-looking statements during this call. These statements are based on management's current expectations and are subject to risks and uncertainties. A number of factors could cause actual results to differ materially from our current expectations. Please...
+
+            [Operator intro to analyst, if any]
+            Your next question comes from the line of Matthew Boss with JP Morgan. Please go ahead.
+
+            [Analyst question]
+            Great. Thanks. Congrats on another nice quarter.
+
+            [Management response excerpt]
+            Michael Bayley: Thank you.
+
+--- TURN 15 | CALL: 2024-Q1 | FIRM: Equity Research Analyst, JPMorgan ---
+            [Setup: management presentation excerpt]
+            Operator: Good morning, my name is Regina and I will be your conference operator today. At this time I would like to welcome everyone to the Royal Caribbean Group Q1 2024 earnings call. All participants are in the listen-only mode. After the speaker presentation, there will be a question-and-answer session. To ask a question during the session, you'll need to press star one on your telephone keypad. I would now like to introduce Michael McCarthy, Vice President of Investor Relations. Mr. McCarthy, the floor is yours.
+Michael McCarthy (Head of Investor Relations, Royal Caribbean Group): Good morning everyone, and thank you for joining us today for our Q1 2024 earnings call. Joining me here in Miami are Jason Liberty, our Chief Executive Officer; Naftali Holtz, our Chief Financial Officer; and Michael Bayley, President and CEO of Royal Caribbean International. Before we get started, I would like to note that we will be making forward-looking statements during this call. These statements are based on management's current expectations and are subject to risks and uncertainties. A number of factors could cause actual results to differ materially from our current expectations. Please...
+
+            [Operator intro to analyst, if any]
+            Your next question comes from the line of Matthew Boss with JP Morgan. Please go ahead.
+
+            [Analyst question]
+            Jason, coming off strongest Wave Season in history, could you elaborate on the continued near-term strength that you cited in April, both from demand and pricing, maybe if anything by region? To your comments earlier, how best to think about your market share opportunity in this $1.9 trillion growing global vacation market? Then just for Naftali, just as we think about the underlying guidance rates, where are you more confident today as we think about the back half, maybe relative to three months ago?
+
+            [Management response excerpt]
+            Jason Liberty: Sure. Well, thanks for the question, Matt. First off, I think, just to—I mean, Wave was absolutely exceptional. It's kind of mid-teens, better than what we saw in the previous year. Interesting enough, though, April was almost double that in terms of the level of demand that we were seeing. So that's why when I talk about demand as accelerating, it's not just what we saw when we last spoke to everybody in early February. It's not just when we updated at the end of February. But...
+
+--- TURN 16 | CALL: 2024-Q1 | FIRM: Equity Research Analyst, JPMorgan ---
+            [Setup: management presentation excerpt]
+            Operator: Good morning, my name is Regina and I will be your conference operator today. At this time I would like to welcome everyone to the Royal Caribbean Group Q1 2024 earnings call. All participants are in the listen-only mode. After the speaker presentation, there will be a question-and-answer session. To ask a question during the session, you'll need to press star one on your telephone keypad. I would now like to introduce Michael McCarthy, Vice President of Investor Relations. Mr. McCarthy, the floor is yours.
+Michael McCarthy (Head of Investor Relations, Royal Caribbean Group): Good morning everyone, and thank you for joining us today for our Q1 2024 earnings call. Joining me here in Miami are Jason Liberty, our Chief Executive Officer; Naftali Holtz, our Chief Financial Officer; and Michael Bayley, President and CEO of Royal Caribbean International. Before we get started, I would like to note that we will be making forward-looking statements during this call. These statements are based on management's current expectations and are subject to risks and uncertainties. A number of factors could cause actual results to differ materially from our current expectations. Please...
+
+            [Operator intro to analyst, if any]
+
+
+            [Analyst question]
+            Great. Congrats. Best of luck.
+
+            [Management response excerpt]
+            Michael Bayley: Thank you.
+
+--- TURN 17 | CALL: 2024-Q2 | FIRM: Analyst, J.P. Morgan ---
+            [Setup: management presentation excerpt]
+            Operator: I would now like to introduce Michael McCarthy, Vice President of Investor Relations. Mr. McCarthy, the floor is yours.
+Michael McCarthy (Head of Investor Relations, Royal Caribbean Group): Good morning, everyone, and thank you for joining us today for our second quarter 2024 earnings call. Joining me here in Miami are Jason Liberty, our Chief Executive Officer, Naftali Holtz, our Chief Financial Officer, and Michael Bayley, President and CEO of Royal Caribbean International. Before we get started, I'd like to note that we will be making forward-looking statements during this call. These statements are based on management's current expectations and are subject to risks and uncertainties. A number of factors could cause actual results to differ materially from our current expectations. Please refer to our earnings release issued this morning, as well as our filings with the SEC for a description of these factors. We do not undertake to update any forward-looking statements as circumstances change. Also, we will be discussing certain non-GAAP financial measures, which are adjusted, as defined in a reconciliation of all non-GAAP items, can be found on our investor website...
+
+            [Operator intro to analyst, if any]
+            Our next question comes from the line of Matthew Boss with J.P. Morgan. Please go ahead.
+
+            [Analyst question]
+            Great, thanks, and congrats on another great quarter.
+
+            [Management response excerpt]
+            Jason Liberty: Thanks, Matt.
+
+--- TURN 18 | CALL: 2024-Q2 | FIRM: Analyst, J.P. Morgan ---
+            [Setup: management presentation excerpt]
+            Operator: I would now like to introduce Michael McCarthy, Vice President of Investor Relations. Mr. McCarthy, the floor is yours.
+Michael McCarthy (Head of Investor Relations, Royal Caribbean Group): Good morning, everyone, and thank you for joining us today for our second quarter 2024 earnings call. Joining me here in Miami are Jason Liberty, our Chief Executive Officer, Naftali Holtz, our Chief Financial Officer, and Michael Bayley, President and CEO of Royal Caribbean International. Before we get started, I'd like to note that we will be making forward-looking statements during this call. These statements are based on management's current expectations and are subject to risks and uncertainties. A number of factors could cause actual results to differ materially from our current expectations. Please refer to our earnings release issued this morning, as well as our filings with the SEC for a description of these factors. We do not undertake to update any forward-looking statements as circumstances change. Also, we will be discussing certain non-GAAP financial measures, which are adjusted, as defined in a reconciliation of all non-GAAP items, can be found on our investor website...
+
+            [Operator intro to analyst, if any]
+            Our next question comes from the line of Matthew Boss with J.P. Morgan. Please go ahead.
+
+            [Analyst question]
+            So, Jason, with all your Trifecta targets hit, you cited today that you're just getting started. So maybe could you elaborate on what that means in terms of global market share based on new customer trends that you're seeing today? And then Naftali, maybe just the multi-year margin opportunity. EBITDA margins exit this year, 200-300 basis points above 2019. Where do you see us going from here?
+
+            [Management response excerpt]
+            Jason Liberty: Yeah. Well, I think... So, the comment on the just getting started, and you're all very familiar with this, but when we've talked about Trifecta, and even internally, we've talked about it as Base Camp. You know, so we've hit it, we've announced we're hitting it, but you won't see anybody here, like, doing victory laps. You know, it's getting our business. We're now back to full strength, full financial health. And, you know, if you just take what we've talked about with our fo...
+
+--- TURN 19 | CALL: 2024-Q3 | FIRM: Equity Research Analyst, JPMorgan ---
+            [Setup: management presentation excerpt]
+            Operator: Good morning. My name is Regina, and I will be your conference operator today. At this time, I would like to welcome everyone to the Royal Caribbean Group Third Quarter 2024 earnings call. All participants are in listen-only mode. After the speaker presentation, there will be a question-and-answer session. To ask a question during the session, you will need to press star one on your telephone. I would now like to introduce Blake Bannier, Vice President of Investor Relations. Mr. Bannier, the floor is yours.
+Blake Banier (VP of Investor Relations, Royal Caribbean Group): Good morning, everyone, and thank you for joining us today for our Third Quarter 2024 earnings call. Joining me here in Miami are Jason Liberty, our Chief Executive Officer, Naftali Holtz, our Chief Financial Officer, and Michael Bayley, President and CEO of Royal Caribbean International. Before we get started, I'd like to note that we will be making forward-looking statements during this call. These statements are based on management's current expectations and are subject to risks and uncertainties. A number of factors could cause actual results to differ materially from our current expectations. Pleas...
+
+            [Operator intro to analyst, if any]
+            Our next question comes from the line of Matthew Boss with JPMorgan. Please go ahead.
+
+            [Analyst question]
+            Thanks, and congrats on another really nice quarter. Thank you. So Jason, could you elaborate on the continued elevated demand patterns that you cited, maybe just trends across regions through October that you're seeing? And then for 2025, Naftali, maybe just if you could elaborate on the booked position being exactly where you want to further optimize yields, what exactly that means, how it translates to continued margin expansion?
+
+            [Management response excerpt]
+            Jason Liberty: Yeah. So I'll take the first one. Of course, the team can chime in on it. We have, I think each month that goes by, our expectations rise. You're seeing that in the close-in demand. And even as we saw through the month of October, we saw that demand continue to rise. We're able to increase pricing as well as being able to successfully build our booked position, whether it's for the quarter or whether it is into next year, so that's what our commentary around the elevation is th...
+
+--- TURN 20 | CALL: 2024-Q3 | FIRM: Equity Research Analyst, JPMorgan ---
+            [Setup: management presentation excerpt]
+            Operator: Good morning. My name is Regina, and I will be your conference operator today. At this time, I would like to welcome everyone to the Royal Caribbean Group Third Quarter 2024 earnings call. All participants are in listen-only mode. After the speaker presentation, there will be a question-and-answer session. To ask a question during the session, you will need to press star one on your telephone. I would now like to introduce Blake Bannier, Vice President of Investor Relations. Mr. Bannier, the floor is yours.
+Blake Banier (VP of Investor Relations, Royal Caribbean Group): Good morning, everyone, and thank you for joining us today for our Third Quarter 2024 earnings call. Joining me here in Miami are Jason Liberty, our Chief Executive Officer, Naftali Holtz, our Chief Financial Officer, and Michael Bayley, President and CEO of Royal Caribbean International. Before we get started, I'd like to note that we will be making forward-looking statements during this call. These statements are based on management's current expectations and are subject to risks and uncertainties. A number of factors could cause actual results to differ materially from our current expectations. Pleas...
+
+            [Operator intro to analyst, if any]
+
+
+            [Analyst question]
+            That's great color. Best of luck.
+
+            [Management response excerpt]
+
+--- TURN 21 | CALL: 2024-Q4 | FIRM: Managing Director and Senior Equity Analyst, JPMorgan ---
+            [Setup: management presentation excerpt]
+            Operator: Good morning. My name is Regina, and I will be your conference operator today. At this time, I would like to welcome everyone to the Royal Caribbean Group Fourth Quarter and Full Year 2024 Earnings Conference Call. All participants are in a listen-only mode. After the speaker presentation, there will be a question-and-answer session. To ask a question during this session, you'll need to press star one on your telephone keypad. I would now like to introduce Blake Vanier, Vice President of Investor Relations. Mr. Vanier, the floor is yours.
+Blake Vanier (VP of Investor Relations, Royal Caribbean Group): Good morning, everyone, and thank you for joining us today for our Fourth Quarter 2024 Earnings Call. Joining me here in Miami are Jason Liberty, our Chief Executive Officer, Naftali Holtz, our Chief Financial Officer, and Michael Bayley, President and CEO of the Royal Caribbean brand. Before we get started, I would like to note that we will be making forward-looking statements during this call. These statements are based on management's current expectations and are subject to risks and uncertainties. A number of factors could cause actual results to differ materially fro...
+
+            [Operator intro to analyst, if any]
+            Our next question comes from the line of Matthew Boss with JPMorgan. Please go ahead.
+
+            [Analyst question]
+            Thanks. Congrats on another great quarter. Thanks, Matt. Jason, maybe a two-part question. On the strong start to 2025, any specific areas that you're seeing notable acceleration globally? How are you optimizing the pricing relative to capacity? And then maybe just higher level, I guess, what inning overall would you say we're in today on your market share opportunity in the $2 trillion global vacation market?
+
+            [Management response excerpt]
+            Jason Liberty: Okay. Sure. Well, thanks, Matt. I think on the 2025 side, again, one of the, I think, the interesting trends we've now seen going into kind of three-year, our third year here of coming out of the incident is that we see really strong demand across all of our products. And obviously, having incredible assets like Perfect Day and ships like Utopia and Icon and Caribbean are just drawing a different level of quality demand from all different generations and all different mixes of...
+
+--- TURN 22 | CALL: 2024-Q4 | FIRM: Managing Director and Senior Equity Analyst, JPMorgan ---
+            [Setup: management presentation excerpt]
+            Operator: Good morning. My name is Regina, and I will be your conference operator today. At this time, I would like to welcome everyone to the Royal Caribbean Group Fourth Quarter and Full Year 2024 Earnings Conference Call. All participants are in a listen-only mode. After the speaker presentation, there will be a question-and-answer session. To ask a question during this session, you'll need to press star one on your telephone keypad. I would now like to introduce Blake Vanier, Vice President of Investor Relations. Mr. Vanier, the floor is yours.
+Blake Vanier (VP of Investor Relations, Royal Caribbean Group): Good morning, everyone, and thank you for joining us today for our Fourth Quarter 2024 Earnings Call. Joining me here in Miami are Jason Liberty, our Chief Executive Officer, Naftali Holtz, our Chief Financial Officer, and Michael Bayley, President and CEO of the Royal Caribbean brand. Before we get started, I would like to note that we will be making forward-looking statements during this call. These statements are based on management's current expectations and are subject to risks and uncertainties. A number of factors could cause actual results to differ materially fro...
+
+            [Operator intro to analyst, if any]
+            Our next question comes from the line of Matthew Boss with JPMorgan. Please go ahead.
+
+            [Analyst question]
+            It's great to hear. Congrats again.
+
+            [Management response excerpt]
+            Jason Liberty: Yeah. Thanks, Matt.
+
+--- TURN 23 | CALL: 2025-Q1 | FIRM: Equity Research Analyst, JPMorgan ---
+            [Setup: management presentation excerpt]
+            Operator: Good morning. My name is Regina, and I will be your conference operator today. At this time, I would like to welcome everyone to the Royal Caribbean Group Q1 2025 Earnings Call. All participants are in the listen-only mode. After the speaker presentation, there will be a question-and-answer session. To ask a question during this session, you'll need to press  one on your telephone keypad. I would now like to introduce Blake Vanier, Vice President, Investor Relations. Mr. Vanier, the floor is yours.
+Blake Vanier (VP of Investor Relations, Royal Caribbean Group): Good morning, everyone, and thank you for joining us today for our Q1 2025 Earnings Call. Joining me here in Miami are Jason Liberty, our Chief Executive Officer; Naftali Holtz, our Chief Financial Officer; and Michael Bayley, President and CEO of the Royal Caribbean brand. Before we get started, I'd like to note that we will be making forward-looking statements during this call. These statements are based on management's current expectations and are subject to risks and uncertainties. A number of factors could cause actual results to differ materially from our current expectations. Please refer to our earnings...
+
+            [Operator intro to analyst, if any]
+            At this time, if you would like to ask a question, press star followed by the number one on your telephone keypad. We ask that you limit yourself to one question and one follow-up, then re-enter the queue for any additional questions you may have....
+
+            [Analyst question]
+            Thanks, and congrats on a nice quarter. [Thank you]. Jason, could you speak to drivers of the better-than-planned performance in the Q1, maybe elaborate on business in April, and just walk through the company-specific initiatives and continued investments that you have that you think could insulate results and win multi-year market share?
+
+            [Management response excerpt]
+            Jason Liberty: Sure, Matt. Hope you're doing well. I think just starting off in the Q1, we have seen this kind of continuous trend that inside of a quarter, we see kind of an uplift in demand as we get very close in. Not only do we see an uplift in demand, we're also able to raise our pricing during that period of time. There are also high-quality customers that are also spending well on the ship. The driver in the Q1 is really just really strong close-in demand that we've seen, and you've he...
+
+--- TURN 24 | CALL: 2025-Q1 | FIRM: Equity Research Analyst, JPMorgan ---
+            [Setup: management presentation excerpt]
+            Operator: Good morning. My name is Regina, and I will be your conference operator today. At this time, I would like to welcome everyone to the Royal Caribbean Group Q1 2025 Earnings Call. All participants are in the listen-only mode. After the speaker presentation, there will be a question-and-answer session. To ask a question during this session, you'll need to press  one on your telephone keypad. I would now like to introduce Blake Vanier, Vice President, Investor Relations. Mr. Vanier, the floor is yours.
+Blake Vanier (VP of Investor Relations, Royal Caribbean Group): Good morning, everyone, and thank you for joining us today for our Q1 2025 Earnings Call. Joining me here in Miami are Jason Liberty, our Chief Executive Officer; Naftali Holtz, our Chief Financial Officer; and Michael Bayley, President and CEO of the Royal Caribbean brand. Before we get started, I'd like to note that we will be making forward-looking statements during this call. These statements are based on management's current expectations and are subject to risks and uncertainties. A number of factors could cause actual results to differ materially from our current expectations. Please refer to our earnings...
+
+            [Operator intro to analyst, if any]
+            At this time, if you would like to ask a question, press star followed by the number one on your telephone keypad. We ask that you limit yourself to one question and one follow-up, then re-enter the queue for any additional questions you may have....
+
+            [Analyst question]
+            That's really great color. Maybe, Naftali, if you could just walk through the areas of this year's guidance where you embedded expanded assumption ranges tied to the current macro backdrop. Just multi-year, any change in thinking to your outlined 20% earnings growth CAGR based on anything that you've seen to date?
+
+            [Management response excerpt]
+            Naftali Holtz: Yeah. Hi, Matt. Really, if you look historically at this time of the year, we actually narrowed the range. We started roughly around 50, sorry, 100 basis points on yield in the beginning of the year. At this point, we were around 50. We kept it at 100. That's really where the difference is. Obviously, cost is something that we feel we can control very well, so that has not changed. Obviously, the earnings, we have expanded that range. Obviously, we just announced Perfecta at ju...
+
+--- TURN 25 | CALL: 2025-Q1 | FIRM: Equity Research Analyst, JPMorgan ---
+            [Setup: management presentation excerpt]
+            Operator: Good morning. My name is Regina, and I will be your conference operator today. At this time, I would like to welcome everyone to the Royal Caribbean Group Q1 2025 Earnings Call. All participants are in the listen-only mode. After the speaker presentation, there will be a question-and-answer session. To ask a question during this session, you'll need to press  one on your telephone keypad. I would now like to introduce Blake Vanier, Vice President, Investor Relations. Mr. Vanier, the floor is yours.
+Blake Vanier (VP of Investor Relations, Royal Caribbean Group): Good morning, everyone, and thank you for joining us today for our Q1 2025 Earnings Call. Joining me here in Miami are Jason Liberty, our Chief Executive Officer; Naftali Holtz, our Chief Financial Officer; and Michael Bayley, President and CEO of the Royal Caribbean brand. Before we get started, I'd like to note that we will be making forward-looking statements during this call. These statements are based on management's current expectations and are subject to risks and uncertainties. A number of factors could cause actual results to differ materially from our current expectations. Please refer to our earnings...
+
+            [Operator intro to analyst, if any]
+
+
+            [Analyst question]
+            Best of luck.
+
+            [Management response excerpt]
+
+--- TURN 26 | CALL: 2025-Q2 | FIRM: Equity Research Analyst, JPMorgan ---
+[Setup: management presentation excerpt]
+Blake Vanier (VP, Royal Caribbean): Good morning, everyone, and thank you for joining us today for our second quarter 2025 earnings call. Joining me here in Miami are Jason Liberty, our Chief Executive Officer, Naftali Holtz, our Chief Financial Officer, and Michael Bayley, President and CEO of the Royal Caribbean brand. Before we get started, I'd like to note that we will be making forward-looking statements during this call. These statements are based on management's current expectations and are subject to risks and uncertainties. A number of factors could cause actual results to differ materially from our current expectations. Please refer to our earnings release issued this morning, as well as our filings with the SEC for a description of these factors. We do not undertake to update any forward-looking statements as circumstances change. Also, we will be discussing certain non-GAAP financial measures, which are adjusted as defined, and a reconciliation of all non-GAAP items can be found on our investor website and in our earnings release. Unless we state otherwise, all metrics are on a constant currency-adjusted basis. Jason will begin the call by providing a strategic overv...
+
+[Operator intro to analyst, if any]
+At this time, if you would like to ask a question, press star followed by the number one on your telephone keypad. We ask that you limit yourself to one question and one follow-up, then re-enter the queue for any additional questions you may have....
+
+[Analyst question]
+Thanks, and congrats on another great quarter.
+
+[Management response excerpt]
+Jason Liberty: Thank you.
+
+--- TURN 27 | CALL: 2025-Q2 | FIRM: Equity Research Analyst, JPMorgan ---
+[Setup: management presentation excerpt]
+Blake Vanier (VP, Royal Caribbean): Good morning, everyone, and thank you for joining us today for our second quarter 2025 earnings call. Joining me here in Miami are Jason Liberty, our Chief Executive Officer, Naftali Holtz, our Chief Financial Officer, and Michael Bayley, President and CEO of the Royal Caribbean brand. Before we get started, I'd like to note that we will be making forward-looking statements during this call. These statements are based on management's current expectations and are subject to risks and uncertainties. A number of factors could cause actual results to differ materially from our current expectations. Please refer to our earnings release issued this morning, as well as our filings with the SEC for a description of these factors. We do not undertake to update any forward-looking statements as circumstances change. Also, we will be discussing certain non-GAAP financial measures, which are adjusted as defined, and a reconciliation of all non-GAAP items can be found on our investor website and in our earnings release. Unless we state otherwise, all metrics are on a constant currency-adjusted basis. Jason will begin the call by providing a strategic overv...
+
+[Operator intro to analyst, if any]
+At this time, if you would like to ask a question, press star followed by the number one on your telephone keypad. We ask that you limit yourself to one question and one follow-up, then re-enter the queue for any additional questions you may have....
+
+[Analyst question]
+Jason, could you elaborate on the continued acceleration in demand that you cited for your brands and experiences? Have you seen any change in July booking trends? And maybe, could you speak to the playbook for offense that it seems like you're laying out with investments and initiatives to stay ahead of where demand is going in that $2 trillion growing global vacation market?
+
+[Management response excerpt]
+Jason Liberty: Sure. Thanks, Matt, and I hope you're doing well. I think just to first start off. One of the things that we have seen of late is just this kind of overall acceleration in close-in demand, which is a little bit different. We've seen close-in demand acceleration, but we have seen that kind of further shift in behavior, which I commented is not something we typically contemplate in our forward-looking guidance. It's not just on the ticket side. It's also what we're seeing on onbo...
+
+--- TURN 28 | CALL: 2025-Q2 | FIRM: Equity Research Analyst, JPMorgan ---
+[Setup: management presentation excerpt]
+Blake Vanier (VP, Royal Caribbean): Good morning, everyone, and thank you for joining us today for our second quarter 2025 earnings call. Joining me here in Miami are Jason Liberty, our Chief Executive Officer, Naftali Holtz, our Chief Financial Officer, and Michael Bayley, President and CEO of the Royal Caribbean brand. Before we get started, I'd like to note that we will be making forward-looking statements during this call. These statements are based on management's current expectations and are subject to risks and uncertainties. A number of factors could cause actual results to differ materially from our current expectations. Please refer to our earnings release issued this morning, as well as our filings with the SEC for a description of these factors. We do not undertake to update any forward-looking statements as circumstances change. Also, we will be discussing certain non-GAAP financial measures, which are adjusted as defined, and a reconciliation of all non-GAAP items can be found on our investor website and in our earnings release. Unless we state otherwise, all metrics are on a constant currency-adjusted basis. Jason will begin the call by providing a strategic overv...
+
+[Operator intro to analyst, if any]
+
+
+[Analyst question]
+That's great, Color. Maybe as a follow-up, Naftali, near-term, what have you embedded for close-in demand in the back half relative to the outperformance that you saw in the first half? And then with more than 30% earnings growth now forecasted for this year, that's well above your analyst, Day CAGR , just any puts and takes to consider as it relates to the phasing of investments multi-year beyond this year?
+
+[Management response excerpt]
+Naftali Holtz: Yeah. Hi, Matt. As we said in the prepared remarks, we gave guidance based on what we've seen in terms of booking. As we said, we have seen acceleration. To the extent that there is further acceleration of the close-in demand, obviously, that creates an upside for the second half of the year. Also, remember, we're fairly booked for the year. We're kind of closing out a very successful year and now, obviously, focusing into next year in a couple of months. In terms of what's emb...
+
+--- TURN 29 | CALL: 2025-Q2 | FIRM: Equity Research Analyst, JPMorgan ---
+[Setup: management presentation excerpt]
+Blake Vanier (VP, Royal Caribbean): Good morning, everyone, and thank you for joining us today for our second quarter 2025 earnings call. Joining me here in Miami are Jason Liberty, our Chief Executive Officer, Naftali Holtz, our Chief Financial Officer, and Michael Bayley, President and CEO of the Royal Caribbean brand. Before we get started, I'd like to note that we will be making forward-looking statements during this call. These statements are based on management's current expectations and are subject to risks and uncertainties. A number of factors could cause actual results to differ materially from our current expectations. Please refer to our earnings release issued this morning, as well as our filings with the SEC for a description of these factors. We do not undertake to update any forward-looking statements as circumstances change. Also, we will be discussing certain non-GAAP financial measures, which are adjusted as defined, and a reconciliation of all non-GAAP items can be found on our investor website and in our earnings release. Unless we state otherwise, all metrics are on a constant currency-adjusted basis. Jason will begin the call by providing a strategic overv...
+
+[Operator intro to analyst, if any]
+
+
+[Analyst question]
+Great, Color. Best of luck.
+
+[Management response excerpt]
+
+--- TURN 30 | CALL: 2025-Q2 | FIRM: Equity Research Analyst, JPMorgan ---
+[Setup: management presentation excerpt]
+Blake Vanier (VP, Royal Caribbean): Good morning, everyone, and thank you for joining us today for our second quarter 2025 earnings call. Joining me here in Miami are Jason Liberty, our Chief Executive Officer, Naftali Holtz, our Chief Financial Officer, and Michael Bayley, President and CEO of the Royal Caribbean brand. Before we get started, I'd like to note that we will be making forward-looking statements during this call. These statements are based on management's current expectations and are subject to risks and uncertainties. A number of factors could cause actual results to differ materially from our current expectations. Please refer to our earnings release issued this morning, as well as our filings with the SEC for a description of these factors. We do not undertake to update any forward-looking statements as circumstances change. Also, we will be discussing certain non-GAAP financial measures, which are adjusted as defined, and a reconciliation of all non-GAAP items can be found on our investor website and in our earnings release. Unless we state otherwise, all metrics are on a constant currency-adjusted basis. Jason will begin the call by providing a strategic overv...
+
+[Operator intro to analyst, if any]
+
+
+[Analyst question]
+I think it is in terms of the actual footprint of Perfect Day Mexico. I think it's to have people understand ultimately the scale of what's going to be there. Of course, we're going to deliver that with much, much fewer guests than the guests that visit the Magic Kingdom, right? Because we're super focused on that everybody has this perfect day. I would very much point everybody to just go on to YouTube and watch the videos that we put out from our event in last May on what Perfect Day Mexico is going to look like. It delivers a perfect day. I think, for pretty much everybody, whether you're looking to go down the world's largest lazy river, whether you're looking for kind of that Vegas beach party, just some fun in the sun, relaxation. Family and incredible pools, and so forth. There's so much that's going to be done. It's curated like we do very well on our ships into different neighborhoods so people can kind of experience with who they would like to experience that with. That's what we do, right? I mean, Michael and his team are heavily focused on designing that perfect day. We clearly deliver that in the Bahamas, and we're going to do that in Mexico for even more people. Lastly, I'll just say, I mean, it also opens up this incredible catchment area or deeper into markets like Texas and the West Coast. Even the Midwest will be able to lessen where they spend their share of wallets on potential air travel and other travel to shift it to make it more affordable for them and potentially more wallet share for us.
+
+[Management response excerpt]
+Michael Bayley: More importantly, it has the world's largest umbrella.
+
+--- TURN 31 | CALL: 2025-Q3 | FIRM: Equity Research Analyst, JPMorgan ---
+            [Setup: management presentation excerpt]
+            Operator: Good morning. My name is Regina, and I will be your conference operator today. At this time, I would like to welcome everyone to the Royal Caribbean Group's Third Quarter 2025 Earnings Call. All participants are in the listen-only mode. After the speaker presentation, there will be a question-and-answer session. To ask a question during this session, you'll need to press star one on your telephone keypad. Given the number of participants on today's call, we are strictly limiting each person to one question only. I would now like to introduce Blake Vanier, Vice President of Investor Relations. Mr. Vanier, the floor is yours.
+Blake Vanier (VP of Investor Relations, Royal Caribbean Group): Good morning, everyone, and thank you for joining us today for our Third Quarter 2025 Earnings Call. Joining me here in Miami are Jason Liberty, our President and Chief Executive Officer, Naftali Holtz, our Chief Financial Officer, and Michael Bayley, President and CEO of the Royal Caribbean Brand. Before we get started, I would like to note that we will be making forward-looking statements during this call. These statements are based on management's current expectations and are subject...
+
+            [Operator intro to analyst, if any]
+            Our next question will come from the line of Matthew Boss with JPMorgan. Please go ahead.
+
+            [Analyst question]
+            Great. Thanks. So Jason, maybe could you just elaborate on the progression of global demand that you saw over the course of the third quarter, any change in momentum at all that you've seen in October? And maybe to your comment before, just drivers that you see supporting 2026 bookings at the high end of historical ranges, and maybe just if you're seeing anything different from new customer acquisition.
+
+            [Management response excerpt]
+            Jason Liberty: Sure. So I'll just start off maybe first on the new customer acquisition side. First, all the things that our brands are doing and what we're doing on an enterprise basis to really kind of build out further our commercial flywheel is really working. So even the announcement today about Points Choice and making sure that our guests, when they choose to sail on any of our brands, that they're getting the point that they want on their primary brand that they have loyalty status in...
+
+--- TURN 32 | CALL: 2025-Q4 | FIRM: Equity Research Analyst, JPMorgan ---
+            [Setup: management presentation excerpt]
+            Operator: Good morning. My name is Morgan, and I'll be your conference operator today. At this time, I would like to welcome everyone to the Royal Caribbean Group fourth quarter and full year 2025 earnings call. All participants are in a listen-only mode. After the speaker presentation, there will be a question-and-answer session. To ask a question during this session, you will need to press star, then the number one on your telephone. I would like to introduce Mr. Blake Vanier, Vice President of Investor Relations. Mr. Vanier, the floor is yours.
+Blake Vanier (VP of Investor Relations, Royal Caribbean Group): Good morning, everyone, and thank you for joining us today for our fourth quarter 2025 earnings call. Joining me here in Miami are Jason Liberty, our Chairman and Chief Executive Officer, Naftali Holtz, our Chief Financial Officer, and Michael Bayley, President and CEO of the Royal Caribbean brand. Before we get started, I'd like to note that we will be making forward-looking statements during this call. These statements are based on management's current expectations and are subject to risks and uncertainties. A number of factors could cause actual results to differ materi...
+
+            [Operator intro to analyst, if any]
+            At this time, we will conduct the question-and-answer session. To ask a question, please press star, then the number one on your telephone keypad. We do ask that you limit your questions to one per analyst. Once again, to ask a question at this ti...
+
+            [Analyst question]
+            Great. Thanks, and congrats on another really nice quarter.
+
+            [Management response excerpt]
+            Jason Liberty: Thank you.
+
+--- TURN 33 | CALL: 2025-Q4 | FIRM: Equity Research Analyst, JPMorgan ---
+            [Setup: management presentation excerpt]
+            Operator: Good morning. My name is Morgan, and I'll be your conference operator today. At this time, I would like to welcome everyone to the Royal Caribbean Group fourth quarter and full year 2025 earnings call. All participants are in a listen-only mode. After the speaker presentation, there will be a question-and-answer session. To ask a question during this session, you will need to press star, then the number one on your telephone. I would like to introduce Mr. Blake Vanier, Vice President of Investor Relations. Mr. Vanier, the floor is yours.
+Blake Vanier (VP of Investor Relations, Royal Caribbean Group): Good morning, everyone, and thank you for joining us today for our fourth quarter 2025 earnings call. Joining me here in Miami are Jason Liberty, our Chairman and Chief Executive Officer, Naftali Holtz, our Chief Financial Officer, and Michael Bayley, President and CEO of the Royal Caribbean brand. Before we get started, I'd like to note that we will be making forward-looking statements during this call. These statements are based on management's current expectations and are subject to risks and uncertainties. A number of factors could cause actual results to differ materi...
+
+            [Operator intro to analyst, if any]
+            At this time, we will conduct the question-and-answer session. To ask a question, please press star, then the number one on your telephone keypad. We do ask that you limit your questions to one per analyst. Once again, to ask a question at this ti...
+
+            [Analyst question]
+            So, Jason, maybe to kick off, could you elaborate on the further acceleration and momentum into 2026 that you cited? And just larger picture, how do you see your portfolio differentiated today relative to that $2 trillion total vacation market with the opportunity to capture additional market share from here?
+
+            [Management response excerpt]
+            Jason Liberty: Well, thanks, Matt. I hope you're doing well. One, I think that, obviously, our business is growing. Our capacity is growing 6.7% this year. And one of the things that we just see coming into this year, and we saw this even during the Black Friday and Cyber Sale activities, that we've seen an acceleration in demand, which, of course, more than matches the capacity that we have coming on. So we continue to see a very strong consumer who is really attracted to our incredible bran...

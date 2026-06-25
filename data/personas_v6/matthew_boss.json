@@ -1,0 +1,100 @@
+{
+  "analyst_name": "matthew boss",
+  "coverage_profile": {
+    "firm": "JPMorgan",
+    "seniority_signal": "Title shown repeatedly as Managing Director and Senior Equity Research Analyst (metadata and multiple turns). Management addresses him informally (e.g., \"Thanks, Matt\"), consistent with a senior, ongoing coverage relationship. He appears as a repeat, white\u2011boarded asker across 12 distinct RCL calls.",
+    "sector_lens": "Covers cruise/leisure/travel with a consumer-facing, experience\u2011led lens \u2014 repeatedly asks about bookings, yields, onboard spend, private destinations (Perfect Day/Nassau), and market share versus land\u2011based vacations. Questions regularly bridge revenue dynamics and multi\u2011year strategic investments.",
+    "rhetorical_signature": [
+      "opens with \"Great, thanks, and congrats on another nice quarter.\" \u2014 seen in multiple calls (e.g., 2023-Q1, 2023-Q2, 2023-Q3, 2023-Q4, 2024-Q1, 2024-Q2, 2025-Q1, 2025-Q2)",
+      "tends to ask multi-part, framing questions as 'Maybe/Maybe to follow up...' and closes with 'Congrats' or 'Thanks.'",
+      "tone: constructive, affirming opener then detailed, model\u2011oriented drilling; frequently uses phrases like 'how best to think about' or 'maybe could you elaborate'"
+    ]
+  },
+  "reasoning_style": {
+    "primary_mode": "mixed",
+    "primary_mode_justification": "Questions combine quantitative asks (EBITDA margins, APCD, % cost guidance, booked position) with strategic probes (market share, Perfect Day, Trifecta, product rollouts) across calls (e.g., 2023-Q2, 2023-Q4, 2025-Q1).",
+    "follow_up_pattern": "Multi-part questions are the norm (\u224870% of his turns are multi\u2011part, asking 2+ subquestions); he frequently follows up in a subsequent turn to clarify guidance or push on cost math. He pushes back occasionally but more often seeks reconciliation or incremental detail.",
+    "evidence_demanded": "He consistently asks for specific numbers and guidance (EBITDA margin targets, APCD, '% cost guide', booked position). Example: asked about the '4% cost guide' (2023-Q4) and '200-300 basis points above 2019' (2024-Q4). n_turns with explicit numeric asks: many (\u224815+ turns) across the sample.",
+    "anchoring_habits": "He anchors to management's prior frameworks and milestones (the 'Trifecta' plan \u2014 2023-Q1/2023-Q2/2023-Q4), the 2019 baseline (asks 'relative to 2019' \u2014 2023-Q2/2023-Q3), and management's just\u2011delivered phrases like 'booked position' and the '4% cost guide' (2023-Q4). He rarely frames questions primarily around peers, though he will ask market\u2011share comparisons to land\u2011based alternatives (2024-Q1/2024-Q4)."
+  },
+  "blind_spots": "No evidence in the history provided of questions on fuel\u2011hedging or bunker hedges (0 turns across 12 calls). He also rarely drills into operational/port logistics (berthing rights) or detailed share\u2011repurchase mechanics; capital return mechanics / timing are not a recurring ask (n_turns < 2).",
+  "stance_drift": "Early in the sample (2023\u2011Q1/2023\u2011Q2) he focused heavily on Trifecta, like\u2011for\u2011like yield drivers and margin ceilings; by 2024\u2011Q4/2025\u2011Q1 his questions shift toward market share, portfolio differentiation and investment runway (new destinations and tech). The emphasis moved from 'are we back to 2019 levels?' (2023-Q2) to 'what inning are we in on TAM capture?' (2024-Q4 / 2025-Q1).",
+  "queue_behavior": {
+    "typical_position": "#3\u2013#5 of the queue on most calls; he was #1 on 3 of 33 observed turns (2025-Q1, 2025-Q2, 2025-Q4) and appeared as an early questioner across the sample.",
+    "default_first_pick": "When first or early to speak he opens on demand/booking momentum and strategic initiatives that drive durable share (e.g., asked drivers of Q1 outperformance and company investments in 2025-Q1; asked about demand acceleration and playbook in 2025-Q2; asked 2026 acceleration/portfolio differentiation in 2025-Q4).",
+    "adaptation_when_favorites_taken": {
+      "reframe_deeper": "Yes \u2014 he often drills deeper on the same topic (example: 2023-Q2 asked about 'EBITDA margins multi-year' after others discussed demand).",
+      "cross_narrative_reconcile": "Yes \u2014 he asks management to reconcile threads raised earlier (example: 2023-Q3 asked about 'balancing pricing power relative to the multi\u2011year market share opportunity').",
+      "reactive_followup": "Yes \u2014 he explicitly builds on management phrases (example: 2023-Q1 referenced the 'Trifecta plan' in his follow-up).",
+      "stay_on_topic_anyway": "Yes \u2014 he will re\u2011ask popular topics regardless (example: repeatedly returns to 'relative to the Trifecta plan' across 2023\u20132024).",
+      "supporting_evidence_phrases": [
+        {
+          "tag": "reframe_deeper",
+          "call": "2023-Q2",
+          "quote": "EBITDA margins multi-year"
+        },
+        {
+          "tag": "cross_narrative_reconcile",
+          "call": "2023-Q3",
+          "quote": "balancing pricing power relative to the multi-year market share opportunity"
+        },
+        {
+          "tag": "reactive_followup",
+          "call": "2023-Q1",
+          "quote": "Trifecta plan"
+        },
+        {
+          "tag": "stay_on_topic_anyway",
+          "call": "2023-Q3",
+          "quote": "relative to the Trifecta plan"
+        }
+      ]
+    },
+    "white_space_topics": [
+      {
+        "topic": "yield_management_technology_and_AI",
+        "supporting_calls": [
+          "2023-Q3",
+          "2024-Q4",
+          "2025-Q1",
+          "2025-Q2",
+          "2025-Q3"
+        ]
+      }
+    ]
+  },
+  "cross_analyst_reactivity": {
+    "explicit_peer_references": {
+      "count": 0,
+      "note": "No evidence in the provided history of Matthew explicitly prefacing a question with another analyst's name or 'following up on X's question'."
+    },
+    "management_line_anchoring": {
+      "count": 20,
+      "examples": [
+        {
+          "call": "2023-Q1",
+          "quote": "Trifecta plan"
+        },
+        {
+          "call": "2023-Q4",
+          "quote": "the 4% cost guide"
+        }
+      ],
+      "note": "He frequently anchors questions to management's just\u2011stated slogans, guidance bands and constructs (Trifecta, Wave, 'booked position', '% cost guide')."
+    },
+    "operator_or_followup_signal": "He often takes a second turn when allowed to clarify guidance or press on modeling (examples: followed initial Q with a Naftali guidance drill in 2025-Q1 and pursued expanded assumption questions in 2025-Q2). When he takes followups they are used for clarification or to reconcile prior answers rather than to open a wholly new topic."
+  },
+  "engages_assets": [
+    "perfect_day_mexico"
+  ],
+  "engages_themes": [
+    "booking_dynamics",
+    "yield_decomposition"
+  ],
+  "framing_overrides_by_theme": {
+    "booking_dynamics": "Asks for booked-position color tied to margin and yield optimization.",
+    "yield_decomposition": "Asks for durable multi-year yield drivers in bps relative to pre-pandemic margin baseline."
+  },
+  "_built_from": "v5 + asset/theme cross-references",
+  "_v5_source": "data/personas_v5/matthew_boss.json"
+}

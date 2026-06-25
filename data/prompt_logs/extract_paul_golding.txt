@@ -1,0 +1,233 @@
+You are building a STRUCTURED PERSONA of a sell-side equity research analyst
+who covers Royal Caribbean Cruises (RCL). The persona will later be used to
+predict what this same analyst is likely to ask in a future RCL earnings call,
+given that call's management presentation.
+
+You will be given the analyst's name, their firm/title (if known), and a
+chronological list of their prior question turns on RCL earnings calls. Each
+turn includes:
+  - The CALL it was asked on (year + quarter)
+  - A short SETUP that summarises the management presentation and any Q&A that
+    preceded the question on that call
+  - The analyst's QUESTION (verbatim)
+  - The management's RESPONSE (verbatim, may be empty)
+
+Produce a single JSON object with three top-level keys, matching the BDE
+structure adapted to sell-side analysts:
+
+{
+  "coverage_profile": { ... },         // analog of "Background"
+  "reasoning_style": { ... },          // analog of "Decision procedure"
+  "recurring_concerns": { ... }        // analog of "Evaluation"
+}
+
+Fill each sub-profile as follows. Use evidence from the turns; cite specific
+calls (e.g. "2023-Q2") where helpful. Do not invent facts not supported by the
+turns.
+
+# coverage_profile
+Who this analyst is and what lens they bring. Required fields:
+  - "firm": most recent firm/affiliation observed.
+  - "seniority_signal": evidence about their seniority (titles, length of
+    coverage, how management addresses them). 2-3 sentences.
+  - "sector_lens": what beats they appear to cover (cruise / leisure / travel /
+    consumer / gaming / lodging / airlines). 1-2 sentences.
+  - "rhetorical_signature": tics, openers, closers, tone (e.g. "always opens
+    with a thank-you", "tends to ask two-parters", "frames around model
+    inputs"). 2-3 short bullet sentences.
+
+# reasoning_style
+HOW the analyst probes management. Required fields:
+  - "primary_mode": one of {"quantitative_modeling", "qualitative_strategic",
+    "mixed"}, plus a sentence of justification.
+  - "follow_up_pattern": how their question turns are structured (single
+    question, two-parter, multi-part with sub-questions; whether they push back
+    on management answers). 2-3 sentences.
+  - "evidence_demanded": what kinds of answers they reward (specific numbers,
+    explicit guidance, mechanism/cause, anecdotes from the booking curve,
+    comparison to peers). 2-3 sentences.
+  - "anchoring_habits": where they anchor their questions (against prior
+    guidance, against consensus, against peers like NCLH/CCL, against their own
+    prior calls). 2-3 sentences.
+
+# recurring_concerns
+WHAT the analyst keeps coming back to. Required fields:
+  - "core_topics": ranked list (highest-priority first) of 3-6 topical clusters
+    the analyst returns to most often. For each, give:
+      { "topic": short label,
+        "what_they_press_on": 1-2 sentences,
+        "supporting_calls": list of calls where they raised it (e.g. ["2022-Q4", "2023-Q3"]) }
+  - "blind_spots": topics this analyst notably does NOT push on, given their
+    peers do. 1-2 sentences. If unclear, say so.
+  - "stance_drift": how their emphasis has shifted across the 2022-2025 window
+    (e.g. moved from balance-sheet/recovery questions to capital-return and
+    yield questions). 2-3 sentences.
+
+Hard rules:
+- Output ONLY the JSON object. No prose before or after.
+- All free-text fields must be 1-3 sentences each.
+- Cite specific call quarters where you make claims about recurrence.
+- If evidence is thin (few turns), say so explicitly in the relevant field;
+  do not paper over it with generic language.
+
+ANALYST NAME: paul golding
+LAST OBSERVED FIRM/TITLE: Senior US Payments and Lifestyle Analyst, Macquarie Capital
+NUMBER OF QUESTIONS IN HISTORY: 11
+CALLS COVERED: 2022-Q1, 2022-Q2, 2022-Q3, 2023-Q1
+
+QUESTION HISTORY (chronological):
+--- TURN 1 | CALL: 2022-Q1 | FIRM: Senior US Payments and Lifestyle Analyst, Macquarie Capital ---
+            [Setup: management presentation excerpt]
+            Operator: Good morning. My name is Abigail, and I'll be your conference operator today. At this time, I would like to welcome everyone to Royal Caribbean Group's Business Update and First Quarter 2022 Earnings Call. All participants are in a listen-only mode. After the speaker presentation, there will be a question-and-answer session. To ask a question during the session, you will need to press star one on your telephone. I would now like to introduce Michael McCarthy, Vice President of Investor Relations. Mr. McCarthy, the floor is yours.
+Michael McCarthy (VP of Investor Relations, Royal Caribbean Group): Good morning, everyone, and thank you for joining us today for our business update, the first quarter 2022 earnings call. Joining me here in Miami are Jason Liberty, our Chief Executive Officer, Naftali Holtz, our Chief Financial Officer, and Michael Bayley, President and CEO of Royal Caribbean International. Before we get started, I would like to note that we will be making forward-looking statements during this call. These statements are based on management's current expectations and are subject to risks and uncertainties. A number of factors could cause actual results to di...
+
+            [Operator intro to analyst, if any]
+            Our next question is from Paul Golding with Macquarie Capital. Your line is now open.
+
+            [Analyst question]
+            Great. Thanks so much. Just wanted to ask about China. I know, in the prepared remarks, you commented that you're poised to reenter that market. Just wanted to ask if there was anything longer term or structural that may be shifting, in terms of future plans for itinerary deployment based on the volatility we've seen in Asia in terms of reopening, and what expectations you have, in terms of a normalized period, once you can redeploy ships there. Then I have a follow-up on labor. Thanks.
+
+            [Management response excerpt]
+            Michael Bayley: Hi, Paul, it's Michael. I think we, you know, we've stated previously our strategic intent is to return to the China market. We've been in the market for over a decade. We've had some phenomenal years in the China market, and we've had a very successful operation there. You know, the volatility's existed in all markets for the past two years, including China. I think it's regretful that the China market is still not accessible to us, and I think our current thinking was that 2...
+
+--- TURN 2 | CALL: 2022-Q1 | FIRM: Senior US Payments and Lifestyle Analyst, Macquarie Capital ---
+            [Setup: management presentation excerpt]
+            Operator: Good morning. My name is Abigail, and I'll be your conference operator today. At this time, I would like to welcome everyone to Royal Caribbean Group's Business Update and First Quarter 2022 Earnings Call. All participants are in a listen-only mode. After the speaker presentation, there will be a question-and-answer session. To ask a question during the session, you will need to press star one on your telephone. I would now like to introduce Michael McCarthy, Vice President of Investor Relations. Mr. McCarthy, the floor is yours.
+Michael McCarthy (VP of Investor Relations, Royal Caribbean Group): Good morning, everyone, and thank you for joining us today for our business update, the first quarter 2022 earnings call. Joining me here in Miami are Jason Liberty, our Chief Executive Officer, Naftali Holtz, our Chief Financial Officer, and Michael Bayley, President and CEO of Royal Caribbean International. Before we get started, I would like to note that we will be making forward-looking statements during this call. These statements are based on management's current expectations and are subject to risks and uncertainties. A number of factors could cause actual results to di...
+
+            [Operator intro to analyst, if any]
+            Our next question is from Paul Golding with Macquarie Capital. Your line is now open.
+
+            [Analyst question]
+            Like, well, on the labor side, some of your land-based entertainment peers have cited waning wage increases this year as they tap international labor. I was wondering for shoreside operations, if you're seeing a similar picture, what your thoughts are around rate increases on shoreside labor for this year. Thanks so much.
+
+            [Management response excerpt]
+            Jason Liberty: On a shoreside standpoint, I think we're experiencing. I mean, most of our shoreside employees are, you know, your sales and marketing, your accounting, your supply chain, et cetera. So, you know, what we're experiencing there is similar to what I think most organizations are experiencing, though, I think because, you know, we wake up every day delivering the best vacations in the world, we tend to be more attractive than others in terms of attracting talent, so we're very fort...
+
+--- TURN 3 | CALL: 2022-Q1 | FIRM: Senior US Payments and Lifestyle Analyst, Macquarie Capital ---
+            [Setup: management presentation excerpt]
+            Operator: Good morning. My name is Abigail, and I'll be your conference operator today. At this time, I would like to welcome everyone to Royal Caribbean Group's Business Update and First Quarter 2022 Earnings Call. All participants are in a listen-only mode. After the speaker presentation, there will be a question-and-answer session. To ask a question during the session, you will need to press star one on your telephone. I would now like to introduce Michael McCarthy, Vice President of Investor Relations. Mr. McCarthy, the floor is yours.
+Michael McCarthy (VP of Investor Relations, Royal Caribbean Group): Good morning, everyone, and thank you for joining us today for our business update, the first quarter 2022 earnings call. Joining me here in Miami are Jason Liberty, our Chief Executive Officer, Naftali Holtz, our Chief Financial Officer, and Michael Bayley, President and CEO of Royal Caribbean International. Before we get started, I would like to note that we will be making forward-looking statements during this call. These statements are based on management's current expectations and are subject to risks and uncertainties. A number of factors could cause actual results to di...
+
+            [Operator intro to analyst, if any]
+
+
+            [Analyst question]
+            Great. Thanks, Jason.
+
+            [Management response excerpt]
+            Jason Liberty: Sure. We have time for one more question. Abigail.
+
+--- TURN 4 | CALL: 2022-Q2 | FIRM: Senior US Payments and Digital Commerce Analyst, Macquarie Capital ---
+            [Setup: management presentation excerpt]
+            Operator: Good morning. My name is Joanne, and I'll be your conference operator today. At this time, I would like to welcome you to the Royal Caribbean Group business update and second quarter 2022 earnings conference call. All lines have been placed on mute to prevent any background noise. After the speaker's remarks, there will be a question-and-answer session. If you would like to ask a question during this time, simply press star followed by the number one on your telephone keypad. If you would like to withdraw your question, again, press the star one. I would now like to turn the conference over to Michael McCarthy, Vice President, Investor Relations. Mr. McCarthy, the floor is yours.
+Michael McCarthy (VP of Investor Relations, Royal Caribbean Group): Good morning, everyone, and thank you for joining us today for our second quarter 2022 business update conference call. Joining me here in Miami are Jason Liberty, our Chief Executive Officer, Naftali Holtz, our Chief Financial Officer, and Michael Bayley, President and CEO of Royal Caribbean International. Before we get started, I'd like to note that we will be making forward-looking statements during this call. These stateme...
+
+            [Operator intro to analyst, if any]
+            Your next question comes from the line of Paul Golding with Macquarie Capital. Your line is open.
+
+            [Analyst question]
+            Thanks so much and congrats on returning to positive EBITDA and cash flow. I wanted to circle back on Naf 's comments in terms of the shorter itineraries to attract new to cruise. Is this a sort of post-COVID only move, or is this something maybe a bit more structural that we should expect to see just in terms of jump-starting the new to cruise return? Are there any costs associated with what may or may not be based on your response, a higher mix of shorter itineraries? Certainly that lines up with the testing requirement commentary as well. I have a follow-up about the booking curve. Thanks.
+
+            [Management response excerpt]
+            Michael Bayley: Hey, Paul. It's Michael. I mean, we've been very focused on new to cruise pre-COVID, and we had a great degree of success with generating new to cruise, and it's always been part of our strategic intent. We planned and had tactics around that, and we feel like we were making exceptional progress pre-COVID. Post-COVID, I think we commented in the past that the real return was supported by our loyal guests and the new to cruise lagged behind. We've now kind of normalized, and we...
+
+--- TURN 5 | CALL: 2022-Q2 | FIRM: Senior US Payments and Digital Commerce Analyst, Macquarie Capital ---
+            [Setup: management presentation excerpt]
+            Operator: Good morning. My name is Joanne, and I'll be your conference operator today. At this time, I would like to welcome you to the Royal Caribbean Group business update and second quarter 2022 earnings conference call. All lines have been placed on mute to prevent any background noise. After the speaker's remarks, there will be a question-and-answer session. If you would like to ask a question during this time, simply press star followed by the number one on your telephone keypad. If you would like to withdraw your question, again, press the star one. I would now like to turn the conference over to Michael McCarthy, Vice President, Investor Relations. Mr. McCarthy, the floor is yours.
+Michael McCarthy (VP of Investor Relations, Royal Caribbean Group): Good morning, everyone, and thank you for joining us today for our second quarter 2022 business update conference call. Joining me here in Miami are Jason Liberty, our Chief Executive Officer, Naftali Holtz, our Chief Financial Officer, and Michael Bayley, President and CEO of Royal Caribbean International. Before we get started, I'd like to note that we will be making forward-looking statements during this call. These stateme...
+
+            [Operator intro to analyst, if any]
+
+
+            [Analyst question]
+            Thanks for that. On the booking curve, the commentary in the press release continues to suggest a closer-in trend. I guess, are you seeing the closer-in trend abate at all? To what extent do you see that maybe as being a bit more structural? Does that inform sort of how we should think about your commentary in future periods on the booking curve? Just any commentary around the consumer trend in terms of how far out the booking concentration tends to be right now. Thanks.
+
+            [Management response excerpt]
+            Jason Liberty: Well, I think, I mean, what we're seeing is that the booking curve is no longer really contracting. It's now expanding again. I do think we expect it to return here over the coming, call it six months or so, to a normal level of a booking window relative to historical activity. But, you know, as our ships are coming up, and as protocols begin to fall away here now, you know, we would expect there to be a further acceleration in closing demand for whatever inventory is left, whi...
+
+--- TURN 6 | CALL: 2022-Q2 | FIRM: Senior US Payments and Digital Commerce Analyst, Macquarie Capital ---
+            [Setup: management presentation excerpt]
+            Operator: Good morning. My name is Joanne, and I'll be your conference operator today. At this time, I would like to welcome you to the Royal Caribbean Group business update and second quarter 2022 earnings conference call. All lines have been placed on mute to prevent any background noise. After the speaker's remarks, there will be a question-and-answer session. If you would like to ask a question during this time, simply press star followed by the number one on your telephone keypad. If you would like to withdraw your question, again, press the star one. I would now like to turn the conference over to Michael McCarthy, Vice President, Investor Relations. Mr. McCarthy, the floor is yours.
+Michael McCarthy (VP of Investor Relations, Royal Caribbean Group): Good morning, everyone, and thank you for joining us today for our second quarter 2022 business update conference call. Joining me here in Miami are Jason Liberty, our Chief Executive Officer, Naftali Holtz, our Chief Financial Officer, and Michael Bayley, President and CEO of Royal Caribbean International. Before we get started, I'd like to note that we will be making forward-looking statements during this call. These stateme...
+
+            [Operator intro to analyst, if any]
+
+
+            [Analyst question]
+            Right. Thanks.
+
+            [Management response excerpt]
+            Jason Liberty: Thank you.
+
+--- TURN 7 | CALL: 2022-Q3 | FIRM: Senior Analyst, Macquarie Capital ---
+            [Setup: management presentation excerpt]
+            Operator: Good morning, and welcome to the Royal Caribbean Group third quarter 2022 earnings conference call. All lines have been placed on mute to prevent any background noise. After the speaker's remarks, there will be a question-and-answer session. If you would like to ask a question during this time, simply press star then the number one on your telephone keypad. To withdraw your question, press star one again. I would now like to turn the conference over to Michael McCarthy, Vice President, Investor Relations.
+Michael McCarthy (VP of Investor Relations, Royal Caribbean Group): Good morning, everyone, and thank you for joining us today for our third quarter 2022 business update conference call. Joining me here in Miami are Jason Liberty, our Chief Executive Officer, Naftali Holtz, our Chief Financial Officer, and Michael Bayley, President and CEO of Royal Caribbean International. Before we get started, I'd like to note that we'll be making forward-looking statements during this call. These statements are based on management's current expectations and are subject to risk and uncertainties. A number of factors could cause actual results to differ materially from our current ex...
+
+            [Operator intro to analyst, if any]
+            Today's final question will come from the line of Paul Golding with Macquarie Capital. Please go ahead.
+
+            [Analyst question]
+            Thanks so much, and congrats on the quarter. I wanted to dive quickly into the marketing, selling, and admin line. This looks relatively flat sequentially. I'm just trying to figure out here if outside of WAVE, we should think about this returning to normalized structural proportional levels. Is it in addition to TAM unlocking, is it getting cheaper or easier to acquire customers from a marketing cost perspective per unit? And then I have a follow-up. Thanks.
+
+            [Management response excerpt]
+            Naftali Holtz: Yeah. No, that's right. You know, we expect this. I think we said even in the last quarter earnings, we expect this to be normalized in terms of our investment sales and marketing. We're always thinking about where is the best money to spend, which channel, which market, but generally we expect it to be at normal levels.
+Jason Liberty: Yeah. I think the point is, you know, we're getting much more efficient in our ability to go one-to-one to our customers. You know, the cost, wh...
+
+--- TURN 8 | CALL: 2022-Q3 | FIRM: Senior Analyst, Macquarie Capital ---
+            [Setup: management presentation excerpt]
+            Operator: Good morning, and welcome to the Royal Caribbean Group third quarter 2022 earnings conference call. All lines have been placed on mute to prevent any background noise. After the speaker's remarks, there will be a question-and-answer session. If you would like to ask a question during this time, simply press star then the number one on your telephone keypad. To withdraw your question, press star one again. I would now like to turn the conference over to Michael McCarthy, Vice President, Investor Relations.
+Michael McCarthy (VP of Investor Relations, Royal Caribbean Group): Good morning, everyone, and thank you for joining us today for our third quarter 2022 business update conference call. Joining me here in Miami are Jason Liberty, our Chief Executive Officer, Naftali Holtz, our Chief Financial Officer, and Michael Bayley, President and CEO of Royal Caribbean International. Before we get started, I'd like to note that we'll be making forward-looking statements during this call. These statements are based on management's current expectations and are subject to risk and uncertainties. A number of factors could cause actual results to differ materially from our current ex...
+
+            [Operator intro to analyst, if any]
+
+
+            [Analyst question]
+            Thanks for that color. Thinking about Trifecta and some of the initiatives, I was wondering if there was any sort of order priority among those different initiatives. I'm mostly thinking about your ROIC and earnings relative to deleveraging in light of the carbon reduction efforts, which presumably would carry some amount of of costs, expense and capital. Thanks.
+
+            [Management response excerpt]
+            Jason Liberty: Yeah. I wouldn't put them in that they have different priorities. Of course, the ROIC, the EBITDA margin, and leverage and earnings, you know, they're all very interrelated. At the same time, you know, we've quadrupled down on what we can do to reduce our consumption, with the technologies that we can be employing, to reduce our carbon footprint. You know, it is not when we look through the lens of decision-making, it's about what's best for the customer, what's best for our in...
+
+--- TURN 9 | CALL: 2022-Q3 | FIRM: Senior Analyst, Macquarie Capital ---
+            [Setup: management presentation excerpt]
+            Operator: Good morning, and welcome to the Royal Caribbean Group third quarter 2022 earnings conference call. All lines have been placed on mute to prevent any background noise. After the speaker's remarks, there will be a question-and-answer session. If you would like to ask a question during this time, simply press star then the number one on your telephone keypad. To withdraw your question, press star one again. I would now like to turn the conference over to Michael McCarthy, Vice President, Investor Relations.
+Michael McCarthy (VP of Investor Relations, Royal Caribbean Group): Good morning, everyone, and thank you for joining us today for our third quarter 2022 business update conference call. Joining me here in Miami are Jason Liberty, our Chief Executive Officer, Naftali Holtz, our Chief Financial Officer, and Michael Bayley, President and CEO of Royal Caribbean International. Before we get started, I'd like to note that we'll be making forward-looking statements during this call. These statements are based on management's current expectations and are subject to risk and uncertainties. A number of factors could cause actual results to differ materially from our current ex...
+
+            [Operator intro to analyst, if any]
+
+
+            [Analyst question]
+            Thanks, Jason.
+
+            [Management response excerpt]
+            Jason Liberty: Thank you. Great. So thank you everyone for your participation and interest in the company. Michael will be available for any follow-up. I wish you all a great day. Thanks a lot.
+
+--- TURN 10 | CALL: 2023-Q1 | FIRM: Analyst, Macquarie Capital ---
+            [Setup: management presentation excerpt]
+            Operator: Good morning. My name is Lisa. I will be your conference operator today. At this time, I would like to welcome everyone to the Royal Caribbean Group Q1 2023 earnings and business update conference call. If you have a question today, please press star one on your telephone keypad. I would now like to turn the conference over to Mr. Michael McCarthy, Vice President, Investor Relations. Please go ahead, sir.
+Michael McCarthy (VP of Investor Relations, Royal Caribbean Group): Good morning, everyone, and thank you for joining us today for our Q1 2023 business update conference call. Joining me here in Miami are Jason Liberty, our Chief Executive Officer, Naftali Holtz, our Chief Financial Officer, and Michael Bayley, President and CEO of Royal Caribbean International. Before we get started, I'd like to note that we'll be making forward-looking statements during this call. These statements are based on management's current expectations and are subject to risks and uncertainties. A number of factors could cause actual results to differ materially from our current expectations. Please refer to our earnings release issued this morning, as well as our filings with the SEC for a...
+
+            [Operator intro to analyst, if any]
+            We'll go to Paul Golding, Macquarie Capital.
+
+            [Analyst question]
+            Thanks so much, and congrats on the quarter. Just one for me, a longer-term question here. I know you're still building load factor, but as you think about Q1 and the strength and close in bookings, does this change the way you think about wave and how you manage the booking curve and inventory as you go into the next wave cycle, the next booking cycle, and just in the context of what we had through the pandemic, which was a bit protracted booking curve? Thanks so much.
+
+            [Management response excerpt]
+            Jason Liberty: Yeah. Well, we actually, through, you know, through the COVID period, had kinda shifted how we go to market with our inventory. You know, we used to kind of put everything out there, and all the suites would be sold basically right off the bat, and then you would kinda work your way down to the inside cabins. While now we hold back inventory and we release it based off of our much more sophisticated revenue management models that we have today. All of that, you know, takes into...
+
+--- TURN 11 | CALL: 2023-Q1 | FIRM: Analyst, Macquarie Capital ---
+            [Setup: management presentation excerpt]
+            Operator: Good morning. My name is Lisa. I will be your conference operator today. At this time, I would like to welcome everyone to the Royal Caribbean Group Q1 2023 earnings and business update conference call. If you have a question today, please press star one on your telephone keypad. I would now like to turn the conference over to Mr. Michael McCarthy, Vice President, Investor Relations. Please go ahead, sir.
+Michael McCarthy (VP of Investor Relations, Royal Caribbean Group): Good morning, everyone, and thank you for joining us today for our Q1 2023 business update conference call. Joining me here in Miami are Jason Liberty, our Chief Executive Officer, Naftali Holtz, our Chief Financial Officer, and Michael Bayley, President and CEO of Royal Caribbean International. Before we get started, I'd like to note that we'll be making forward-looking statements during this call. These statements are based on management's current expectations and are subject to risks and uncertainties. A number of factors could cause actual results to differ materially from our current expectations. Please refer to our earnings release issued this morning, as well as our filings with the SEC for a...
+
+            [Operator intro to analyst, if any]
+            We'll go to Paul Golding, Macquarie Capital.
+
+            [Analyst question]
+            Appreciate the context. Thanks.
+
+            [Management response excerpt]
+            Jason Liberty: Yeah.
+Naftali Holtz: Okay. Well, we thank everyone. Yeah.

@@ -1,0 +1,19 @@
+{
+  "analyst": "andrew didora",
+  "scored": [
+    {
+      "actual_question": "How are you thinking about rolling in new fuel hedges in this high fuel environment? And at what level of capacity growth would NCC ex-fuel inflation rise to ~2\u20133%?",
+      "actual_topic": "costs/hedging",
+      "best_predicted_index": null,
+      "match_level": "miss",
+      "reasoning": "The predicted question concerns capital structure and unsecured bond issuance for newbuild financing, which is unrelated to fuel hedging or unit-cost (NCC ex\u2011fuel) sensitivity to capacity growth; no predicted item addresses these cost/hedging concerns."
+    }
+  ],
+  "summary": {
+    "n_actual": 1,
+    "n_exact": 0,
+    "n_partial": 0,
+    "n_miss": 1,
+    "hit_rate_exact_or_partial": 0.0
+  }
+}

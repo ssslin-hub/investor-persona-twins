@@ -1,0 +1,10 @@
+{
+  "analyst": "Truist Securities - Managing Director",
+  "predicted_questions": [
+    {
+      "question_text": "Good morning \u2014 two quick ones: first, on the 1.5%-2.5% Net Yield guide, is that percentage presented apples\u2011to\u2011apples to pre\u2011COVID (2019) yields (i.e., excludes structural shifts like greater pre\u2011cruise booking penetration, itinerary mix, or the JV contribution change), or should we be modeling any embedded mix/structural adjustments versus 2019? And second, on distribution/demand \u2014 you noted digital penetration has more than doubled since 2019, >50% of onboard revenue is now booked pre\u2011cruise, and you\u2019re seeing more millennials and repeat guests; is the uplift in pre\u2011cruise digital purchasing concentrated in high\u2011yield Europe/Mediterranean itineraries or younger demos, and does that shift meaningfully lift APD versus simply pulling forward spend?",
+      "topic_label": "guidance_setting",
+      "rationale": "Draws on the analyst's habit of asking for apples\u2011to\u2011apples comparability (recurring_concerns.core_topics[0]) and his interest in distribution/channel mix and consumer behavior (recurring_concerns.core_topics[1] and [2]); references management's 1.5%-2.5% Net Yield guidance and comments that digital penetration has more than doubled, >50% of onboard revenue is booked pre\u2011cruise, and the increase in millennials/repeat guests from the presentation."
+    }
+  ]
+}

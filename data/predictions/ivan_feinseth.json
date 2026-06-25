@@ -1,0 +1,10 @@
+{
+  "analyst": "Tigress Financial (Partner, CIO, Director of Research)",
+  "predicted_questions": [
+    {
+      "question_text": "Thanks and congrats on the quarter. Quick question on the pre\u2011cruise digital experience \u2014 you noted over 70% penetration in your pre\u2011cruise booking engines and that more than half of onboard revenue is booked before guests step on board. Can you walk through exactly how the app/unified intelligence layer integrates with your onboard systems (POS, reservations, loyalty and inventory) and give a concrete example \u2014 say spa appointments or specialty dining \u2014 of a use\u2011case where the pre\u2011cruise flow creates truly incremental revenue rather than just pulling spend forward? 1) How do you measure incrementality (do you run holdouts/A\u2011B tests or rely on cohort attribution)? 2) Any sense of the typical uplift in spend per guest or attach rate you can point to from those pre\u2011cruise initiatives? Thanks.",
+      "topic_label": "pre-cruise digital tools / monetization",
+      "rationale": "Matches the persona's focus on pre\u2011cruise digital tools and monetization (recurring_concerns.core_topics[0] and [1]) and his evidence\u2011driven style (reasoning_style.primary_mode). Anchors directly to management's statements that 'over 70% penetration in our pre\u2011cruise booking engines' and 'more than half of onboard revenue is booked before guests ever step on board' and asks for operational integration and attribution mechanisms."
+    }
+  ]
+}

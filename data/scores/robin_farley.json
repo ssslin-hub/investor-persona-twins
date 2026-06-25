@@ -1,0 +1,26 @@
+{
+  "analyst": "robin farley",
+  "scored": [
+    {
+      "actual_question": "I had a question on yields, but also just a quick follow-up. Michael's comment may have just answered it, but, you know, it sounded like Mexico there had been, like, a little bit of a pause in construction because of that environmental stuff. Just wanna clarify if Michael's comment means that construction is, you know, resumed in Mexico there.",
+      "actual_topic": "construction/shipbuilding",
+      "best_predicted_index": null,
+      "match_level": "miss",
+      "reasoning": "No predicted question addresses construction or shipbuilding/capacity in Mexico; the predicted items focus on yield decomposition and costs/fuel, so this concern is not covered."
+    },
+    {
+      "actual_question": "The other question was just sort of thinking about next year and, you know, if it's the 200 basis points impact in Q2, Q3 sounds like, you know, the entire 100 basis point change is maybe a mid-single digit sort of shift in where you had expected European yields to come, to come in this year. Is it fair to assume that you would kind of fully expect that to come back in 2027 when we're kind of thinking ahead to, you know, the impact this year being kind of, you know, not necessarily coming out of next year? Just help us to size that.",
+      "actual_topic": "pricing/yield",
+      "best_predicted_index": 0,
+      "match_level": "partial",
+      "reasoning": "Predicted question 0 is on yields and yield components, so it covers the same general topic, but it asks for decomposition/quantification rather than the specific timing/rebound question about whether a temporary yield hit will normalize in 2027."
+    }
+  ],
+  "summary": {
+    "n_actual": 2,
+    "n_exact": 0,
+    "n_partial": 1,
+    "n_miss": 1,
+    "hit_rate_exact_or_partial": 0.5
+  }
+}

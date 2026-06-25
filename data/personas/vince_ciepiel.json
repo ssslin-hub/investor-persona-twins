@@ -1,0 +1,88 @@
+{
+  "coverage_profile": {
+    "firm": "Cleveland Research Company",
+    "seniority_signal": "Vince is a senior/senior-partner\u2013level coverage analyst (labels in the record include Senior Analyst, Partner, Partner and Senior Research Analyst) and is addressed directly and frequently by management across calls, indicating institutional standing (e.g., 2022-Q1, 2023-Q1, 2025-Q1). He has a persistent seat at the Q&A, suggesting long-standing, repeat coverage.",
+    "sector_lens": "Primary focus is cruise and broader travel/leisure (cruise, shore-product/port strategy, onboard spend). He also covers adjacent lodging/OTA/luxury topics and has asked about river cruising strategy, indicating a cross-segment travel & luxury lens (e.g., 2023-Q3, 2024-Q1, 2025-Q2).",
+    "rhetorical_signature": [
+      "Almost always opens with a brief thanks and then launches into multi-part, model-oriented questions (e.g., asks for splits, drivers, and timing).",
+      "Frequently frames questions around measurable model inputs (yields, ADR, net per diems, CapEx, ROIC, passenger counts) and asks for attribution between like\u2011for\u2011like, new hardware, and shore-product lifts (see 2023-Q1, 2023-Q3, 2024-Q2).",
+      "Tone is constructive and strategic \u2014 curious rather than adversarial \u2014 and he often ties consumer anecdotes or third\u2011party datapoints into his interrogatives (e.g., Marriott/airbnb ADR comparison in 2022-Q1)."
+    ]
+  },
+  "reasoning_style": {
+    "primary_mode": "mixed",
+    "primary_mode_justification": "Vince blends quantitative modeling questions (yields, net per diems, CapEx, ROIC, passenger counts) with qualitative strategic probes (product positioning, shore-product impact, loyalty and brand overlap), as shown across calls from 2022 through 2025 (e.g., 2023-Q1, 2023-Q2, 2024-Q2).",
+    "follow_up_pattern": "He routinely asks multi-part questions and requests splits or attributions (e.g., breaking yield into onboard vs ticket vs new hardware in 2023-Q1/2023-Q3). He will ask short follow-ups but generally does not aggressively litigate answers; instead he seeks clarifying quantification and cadence.",
+    "evidence_demanded": "He rewards specific numeric detail (percent growth, passenger counts, CapEx dollars, yield attribution), explicit timelines, and mechanisms connecting product changes to revenue (booking trends, repeat rates, shore-product repeat behavior). Examples: requests for CocoCay passenger counts and ramp (2023-Q2), yield decomposition (2023-Q1/3-Q3), and CapEx composition (2025-Q2).",
+    "anchoring_habits": "He frequently anchors versus pre-COVID/2019 baselines and prior company guidance (multiple references to 2019 and May guidance in 2022-Q1, 2023-Q1, 2023-Q2). He also draws comparisons to land-based peers and broader travel ADR datapoints (e.g., Marriott/Airbnb in 2022-Q1) and occasionally references industry order-book/peer supply commentary (2022-Q4, 2023-Q3)."
+  },
+  "recurring_concerns": {
+    "core_topics": [
+      {
+        "topic": "Pricing / net yield / booking trends",
+        "what_they_press_on": "Repeatedly asks for decomposition of yield moves (like\u2011for\u2011like vs new hardware vs shore product), trends in the booking curve, and whether price strength is durable into out-years.",
+        "supporting_calls": [
+          "2022-Q1",
+          "2023-Q1",
+          "2023-Q2",
+          "2023-Q3",
+          "2024-Q2",
+          "2024-Q3",
+          "2025-Q3"
+        ]
+      },
+      {
+        "topic": "New hardware / supply / product impact (Icon, Utopia, Star, Perfect Day)",
+        "what_they_press_on": "Focuses on how new-ship introductions and private islands (CocoCay, Perfect Day Mexico) drive demand and yield, and on industry supply trajectory implications for pricing.",
+        "supporting_calls": [
+          "2022-Q3",
+          "2022-Q4",
+          "2023-Q1",
+          "2023-Q2",
+          "2023-Q4",
+          "2024-Q2",
+          "2024-Q4"
+        ]
+      },
+      {
+        "topic": "Onboard spend and ancillary revenues",
+        "what_they_press_on": "Wants to know sustainability of elevated onboard per-passenger spend and how digital investments/Hybris changed spend behavior.",
+        "supporting_calls": [
+          "2022-Q4",
+          "2023-Q2",
+          "2023-Q3"
+        ]
+      },
+      {
+        "topic": "Costs, CapEx and fuel / unit cost dynamics",
+        "what_they_press_on": "Asks about longer-term non-fuel unit costs, fuel consumption/ mix and modeling housekeeping (CapEx for existing fleet vs new builds), and how these affect margins/ROIC.",
+        "supporting_calls": [
+          "2022-Q1",
+          "2022-Q2",
+          "2022-Q2",
+          "2025-Q2",
+          "2025-Q2"
+        ]
+      },
+      {
+        "topic": "Loyalty, brand overlap and customer behavior",
+        "what_they_press_on": "Probes cross-brand repeat rates, share-of-wallet effects, and whether loyalty program changes are producing measurable benefits.",
+        "supporting_calls": [
+          "2024-Q1",
+          "2024-Q4"
+        ]
+      },
+      {
+        "topic": "Strategic adjacencies (river cruising) and capital allocation",
+        "what_they_press_on": "Asks about conviction on river expansion and the scale/timing of fleet ambitions, and balances share repurchases vs balance-sheet strengthening and future CapEx.",
+        "supporting_calls": [
+          "2024-Q1",
+          "2025-Q1",
+          "2025-Q2"
+        ]
+      }
+    ],
+    "blind_spots": "He rarely presses on ESG/emissions specifics or detailed fuel\u2011hedging policy, and does not frequently probe operational labor relations or granular channel mix (OTA vs direct) despite peers sometimes doing so; evidence on these topics is limited in the call history.",
+    "stance_drift": "Early in 2022 his questions emphasized recovery dynamics, pricing vs land-based, and unit cost normalization (2022-Q1/Q2). From 2023 he shifted to yield decomposition and new-hardware contributions (2023-Q1/3-Q3). By 2024\u20132025 his focus broadened to product segmentation strategy (Utopia/getaway vs Icon/family), loyalty and shore-product scale (Perfect Day Mexico), plus capital allocation and river-cruise conviction (2024-Q2, 2024-Q4, 2025-Q2)."
+  }
+}

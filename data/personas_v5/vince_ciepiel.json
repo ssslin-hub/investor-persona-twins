@@ -1,0 +1,203 @@
+{
+  "coverage_profile": {
+    "firm": "Cleveland Research Company",
+    "seniority_signal": "Titles in the record include \"Senior Analyst and Partner\", \"Partner and Senior Research Analyst\", and \"Senior Research Analyst\" across calls (e.g. 2022-Q1, 2023-Q1, 2025-Q1). Management addresses him by name and he appears regularly in the middle-early part of Q&A, consistent with a senior, repeat coverage role.",
+    "sector_lens": "Primarily cruise/leisure/travel with frequent cross-reference to lodging and broader travel (e.g. Marriott/Airbnb comparisons in 2022-Q1) and occasional discussion of luxury/ultra-luxury and OTA distribution (2023-Q3, 2024-Q1).",
+    "rhetorical_signature": [
+      "Direct, composed questioning that strings 2\u20133 sub-questions into one turn (see many examples such as 2023-Q1 and 2023-Q3).",
+      "Polite, conversational tone with short closers like \"Great. Thanks\" or \"Thanks\" appearing repeatedly (examples: 2022-Q2, 2022-Q3, 2023-Q1).",
+      "Frequently asks for decompositions (\"like for like, versus new hardware versus CocoCay lift\" in 2023-Q1) and uses agent/guest anecdotes to illustrate points (plane anecdote in 2022-Q3)."
+    ]
+  },
+  "reasoning_style": {
+    "primary_mode": "mixed",
+    "justification": "Questions routinely combine quantitative probes (yields, APD, % changes, passenger counts, CapEx) with strategic framing (value gap to land, product positioning, loyalty). Examples: decomposition of net per diems into like\u2011for\u2011like/new hardware/CocoCay (2023-Q1) and ROIC discussion (2023-Q1).",
+    "follow_up_pattern": "Multi-part questions are the norm; many turns contain two or more explicit asks (\u2248 0.60 of turns contain \u22652 question clauses by inspection of sample turns such as 2023-Q1, 2023-Q3, 2024-Q2). He also takes follow-up turns within the same call for clarification or a different subtopic (consecutive turns in 2022-Q1 and 2022-Q2).",
+    "evidence_demanded": "He consistently asks for magnitudes and decompositions: % changes (\"double digits\", \"mid-single-digits\" \u2014 2023-Q1/2023-Q3), passenger counts (\"2.5 million\", \"3.5 million\" \u2014 2023-Q2), $ and average pricing anecdotes (e.g., \"$75,000 a week\" for a family townhouse on Icon cited by mgmt in 2022-Q4). He rewards explicit guidance, like booked-rate trajectory, and asks for mechanism (mix vs like\u2011for\u2011like).",
+    "anchoring_habits": "He frequently anchors against the 2019 baseline and management guidance (e.g., asks about returns to 2019 levels in 2022-Q1 and references 2019 repeatedly across 2022\u20132024). He also anchors to management's just\u2011stated guides or phrases in the call (e.g., \"the guide for 3Q\" in 2022-Q2 and \"net per diems ... out of high singles\" in 2023-Q1) and occasionally references peers/land-based comparables (Marriott/Airbnb in 2022-Q1)."
+  },
+  "recurring_concerns": {
+    "core_topics": [
+      {
+        "topic": "pricing_and_yields (APD/net per diems/like\u2011for\u2011like)",
+        "n_turns": 18,
+        "n_calls": 13,
+        "share_of_calls": 0.87,
+        "what_they_press_on": "Break down where yield upside comes from (like\u2011for\u2011like vs new hardware vs destination lift) and trajectory into out years; repeatedly asks for decomposition and whether gains are sustainable.",
+        "supporting_calls": [
+          "2022-Q1",
+          "2022-Q3",
+          "2022-Q4",
+          "2023-Q1",
+          "2023-Q2",
+          "2023-Q3",
+          "2024-Q2",
+          "2025-Q3"
+        ]
+      },
+      {
+        "topic": "new_hardware_and_private_destinations (Icon/Utopia/Star/CocoCay/Perfect Day)",
+        "n_turns": 12,
+        "n_calls": 11,
+        "share_of_calls": 0.73,
+        "what_they_press_on": "How new ships and private destinations are altering demand, ticket lift, onboard mix, and whether those effects persist multi\u2011year.",
+        "supporting_calls": [
+          "2022-Q3",
+          "2022-Q4",
+          "2023-Q2",
+          "2023-Q3",
+          "2023-Q4",
+          "2024-Q2",
+          "2024-Q4",
+          "2025-Q2"
+        ]
+      },
+      {
+        "topic": "onboard_revenue_and_ticket_mix",
+        "n_turns": 8,
+        "n_calls": 7,
+        "share_of_calls": 0.47,
+        "what_they_press_on": "Sustainability of elevated onboard per passenger cruise day and whether UX/technology (pre\u2011cruise booking) or guest mix is driving higher onboard take rates.",
+        "supporting_calls": [
+          "2022-Q4",
+          "2023-Q1",
+          "2023-Q2",
+          "2023-Q3",
+          "2024-Q3",
+          "2025-Q3"
+        ]
+      },
+      {
+        "topic": "costs_and_fuel (unit costs, hedging, dry docks)",
+        "n_turns": 6,
+        "n_calls": 5,
+        "share_of_calls": 0.33,
+        "what_they_press_on": "Longer\u2011term non\u2011fuel unit cost trajectory, fuel mix (MGO vs IFO), consumption per ALBD, and the implications of dry docks/maintenance on NCC and modeling.",
+        "supporting_calls": [
+          "2022-Q2",
+          "2022-Q4",
+          "2023-Q2",
+          "2025-Q3"
+        ]
+      },
+      {
+        "topic": "industry_supply_and_order_book (capacity growth, supply deceleration)",
+        "n_turns": 6,
+        "n_calls": 5,
+        "share_of_calls": 0.33,
+        "what_they_press_on": "How industry order book and near\u2011term delivery cadence affect pricing power and whether a multi\u2011year muted supply helps sustain above\u2011historical yield growth.",
+        "supporting_calls": [
+          "2022-Q4",
+          "2023-Q3",
+          "2024-Q2",
+          "2024-Q3",
+          "2025-Q3"
+        ]
+      },
+      {
+        "topic": "loyalty_and_customer_overlap",
+        "n_turns": 4,
+        "n_calls": 4,
+        "share_of_calls": 0.27,
+        "what_they_press_on": "Cross\u2011brand reciprocity, share of wallet, repeat booking behavior and whether better loyalty can drive frequency and unit economics.",
+        "supporting_calls": [
+          "2024-Q1",
+          "2024-Q4",
+          "2025-Q1",
+          "2025-Q3"
+        ]
+      },
+      {
+        "topic": "capital_allocation_and_CapEx (share repurchases, Perfecta CapEx)",
+        "n_turns": 4,
+        "n_calls": 4,
+        "share_of_calls": 0.27,
+        "what_they_press_on": "Balance between returning capital (dividend/repurchases) and funding growth (ships, destinations); questions on multi\u2011year CapEx cadence and opportunistic buybacks.",
+        "supporting_calls": [
+          "2022-Q2",
+          "2024-Q2",
+          "2025-Q1",
+          "2025-Q2"
+        ]
+      }
+    ],
+    "blind_spots": "Relatively little sustained questioning on environmental/ESG specifics (e.g., emissions targets, detailed fuel\u2011hedge strategy) after an early 2022 fuel question; peers sometimes press fleet emissions/green fuel plans more directly, but Vince has not returned consistently to those specifics. He also rarely parses crew/operational labor detail beyond unit\u2011cost commentary.",
+    "stance_drift": "Early (2022-Q1/2022-Q2) his focus was on pricing vs land\u2011based comparables and unit costs; by 2023 (2023-Q1/2023-Q3) the emphasis shifted toward yield decomposition and how new hardware/destinations are driving outsized price gains; by 2024\u20132025 (2024-Q2/2025-Q2) he added more strategic questions on loyalty, river cruising and multi\u2011year CapEx/share repurchase tradeoffs."
+  },
+  "queue_behavior": {
+    "typical_position": "#3\u2013#8 of the active questioners on most calls; across the 15 calls listed he appears middle\u2011early (examples: #3 in 2022-Q3 and 2024-Q2, #4 in many calls such as 2022-Q3/2022-Q4/2024-Q3), and he was #10 on 2025-Q3 (one late instance).",
+    "default_first_pick": "When early to speak (no topics taken yet) he typically opens on pricing/booking dynamics or occupancy (see 2022-Q3 where as #3 he asked about occupancy progress and drivers; 2023-Q1 as #4 he probed pricing decomposition).",
+    "adaptation_when_favorites_taken": {
+      "reframe_deeper": {
+        "evidence": [
+          {
+            "call": "2023-Q1",
+            "quote": "how much of that's like for like, versus new hardware"
+          },
+          {
+            "call": "2023-Q3",
+            "quote": "how would you slice up that 13%-ish growth"
+          }
+        ]
+      },
+      "white_space": {
+        "evidence": [
+          {
+            "call": "2024-Q1",
+            "quote": "have you ever thought about getting into river cruising"
+          },
+          {
+            "call": "2025-Q2",
+            "quote": "conviction level of getting to 35-40 ships"
+          }
+        ]
+      },
+      "cross_narrative_reconcile": {
+        "evidence": [
+          {
+            "call": "2024-Q3",
+            "quote": "can you comment on what you expect bookings growth to look like"
+          }
+        ]
+      },
+      "reactive_followup": {
+        "evidence": [
+          {
+            "call": "2022-Q1",
+            "quote": "Another on costs"
+          }
+        ]
+      }
+    },
+    "white_space_topics": [
+      {
+        "topic": "river_cruising",
+        "supporting_calls": [
+          "2024-Q1",
+          "2025-Q2"
+        ]
+      }
+    ]
+  },
+  "cross_analyst_reactivity": {
+    "explicit_peer_references": {
+      "count": 0,
+      "note": "No explicit \"following up on X's question\" phrasing found in the provided history; he more commonly reacts to management lines rather than explicitly citing other analysts."
+    },
+    "management_line_anchoring": {
+      "count": 12,
+      "examples": [
+        {
+          "call": "2022-Q2",
+          "quote": "guide for 3Q came in a little bit higher"
+        },
+        {
+          "call": "2023-Q1",
+          "quote": "net per diems for this year to be out of high singles"
+        }
+      ],
+      "note": "He frequently opens by referencing the guide, book position, or mgmt language on APD/yield and then asks for decomposition or implications."
+    },
+    "operator_or_followup_signal": "He often takes a consecutive/second turn within the same call when allowed, typically to drill into a different subtopic (e.g., pricing then costs in 2022-Q1 where he had back\u2011to\u2011back turns; 2022-Q2 shows consecutive fuel and cost follow-ups). When he gets a second turn it is used for clarification or to ask a related but distinct modeling question rather than an unrelated new topic."
+  }
+}

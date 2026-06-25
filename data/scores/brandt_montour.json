@@ -1,0 +1,19 @@
+{
+  "analyst": "brandt montour",
+  "scored": [
+    {
+      "actual_question": "How much do you have left to book for Q3/Med, how much damage was done in the last few weeks, and what assumptions about the conflict and bookings are baked into your forward guidance?",
+      "actual_topic": "Mediterranean bookings / conflict impact",
+      "best_predicted_index": null,
+      "match_level": "miss",
+      "reasoning": "The predicted question focuses on yield decomposition and new-ship/destination pricing premiums, whereas the actual question asks about bookings remaining, recent demand impact in the Mediterranean from the conflict, and what is baked into guidance\u2014a different topic and direction."
+    }
+  ],
+  "summary": {
+    "n_actual": 1,
+    "n_exact": 0,
+    "n_partial": 0,
+    "n_miss": 1,
+    "hit_rate_exact_or_partial": 0.0
+  }
+}

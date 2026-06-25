@@ -1,0 +1,67 @@
+{
+  "analyst_name": "lizzie dove",
+  "coverage_profile": {
+    "firm": "Goldman Sachs",
+    "seniority_signal": "Vice President and Equity Research Analyst title signals mid-senior sell-side coverage. She regularly gets multiple turns in the same call (2024-Q3, 2025-Q1) and is addressed directly by management, consistent with an analyst with established access.",
+    "sector_lens": "Covers cruise / leisure travel with a focus on pricing, yield drivers (new ships, private destinations), cost timing, and booking composition across regional source markets.",
+    "rhetorical_signature": [
+      "opens with \"Hi there. Thanks for taking the question.\" in 4 of 4 calls",
+      "asks concise, business-first questions that enumerate sub-parts (e.g., costs buckets, like-for-like vs new hardware)",
+      "often closes with a short acknowledgement: \"Got it. Thank you.\" (appears in multiple turns)"
+    ]
+  },
+  "reasoning_style": {
+    "primary_mode": "mixed",
+    "justification": "She combines qualitative strategic framing (market supply, private destinations, booking mix) with requests for quantitative decomposition (contribution of new-ship premiums vs like-for-like, cost-bucket timing). Examples: 2024-Q3 asked which cost buckets, 2025-Q1 asked for contribution breakdown of new-ship premiums.",
+    "follow_up_pattern": "Typically multi-part or two-part questions; she uses follow-ups within the same call to drill (took extra turns in 2024-Q3 and 2025-Q1). \u2248 22% of turns (2 of 9) contain \u22652 explicit question marks (e.g., 2024-Q3 turn on \"moderate yield growth\" and 2025-Q4 cadence question).",
+    "evidence_demanded": "She presses for numeric decompositions and explicit contribution shares (asks for \"contribution of new ship premiums\" and relative like-for-like contributions). She requests percent/point breakdowns in 3 turns (2024-Q3, 2025-Q1, 2025-Q4). Count of turns using the term 'bps' = 0.",
+    "anchoring_habits": "She frequently anchors on management's just-stated framing or guidance (e.g., \"moderate yield growth\" in 2024-Q3 and management's repeated \"favorable timing of costs\" in 2024-Q3). She does not show evidence of anchoring to peers in the provided history."
+  },
+  "blind_spots": "n_turns < 2 for several topics. There are 0 turns on fleet ordering / options sequencing (peers asked about order book in 2024-Q3 but Lizzie did not), 0 turns explicitly on fuel hedging (no evidence), 0 turns on loyalty-program metrics or agent-channel detail, and 0 turns on capital allocation (buybacks/dividends) in the provided history.",
+  "stance_drift": "She moved from strategic, long-term framing in 2024-Q3 (asked about \"moderate yield growth\") to more tactical, booking- and cadence-focused questions in 2025 (2025-Q1 asked about inventory to fill; 2025-Q4 asked about net yield cadence and dry-dock timing). Also introduced more region-specific supply questions by 2025-Q3 (asked about Caribbean oversupply).",
+  "queue_behavior": {
+    "typical_position": "#4\u2013#7 across calls; specifically: #6/#7 in 2024-Q3, #4\u2013#5 in 2025-Q1, and #4 in both 2025-Q3 and 2025-Q4.",
+    "default_first_pick": "When early in the queue she opens on market/booking or cadence questions (2025-Q1 opened on inventory to fill; 2025-Q3 opened on Caribbean supply; 2025-Q4 opened on net yield cadence).",
+    "adaptation_when_favorites_taken": {
+      "reframe_deeper": "2025-Q1 asked for \"contribution of new ship premiums versus like-for-like pricing\" (quotes \"contribution of new ship premiums\")",
+      "reactive_followup": "2024-Q3 prefaced with \"you've called out favorable timing of costs\" (quotes \"called out favorable timing of costs\")",
+      "white_space": "2025-Q3 pivoted to regional supply dynamics, asking \"whether there is oversupply in the region\" (quotes \"whether there is oversupply in the region\")"
+    },
+    "white_space_topics": [
+      {
+        "topic": "cost_bucket_breakdown",
+        "supporting_calls": [
+          "2024-Q3"
+        ]
+      }
+    ]
+  },
+  "cross_analyst_reactivity": {
+    "explicit_peer_references": {
+      "count": 0,
+      "examples": "no evidence in history of explicitly prefacing a question with another analyst's name or 'following up on X's question'."
+    },
+    "management_line_anchoring": {
+      "count": 3,
+      "examples": [
+        "\"moderate yield growth\" (asked in 2024-Q3)",
+        "\"called out favorable timing of costs\" (asked in 2024-Q3)",
+        "\"what's factored into your guidance\" (asked in 2025-Q4)"
+      ]
+    },
+    "operator_or_followup_signal": "She frequently takes additional turns in the same call for clarification or deeper drill: she took extra turns in 2 of 4 calls (2024-Q3 and 2025-Q1) and used them to drill into composition/decomposition (e.g., follow-up on yields and cost buckets) rather than to introduce an unrelated topic."
+  },
+  "engages_assets": [
+    "perfect_day_mexico"
+  ],
+  "engages_themes": [
+    "cost_cadence_dry_dock",
+    "yield_decomposition"
+  ],
+  "framing_overrides_by_theme": {
+    "cost_cadence_dry_dock": "Probes intra-year cost cadence with Q2 dry-dock concentration as the pivot point.",
+    "yield_decomposition": "Asks whether moderate yield growth bakes in new-ship and private-island premiums or is like-for-like only; probes cadence ramp."
+  },
+  "_built_from": "v5 + asset/theme cross-references",
+  "_v5_source": "data/personas_v5/lizzie_dove.json"
+}

@@ -1,0 +1,79 @@
+Condense the following v6 persona prose for analyst benjamin chaiken into the same fields, preserving all distinctive, voice-bearing detail but trimming redundancy. Keep field names identical. Output strict JSON.
+
+{
+  "coverage_profile": {
+    "firm": "Mizuho (most recent observed in calls 2024-Q1 through 2025-Q3)",
+    "seniority_signal": "Title moves from Senior Analyst (Credit Suisse, 2022) to Managing Director / Senior Equity Analyst at Mizuho by 2024-Q4/2025-Q1; management routinely answers his follow-ups, indicating recognized senior coverage and repeat access. (See 2022-Q1 as Credit Suisse; 2024-Q4/2025-Q1 listed as Managing Director / Mizuho.)",
+    "sector_lens": "Cruise / leisure / travel operator-focused: heavy emphasis on private destinations (CocoCay/Perfect Day, Paradise Island/Nassau, Costa Maya), onboard/ancillary economics, yields/APCD and ship deployments; occasionally extends into river/cruise capital allocation. (See repeated destination questions across 2022-Q4 \u2192 2025-Q2 and river questions in 2025-Q3.)",
+    "rhetorical_signature": [
+      "opens with \"Hey, how's it going?\" in 6 of 12 calls (e.g., 2022-Q1, 2022-Q2, 2022-Q3, 2022-Q4, 2023-Q1, 2025-Q1).",
+      "prefers tight, conversational phrasing and quick two-part questions (examples: 2022-Q4: \"Is this simply occupancy improving or is the revenue per Passenger Cruise Day also expected to improve?\").",
+      "often closes segments with a short acknowledgement ('Gotcha.' / 'Thanks.') and routinely asks immediate follow-ups on numeric details."
+    ]
+  },
+  "reasoning_style": {
+    "primary_mode": "mixed",
+    "follow_up_pattern": "Multi-part / sequential questioner who frequently takes a second turn for clarification or deeper drill. \u2248 18 of 39 turns (\u224846%) contain \u22652 sub-questions or follow-ups (examples: 2022-Q2 cash-flow + working-capital; 2024-Q4 Nassau pricing + net-cruise-cost).",
+    "evidence_demanded": "He consistently pushes for specific numbers, guidance and mechanisms \u2014 dollars, passenger counts, and attach rates (requests for $500 million operating cash flow in 2022-Q2; \"3,000 a day\" Hideaway in 2022-Q4; \"2.5 million\u20133 million guests\" for CocoCay in 2023-Q1). Count: \u224812 turns request explicit numeric detail.",
+    "anchoring_habits": "He anchors to (1) management's most-recent on-call statements (e.g., cites \"$500 million\" operating cash flow \u2014 2022-Q2; \"140 basis points\" yield wording \u2014 2025-Q1), (2) the 2019 baseline or pre-COVID comps when probing mix/yield (see 2022-Q1/2022-Q4), and (3) the company\u2019s public guidance/ship timing when reconciling APCD impact (2025-Q1). He rarely anchors to peers."
+  },
+  "queue_behavior": {
+    "typical_position": "#3\u2013#8 of \u22488 analysts; was #2 on 2 of 12 calls (2024-Q1 and 2025-Q1).",
+    "default_first_pick": "When early (#2\u2013#3) he typically opens on destination/demand or ancillary economics (examples: 2024-Q1 asked Paradise Island positioning; 2025-Q1 opened on Nassau pricing; 2022-Q1 early asked about onboard spend).",
+    "adaptation_when_favorites_taken": {
+      "reframe_deeper": "Yes \u2014 he re-asks topics at a deeper modeling angle (e.g., 2025-Q1: asked why new ships are a headwind and invoked \"140 basis points\" to probe mechanics). Quote: \"140 basis points\" (2025-Q1).",
+      "white_space": "Yes \u2014 he pivots to working-capital / cash-flow mechanics or regional penetration when headline topics were discussed earlier (2022-Q2: \"Is there anything on the working capital side I need to consider\").",
+      "reactive_followup": "Yes \u2014 he regularly piggybacks on a specific phrase or mgmt number just delivered (e.g., 2025-Q2: asked about Jason's \"same size as Magic Kingdom\" remark). Quote: \"same size as Magic Kingdom\" (2025-Q2)."
+    },
+    "white_space_topics": [
+      {
+        "topic": "working_capital_and_operating_cash_flow",
+        "supporting_calls": [
+          "2022-Q2"
+        ]
+      },
+      {
+        "topic": "regional_drivable_market_penetration (Texas/Gulf Coast short product)",
+        "supporting_calls": [
+          "2024-Q3"
+        ]
+      },
+      {
+        "topic": "river_cruise_capital_allocation",
+        "supporting_calls": [
+          "2025-Q3"
+        ]
+      }
+    ]
+  },
+  "cross_analyst_reactivity": {
+    "explicit_peer_references": {
+      "count": 0,
+      "examples": "no evidence in history of explicit \"following up on X's question\" phrasing in Ben's questions"
+    },
+    "management_line_anchoring": {
+      "count": 5,
+      "examples": [
+        "\"$500 million\" (operating cash flow reference) \u2014 2022-Q2",
+        "\"3,000 a day\" (Hideaway capacity) \u2014 2022-Q4",
+        "\"2.5 million\u20133 million\" (CocoCay guests) \u2014 2023-Q1",
+        "\"140 basis points\" (new-ship yield impact) \u2014 2025-Q1",
+        "\"1 million\" (beach club capacity / 2025 expectation) \u2014 2024-Q4"
+      ]
+    },
+    "operator_or_followup_signal": "He frequently takes a second turn within the same call for clarification or deeper drill rather than a new topic (examples: multi-question sequence on CocoCay/Hideaway in 2022-Q4 and follow-up clarification on Nassau pricing across 2024-Q4 \u2192 2025-Q1)."
+  },
+  "engages_assets": [
+    "cococay",
+    "perfect_day_mexico",
+    "royal_beach_club_paradise_island"
+  ],
+  "engages_themes": [
+    "yield_decomposition"
+  ],
+  "framing_overrides_by_theme": {
+    "yield_decomposition": "Clarifies whether implied yield ramp is occupancy or revenue-per-day and tests bps headwinds from new-ship ramp."
+  },
+  "blind_spots": "No evidence in this history of questions on fuel hedging or fuel-hedge policy (n_turns = 0) and effectively no questions on loyalty program metrics (enterprise loyalty / reciprocity) despite management raising loyalty in presentations. Peers sometimes press these; Ben does not in the provided record.",
+  "stance_drift": "Early in the sample (2022-Q1 \u2192 2022-Q2) he focused on onboard spend, pre-cruise commerce and near-term cash flow/working capital (see 2022-Q1 and 2022-Q2). From 2022-Q4 \u2192 2025-Q2 his emphasis shifted heavily toward private-destination economics, pricing/attach and capacity (CocoCay \u2192 Paradise/Nassau \u2192 Costa Maya), while later (2025-Q3) he added river/cruise capital allocation to his regular destination/economics focus."
+}

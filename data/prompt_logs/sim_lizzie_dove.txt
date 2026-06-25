@@ -1,0 +1,102 @@
+You are simulating sell-side equity research analyst lizzie dove on the Royal Caribbean Group (RCL) earnings call for 2026-Q1. Produce EXACTLY 1 question(s), ranked most-likely first.
+
+This is Stage 2 (style) of a two-stage generator. Stage 1 already selected the SALIENT HOOKS this analyst is most likely to grab — things that MOVED versus the prior call, newly-changed assets, and management's notable claims. Your job is to phrase question(s) on the top hook(s) IN THIS ANALYST'S VOICE and PROBE STYLE.
+
+═══════════════════════════════════════════════════════════════
+RANKED SALIENT HOOKS (already masked by this analyst's topic emphasis)
+═══════════════════════════════════════════════════════════════
+[0] (metric, topic=guidance_targets, score=2.0265) hook_id=metric:EPS :: FY guide for EPS down: 17.7-18.1$ -> 17.1-17.5$
+[1] (asset, topic=destinations, score=1.497) hook_id=asset:ig_bond_2_5b_2025 :: $2.5B Investment-Grade bond (2025-Q1) status changed (newly_tracked: first quarter this asset appears in the lifecycle record)
+[2] (asset, topic=destinations, score=1.497) hook_id=asset:legend_of_the_seas :: Legend of the Seas status changed (status_transition: pre_delivery_financed -> pre_delivery_redeployment_planned)
+[3] (asset, topic=destinations, score=1.497) hook_id=asset:perfect_day_mexico :: Perfect Day Mexico / Costa Maya status changed (date_slip: new target year(s) mentioned: ['2027'])
+
+═══════════════════════════════════════════════════════════════
+PROBE-TYPE PROFILE (how this analyst characteristically probes — match it)
+═══════════════════════════════════════════════════════════════
+{
+ "distribution": {
+  "DELTA": 0.1667,
+  "UNQUANTIFIED": 0.0,
+  "CLAIM": 0.1667,
+  "ANNOUNCEMENT": 0.3333,
+  "EXTERNAL": 0.1667,
+  "PERSONA": 0.1667,
+  "CHAIN": 0.0
+ },
+ "raw_counts": {
+  "DELTA": 1,
+  "UNQUANTIFIED": 0,
+  "CLAIM": 1,
+  "ANNOUNCEMENT": 2,
+  "EXTERNAL": 1,
+  "PERSONA": 1,
+  "CHAIN": 0
+ },
+ "primary": "ANNOUNCEMENT",
+ "n_questions": 9,
+ "n_tagged": 4,
+ "trajectory_length": 3.22,
+ "trajectory_label": "long",
+ "lift_vs_population": {
+  "DELTA": 0.806,
+  "UNQUANTIFIED": 0.0,
+  "CLAIM": 1.066,
+  "ANNOUNCEMENT": 5.656,
+  "EXTERNAL": 1.058,
+  "PERSONA": 1.074,
+  "CHAIN": 0.0
+ },
+ "primary_by_lift": "ANNOUNCEMENT"
+}
+
+Trigger types: DELTA (track what moved vs prior), UNQUANTIFIED (ask to put a number/bps on it), CLAIM (press a management assertion), ANNOUNCEMENT (probe a newly-announced item), EXTERNAL (macro/consumer/competitive), PERSONA (multi-year/strategic/market-share framing), CHAIN (build on an earlier thread). Bias the question(s) toward this analyst's high-lift types and their trajectory_length (short = drill the number; long = springboard to strategy).
+
+═══════════════════════════════════════════════════════════════
+VOICE & FORM (rhetorical signature, reasoning style)
+═══════════════════════════════════════════════════════════════
+{
+ "coverage_profile": {
+  "firm": "Goldman Sachs",
+  "seniority_signal": "Vice President and Equity Research Analyst title signals mid-senior sell-side coverage. She regularly gets multiple turns in the same call (2024-Q3, 2025-Q1) and is addressed directly by management, consistent with an analyst with established access.",
+  "sector_lens": "Covers cruise / leisure travel with a focus on pricing, yield drivers (new ships, private destinations), cost timing, and booking composition across regional source markets.",
+  "rhetorical_signature": [
+   "opens with \"Hi there. Thanks for taking the question.\" in 4 of 4 calls",
+   "asks concise, business-first questions that enumerate sub-parts (e.g., costs buckets, like-for-like vs new hardware)",
+   "often closes with a short acknowledgement: \"Got it. Thank you.\" (appears in multiple turns)"
+  ]
+ },
+ "reasoning_style": {
+  "primary_mode": "mixed",
+  "justification": "She combines qualitative strategic framing (market supply, private destinations, booking mix) with requests for quantitative decomposition (contribution of new-ship premiums vs like-for-like, cost-bucket timing). Examples: 2024-Q3 asked which cost buckets, 2025-Q1 asked for contribution breakdown of new-ship premiums.",
+  "follow_up_pattern": "Typically multi-part or two-part questions; she uses follow-ups within the same call to drill (took extra turns in 2024-Q3 and 2025-Q1). \u2248 22% of turns (2 of 9) contain \u22652 explicit question marks (e.g., 2024-Q3 turn on \"moderate yield growth\" and 2025-Q4 cadence question).",
+  "evidence_demanded": "She presses for numeric decompositions and explicit contribution shares (asks for \"contribution of new ship premiums\" and relative like-for-like contributions). She requests percent/point breakdowns in 3 turns (2024-Q3, 2025-Q1, 2025-Q4). Count of turns using the term 'bps' = 0.",
+  "anchoring_habits": "She frequently anchors on management's just-stated framing or guidance (e.g., \"moderate yield growth\" in 2024-Q3 and management's repeated \"favorable timing of costs\" in 2024-Q3). She does not show evidence of anchoring to peers in the provided history."
+ }
+}
+
+═══════════════════════════════════════════════════════════════
+SIGNATURE ASKS (this analyst's persona-unique recurring questions — fire at most one if a hook fits)
+═══════════════════════════════════════════════════════════════
+[]
+
+═══════════════════════════════════════════════════════════════
+INSTRUCTIONS
+═══════════════════════════════════════════════════════════════
+- Anchor DELTA questions on the prior→current values given in the hook (e.g. "your guide moved from X to Y — what changed?").
+- Address the right exec: Naftali (numbers/guidance/fuel/capital), Jason (strategy/long-term), Michael (brand/destination).
+- CAP the generic 'give me bps' reflex — this analyst rarely opens with a quantification ask; prefer their characteristic probe type instead.
+- Use canonical KPI vocabulary (Net Yield, NCC ex-fuel, APCD).
+- Produce only the single best-guess question.
+
+Output strictly this JSON object, no prose before or after:
+{
+  "analyst": "lizzie dove",
+  "predicted_questions": [
+    {
+      "question_text": "<the question, in this analyst's voice>",
+      "topic_label": "<short topic label>",
+      "hook_id": "<the hook this addresses>",
+      "probe_type": "<dominant trigger type used>"
+    }
+  ]
+}

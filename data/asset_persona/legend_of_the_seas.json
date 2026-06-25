@@ -1,0 +1,87 @@
+{
+  "asset_id": "legend_of_the_seas",
+  "display_name": "Legend of the Seas",
+  "category": "ship",
+  "linked_pillars": [
+    "Fleet / New-builds",
+    "Icon Class",
+    "Perfecta"
+  ],
+  "lifecycle_by_quarter": {
+    "2025-Q2": {
+      "status": "on_order",
+      "key_uncertainties": [
+        "delivery slot timing",
+        "European deployment economics vs. Caribbean baseline"
+      ],
+      "mgmt_statement_summary": "Included in the seven-ship introduction plan over the next several years, with Legend of the Seas slated for 2026 between Xcel (2025) and Icon 4 / first Celebrity River (2027).",
+      "status_changed_this_quarter": true,
+      "status_delta": {
+        "prior_status": null,
+        "current_status": "on_order",
+        "change_type": "newly_tracked",
+        "detail": "first quarter this asset appears in the lifecycle record"
+      }
+    },
+    "2025-Q3": {
+      "status": "on_order_deployment_specified",
+      "key_uncertainties": [
+        "European summer pricing absorption",
+        "share of the 6% 2026 capacity growth attributable to Legend"
+      ],
+      "mgmt_statement_summary": "2026 capacity expected up ~6%, driven by Legend's European summer debut plus full-year Star and Xcel.",
+      "status_changed_this_quarter": true,
+      "status_delta": {
+        "prior_status": "on_order",
+        "current_status": "on_order_deployment_specified",
+        "change_type": "status_transition",
+        "detail": "on_order -> on_order_deployment_specified"
+      }
+    },
+    "2025-Q4": {
+      "status": "pre_delivery_financed",
+      "key_uncertainties": [
+        "sustaining Star/Xcel-level booking premium",
+        "Europe at 15% of capacity growing 5% \u2014 yield discipline risk"
+      ],
+      "mgmt_statement_summary": "Delivery in Q2 2026 with committed financing in place; strong booking trends; first Icon-class ship to debut in Europe. Total 2026 capacity now framed at +6.7% year-over-year.",
+      "status_changed_this_quarter": true,
+      "status_delta": {
+        "prior_status": "on_order_deployment_specified",
+        "current_status": "pre_delivery_financed",
+        "change_type": "status_transition",
+        "detail": "on_order_deployment_specified -> pre_delivery_financed"
+      }
+    },
+    "2026-Q1": {
+      "status": "pre_delivery_redeployment_planned",
+      "key_uncertainties": [
+        "transition from European summer to Caribbean winter (Nov redeploy)",
+        "Q4 like-for-like comp impact",
+        "Caribbean pricing absorption of an incremental Icon-class ship"
+      ],
+      "mgmt_statement_summary": "Third Icon-class ship; Europe summer 2026 debut followed by Caribbean redeployment in November; cited as easier Q4 comp and a structural tailwind alongside a fuller year of Star.",
+      "status_changed_this_quarter": true,
+      "status_delta": {
+        "prior_status": "pre_delivery_financed",
+        "current_status": "pre_delivery_redeployment_planned",
+        "change_type": "status_transition",
+        "detail": "pre_delivery_financed -> pre_delivery_redeployment_planned"
+      }
+    }
+  },
+  "analyst_relevance": {
+    "asked_by_history": [],
+    "primary_framings_observed": [
+      "Capacity growth contribution in 2026 (+6 to +6.7%)",
+      "Booking strength and yield premium of Icon class",
+      "Europe debut economics and Caribbean redeployment as Q4 tailwind"
+    ]
+  },
+  "currently_open_questions_as_of_2026Q1": [
+    "Does Legend match Star and Xcel on booked APD and load factor in its inaugural European season?",
+    "What is the yield delta between Legend's European summer deployment and the November Caribbean redeployment?",
+    "How does Legend reshape the 2026 Q4 like-for-like comparison versus 2025 Q4?",
+    "Has committed financing materially altered the per-berth capital cost relative to Star/Xcel?"
+  ]
+}

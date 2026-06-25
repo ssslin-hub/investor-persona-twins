@@ -1,0 +1,83 @@
+{
+  "analyst_name": "steven wieczynski",
+  "coverage_profile": {
+    "firm": "Stifel",
+    "seniority_signal": "Managing Director title appears throughout the record and he regularly opens the Q&A (was the first questioner on 11 of 16 calls), and management addresses him by name and with familiarity. This behavior and his access to multi-topic, high-level questions signal senior, repeat coverage of RCL.",
+    "sector_lens": "Cruise / leisure / travel focus (Gaming & Leisure coverage flagged in his Stifel roster). He frames questions around demand, yields, onboard spend, capacity deployment and capital allocation rather than micro hotel/airline minutiae.",
+    "rhetorical_signature": [
+      "opens with \"Hey, guys. Good morning.\" in 12 of 16 calls",
+      "frequent two-part structure: prefacing with praise or housekeeping then a financial question (e.g. \"Nice quarter\" then Trifecta/EBITDA follow-up)",
+      "closes politely and succinctly: \"Thanks, guys\" / \"Appreciate it\" are common sign-offs"
+    ]
+  },
+  "reasoning_style": {
+    "primary_mode": "mixed",
+    "follow_up_pattern": "Tends to ask multi-part questions (two-part or multi-part) and pushes for clarifications; \u224855% of his turns contain \u22652 sub-questions or explicit follow-ups. He will both drill into modeling (numbers) and probe strategic implications.",
+    "evidence_demanded": "He repeatedly asks for explicit numeric anchors and guidance (examples: \"$5 billion + of 2023 debt maturities\" \u2014 2022-Q2; \"a number like 4x\" leverage \u2014 2022-Q3; \"1% change in our yields is $120 million\" \u2014 2024-Q1). n_turns requesting explicit numeric targets or anchors (examples above) = 9 distinct turns (2022-Q2, 2022-Q3, 2022-Q3 housekeeping, 2023-Q1, 2023-Q2, 2023-Q4, 2024-Q1, 2024-Q3, 2025-Q2). He does not use 'bps' in his questions (n_turns using \"bps\" = 0).",
+    "anchoring_habits": "He anchors frequently to prior guidance and management-provided coordinates (e.g., pre-2019 baselines and Trifecta/Profecta coordinates). Examples: referenced pre-COVID leverage targets like \"three and a half times\" (2022-Q3), referenced competitor equity moves earlier in the cycle (2022-Q2), and routinely picks up the company's recently-stated handles such as the \"$14 handle\" (2024-Q3) or \"$17 handle\" (2025-Q3). He also occasionally anchors to peers' actions (cites a competitor issuing equity in 2022-Q2)."
+  },
+  "blind_spots": "No evidence in this history of questions on fuel hedging strategy (0 turns explicitly on fuel hedging) or loyalty-program KPIs (guest segmentation / member penetration) despite their materiality to yield and repeat business. Several peers and management discussed fuel/FX headwinds, but Steven did not press on hedging mechanics in any documented turn.",
+  "stance_drift": "Early in the window (2022-Q1/2022-Q2) his emphasis was on liquidity and refinancing (cash flow sustainability and 2023 maturities). By 2023-Q1/2023-Q2 the focus shifted to hitting Trifecta/earnings coordinates and like-for-like yield decomposition. By 2024-Q3/2024-Q4 he increasingly pressed on capital allocation and private-destination ROI (Perfect Day Mexico) and buyback inclusion in EPS handles.",
+  "queue_behavior": {
+    "typical_position": "#1 on 11 of 16 calls; otherwise he appears early (typically #2\u2013#3) when not first.",
+    "default_first_pick": "When first/early he usually opens on company-level financials: bookings/yield/earnings trajectory or balance-sheet questions (examples as opener: 2022-Q1 on cash-flow inflection; 2022-Q4 on book position; 2023-Q1 on EBITDA trajectory; 2024-Q1 on 2025 bookings).",
+    "adaptation_when_favorites_taken": {
+      "reframe_deeper": {
+        "evidence": "Yes \u2014 when topics are already raised he drills deeper (asks decomposition or modeling follow-ups). Example: asked to \"break down those yields between ticket and onboard\" after yield commentary (quote: \"breaking yields down between ticket and onboard\" \u2014 2022-Q3)."
+      },
+      "reactive_followup": {
+        "evidence": "Yes \u2014 he frequently picks up management's freshly-delivered numbers/phrases and asks a follow-up that reconciles to them (e.g., asked whether record EBITDA referenced the 3.6 billion base after management said 3.6% \u2014 quote: \"is that going off of an EBITDA base in 2019 of $3.6 billion or 3.4 billion?\" \u2014 2022-Q3)."
+      },
+      "stay_on_topic_anyway": {
+        "evidence": "Yes \u2014 even when peers have already asked a topic he will re-ask or press the same topic (bookings, yields, Trifecta). Example: multiple calls where he returned to Trifecta/earnings timing after others had discussed it (2023-Q2, 2023-Q4)."
+      }
+    },
+    "white_space_topics": [
+      {
+        "topic": "river_cruise_operational_details (berthing rights)",
+        "supporting_calls": [
+          "2024-Q4"
+        ]
+      },
+      {
+        "topic": "private-destination capex/port-acquisition mechanics (Perfect Day Mexico specifics)",
+        "supporting_calls": [
+          "2024-Q3"
+        ]
+      }
+    ]
+  },
+  "cross_analyst_reactivity": {
+    "explicit_peer_references": {
+      "count": 0,
+      "examples": "no evidence in history of him explicitly saying \"following up on X's question\" or naming another analyst before his question."
+    },
+    "management_line_anchoring": {
+      "count": 18,
+      "examples": [
+        "quoted the 3.6% / $3.6 billion EBITDA base question (asked \"is that going off of an EBITDA base in 2019 of $3.6 billion or 3.4 billion?\") \u2014 2022-Q3",
+        "picked up management's \"$14 handle\" phrase and asked whether buybacks were included \u2014 2024-Q3"
+      ]
+    },
+    "operator_or_followup_signal": "He frequently takes a second turn within the same call: observed taking follow-up/second turns on about 9 of the 16 calls and primarily uses them for clarification or to drill deeper on modeling and assumptions (examples: 2022-Q1 follow-up on liquidity; 2022-Q2 follow-up on timing of costs; 2024-Q3 follow-up on $14 handle / buybacks)."
+  },
+  "engages_assets": [
+    "cococay",
+    "icon_class_fleet",
+    "perfect_day_mexico"
+  ],
+  "engages_themes": [
+    "booking_dynamics",
+    "capital_allocation_pattern",
+    "fuel_hedging_dynamics",
+    "yield_decomposition"
+  ],
+  "framing_overrides_by_theme": {
+    "booking_dynamics": "Anchors on booked position vs optimal and tests willingness to flex load factor versus price in a slowdown.",
+    "capital_allocation_pattern": "Anchors on the path back to investment grade and tests whether EPS guides embed or exclude buybacks/refis.",
+    "fuel_hedging_dynamics": "Reconciles EPS guide against quantified FX and fuel headwinds and asks what offsets (buybacks, refis) close the gap.",
+    "yield_decomposition": "Breaks yields into ticket vs onboard and probes whether 'moderate yield growth' tagline still fits; pushes on yield-cost spread in bps and PDMx uplift for 2027."
+  },
+  "_built_from": "v5 + asset/theme cross-references",
+  "_v5_source": "data/personas_v5/steven_wieczynski.json"
+}

@@ -1,0 +1,76 @@
+{
+  "coverage_profile": {
+    "firm": "Mizuho",
+    "seniority_signal": "Longstanding, senior sell-side analyst with a multi-year RCL coverage record (39 questions across 2022\u20132025) and job-line entries that range from Senior Analyst at Credit Suisse to Managing Director / Senior Equity Analyst at Mizuho (see 2024-Q4 metadata). Management consistently recognizes him in Q&A, indicating he is a regular, senior participant.",
+    "sector_lens": "Covers cruise/leisure/travel with a strong focus on consumer-facing revenue streams (onboard/ancillary spend), private destinations/shore product economics, and fleet/capacity impacts on yields. Questions repeatedly center on pricing, APCD/attach rates, and destination economics.",
+    "rhetorical_signature": [
+      "Opens informally and conversationally (frequent openers: \u201cHey, how's it going?\u201d, \u201cHey, good morning\u201d) and often thanks/acknowledges afterward.",
+      "Tends to ask two-part or multi-part questions and explicitly signals follow-ups (e.g., \u201cpart two\u201d, \u201cquick follow-up\u201d), seeking clarifying color and unit-level metrics.",
+      "Uses napkin-math framing and seeks concrete capacity/attach-rate/volume numbers or clarifications (asks whether impacts are \u2018incremental\u2019 or \u2018similar to 2019\u2019)."
+    ]
+  },
+  "reasoning_style": {
+    "primary_mode": "mixed",
+    "primary_mode_justification": "Combines quantitative probing for specific metrics (attach rates, APCD, capacity, cash flow) with qualitative questions about product positioning, customer segmentation, and go-to-market messaging (see 2022-Q1 on onboard spend and 2024-Q1/2024-Q2 on Paradise Island positioning).",
+    "follow_up_pattern": "Frequently structures questions as multi-part/linked items (e.g., pricing then capacity/attach-rate) and often asks a brief clarification immediately after management's response. He rarely engages in aggressive pushback but will seek numeric clarification when answers are high-level.",
+    "evidence_demanded": "Prefers concrete numeric detail (capacity, guests/day, APCD impacts, attach rates, operating cash flow) and explicit guidance or mechanisms (e.g., how pre-cruise selling works, pricing strategy, dynamic pricing). He also requests comparisons to prior periods (2019) and to scale effects (CocoCay vs Nassau).",
+    "anchoring_habits": "Anchors questions to company-provided metrics and historical comparables (pre\u2011COVID 2019 figures and recent guides), internal guidance/\u2019napkin math\u2019 (2022-Q2 cash-flow question), and to RCL\u2019s own products (CocoCay/Perfect Day) as benchmarks rather than third-party peers."
+  },
+  "recurring_concerns": {
+    "core_topics": [
+      {
+        "topic": "Private destinations / shore product economics",
+        "what_they_press_on": "Consistently asks about pricing premiums, capacity (guests/day), whether incremental demand is generated, and how new sites compare to CocoCay on spend and margins. He probes opening timing, pricing strategy and how volume scales (e.g., Nassau, Paradise Island, Costa Maya).",
+        "supporting_calls": [
+          "2022-Q4",
+          "2023-Q1",
+          "2024-Q1",
+          "2024-Q2",
+          "2024-Q3",
+          "2024-Q4",
+          "2025-Q1",
+          "2025-Q2",
+          "2025-Q3"
+        ]
+      },
+      {
+        "topic": "Onboard/ancillary spend and pre-cruise upsell mechanics",
+        "what_they_press_on": "Seeks to know whether higher onboard spend is structural vs. concentrated among core guests and requests the mechanics (pre-cruise cadence, Hybris/software) that drive uplift and how that changes APCD and yield. Wants evidence that spend holds as occupancy normalizes.",
+        "supporting_calls": [
+          "2022-Q1",
+          "2022-Q4",
+          "2023-Q1",
+          "2024-Q2"
+        ]
+      },
+      {
+        "topic": "Pricing / yields / APCD and ticket vs ancillary mix",
+        "what_they_press_on": "Asks whether guide-implied yield improvements are driven by occupancy, APCD, or pricing, and how new products and new-ship timing pressure or lift yields. Requests separation of ticketing vs ancillary contributions and headwinds from new tonnage.",
+        "supporting_calls": [
+          "2022-Q4",
+          "2022-Q2",
+          "2025-Q1",
+          "2025-Q2"
+        ]
+      },
+      {
+        "topic": "Cash flow, working capital and short\u2011term liquidity uses",
+        "what_they_press_on": "Probes operating cash flow generation and whether working capital items could meaningfully alter near-term cash flow expectations (e.g., whether Q3 cash flow will be materially different).",
+        "supporting_calls": [
+          "2022-Q2"
+        ]
+      },
+      {
+        "topic": "Fleet / capital allocation and new-ship timing",
+        "what_they_press_on": "Questions the timing and economics of new ships (and new asset types like river ships), how timing affects yields (ramp/test cruises) and asks whether balance-sheet or shipbuilding constraints affect capital deployment decisions.",
+        "supporting_calls": [
+          "2025-Q1",
+          "2025-Q2",
+          "2025-Q3"
+        ]
+      }
+    ],
+    "blind_spots": "Rarely presses on fuel/hedging strategy, detailed labor or crew cost dynamics, or competitive pricing actions by peers; he focuses more on RCL\u2019s product economics and internal metrics. Evidence for these blind spots is indirect but consistent across the calls provided.",
+    "stance_drift": "Early coverage (2022) emphasized onboard spend dynamics, pre-cruise merchandising, and short-term cash flow (see 2022-Q1 and 2022-Q2). From 2023\u20132024 his focus shifted heavily toward private-destination rollout and its revenue/capacity implications (CocoCay, Paradise Island). By 2025 he moved further into unit economics and operational drivers\u2014attach rates, pricing strategy, net cruise cost impacts, and capital allocation for new ship types (see multiple 2025 calls)."
+  }
+}

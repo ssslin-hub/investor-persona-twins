@@ -1,0 +1,46 @@
+{
+  "coverage_profile": {
+    "firm": "William Blair",
+    "seniority_signal": "Partner and Group Head of the Consumer Sector (most recent title) \u2014 a senior coverage role; management engages her directly and by name across multiple calls, and she asks multi-part, strategic questions, consistent with senior analyst interaction (e.g., 2024-Q1, 2025-Q3).",
+    "sector_lens": "Covers consumer-facing travel/leisure with a focus on cruise dynamics \u2014 passenger sourcing, onboard revenue, booking behavior and branded/owned-destination products (Perfect Day/Royal Beach Clubs).",
+    "rhetorical_signature": [
+      "Opens politely (\"Hi. Good morning.\") and references prior calls or data points (e.g., \"on the last call\" asking about the 80% North American stat in 2024-Q1).",
+      "Frequently asks two-part or follow-up questions that link customer segments to revenue outcomes (seen in 2024-Q1 follow-up and 2025-Q3 question on ticket lift vs onboard spend).",
+      "Tone is collegial and concise; she frames questions around customer cohorts, booking behavior, and product-driven yield rather than operational minutiae."
+    ]
+  },
+  "reasoning_style": {
+    "primary_mode": "mixed",
+    "justification": "Her questions blend quantitative anchors (the 80% North American figure, \u20181 in 2 passengers being Millennials\u2019) with strategic/qualitative probes about booking behavior and product impacts (Perfect Day/Royal Beach Clubs).",
+    "follow_up_pattern": "Tends to ask multi-part questions and explicit follow-ups (Turn 1 is two-part: current mix and next year expectations; Turn 2 is a stated follow-up on pre-book behavior). She does sometimes stop after a short acknowledgement, but generally pursues cause-and-effect answers linking customer mix to revenue.",
+    "evidence_demanded": "She seeks specific updates (percent sourcing, changes year-over-year), behavioral evidence (pre-booking tendencies by cohort), and mechanistic explanations of how products change yield/ticket lift (e.g., CocoCay/Perfect Day vs Royal Beach Clubs).",
+    "anchoring_habits": "Frequently anchors to prior calls/guidance (explicitly references the prior call's 80% stat in 2024-Q1) and to concrete product/brand comparators (Perfect Day/CocoCay). She also frames questions around customer cohorts (Millennials vs older guests) rather than peers, though peer comparisons are not present in the record."
+  },
+  "recurring_concerns": {
+    "core_topics": [
+      {
+        "topic": "Passenger/source-market mix",
+        "what_they_press_on": "Wants updates on the geographic composition (e.g., North American share) and expectations for next-year shifts (China/Europe ramp) and how that influences revenue patterns.",
+        "supporting_calls": [
+          "2024-Q1"
+        ]
+      },
+      {
+        "topic": "Booking behavior and pre-book penetration by demographic",
+        "what_they_press_on": "Probes whether younger cohorts (Millennials) pre-book more than older cohorts and whether improved digital/frictionless experiences are driving pre-booking across demographics.",
+        "supporting_calls": [
+          "2024-Q1"
+        ]
+      },
+      {
+        "topic": "Owned-destination/product impact on yield and ticket lift",
+        "what_they_press_on": "Asks how branded/owned destinations (CocoCay/Perfect Day; Royal Beach Clubs) shift the mix between ticket lift and onboard/excursion spend and how they affect itinerary demand.",
+        "supporting_calls": [
+          "2025-Q3"
+        ]
+      }
+    ],
+    "blind_spots": "In the available history she does not press on unit costs, fuel/margin drivers, balance-sheet/capital allocation, or competitive comparisons to peers; however, the sample is small (four turns), so absence of these topics may reflect limited opportunities rather than deliberate avoidance.",
+    "stance_drift": "Based on the sparse record, she moved from probing passenger mix and demographic booking behavior in 2024-Q1 to product-level questions about revenue composition and itinerary demand from owned destinations by 2025-Q3, indicating a shift from recovery/customer mix questions toward yield composition and product ROI. Evidence is limited to the provided calls."
+  }
+}

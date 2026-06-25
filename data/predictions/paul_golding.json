@@ -1,0 +1,10 @@
+{
+  "analyst": "Macquarie Capital (Senior Analyst)",
+  "predicted_questions": [
+    {
+      "question_text": "Thanks \u2014 congrats on a strong quarter. I have a two\u2011part question. First, you said bookings for the Mediterranean and West Coast Mexico softened for a few weeks and have since been rebounding \u2014 can you quantify how much of that high\u2011yield inventory is backfilled today (e.g., % of previously available cabins) and whether the booking window/lead times and realized yields on those rebound bookings are roughly back to pre\u2011COVID norms or still meaningfully lower? Second, on commercial efficiency: you highlighted app adoption, >70% pre\u2011cruise penetration and a younger guest mix plus the new Royal ONE card \u2014 can you give a sense of how S&M/CAC is tracking versus 2019 (either $ per booking or % of revenue) and the normalized level you expect as these digital/loyalty initiatives scale?",
+      "topic_label": "booking_curve/marketing_efficiency",
+      "rationale": "Frames a two\u2011part, measurable question consistent with the persona's recurring_concerns.core_topics[0] (booking curve / demand timing) and core_topics[2] (marketing / customer acquisition efficiency). It pulls directly on management's remarks about a short\u2011term moderation and recent rebound in Mediterranean and West Coast bookings, the commentary that digital penetration has more than doubled (app MAUs 5x) and the CFO's notes on >70% pre\u2011cruise penetration and an uptick in younger/repeat guests."
+    }
+  ]
+}

@@ -1,0 +1,299 @@
+You are building a STRUCTURED PERSONA of a sell-side equity research analyst
+who covers Royal Caribbean Cruises (RCL). The persona will later be used to
+predict what this same analyst is likely to ask in a FUTURE RCL earnings call,
+given (a) that call's management presentation and (b) which other analysts have
+already spoken on that call.
+
+You will be given the analyst's name, their firm/title (if known), and a
+chronological list of their prior question turns. For each turn you receive:
+  - The CALL it was asked on (year + quarter)
+  - POSITION metadata: this analyst was the Nth analyst to speak on that call,
+    out of M total unique analysts. The names of the analysts who spoke BEFORE
+    them on the same call are listed explicitly.
+  - A short SETUP excerpt of the management presentation.
+  - The verbatim [Q&A SO FAR] excerpt — what the prior analysts asked BEFORE
+    this analyst took their turn. This is critical: use it to judge whether
+    this analyst is reframing a topic that was already raised, picking
+    untouched white space, or reacting to something a peer just asked.
+  - The analyst's QUESTION (verbatim).
+  - The management's RESPONSE excerpt (verbatim, may be empty).
+
+Produce a single JSON object with FIVE top-level keys:
+
+{
+  "coverage_profile":          { ... },   // analog of "Background"
+  "reasoning_style":           { ... },   // analog of "Decision procedure"
+  "recurring_concerns":        { ... },   // analog of "Evaluation"
+  "queue_behavior":            { ... },   // NEW — adaptation under queue order
+  "cross_analyst_reactivity":  { ... }    // NEW — explicit references to peers / management
+}
+
+Fill each sub-profile as follows. Use evidence from the turns; cite specific
+calls (e.g. "2023-Q2") and quote short verbatim phrases (≤ 12 words) where
+helpful. Do not invent facts not supported by the turns.
+
+# coverage_profile
+Who this analyst is and what lens they bring. Required fields:
+  - "firm": most recent firm/affiliation observed.
+  - "seniority_signal": evidence about their seniority (titles, length of
+    coverage, how management addresses them). 2-3 sentences.
+  - "sector_lens": what beats they cover (cruise / leisure / travel /
+    consumer / gaming / lodging / airlines). 1-2 sentences.
+  - "rhetorical_signature": tics, openers, closers, tone. 2-3 short bullets.
+    If a fixed opener phrase recurs in ≥ 30% of calls, quote it verbatim and
+    give the frequency (e.g. "opens with 'Great. Thanks' in 13 of 17 calls").
+
+# reasoning_style
+HOW the analyst probes management. Required fields:
+  - "primary_mode": one of {"quantitative_modeling", "qualitative_strategic",
+    "mixed"}, plus one sentence of justification grounded in the turns.
+  - "follow_up_pattern": within-turn structure (single question, two-parter,
+    multi-part), and whether they push back. 2-3 sentences. Quantify with
+    rough fraction (e.g. "≈ 18% of turns contain ≥ 2 question marks").
+  - "evidence_demanded": what answers they reward — specific numbers (bps, %,
+    $), explicit guidance, mechanism, peer comparison. 2-3 sentences. If you
+    claim they "demand bps", state the actual count of turns using bps.
+  - "anchoring_habits": where they anchor — prior guidance, 2019 baseline,
+    specific management line just delivered, peers (NCLH/CCL), industry
+    supply, their own prior questions. 2-3 sentences. If they anchor against
+    peers, cite the calls.
+
+# recurring_concerns
+WHAT the analyst keeps coming back to. Required fields:
+  - "core_topics": ranked list of 5-8 topical clusters, RANKED BY n_turns
+    DESCENDING (not by perceived importance). For each topic, give:
+      {
+        "topic": "short label (snake_case or short phrase)",
+        "n_turns": <integer, count of question turns touching this topic>,
+        "n_calls": <integer, count of distinct calls where it was raised>,
+        "share_of_calls": <float, n_calls divided by total calls covered, rounded to 2 decimals>,
+        "what_they_press_on": "1-2 sentences",
+        "supporting_calls": ["2022-Q4", "2023-Q3", ...]
+      }
+    A topic must have n_turns ≥ 2 to be listed. If fewer than 5 topics meet
+    that threshold, list as many as do and say so explicitly in "blind_spots".
+  - "blind_spots": topics this analyst notably does NOT push on, given peers
+    do. Be concrete (e.g. "0 turns on fuel hedging despite peers asking in
+    every Q3 call"). 2-3 sentences.
+  - "stance_drift": how emphasis has shifted across the window. Cite at least
+    two specific quarter-pairs (e.g. "in 2022-Q1/Q2 he asked about testing
+    requirements; by 2024 these dropped to zero turns"). 2-3 sentences.
+
+# queue_behavior   (NEW)
+How this analyst behaves depending on WHERE in the call they speak. Required:
+  - "typical_position": rough range observed (e.g. "#3–#5 of ≈8 analysts; was
+    #1 on 2 of 16 calls, #13+ on 6 of 16").
+  - "default_first_pick": when they are first/early to speak (no topics taken
+    yet), what topic do they typically open with? Cite the calls where they
+    were first.
+  - "adaptation_when_favorites_taken": when their top-3 core_topics have
+    already been raised by prior analysts, what do they do? Choose ONE OR MORE
+    of the following tags AND quote evidence per tag:
+      * "reframe_deeper"           — re-ask the same topic at a deeper modeling
+                                     angle (e.g. asking for like-for-like
+                                     decomposition after headline yield was
+                                     covered).
+      * "white_space"              — pivot to a topic few or no peers cover
+                                     (e.g. loyalty program data, agent feedback,
+                                     specific destination ramp).
+      * "cross_narrative_reconcile"— ask management to reconcile two threads
+                                     that emerged earlier in the Q&A.
+      * "peer_or_industry_meta"    — ask about peer/industry behavior rather
+                                     than the company directly.
+      * "reactive_followup"        — piggyback on a specific phrase a prior
+                                     analyst or management used.
+      * "stay_on_topic_anyway"     — re-ask the popular topic regardless.
+    For each tag chosen, cite ≥ 1 call and quote ≤ 12 verbatim words.
+  - "white_space_topics": list of topic labels this analyst raises that few
+    peers do (with supporting_calls). Empty list if none.
+
+# cross_analyst_reactivity   (NEW)
+How this analyst integrates in-call context that is not in the management
+presentation. Required:
+  - "explicit_peer_references": how often (count of turns and example phrases)
+    they explicitly cite another analyst's question. Examples to look for:
+    "following up on Steven's question", "to Robin's earlier point",
+    "one of your larger peers". Quote ≤ 12 words per example.
+  - "management_line_anchoring": how often they anchor on a SPECIFIC number
+    or phrase management just delivered in this call ("the 90 basis points
+    you laid out", "the 5% implied yield guidance"). Count + 1-2 examples.
+  - "operator_or_followup_signal": whether they tend to take their second turn
+    (when allowed) and what for — clarification, deeper drill, or new topic.
+
+Hard rules:
+- Output ONLY the JSON object. No prose before or after.
+- All free-text fields are 1-3 sentences each.
+- Cite specific call quarters whenever you make a claim about recurrence.
+- Quantify with integer counts (n_turns, n_calls) wherever the schema asks.
+  Do NOT use vague intensifiers ("often", "frequently") without an integer
+  count or fraction next to them.
+- If evidence for a field is thin or absent, write the field with an explicit
+  note such as "no evidence in history" or "n_turns < 2; insufficient to
+  characterise". Do not paper over thin evidence with generic language.
+- Ranking of core_topics is by n_turns descending. If two topics tie, break
+  by n_calls descending, then alphabetical.
+- All quoted verbatim phrases must be ≤ 12 words and appear in the question
+  history you were given.
+
+ANALYST NAME: ivan feinseth
+LAST OBSERVED FIRM/TITLE: Partner, Chief Investment Officer, and Director of Research, Tigress Financial Partners
+NUMBER OF QUESTIONS IN HISTORY: 6
+CALLS COVERED: 2022-Q1
+
+QUESTION HISTORY (chronological):
+--- TURN 1 | CALL: 2022-Q1 | TICKER: RCL | SECTOR: cruise | FIRM: Partner, Chief Investment Officer, and Director of Research, Tigress Financial Partners ---
+            [Queue position] This analyst was #10 to speak on this call.
+            [Analysts who spoke before them on this call]
+            Steve Wieczynski, Robin Farley, Benjamin Chaiken, Daniel Politzer, Ryan Sundby, Vince Ciepel, Stephen Grambling, Fred Wightman, Paul Golding
+
+            [Setup: management presentation excerpt]
+            Operator: Good morning. My name is Abigail, and I'll be your conference operator today. At this time, I would like to welcome everyone to Royal Caribbean Group's Business Update and First Quarter 2022 Earnings Call. All participants are in a listen-only mode. After the speaker presentation, there will be a question-and-answer session. To ask a question during the session, you will need to press star one on your telephone. I would now like to introduce Michael McCarthy, Vice President of Investor Relations. Mr. McCarthy, the floor is yours.
+Michael McCarthy (VP of Investor Relations, Royal Caribbean Group): Good morning, everyone, and thank you for joining us today for our business update, the first quarter 2022 earnings call. Joining me here in Miami are Jason Liberty, our Chief Executive Officer, Naftali Holtz, our Chief Financial Officer, and Michael Bayley, President and CEO of Royal Caribbean International. Before we get started, I would like to note that we will be making forward-looking statements during this call. These statements are based on management's current expectations and are subject to risks and uncertainties. A number of factors could cause actual results to di...
+
+            [Q&A SO FAR — what prior analysts asked, truncated]
+            ...(truncated)...ime building our brand in China, where in our space, we're a very well-known brand. We're very liked, and we have very good consumer following with the Royal Caribbean International brand. We think that when the market opens back up, we'll be able to re-access the market and get back to business. That's exactly what we're thinking.
+Paul Golding (Senior US Payments and Lifestyle Analyst, Macquarie Capital): Like, well, on the labor side, some of your land-based entertainment peers have cited waning wage increases this year as they tap international labor. I was wondering for shoreside operations, if you're seeing a similar picture, what your thoughts are around rate increases on shoreside labor for this year. Thanks so much.
+Jason Liberty (Chairman and CEO, Royal Caribbean Group): On a shoreside standpoint, I think we're experiencing. I mean, most of our shoreside employees are, you know, your sales and marketing, your accounting, your supply chain, et cetera. So, you know, what we're experiencing there is similar to what I think most organizations are experiencing, though, I think because, you know, we wake up every day delivering the best vacations in the world, we tend to be more attractive than others in terms of attracting talent, so we're very fortunate for that. I think what people are experiencing in hotels and others in terms of that labor force, you know, we're, you know, certainly, you know, getting 75,000 employees back up and running on our ships was a tremendous and herculean effort by our teams. For the most part, that's been able to be managed well, and you can see that really through the Net Promoter Scores that we're seeing on our ships.
+Paul Golding (Senior US Payments and Lifestyle Analyst, Macquarie Capital): Great. Thanks, Jason.
+Jason Liberty (Chairman and CEO, Royal Caribbean Group): Sure. We have time for one more question. Abigail.
+Operator: Sure. Our last question is from Ivan Feinseth with Tigress Financial Partners. Your line is now open.
+
+            [Operator intro to analyst, if any]
+            Sure. Our last question is from Ivan Feinseth with Tigress Financial Partners. Your line is now open.
+
+            [Analyst question]
+            Hi. Thanks for taking my question and congratulations on the ongoing progress.
+
+            [Management response excerpt]
+            Jason Liberty: Thanks, Ivan.
+
+--- TURN 2 | CALL: 2022-Q1 | TICKER: RCL | SECTOR: cruise | FIRM: Partner, Chief Investment Officer, and Director of Research, Tigress Financial Partners ---
+            [Queue position] This analyst was #11 to speak on this call.
+            [Analysts who spoke before them on this call]
+            Steve Wieczynski, Robin Farley, Benjamin Chaiken, Daniel Politzer, Ryan Sundby, Vince Ciepel, Stephen Grambling, Fred Wightman, Paul Golding, Ivan Feinseth
+
+            [Setup: management presentation excerpt]
+            Operator: Good morning. My name is Abigail, and I'll be your conference operator today. At this time, I would like to welcome everyone to Royal Caribbean Group's Business Update and First Quarter 2022 Earnings Call. All participants are in a listen-only mode. After the speaker presentation, there will be a question-and-answer session. To ask a question during the session, you will need to press star one on your telephone. I would now like to introduce Michael McCarthy, Vice President of Investor Relations. Mr. McCarthy, the floor is yours.
+Michael McCarthy (VP of Investor Relations, Royal Caribbean Group): Good morning, everyone, and thank you for joining us today for our business update, the first quarter 2022 earnings call. Joining me here in Miami are Jason Liberty, our Chief Executive Officer, Naftali Holtz, our Chief Financial Officer, and Michael Bayley, President and CEO of Royal Caribbean International. Before we get started, I would like to note that we will be making forward-looking statements during this call. These statements are based on management's current expectations and are subject to risks and uncertainties. A number of factors could cause actual results to di...
+
+            [Q&A SO FAR — what prior analysts asked, truncated]
+            ...(truncated)...ccess the market and get back to business. That's exactly what we're thinking.
+Paul Golding (Senior US Payments and Lifestyle Analyst, Macquarie Capital): Like, well, on the labor side, some of your land-based entertainment peers have cited waning wage increases this year as they tap international labor. I was wondering for shoreside operations, if you're seeing a similar picture, what your thoughts are around rate increases on shoreside labor for this year. Thanks so much.
+Jason Liberty (Chairman and CEO, Royal Caribbean Group): On a shoreside standpoint, I think we're experiencing. I mean, most of our shoreside employees are, you know, your sales and marketing, your accounting, your supply chain, et cetera. So, you know, what we're experiencing there is similar to what I think most organizations are experiencing, though, I think because, you know, we wake up every day delivering the best vacations in the world, we tend to be more attractive than others in terms of attracting talent, so we're very fortunate for that. I think what people are experiencing in hotels and others in terms of that labor force, you know, we're, you know, certainly, you know, getting 75,000 employees back up and running on our ships was a tremendous and herculean effort by our teams. For the most part, that's been able to be managed well, and you can see that really through the Net Promoter Scores that we're seeing on our ships.
+Paul Golding (Senior US Payments and Lifestyle Analyst, Macquarie Capital): Great. Thanks, Jason.
+Jason Liberty (Chairman and CEO, Royal Caribbean Group): Sure. We have time for one more question. Abigail.
+Operator: Sure. Our last question is from Ivan Feinseth with Tigress Financial Partners. Your line is now open.
+Ivan Feinseth (Partner, Chief Investment Officer, and Director of Research, Tigress Financial Partners): Hi. Thanks for taking my question and congratulations on the ongoing progress.
+Jason Liberty (Chairman and CEO, Royal Caribbean Group): Thanks, Ivan.
+
+            [Operator intro to analyst, if any]
+            Sure. Our last question is from Ivan Feinseth with Tigress Financial Partners. Your line is now open.
+
+            [Analyst question]
+            Could you go into a little more detail about your pre-cruising planning app and what kind of things it connects to, and what are some of the things that you can do with it and how you're seeing that, you know, add incremental revenue specifically outside of just onboard spending?
+
+            [Management response excerpt]
+            Michael Bayley: Well, Ivan, it's Michael. I mean, the pre-cruise revenue is fundamentally about onboard spend. I mean, everything that we're marketing is about the products and services that, customers, consumers are purchasing. I mean, historically, when they boarded our ships, they would purchase different packages and products. Now, we've over time developed the sophistication and the ability to not only use the analytics and the information that we know about the customer to offer them pr...
+
+--- TURN 3 | CALL: 2022-Q1 | TICKER: RCL | SECTOR: cruise | FIRM: Partner, Chief Investment Officer, and Director of Research, Tigress Financial Partners ---
+            [Queue position] This analyst was #11 to speak on this call.
+            [Analysts who spoke before them on this call]
+            Steve Wieczynski, Robin Farley, Benjamin Chaiken, Daniel Politzer, Ryan Sundby, Vince Ciepel, Stephen Grambling, Fred Wightman, Paul Golding, Ivan Feinseth
+
+            [Setup: management presentation excerpt]
+            Operator: Good morning. My name is Abigail, and I'll be your conference operator today. At this time, I would like to welcome everyone to Royal Caribbean Group's Business Update and First Quarter 2022 Earnings Call. All participants are in a listen-only mode. After the speaker presentation, there will be a question-and-answer session. To ask a question during the session, you will need to press star one on your telephone. I would now like to introduce Michael McCarthy, Vice President of Investor Relations. Mr. McCarthy, the floor is yours.
+Michael McCarthy (VP of Investor Relations, Royal Caribbean Group): Good morning, everyone, and thank you for joining us today for our business update, the first quarter 2022 earnings call. Joining me here in Miami are Jason Liberty, our Chief Executive Officer, Naftali Holtz, our Chief Financial Officer, and Michael Bayley, President and CEO of Royal Caribbean International. Before we get started, I would like to note that we will be making forward-looking statements during this call. These statements are based on management's current expectations and are subject to risks and uncertainties. A number of factors could cause actual results to di...
+
+            [Q&A SO FAR — what prior analysts asked, truncated]
+            ...(truncated)...se. To Jason's point, this really is the beginning of this journey. I think what we've learned in this journey is how we can offer product bundles, manage the right pricing to different customer groups and segments and be successful with it. We continue to see the penetration rate increasing, and obviously the purchase is quite significant. That's kind of the journey that we're on with this.
+Jason Liberty (Chairman and CEO, Royal Caribbean Group): Yeah. Ivan, you know, to put this into context, you know, as everyone here who's heard us for years talk about Project Excalibur, which was our journey to take friction out of the guest experience, and that has come through engagement and providing tools and technologies and app, you know, that allows you to, whether it's booking your cruise, whether it is, you know, being able to just walk on and off of our ships in very short periods of time, on-demand services. It's really kind of just continuing to build out this journey of taking friction out. What we know is if we can take friction out of the experience, and the friction is also booking shore excursions and spa appointments, et cetera, that you know, the guest is very much willing to spend when they're aware of what the offering is to them. The tools and technologies also allow us to be able to yield manage in real time, as well, which allows us to you know, take advantage when there are those opportunities.
+Michael Bayley (President and CEO, Royal Caribbean International): Just to add, Ivan, I think one of the other beautiful things of this is, to Jason's point with the development of the app, the integration between the pre-cruise and the app is very harmonious. When we're communicating with you before you sail and you purchase various packages and products, then when you board the ship and you sign into the app, all of those products and services are made available to you on a calendar. There's reminders. There's communication to you. It's a very seamless process.
+
+            [Operator intro to analyst, if any]
+
+
+            [Analyst question]
+            Okay. Very good. Now also, you can, let's say, proactively market both before and/or use it to proactively market both before and onboard? Let's say if there was downtime in the spa, you could connect with somebody.
+
+            [Management response excerpt]
+            Michael Bayley: Yes. Yep. Yeah. Yeah.
+
+--- TURN 4 | CALL: 2022-Q1 | TICKER: RCL | SECTOR: cruise | FIRM: Partner, Chief Investment Officer, and Director of Research, Tigress Financial Partners ---
+            [Queue position] This analyst was #11 to speak on this call.
+            [Analysts who spoke before them on this call]
+            Steve Wieczynski, Robin Farley, Benjamin Chaiken, Daniel Politzer, Ryan Sundby, Vince Ciepel, Stephen Grambling, Fred Wightman, Paul Golding, Ivan Feinseth
+
+            [Setup: management presentation excerpt]
+            Operator: Good morning. My name is Abigail, and I'll be your conference operator today. At this time, I would like to welcome everyone to Royal Caribbean Group's Business Update and First Quarter 2022 Earnings Call. All participants are in a listen-only mode. After the speaker presentation, there will be a question-and-answer session. To ask a question during the session, you will need to press star one on your telephone. I would now like to introduce Michael McCarthy, Vice President of Investor Relations. Mr. McCarthy, the floor is yours.
+Michael McCarthy (VP of Investor Relations, Royal Caribbean Group): Good morning, everyone, and thank you for joining us today for our business update, the first quarter 2022 earnings call. Joining me here in Miami are Jason Liberty, our Chief Executive Officer, Naftali Holtz, our Chief Financial Officer, and Michael Bayley, President and CEO of Royal Caribbean International. Before we get started, I would like to note that we will be making forward-looking statements during this call. These statements are based on management's current expectations and are subject to risks and uncertainties. A number of factors could cause actual results to di...
+
+            [Q&A SO FAR — what prior analysts asked, truncated]
+            ...(truncated)...Chairman and CEO, Royal Caribbean Group): Yeah. Ivan, you know, to put this into context, you know, as everyone here who's heard us for years talk about Project Excalibur, which was our journey to take friction out of the guest experience, and that has come through engagement and providing tools and technologies and app, you know, that allows you to, whether it's booking your cruise, whether it is, you know, being able to just walk on and off of our ships in very short periods of time, on-demand services. It's really kind of just continuing to build out this journey of taking friction out. What we know is if we can take friction out of the experience, and the friction is also booking shore excursions and spa appointments, et cetera, that you know, the guest is very much willing to spend when they're aware of what the offering is to them. The tools and technologies also allow us to be able to yield manage in real time, as well, which allows us to you know, take advantage when there are those opportunities.
+Michael Bayley (President and CEO, Royal Caribbean International): Just to add, Ivan, I think one of the other beautiful things of this is, to Jason's point with the development of the app, the integration between the pre-cruise and the app is very harmonious. When we're communicating with you before you sail and you purchase various packages and products, then when you board the ship and you sign into the app, all of those products and services are made available to you on a calendar. There's reminders. There's communication to you. It's a very seamless process.
+Ivan Feinseth (Partner, Chief Investment Officer, and Director of Research, Tigress Financial Partners): Okay. Very good. Now also, you can, let's say, proactively market both before and/or use it to proactively market both before and onboard? Let's say if there was downtime in the spa, you could connect with somebody.
+Michael Bayley (President and CEO, Royal Caribbean International): Yes. Yep. Yeah. Yeah.
+
+            [Operator intro to analyst, if any]
+
+
+            [Analyst question]
+            to book an appointment.
+
+            [Management response excerpt]
+            Michael Bayley: Yeah. Exactly right, Ivan. Yeah.
+
+--- TURN 5 | CALL: 2022-Q1 | TICKER: RCL | SECTOR: cruise | FIRM: Partner, Chief Investment Officer, and Director of Research, Tigress Financial Partners ---
+            [Queue position] This analyst was #11 to speak on this call.
+            [Analysts who spoke before them on this call]
+            Steve Wieczynski, Robin Farley, Benjamin Chaiken, Daniel Politzer, Ryan Sundby, Vince Ciepel, Stephen Grambling, Fred Wightman, Paul Golding, Ivan Feinseth
+
+            [Setup: management presentation excerpt]
+            Operator: Good morning. My name is Abigail, and I'll be your conference operator today. At this time, I would like to welcome everyone to Royal Caribbean Group's Business Update and First Quarter 2022 Earnings Call. All participants are in a listen-only mode. After the speaker presentation, there will be a question-and-answer session. To ask a question during the session, you will need to press star one on your telephone. I would now like to introduce Michael McCarthy, Vice President of Investor Relations. Mr. McCarthy, the floor is yours.
+Michael McCarthy (VP of Investor Relations, Royal Caribbean Group): Good morning, everyone, and thank you for joining us today for our business update, the first quarter 2022 earnings call. Joining me here in Miami are Jason Liberty, our Chief Executive Officer, Naftali Holtz, our Chief Financial Officer, and Michael Bayley, President and CEO of Royal Caribbean International. Before we get started, I would like to note that we will be making forward-looking statements during this call. These statements are based on management's current expectations and are subject to risks and uncertainties. A number of factors could cause actual results to di...
+
+            [Q&A SO FAR — what prior analysts asked, truncated]
+            ...(truncated)...xperience, and that has come through engagement and providing tools and technologies and app, you know, that allows you to, whether it's booking your cruise, whether it is, you know, being able to just walk on and off of our ships in very short periods of time, on-demand services. It's really kind of just continuing to build out this journey of taking friction out. What we know is if we can take friction out of the experience, and the friction is also booking shore excursions and spa appointments, et cetera, that you know, the guest is very much willing to spend when they're aware of what the offering is to them. The tools and technologies also allow us to be able to yield manage in real time, as well, which allows us to you know, take advantage when there are those opportunities.
+Michael Bayley (President and CEO, Royal Caribbean International): Just to add, Ivan, I think one of the other beautiful things of this is, to Jason's point with the development of the app, the integration between the pre-cruise and the app is very harmonious. When we're communicating with you before you sail and you purchase various packages and products, then when you board the ship and you sign into the app, all of those products and services are made available to you on a calendar. There's reminders. There's communication to you. It's a very seamless process.
+Ivan Feinseth (Partner, Chief Investment Officer, and Director of Research, Tigress Financial Partners): Okay. Very good. Now also, you can, let's say, proactively market both before and/or use it to proactively market both before and onboard? Let's say if there was downtime in the spa, you could connect with somebody.
+Michael Bayley (President and CEO, Royal Caribbean International): Yes. Yep. Yeah. Yeah.
+Ivan Feinseth (Partner, Chief Investment Officer, and Director of Research, Tigress Financial Partners): to book an appointment.
+Michael Bayley (President and CEO, Royal Caribbean International): Yeah. Exactly right, Ivan. Yeah.
+
+            [Operator intro to analyst, if any]
+
+
+            [Analyst question]
+            All right. Sounds appreciated. Thanks. Thanks again.
+
+            [Management response excerpt]
+            Jason Liberty: Thanks, Ivan.
+Michael Bayley: Thank you.
+
+--- TURN 6 | CALL: 2022-Q1 | TICKER: RCL | SECTOR: cruise | FIRM: Partner, Chief Investment Officer, and Director of Research, Tigress Financial Partners ---
+            [Queue position] This analyst was #11 to speak on this call.
+            [Analysts who spoke before them on this call]
+            Steve Wieczynski, Robin Farley, Benjamin Chaiken, Daniel Politzer, Ryan Sundby, Vince Ciepel, Stephen Grambling, Fred Wightman, Paul Golding, Ivan Feinseth
+
+            [Setup: management presentation excerpt]
+            Operator: Good morning. My name is Abigail, and I'll be your conference operator today. At this time, I would like to welcome everyone to Royal Caribbean Group's Business Update and First Quarter 2022 Earnings Call. All participants are in a listen-only mode. After the speaker presentation, there will be a question-and-answer session. To ask a question during the session, you will need to press star one on your telephone. I would now like to introduce Michael McCarthy, Vice President of Investor Relations. Mr. McCarthy, the floor is yours.
+Michael McCarthy (VP of Investor Relations, Royal Caribbean Group): Good morning, everyone, and thank you for joining us today for our business update, the first quarter 2022 earnings call. Joining me here in Miami are Jason Liberty, our Chief Executive Officer, Naftali Holtz, our Chief Financial Officer, and Michael Bayley, President and CEO of Royal Caribbean International. Before we get started, I would like to note that we will be making forward-looking statements during this call. These statements are based on management's current expectations and are subject to risks and uncertainties. A number of factors could cause actual results to di...
+
+            [Q&A SO FAR — what prior analysts asked, truncated]
+            ...(truncated)...continuing to build out this journey of taking friction out. What we know is if we can take friction out of the experience, and the friction is also booking shore excursions and spa appointments, et cetera, that you know, the guest is very much willing to spend when they're aware of what the offering is to them. The tools and technologies also allow us to be able to yield manage in real time, as well, which allows us to you know, take advantage when there are those opportunities.
+Michael Bayley (President and CEO, Royal Caribbean International): Just to add, Ivan, I think one of the other beautiful things of this is, to Jason's point with the development of the app, the integration between the pre-cruise and the app is very harmonious. When we're communicating with you before you sail and you purchase various packages and products, then when you board the ship and you sign into the app, all of those products and services are made available to you on a calendar. There's reminders. There's communication to you. It's a very seamless process.
+Ivan Feinseth (Partner, Chief Investment Officer, and Director of Research, Tigress Financial Partners): Okay. Very good. Now also, you can, let's say, proactively market both before and/or use it to proactively market both before and onboard? Let's say if there was downtime in the spa, you could connect with somebody.
+Michael Bayley (President and CEO, Royal Caribbean International): Yes. Yep. Yeah. Yeah.
+Ivan Feinseth (Partner, Chief Investment Officer, and Director of Research, Tigress Financial Partners): to book an appointment.
+Michael Bayley (President and CEO, Royal Caribbean International): Yeah. Exactly right, Ivan. Yeah.
+Ivan Feinseth (Partner, Chief Investment Officer, and Director of Research, Tigress Financial Partners): All right. Sounds appreciated. Thanks. Thanks again.
+Jason Liberty (Chairman and CEO, Royal Caribbean Group): Thanks, Ivan.
+Michael Bayley (President and CEO, Royal Caribbean International): Thank you.
+
+            [Operator intro to analyst, if any]
+
+
+            [Analyst question]
+            Ongoing.
+
+            [Management response excerpt]
+            Jason Liberty: Thank you. Well, thank you for assisting Abigail with the call today, and we thank all of you for participation and interest in the company. Michael will be available for any follow-up you might have. I wish you all a great day.

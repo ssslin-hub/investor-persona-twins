@@ -1,0 +1,316 @@
+{
+  "asset_id": "cococay",
+  "display_name": "Perfect Day at CocoCay",
+  "category": "private_destination",
+  "linked_pillars": [
+    "Private destinations expansion",
+    "Caribbean yield premium",
+    "Perfecta"
+  ],
+  "lifecycle_by_quarter": {
+    "2022-Q1": {
+      "status": "expansion",
+      "key_uncertainties": [
+        "Hideaway Beach scope and incremental capacity",
+        "timing of Hideaway addition"
+      ],
+      "mgmt_statement_summary": "Hideaway Beach expansion at Perfect Day at CocoCay progressing; framed as adding an entirely new experience and expanding island capacity. CocoCay positioned alongside leading brands and innovative fleet as a core differentiator.",
+      "status_changed_this_quarter": true,
+      "status_delta": {
+        "prior_status": null,
+        "current_status": "expansion",
+        "change_type": "newly_tracked",
+        "detail": "first quarter this asset appears in the lifecycle record"
+      }
+    },
+    "2022-Q3": {
+      "status": "mature",
+      "key_uncertainties": [
+        "sustainability of pricing premium versus 2019",
+        "share of Caribbean guests that should ultimately visit"
+      ],
+      "mgmt_statement_summary": "CocoCay penetration of Royal Caribbean Caribbean itineraries rising to ~65% in 2023 from ~30% in 2019. Cited as a driver of business acceleration and price integrity, with land-based experiences expected to compound profitability and cash flow.",
+      "status_changed_this_quarter": true,
+      "status_delta": {
+        "prior_status": "expansion",
+        "current_status": "mature",
+        "change_type": "status_transition",
+        "detail": "expansion -> mature"
+      }
+    },
+    "2022-Q4": {
+      "status": "expansion",
+      "key_uncertainties": [
+        "Hideaway Beach incremental daily visitors versus existing 10k baseline",
+        "transitional vs structural cost split from full-year operations"
+      ],
+      "mgmt_statement_summary": "Hideaway Beach adult-only neighborhood targeted for Q4 2023, raising island capacity to 13,000 visitors daily. Direct contribution from CocoCay now visible; full-year operations cited as ~210bps of structural cost build alongside Galveston terminal. Management characterized the 2019 opening as 'ironic' and 'a huge success'.",
+      "status_changed_this_quarter": true,
+      "status_delta": {
+        "prior_status": "mature",
+        "current_status": "expansion",
+        "change_type": "status_transition",
+        "detail": "mature -> expansion"
+      }
+    },
+    "2023-Q1": {
+      "status": "mature",
+      "key_uncertainties": [
+        "how much of yield growth is attributable to CocoCay versus hardware and core price",
+        "structural vs transitional cost decomposition"
+      ],
+      "mgmt_statement_summary": "More than half of Caribbean sailings now visit CocoCay; called RCI's highest-rated Caribbean destination and a driver of record Caribbean yields. Q2 yield growth flagged as highest as the 2019 opening anniversary is lapped. Icon of the Seas slated to debut in Caribbean in January 2024 with CocoCay/Hideaway Beach itineraries.",
+      "status_changed_this_quarter": true,
+      "status_delta": {
+        "prior_status": "expansion",
+        "current_status": "mature",
+        "change_type": "status_transition",
+        "detail": "expansion -> mature"
+      }
+    },
+    "2023-Q2": {
+      "status": "mature",
+      "key_uncertainties": [
+        "sizing of the 2024 CocoCay-expansion contribution to yield alongside Icon and China reopening",
+        "trajectory of repeat-visit demand"
+      ],
+      "mgmt_statement_summary": "Limited new disclosure beyond reiteration that full-year NCC includes ~210bps of structural cost vs 2019 mostly tied to CocoCay and Galveston operations.",
+      "status_changed_this_quarter": false,
+      "status_delta": {
+        "prior_status": "mature",
+        "current_status": "mature",
+        "change_type": "none",
+        "detail": ""
+      }
+    },
+    "2023-Q3": {
+      "status": "expansion",
+      "key_uncertainties": [
+        "margin impact of Hideaway Beach given no associated APCDs",
+        "cost comparability optics during Hideaway ramp"
+      ],
+      "mgmt_statement_summary": "Hideaway Beach launch framed as accretive to margin but distortive to cost comparisons because it carries no APCDs. Expected to lift the number of guests experiencing CocoCay.",
+      "status_changed_this_quarter": true,
+      "status_delta": {
+        "prior_status": "mature",
+        "current_status": "expansion",
+        "change_type": "status_transition",
+        "detail": "mature -> expansion"
+      }
+    },
+    "2023-Q4": {
+      "status": "expansion",
+      "key_uncertainties": [
+        "pace at which two-thirds Caribbean penetration converts to satisfaction and margin gains",
+        "sizing of CocoCay-expansion contribution within 2024 yield bridge"
+      ],
+      "mgmt_statement_summary": "Hideaway Beach completed in time for Icon of the Seas, expanding island capacity to over three million guests annually. About two-thirds of RCI Caribbean guests expected to visit in 2024. Expansion cited as one of several drivers of 2024 yield growth alongside new hardware, higher load factors, higher pricing, and commercial capabilities.",
+      "status_changed_this_quarter": true,
+      "status_delta": {
+        "prior_status": "expansion",
+        "current_status": "expansion",
+        "change_type": "date_slip",
+        "detail": "new target year(s) mentioned: ['2024']"
+      }
+    },
+    "2024-Q1": {
+      "status": "mature",
+      "key_uncertainties": [
+        "customer overlap and differentiation across CocoCay, Paradise Island, and Cozumel"
+      ],
+      "mgmt_statement_summary": "Reiterated CocoCay as a driver of strong Caribbean yield growth; positioned alongside new private destinations under development as a portfolio rather than substitutes.",
+      "status_changed_this_quarter": true,
+      "status_delta": {
+        "prior_status": "expansion",
+        "current_status": "mature",
+        "change_type": "status_transition",
+        "detail": "expansion -> mature"
+      }
+    },
+    "2024-Q2": {
+      "status": "mature",
+      "key_uncertainties": [
+        "positioning of Paradise Island and Cozumel relative to CocoCay's customer",
+        "ticket vs onboard mix at future destinations"
+      ],
+      "mgmt_statement_summary": "CocoCay continues to perform exceptionally well; Royal Beach Club Paradise Island (2025) and Cozumel (2026) flagged as milestones. Management noted the 2019 opening makes 1H 2024 comps easier, with adjusted yield growth roughly even across quarters versus 2019.",
+      "status_changed_this_quarter": true,
+      "status_delta": {
+        "prior_status": "mature",
+        "current_status": "mature",
+        "change_type": "date_slip",
+        "detail": "new target year(s) mentioned: ['2024', '2025', '2026']"
+      }
+    },
+    "2024-Q3": {
+      "status": "mature",
+      "key_uncertainties": [
+        "transferability of CocoCay economics and NPS to Perfect Day Mexico",
+        "per-guest ancillary spend at peer destinations"
+      ],
+      "mgmt_statement_summary": "CocoCay framed as the highest-NPS destination in the network and the template for Perfect Day Mexico, with paid premium experiences (Hideaway, Beach Club, slides) explicitly cited as the model to replicate.",
+      "status_changed_this_quarter": false,
+      "status_delta": {
+        "prior_status": "mature",
+        "current_status": "mature",
+        "change_type": "none",
+        "detail": ""
+      }
+    },
+    "2024-Q4": {
+      "status": "mature",
+      "key_uncertainties": [
+        "how guest volume splits across CocoCay, beach clubs, and Perfect Day Mexico over time",
+        "incremental cost structure of Nassau relative to CocoCay"
+      ],
+      "mgmt_statement_summary": "CocoCay expected to host 3.5 million guests in 2025; positioned as complementary to Royal Beach Club with multi-stop short itineraries. Management expects Perfect Day Mexico volume to ultimately exceed CocoCay.",
+      "status_changed_this_quarter": true,
+      "status_delta": {
+        "prior_status": "mature",
+        "current_status": "mature",
+        "change_type": "date_slip",
+        "detail": "new target year(s) mentioned: ['2025']"
+      }
+    },
+    "2025-Q3": {
+      "status": "mature",
+      "key_uncertainties": [
+        "ticket vs onboard yield mix as Perfect Day Mexico comes online",
+        "incremental growth runway at CocoCay itself"
+      ],
+      "mgmt_statement_summary": "Some remaining growth at CocoCay acknowledged, but as Perfect Day Mexico opens the revenue contribution is expected to shift more toward a balance of ticket and onboard yield.",
+      "status_changed_this_quarter": false,
+      "status_delta": {
+        "prior_status": "mature",
+        "current_status": "mature",
+        "change_type": "none",
+        "detail": ""
+      }
+    },
+    "2025-Q4": {
+      "status": "mature",
+      "key_uncertainties": [
+        "per-week throughput conversion into yield as itineraries layer in Royal Beach Club"
+      ],
+      "mgmt_statement_summary": "Quantified weekly throughput at 24,000 guests per week through CocoCay; positioned within the multi-day proposition combining ships, CocoCay, and Royal Beach Club Nassau.",
+      "status_changed_this_quarter": false,
+      "status_delta": {
+        "prior_status": "mature",
+        "current_status": "mature",
+        "change_type": "none",
+        "detail": ""
+      }
+    }
+  },
+  "analyst_relevance": {
+    "asked_by_history": [
+      {
+        "analyst": "brandt montour",
+        "call": "2022-Q3",
+        "framing": "CocoCay's mix shift as part of the 2023-vs-2019 yield bridge across multiple structural changes"
+      },
+      {
+        "analyst": "benjamin chaiken",
+        "call": "2022-Q4",
+        "framing": "Whether CocoCay itinerary pricing premiums versus 2019 are still intact and whether further CocoCay-style build-outs are planned"
+      },
+      {
+        "analyst": "benjamin chaiken",
+        "call": "2022-Q4",
+        "framing": "Whether Hideaway Beach's 3,000 daily visitors is incremental to the 2.5-3 million island throughput"
+      },
+      {
+        "analyst": "robin farley",
+        "call": "2023-Q1",
+        "framing": "Structural versus transitional cost split from full-year CocoCay and Galveston operations"
+      },
+      {
+        "analyst": "vince ciepiel",
+        "call": "2023-Q1",
+        "framing": "Decomposition of per-diem growth versus 2019 across like-for-like pricing, new hardware, and CocoCay lift"
+      },
+      {
+        "analyst": "benjamin chaiken",
+        "call": "2023-Q1",
+        "framing": "Whether CocoCay itinerary pricing premiums hold given expanded island capacity, plus initial color on Hideaway Beach"
+      },
+      {
+        "analyst": "daniel politzer",
+        "call": "2023-Q1",
+        "framing": "Capacity allocation between Caribbean (with CocoCay lift) and European/premium itineraries"
+      },
+      {
+        "analyst": "fred wightman",
+        "call": "2023-Q1",
+        "framing": "Whether CocoCay attractiveness explains divergence between strong Caribbean demand and in-line European demand"
+      },
+      {
+        "analyst": "brandt montour",
+        "call": "2023-Q2",
+        "framing": "Relative sizing of Icon, CocoCay expansion, and China reopening as 2024 yield tailwinds"
+      },
+      {
+        "analyst": "vince ciepiel",
+        "call": "2023-Q2",
+        "framing": "Trajectory of CocoCay throughput toward 3.5M by 2025, repeat-visit demand, and Icon/Utopia deployment to the island"
+      },
+      {
+        "analyst": "vince ciepiel",
+        "call": "2023-Q3",
+        "framing": "Decomposition of the upgraded 2023 yield outlook across new hardware, CocoCay, and core price"
+      },
+      {
+        "analyst": "steven wieczynski",
+        "call": "2023-Q4",
+        "framing": "Breakdown of 2024 yield guidance across pricing, occupancy, new hardware, CocoCay, and onboard"
+      },
+      {
+        "analyst": "ben chaiken",
+        "call": "2024-Q1",
+        "framing": "Marketing differentiation across CocoCay, Paradise Island, and Cozumel and whether they target overlapping customers"
+      },
+      {
+        "analyst": "benjamin chaiken",
+        "call": "2024-Q2",
+        "framing": "Positioning of Paradise Island versus CocoCay, customer overlap, and ticket-versus-ancillary spend mix"
+      },
+      {
+        "analyst": "ben chaiken",
+        "call": "2024-Q3",
+        "framing": "Whether Paradise Island's ancillary uplift per customer will match CocoCay's track record"
+      },
+      {
+        "analyst": "ben chaiken",
+        "call": "2024-Q4",
+        "framing": "Cost structure of Nassau versus CocoCay on a net-cruise-cost basis"
+      },
+      {
+        "analyst": "benjamin chaiken",
+        "call": "2025-Q2",
+        "framing": "Attach-rate framing for Royal Beach Club Nassau using CocoCay's 3.5M annual guests as the denominator"
+      },
+      {
+        "analyst": "sharon zackfia",
+        "call": "2025-Q3",
+        "framing": "Whether Royal Beach Clubs will replicate CocoCay's ticket-plus-onboard yield lift or shift mix toward onboard"
+      }
+    ],
+    "primary_framings_observed": [
+      "CocoCay as a component of the multi-driver yield bridge versus 2019",
+      "Structural versus transitional cost contribution from full-year CocoCay operations",
+      "Pricing-premium durability as island capacity expands (Hideaway Beach)",
+      "Caribbean capacity allocation and short-cruise positioning",
+      "CocoCay as the benchmark for sizing new private destinations (Paradise Island, Cozumel, Perfect Day Mexico)",
+      "Ticket-versus-onboard revenue mix at CocoCay versus successor destinations",
+      "Throughput milestones (2.5M, 3M, 3.5M annual guests; 24k per week)"
+    ]
+  },
+  "currently_open_questions_as_of_2026Q1": [
+    "Residual growth runway at CocoCay itself once weekly throughput is at 24k and annual guests are at 3.5M",
+    "Durability of CocoCay's pricing premium as fleetwide private-destination penetration approaches 90% by 2028",
+    "Ticket-versus-onboard yield mix at CocoCay relative to Royal Beach Clubs and Perfect Day Mexico",
+    "Quantified per-guest ancillary spend at CocoCay as a benchmark for sizing other destinations",
+    "Margin contribution of Hideaway Beach now that it is fully ramped and APCD-neutral",
+    "How CocoCay's NPS leadership translates into measurable repeat-visit and cross-sell economics"
+  ]
+}

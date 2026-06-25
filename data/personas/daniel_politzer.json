@@ -1,0 +1,69 @@
+{
+  "coverage_profile": {
+    "firm": "Wells Fargo",
+    "seniority_signal": "Progression of on-call titles from \"Equity Analyst\" (2022-Q1/Q2) to \"Director\" and \"Senior Equity Research Analyst\" (2022-Q3\u20132023-Q3) and a labeled sector remit (\"Gaming, Lodging, and Leisure\") in 2023-Q3 indicate a senior, coverage-focused analyst; management routinely provides multi-part answers and acknowledges his questions directly. ",
+    "sector_lens": "Primary focus is cruise/leisure and broader travel-related consumer sectors (cruise, lodging, gaming/leisure); questions repeatedly center on cruise demand, regional mixes (Caribbean, Europe, China), pricing and yield, and cost dynamics. ",
+    "rhetorical_signature": [
+      "Polite openers and closers (e.g., \"Hey, good morning\u2026\", \"Congrats on the quarter\"), often prefacing with a brief acknowledgement.",
+      "Tends to ask multi-part, practical questions that tie customer mix and bookings to model inputs (capacity, yields, APCD, net cruise costs).",
+      "Frequently frames questions around regional segmentation and product placement (Perfect Day/short product vs Europe/luxury)."
+    ]
+  },
+  "reasoning_style": {
+    "primary_mode": "mixed",
+    "primary_mode_justification": "He asks for concrete numbers and pacing (e.g., net cruise costs mid-single digits, % of next-year bookings, APCD/EBITDA for China) while also probing strategic deployment and product mix decisions (capacity allocation between Caribbean/Europe/China).",
+    "follow_up_pattern": "Typically asks two- to three-part questions in a single turn (e.g., split by region, by product segment, and by timing) and will submit follow-ups within the same call; he rarely displays aggressive pushback, preferring clarification and additional color. ",
+    "evidence_demanded": "Rewards specific numeric framing and comparative baselines (mid-single digit cost guidance, % bookings on the books, APCD/yield and EBITDA comparisons) as well as mechanistic explanations for trends (why Europe softer, impact of protocol easing, who the Chinese customer is).",
+    "anchoring_habits": "Frequently anchors questions to pre-COVID/2019 baselines and management's prior guidance (e.g., comparisons to 2019 levels and asking when margins return to pre-COVID), and to observable product signals (Perfect Day, short-product strength); little explicit evidence of anchoring to peers in the provided turns."
+  },
+  "recurring_concerns": {
+    "core_topics": [
+      {
+        "topic": "Bookings and regional demand mix",
+        "what_they_press_on": "Consistently asks management to break out where demand is strongest (Caribbean vs Europe vs Alaska vs China) and the duration mix (short-term vs longer bookings), seeking implications for 2023/2024 pacing. ",
+        "supporting_calls": [
+          "2022-Q1",
+          "2022-Q3",
+          "2023-Q1",
+          "2023-Q3"
+        ]
+      },
+      {
+        "topic": "Pricing, yields and product segmentation",
+        "what_they_press_on": "Probes differences in pricing trends across contemporary, premium and luxury segments and how elevated demand or product placement (e.g., Perfect Day) is affecting yields and APCD. ",
+        "supporting_calls": [
+          "2023-Q3",
+          "2023-Q1",
+          "2022-Q3"
+        ]
+      },
+      {
+        "topic": "Costs and margin normalization (net cruise costs)",
+        "what_they_press_on": "Seeks clarity on the trajectory of net cruise costs, inflation offsets, and timing to return to pre-COVID margins, including potential one-time items that could alter the cost \"algorithm.\" ",
+        "supporting_calls": [
+          "2022-Q2",
+          "2022-Q4"
+        ]
+      },
+      {
+        "topic": "China reopening and Chinese customer economics",
+        "what_they_press_on": "Asks for granularity on China demand, mix of pre-board vs onboard spend, APCD/yield and EBITDA contribution relative to other markets, and whether capacity should be reallocated there. ",
+        "supporting_calls": [
+          "2023-Q1",
+          "2023-Q3"
+        ]
+      },
+      {
+        "topic": "Capacity allocation and deployment decisions",
+        "what_they_press_on": "Wants to understand how management is shifting deployment between regions (e.g., Europe, Baltic, Eastern Med, China, Caribbean) in response to demand and whether those shifts are temporary or structural. ",
+        "supporting_calls": [
+          "2023-Q1",
+          "2023-Q3",
+          "2022-Q4"
+        ]
+      }
+    ],
+    "blind_spots": "Across the provided turns he does not press on capital allocation (share buybacks/dividends), leverage/ liquidity metrics, fuel hedging, or detailed fleet capex/shipbuilding cadence\u2014topics other sell-side analysts often probe; evidence is limited to the available call excerpts. ",
+    "stance_drift": "Early in 2022 his focus emphasized recovery dynamics, customer mix (new vs loyalty), regional softness (Europe) and near-term cost/marketing impacts (2022-Q1\u20132022-Q2). By 2023 he shifted toward pricing/yield differentiation and China reopening plus tactical capacity allocation between short-product Caribbean demand and premium European itineraries (2023-Q1\u20132023-Q3). Evidence is limited to calls through 2023-Q3."
+  }
+}

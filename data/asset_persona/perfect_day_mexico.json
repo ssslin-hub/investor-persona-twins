@@ -1,0 +1,183 @@
+{
+  "asset_id": "perfect_day_mexico",
+  "display_name": "Perfect Day Mexico / Costa Maya",
+  "category": "private_destination",
+  "linked_pillars": [
+    "Perfecta",
+    "Private destinations expansion"
+  ],
+  "lifecycle_by_quarter": {
+    "2024-Q3": {
+      "status": "announced",
+      "key_uncertainties": [
+        "gross capital investment",
+        "return expectations",
+        "yield uplift vs CocoCay benchmark"
+      ],
+      "mgmt_statement_summary": "Announced Perfect Day Mexico for 2027 opening, positioned to serve both Eastern and Western Caribbean itineraries. Still in design and planning phase with CocoCay-style premium experiences (Hideaway, Beach Club, slides) expected.",
+      "status_changed_this_quarter": true,
+      "status_delta": {
+        "prior_status": null,
+        "current_status": "announced",
+        "change_type": "newly_tracked",
+        "detail": "first quarter this asset appears in the lifecycle record"
+      }
+    },
+    "2024-Q4": {
+      "status": "construction_starting",
+      "key_uncertainties": [
+        "Costa Maya port ramp-up costs",
+        "incremental cost cadence through build period",
+        "passenger throughput target"
+      ],
+      "mgmt_statement_summary": "Reaffirmed 2027 launch with private-destination penetration rising to 90% of Royal Caribbean Caribbean guests by 2027. Costa Maya port acquisition driving near-term cost ramp and significant share of 2025 non-ship capex.",
+      "status_changed_this_quarter": true,
+      "status_delta": {
+        "prior_status": "announced",
+        "current_status": "construction_starting",
+        "change_type": "status_transition",
+        "detail": "announced -> construction_starting"
+      }
+    },
+    "2025-Q1": {
+      "status": "construction_starting",
+      "key_uncertainties": [
+        "timing and magnitude of Costa Maya cost ramp within the year"
+      ],
+      "mgmt_statement_summary": "Limited update; Costa Maya port acquisition and other destination ramp-up cited as a driver of cost timing across dry docks and ship deliveries.",
+      "status_changed_this_quarter": false,
+      "status_delta": {
+        "prior_status": "construction_starting",
+        "current_status": "construction_starting",
+        "change_type": "none",
+        "detail": ""
+      }
+    },
+    "2025-Q2": {
+      "status": "construction_ongoing",
+      "key_uncertainties": [
+        "full-year 2028 contribution sizing",
+        "amenity mix and footprint utilization",
+        "CapEx run-rate through 2026-2027"
+      ],
+      "mgmt_statement_summary": "Closed on Costa Maya port acquisition and began build-out; late-2027 debut reaffirmed with footprint described as roughly the size of Magic Kingdom. Positioned as a 2028 full-year operational benefit within Perfecta.",
+      "status_changed_this_quarter": true,
+      "status_delta": {
+        "prior_status": "construction_starting",
+        "current_status": "construction_ongoing",
+        "change_type": "status_transition",
+        "detail": "construction_starting -> construction_ongoing"
+      }
+    },
+    "2025-Q3": {
+      "status": "construction_ongoing",
+      "key_uncertainties": [
+        "yield vs onboard-spend split as the asset opens",
+        "margin trajectory through 2026 build-out"
+      ],
+      "mgmt_statement_summary": "Build-out described as a transformational development supporting expansion of exclusive land-based destinations from two to eight by 2028. Expected to shift Royal Caribbean's revenue mix more toward a balance of ticket and onboard versus CocoCay.",
+      "status_changed_this_quarter": false,
+      "status_delta": {
+        "prior_status": "construction_ongoing",
+        "current_status": "construction_ongoing",
+        "change_type": "none",
+        "detail": ""
+      }
+    },
+    "2025-Q4": {
+      "status": "construction_ongoing",
+      "key_uncertainties": [
+        "2026 non-ship capex allocation across Santorini, Cozumel, and Perfect Day Mexico",
+        "private-destination penetration trajectory by brand"
+      ],
+      "mgmt_statement_summary": "Perfect Day Mexico flagged as a significant share of $1.8B non-ship capex and a key driver of lifting private-destination guest penetration to 90% by 2028.",
+      "status_changed_this_quarter": false,
+      "status_delta": {
+        "prior_status": "construction_ongoing",
+        "current_status": "construction_ongoing",
+        "change_type": "none",
+        "detail": ""
+      }
+    },
+    "2026-Q1": {
+      "status": "construction_ongoing",
+      "key_uncertainties": [
+        "specific ramp cadence in 2028",
+        "Galveston/Texas drive-market penetration",
+        "structural Western Caribbean yield uplift sizing"
+      ],
+      "mgmt_statement_summary": "Late-2027 opening reaffirmed with ramp into early 2028, alongside Royal Beach Club Cozumel now pushed to early 2028. Positioned with Cozumel and Icon Class ships as the centerpiece of the Western Caribbean strategy.",
+      "status_changed_this_quarter": true,
+      "status_delta": {
+        "prior_status": "construction_ongoing",
+        "current_status": "construction_ongoing",
+        "change_type": "date_slip",
+        "detail": "new target year(s) mentioned: ['2027']"
+      }
+    }
+  },
+  "analyst_relevance": {
+    "asked_by_history": [
+      {
+        "analyst": "brandt montour",
+        "call": "2024-Q3",
+        "framing": "Gross capital investment level and return expectations for the newly announced project"
+      },
+      {
+        "analyst": "steven wieczynski",
+        "call": "2024-Q3",
+        "framing": "Potential yield uplift for Western Caribbean itineraries by analogy to CocoCay's Eastern Caribbean impact"
+      },
+      {
+        "analyst": "vince ciepiel",
+        "call": "2024-Q4",
+        "framing": "Western Caribbean mix expansion and eventual passenger throughput at Perfect Day Mexico"
+      },
+      {
+        "analyst": "steven wieczynski",
+        "call": "2025-Q2",
+        "framing": "Whether 2028 earnings growth can at least match Perfecta targets given Perfect Day Mexico and other 2028 launches"
+      },
+      {
+        "analyst": "benjamin chaiken",
+        "call": "2025-Q2",
+        "framing": "Clarification on Costa Maya being Magic Kingdom-sized and what amenities that footprint implies"
+      },
+      {
+        "analyst": "matthew boss",
+        "call": "2025-Q2",
+        "framing": "Footprint scale of Perfect Day Mexico and guest density relative to the Magic Kingdom comparison"
+      },
+      {
+        "analyst": "benjamin chaiken",
+        "call": "2025-Q2",
+        "framing": "Whether Costa Maya costs are already embedded in 3Q NCC guidance"
+      },
+      {
+        "analyst": "vince ciepiel",
+        "call": "2025-Q2",
+        "framing": "Whether $5B annual CapEx and the non-new-build mix is a fair run-rate through 2026-2027 given Costa Maya"
+      },
+      {
+        "analyst": "lizzie dove",
+        "call": "2026-Q1",
+        "framing": "Cadence of the 2028 ramp and structural Western Caribbean yield opportunity including Galveston penetration"
+      }
+    ],
+    "primary_framings_observed": [
+      "CapEx sizing and CapEx cadence into 2026-2027",
+      "Yield uplift sizing by analogy to CocoCay",
+      "Western Caribbean mix shift and drive-market (Galveston) penetration",
+      "Contribution to 2028 Perfecta earnings trajectory",
+      "Scale, capacity, and amenity mix of the destination"
+    ]
+  },
+  "currently_open_questions_as_of_2026Q1": [
+    "Quantitative ramp cadence in 2028 (utilization, calls per week, guest throughput)",
+    "Sizing of the structural Western Caribbean yield uplift versus CocoCay's Eastern Caribbean precedent",
+    "Galveston and broader Texas drive-market penetration opportunity attributable to the asset",
+    "Total project capex disclosure and per-guest unit economics at maturity",
+    "Ticket-versus-onboard revenue mix expected at Perfect Day Mexico relative to CocoCay",
+    "Margin trajectory through the remaining 2026-2027 build-out before revenue contribution begins"
+  ]
+}

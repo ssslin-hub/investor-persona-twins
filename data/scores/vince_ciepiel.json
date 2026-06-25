@@ -1,0 +1,19 @@
+{
+  "analyst": "vince ciepiel",
+  "scored": [
+    {
+      "actual_question": "Thanks. Just wanted to dig a little bit more into yield outlook for the year. Could you maybe comment on how you think new hardware, you have Star , Xcel contribution, Paradise Island, RBC Santorini, like a lot of, you know, exciting new products out there, how they might be contributing to the yield growth overall versus the like-for-like impact. Also on a regional basis, I think you had mentioned or used the term that Europe was doing well, I think was the quote. Is it fair to assume that Europe yields will grow this year? What does the guide assume? Thanks.",
+      "actual_topic": "pricing/yield",
+      "best_predicted_index": 0,
+      "match_level": "exact",
+      "reasoning": "Predicted question 0 explicitly asks to break yield change into like\u2011for\u2011like versus new hardware/shore product contributions and asks about regional/exposure guidance cadence; this matches the actual's focus on new-ship impact vs like\u2011for\u2011like and whether Europe is assumed to grow in the guide."
+    }
+  ],
+  "summary": {
+    "n_actual": 1,
+    "n_exact": 1,
+    "n_partial": 0,
+    "n_miss": 0,
+    "hit_rate_exact_or_partial": 1.0
+  }
+}

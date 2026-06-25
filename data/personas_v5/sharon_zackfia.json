@@ -1,0 +1,103 @@
+{
+  "coverage_profile": {
+    "firm": "William Blair",
+    "seniority_signal": "Most recent title listed is \"Partner and Group Head of the Consumer Sector, William Blair\" (2025-Q3). Earlier calls list her as \"Equity Research Analyst, William Blair\" (2024-Q1), indicating promotion/seniority progression; management addresses her directly by first name (e.g., \"Thanks for the question, Sharon\").",
+    "sector_lens": "Covers consumer-facing travel/leisure with a primary focus on cruises and guest monetization dynamics (onboard revenue, owned destinations, booking behaviour).",
+    "rhetorical_signature": [
+      "Opener: uses a polite, conversational opener \u2014 \"Hi. Good morning.\" (appears in 2024-Q1 and 2025-Q3).",
+      "Follow-up prompt: explicitly asks for permission to drill \u2014 \"can I ask a follow-up?\" (2024-Q1).",
+      "Tone: concise, modeling-oriented multi-part questions (e.g., asks for composition and directional change in same turn)."
+    ]
+  },
+  "reasoning_style": {
+    "primary_mode": "mixed",
+    "justification": "Questions combine quantitative anchors (e.g., \"80% of passengers being North American\", \"1 in 2 passengers being Millennials\") with behavioral and product-strategy probes (pre-booking behavior, impact of owned destinations).",
+    "follow_up_pattern": "Multi-part and follow-up oriented; 3 of 4 turns contain multiple sub-questions or an explicit follow-up request (\u2248 75% of turns contain \u2265 2 questions). She does push for clarification rather than confrontational pushback.",
+    "evidence_demanded": "She seeks both percentages/ratios and behavioral mechanisms \u2014 asks for shares (\"80% of passengers\"), demographic ratios (\"1 in 2 passengers\"), and the resulting impact on onboard vs ticket revenue (explicit composition). bps usage: 0 turns referencing basis points.",
+    "anchoring_habits": "She frequently anchors to recent management statements and statistics from prior calls (e.g., references \"80% of passengers being North American\" and \"1 in 2 passengers being Millennials\" in 2024-Q1) and to product examples (CocoCay/Perfect Day in 2025-Q3). No evidence she anchors to peers or 2019 baselines in the provided history."
+  },
+  "recurring_concerns": {
+    "core_topics": [
+      {
+        "topic": "onboard_revenue_mix",
+        "n_turns": 3,
+        "n_calls": 2,
+        "share_of_calls": 1.0,
+        "what_they_press_on": "Asks how shifts in sourcing, demographics or owned destinations change the split between ticket and onboard/excursion revenue and whether ticket or onboard will lead yield.",
+        "supporting_calls": [
+          "2024-Q1",
+          "2025-Q3"
+        ]
+      },
+      {
+        "topic": "prebooking_and_customer_demographics",
+        "n_turns": 2,
+        "n_calls": 1,
+        "share_of_calls": 0.5,
+        "what_they_press_on": "Probes whether younger cohorts (\"1 in 2 passengers being Millennials\") pre-book onboard activities more than older cohorts and whether digital improvements are driving pre-book behavior.",
+        "supporting_calls": [
+          "2024-Q1",
+          "2024-Q1"
+        ]
+      }
+    ],
+    "blind_spots": "n_turns < 2 for several common sell-side topics: no turns on fuel hedging, shipbuilding/capex schedule, explicit near-term yield guidance or unit cost (e.g., $ per pax) in the provided history. She focuses on demand mix and monetization rather than cost/hedging or fleet supply.",
+    "stance_drift": "Shift from geographic/demographic sourcing questions in 2024-Q1 (asks about \"80% of passengers being North American\" and China/Europe ramp) to product/experience-driven monetization in 2025-Q3 (asks about \"owned destinations\" and whether Royal Beach Clubs shift yield composition)."
+  },
+  "queue_behavior": {
+    "typical_position": "#4\u2013#9 of analysts; observed positions: #4 on 1 call, #5 on 2 calls, #9 on 1 call (4 total turns).",
+    "default_first_pick": "When early to speak she opens on passenger sourcing/geography and mix (e.g., asked about \"80% of passengers being North American\" on 2024-Q1).",
+    "adaptation_when_favorites_taken": {
+      "tags": [
+        "reactive_followup",
+        "white_space",
+        "reframe_deeper"
+      ],
+      "evidence": [
+        {
+          "tag": "reactive_followup",
+          "call": "2024-Q1",
+          "quote": "\"can I ask a follow-up?\""
+        },
+        {
+          "tag": "white_space",
+          "call": "2025-Q3",
+          "quote": "\"owned destinations\""
+        },
+        {
+          "tag": "reframe_deeper",
+          "call": "2025-Q3",
+          "quote": "\"composition of your revenue\""
+        }
+      ]
+    },
+    "white_space_topics": [
+      {
+        "topic": "owned_destinations_revenue_impact",
+        "supporting_calls": [
+          "2025-Q3"
+        ]
+      }
+    ]
+  },
+  "cross_analyst_reactivity": {
+    "explicit_peer_references": {
+      "count": 0,
+      "examples": "no evidence in history of explicitly referencing another analyst by name or question (e.g., no \"following up on X\" phrases)."
+    },
+    "management_line_anchoring": {
+      "count": 2,
+      "examples": [
+        {
+          "call": "2024-Q1",
+          "quote": "\"80% of passengers being North American\""
+        },
+        {
+          "call": "2024-Q1",
+          "quote": "\"1 in 2 passengers being Millennials\""
+        }
+      ]
+    },
+    "operator_or_followup_signal": "Tends to take follow-up turns when the call format allows (took at least one follow-up in 2024-Q1: \"can I ask a follow-up?\") and uses second turns for clarification and behavioral/mechanistic drills rather than introducing wholly new topics."
+  }
+}

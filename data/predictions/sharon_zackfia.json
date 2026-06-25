@@ -1,0 +1,15 @@
+{
+  "analyst": "William Blair (Partner, Consumer Sector)",
+  "predicted_questions": [
+    {
+      "question_text": "Hi, good morning. Naftali \u2014 you called out an increase in millennials and younger guests this quarter and that more than half of onboard revenue is now being booked before guests board (and you referenced ~70% pre-cruise penetration). Can you quantify how much the younger cohort has grown as a percentage of passengers year\u2011over\u2011year, and tell us whether that cohort is disproportionately driving the higher pre\u2011book penetration and APD? As a quick follow\u2011up, have you seen any shift in geographic sourcing (North America versus Europe/other) that would be helping explain the APD or pre\u2011book behavior?",
+      "topic_label": "demand/booking_curve",
+      "rationale": "Draws on recurring_concerns.core_topics[1] (booking behavior by demographic) and reasoning_style.follow_up_pattern (multi\u2011part + follow\u2011up); references Naftali's comments that the quarter saw an increase in young guests and that >50% of onboard revenue is pre\u2011booked and ~70% penetration in pre\u2011cruise booking engines."
+    },
+    {
+      "question_text": "Jason \u2014 demand for Royal Beach Club Santorini and Paradise Island sounds very strong. Can you walk us through whether these owned/branded destinations are driving ticket lift or simply shifting spend into pre\u2011cruise/onboard purchases? Specifically, for Santorini and Paradise Island, what proportion of the yield accretion to date is coming from higher ticket prices versus onboard/excursion (pre\u2011book) spend, and how should we think about that split as Cozumel, Perfect Day Mexico and Costa Maya ramp?",
+      "topic_label": "private_destinations",
+      "rationale": "Targets recurring_concerns.core_topics[2] (owned\u2011destination/product impact on yield and ticket lift) and references Jason's comments about Royal Beach Club Santorini, Paradise Island, and the upcoming Cozumel/Perfect Day Mexico/Costa Maya projects being accretive to yield growth."
+    }
+  ]
+}

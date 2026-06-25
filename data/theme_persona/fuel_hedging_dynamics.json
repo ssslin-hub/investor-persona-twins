@@ -1,0 +1,18 @@
+{
+  "theme_id": "fuel_hedging_dynamics",
+  "display_name": "Fuel hedging dynamics + sensitivity",
+  "description": "Analysts ask how fuel hedge coverage, average hedge price and spot sensitivity translate into per-share EPS impact, and reconcile guidance moves against fuel/FX headwinds.",
+  "recurring_framings_by_quarter": {
+    "2022-Q3": ["non-fuel expense per PCD vs 2019 once one-time COVID costs roll off"],
+    "2024-Q4": ["EPS guide better than expected despite FX and fuel headwinds -- what offsets are embedded"]
+  },
+  "analyst_affinity": {
+    "robin farley": "Strips fuel out to focus on underlying non-fuel expense per PCD versus 2019 scale and efficiency.",
+    "steven wieczynski": "Reconciles EPS guide against quantified FX and fuel headwinds and asks what offsets (buybacks, refis) close the gap."
+  },
+  "default_framing_options": [
+    "hedge percent coverage and average hedge price for the forward year",
+    "$/share EPS sensitivity to spot fuel move",
+    "reconcile fuel headwind ($0.62 vs $0.74 type figures) against EPS guide"
+  ]
+}

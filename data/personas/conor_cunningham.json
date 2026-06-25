@@ -1,0 +1,69 @@
+{
+  "coverage_profile": {
+    "firm": "Melius Research (Managing Director, most recently listed)",
+    "seniority_signal": "Conor's title evolves in the record from Director (2023-Q1) to Managing Director by 2024-Q3/2025-Q3, and management routinely answers his repeat questions directly, indicating he is a senior, regular coverer of RCL. He is treated as a repeat interlocutor on strategic topics like capital allocation and bookings.",
+    "sector_lens": "Deep cruise / leisure & travel specialist with a consumer tilt; questions focus on cruise-specific demand, yields, distribution, and shareholder returns rather than broader travel sectors like airlines. He also emphasizes balance-sheet and capital-allocation implications for a consumer leisure operator.",
+    "rhetorical_signature": [
+      "Opens politely (thank you) and often asks focused, model-relevant questions (e.g., % new-to-cruise, close-in pricing vs. prior assumptions).",
+      "Frequently follows up or revisits prior topics across calls (e.g., 2024-Q2/2025-Q1 on buybacks; 2023-Q1/2025-Q4 on close-in pricing and itinerary mix).",
+      "Tends to ask for calibration versus prior guidance/assumptions or for shaping of the cadence (cost cadence, load factors, timing impacts)."
+    ]
+  },
+  "reasoning_style": {
+    "primary_mode": "mixed",
+    "primary_mode_justification": "Conor blends quantitative/model-oriented questions (percentages, cadence, yield/margin impacts) with strategic/qualitative probes about product mix, loyalty, and board capital-allocation philosophy.",
+    "follow_up_pattern": "Mostly single, pointed questions but he regularly re-asks or threads the same topic across multiple calls (e.g., buybacks in 2024-Q2 and 2025-Q1). He will pose two-part clarifications when needed and presses for cadence/shape if initial answers are high level.",
+    "evidence_demanded": "He rewards specific numeric detail and cadence (e.g., % new-to-cruise, close-in pricing vs. assumptions, cost guide shape) plus causal explanation (booking curve, timing of ship deliveries/drydocks) and occasional competitive/demographic color (Celebrity/Viking comparisons).",
+    "anchoring_habits": "Frequently anchors questions to pre-COVID / 2019 baselines and to management's prior guidance/assumptions (e.g., 2019 load factors, earlier 2025 booking comments). He occasionally references peers (Celebrity, Viking) but most often compares to RCL's own prior guidance."
+  },
+  "recurring_concerns": {
+    "core_topics": [
+      {
+        "topic": "Booking dynamics & pricing (close-in demand / booking curve)",
+        "what_they_press_on": "Persistent focus on how actual close-in bookings compared to management assumptions and what that implies for yields and forward-year optimization (did they leave money on the table?).",
+        "supporting_calls": [
+          "2023-Q1",
+          "2024-Q2",
+          "2025-Q3",
+          "2025-Q4"
+        ]
+      },
+      {
+        "topic": "Capital allocation & shareholder returns (dividend, buybacks)",
+        "what_they_press_on": "Repeatedly asks about the timing, size and constraints around buybacks versus dividends and whether the board is likely to lean into repurchases as cash flow ramps.",
+        "supporting_calls": [
+          "2024-Q2",
+          "2024-Q3",
+          "2025-Q1"
+        ]
+      },
+      {
+        "topic": "Balance sheet, cost cadence and investment-related costs",
+        "what_they_press_on": "Requests the shape of cost guidance across the year, what drives quarter-to-quarter variance (dry docks, capacity), and whether investments will create ongoing cost pressure.",
+        "supporting_calls": [
+          "2024-Q3",
+          "2024-Q4"
+        ]
+      },
+      {
+        "topic": "Distribution, direct bookings and loyalty / credit-card strategy",
+        "what_they_press_on": "Wants detail on digital/direct mix, effectiveness of channel shifts, and how the co-branded credit-card / loyalty link might be optimized to close the value gap to land-based vacations.",
+        "supporting_calls": [
+          "2023-Q4",
+          "2025-Q2"
+        ]
+      },
+      {
+        "topic": "Product mix / itinerary duration and demographic targeting",
+        "what_they_press_on": "Probes the shift to shorter itineraries (3\u20134 day) and demographic implications, and how that mix change affects visibility and yield capture in future years.",
+        "supporting_calls": [
+          "2024-Q4",
+          "2025-Q3",
+          "2025-Q4"
+        ]
+      }
+    ],
+    "blind_spots": "Across these calls Conor rarely presses on fuel/energy cost exposure, environmental/regulatory risks, or detailed onboard spend breakouts \u2014 areas some peers frequently probe; if anything, his focus stays on bookings, yields and capital allocation.",
+    "stance_drift": "He moved from near-term demand/booking questions in 2023 (new-to-cruise, close-in pricing \u2014 2023-Q1) toward a stronger emphasis on capital allocation and balance-sheet optimization in 2024 (buybacks/dividend, 2024-Q2/2024-Q3) and then layered in loyalty, product-mix and forward-year yield optimization questions in 2025 (2025-Q1 through 2025-Q4). If evidence is thin for subtler shifts, note that he consistently cycles back to bookings and returns."
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "coverage_profile": {
+    "firm": "Barclays Capital / Barclays",
+    "seniority_signal": "Holds senior sell-side titles (Director; Director and Senior Equity Research Analyst) across the history of questions and is routinely called on by management, indicating durable coverage and seniority. Coverage stretches from 2022 through 2025 across 47 questions, showing a long-tenured relationship with RCL.",
+    "sector_lens": "Primary coverage is cruise / leisure / travel with frequent cross-over into consumer and lodging dynamics (pricing, onboard spend, destinations) and occasional interest in gaming/river products (Celebrity river market question).",
+    "rhetorical_signature": [
+      "Often opens with congratulations/positive acknowledgement and frames questions around management commentary (e.g., 'congrats on the results' pattern).",
+      "Tends to ask multi-part questions that layer a quantitative anchor with a qualitative ask (e.g., mix impact + consumer behavior).",
+      "Tone is analytical and collegial\u2014frequent clarifiers/follow-ups and requests to 'help us think about' model inputs."
+    ]
+  },
+  "reasoning_style": {
+    "primary_mode": "mixed",
+    "follow_up_pattern": "Frequently asks two-part or multi-part questions (pricing versus mix, yield versus load factor, short-term versus long-term effects) and often follows up with clarifying points in the same turn or a subsequent turn. He sometimes pushes for numerical framing but generally accepts management color when precise numbers are withheld.",
+    "evidence_demanded": "Regularly requests specific, modelable inputs: like-for-like yield comparisons to 2019, percent booked/book curve detail, load-factor expectations, and explicit drivers of cost guidance or EPS figures (e.g., asks about the $9 EPS handle and 'very low single-digit' cost assumptions). He also probes mechanisms (mix, new hardware, China reopening) rather than only headline statements.",
+    "anchoring_habits": "Consistently anchors questions to 2019 comparables and to management's prior guidance/comments (e.g., mix versus 2019, 'mid\u2011single-digit vs 2019' lines). Less often anchors explicitly to peers; instead he leans on company historical baselines and prior quarters' guidance when testing management claims."
+  },
+  "recurring_concerns": {
+    "core_topics": [
+      {
+        "topic": "Pricing / Yields (vs 2019 and like\u2011for\u2011like)",
+        "what_they_press_on": "Seeks to quantify how much reported yield moves are driven by like\u2011for\u2011like improvement versus mix/new ships and asks management to translate complex puts/takes into a single modeling input. Presses for guidance framing (e.g., whether mid\u2011single\u2011digit becomes a new normal) and exit rates for modeling.",
+        "supporting_calls": [
+          "2022-Q2",
+          "2022-Q3",
+          "2023-Q3",
+          "2024-Q2",
+          "2024-Q3",
+          "2025-Q3"
+        ]
+      },
+      {
+        "topic": "Booking trends / consumer behavior / booking curve",
+        "what_they_press_on": "Repeatedly probes WAVE-season and booking-window dynamics (close\u2011in demand, longer lead times, regional differences) and how consumer mix (US vs Europe; younger guests) affects pricing and load factor. Wants to know if current demand is sustainable or front-loaded/short\u2011term.",
+        "supporting_calls": [
+          "2022-Q2",
+          "2022-Q3",
+          "2022-Q4",
+          "2023-Q2",
+          "2024-Q2",
+          "2025-Q2"
+        ]
+      },
+      {
+        "topic": "China reopening / international mix effects",
+        "what_they_press_on": "Asks whether China (and outbound travel) will be dilutive or accretive to yields, and probes timing and capacity plans (ship deployments to China) to understand mix and incremental demand assumptions.",
+        "supporting_calls": [
+          "2023-Q1",
+          "2023-Q2",
+          "2024-Q1"
+        ]
+      },
+      {
+        "topic": "New ship / capacity impact and product mix (Icon, Utopia, Ovation, Perfect Day, Royal Beach Club)",
+        "what_they_press_on": "Wants to know how new hardware and destination investments change load factors, APCD/ancillary economics, and yield mix (is new hardware dilutive or additive to like\u2011for\u2011like yield?). Also asks for operational ramp and pricing expectations for new destinations.",
+        "supporting_calls": [
+          "2023-Q1",
+          "2023-Q2",
+          "2024-Q1",
+          "2024-Q3",
+          "2025-Q2"
+        ]
+      },
+      {
+        "topic": "Costs, margins, leverage and capital allocation",
+        "what_they_press_on": "Probes the drivers behind cost guidance (very low single digits), the assumptions behind EPS/EBITDA targets, and what the board needs to see for capital returns (deleveraging targets). Uses these to assess timing of dividends/ buybacks.",
+        "supporting_calls": [
+          "2023-Q3",
+          "2024-Q1",
+          "2024-Q3"
+        ]
+      }
+    ],
+    "blind_spots": "Across 47 questions the analyst rarely presses on fuel/fuel\u2011hedging strategy, environmental/regulatory (emissions) risks, or detailed labor/crew cost dynamics\u2014topics that some peers probe more often. He also seldom asks granular channel/distribution or marketing cost questions.",
+    "stance_drift": "Early (2022) questions emphasize recovery, discounting perceptions and mix shifts as COVID protocols eased; in 2023 he moved to quantifying structural impacts (load factors, yields, China reopening) and testing management guidance; by 2024\u20132025 his focus broadened to capital allocation (leverage, dividends), destination economics (Perfect Day, Royal Beach Club), and yield sustainability/booking composition. The record shows a clear shift from recovery-era operational questions toward durable margin, capital return, and new\u2011product economics (supported by calls across 2022\u20132025)."
+  }
+}

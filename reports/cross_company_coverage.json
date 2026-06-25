@@ -1,0 +1,5431 @@
+{
+  "tickers": {
+    "ccl": "Carnival",
+    "nclh": "Norwegian Cruise Line",
+    "mar": "Marriott",
+    "hlt": "Hilton",
+    "h": "Hyatt"
+  },
+  "max_quarters": 17,
+  "rcl_roster_size": 23,
+  "per_ticker": {
+    "ccl": {
+      "name": "Carnival",
+      "calls": {
+        "q1-2026": [
+          {
+            "name": "Beth Roberts",
+            "firm": "Carnival Corporation"
+          },
+          {
+            "name": "Robin Farley",
+            "firm": "UBS"
+          },
+          {
+            "name": "Steve Wieczynski",
+            "firm": "Stifel"
+          },
+          {
+            "name": "Matthew Boss",
+            "firm": "JPMorgan"
+          },
+          {
+            "name": "Xian Xu",
+            "firm": "BNP Paribas"
+          },
+          {
+            "name": "Brandt Montour",
+            "firm": "Barclays"
+          },
+          {
+            "name": "Trey Bowers",
+            "firm": "Wells Fargo"
+          },
+          {
+            "name": "Ben Chaiken",
+            "firm": "Mizuho"
+          },
+          {
+            "name": "Conor Cunningham",
+            "firm": "Melius Research"
+          },
+          {
+            "name": "Chris Stathoulopoulos",
+            "firm": "SIG"
+          }
+        ],
+        "q4-2025": [
+          {
+            "name": "Beth Roberts",
+            "firm": "Carnival Corporation & plc"
+          },
+          {
+            "name": "Robin Farley",
+            "firm": "UBS"
+          },
+          {
+            "name": "Brandt Montour",
+            "firm": "Equity Research of Gaming, Lodging, and Leisure, Barclays"
+          },
+          {
+            "name": "Matt Boss",
+            "firm": "JPMorgan"
+          }
+        ],
+        "q3-2025": [
+          {
+            "name": "Robin Farley",
+            "firm": "UBS Group"
+          },
+          {
+            "name": "Josh Weinstein",
+            "firm": "Carnival"
+          },
+          {
+            "name": "Brandt Montour",
+            "firm": "Barclays"
+          },
+          {
+            "name": "Steven Wieczynski",
+            "firm": "Stifel Financial Corp"
+          },
+          {
+            "name": "James Hardiman",
+            "firm": "Citi"
+          },
+          {
+            "name": "Benjamin Chaiken",
+            "firm": "Mizuho Financial Group, Inc"
+          },
+          {
+            "name": "Matt Boss",
+            "firm": "JP Morgan"
+          },
+          {
+            "name": "Conor Cunningham",
+            "firm": "Melius Research LLC"
+          },
+          {
+            "name": "Lizzie Dove",
+            "firm": "Goldman Sachs"
+          },
+          {
+            "name": "David Katz",
+            "firm": "Jefferies"
+          },
+          {
+            "name": "Sharon Zackfia",
+            "firm": "William Blair & Company, L.L.C"
+          },
+          {
+            "name": "Christopher Stathoulopoulos",
+            "firm": "Susquehanna"
+          },
+          {
+            "name": "Vince Ciepiel",
+            "firm": "Partner - Lodging, OTA's, Cruise, and Luxury, Cleveland Research Company"
+          }
+        ],
+        "q2-2025": [
+          {
+            "name": "Matthew Boss",
+            "firm": "JPMorgan"
+          },
+          {
+            "name": "Ben Chaiken",
+            "firm": "Mizuho Securities"
+          },
+          {
+            "name": "Steve Wieczynski",
+            "firm": "Stifel"
+          },
+          {
+            "name": "Robin Farley",
+            "firm": "UBS"
+          },
+          {
+            "name": "Brandt Montour",
+            "firm": "Barclays"
+          },
+          {
+            "name": "James Hardeman",
+            "firm": "Citi"
+          },
+          {
+            "name": "Conor Cunningham",
+            "firm": "Melius Research"
+          },
+          {
+            "name": "David Katz",
+            "firm": "Jefferies"
+          },
+          {
+            "name": "Sharon Zackfia",
+            "firm": "William Blair"
+          },
+          {
+            "name": "Jillian Xu",
+            "firm": "BNP Paribas"
+          },
+          {
+            "name": "Chris Sassopoulos",
+            "firm": "Susquehanna"
+          }
+        ],
+        "q1-2025": [
+          {
+            "name": "Ben Chaiken",
+            "firm": "Mizuho Securities"
+          },
+          {
+            "name": "Robin Farley",
+            "firm": "UBS"
+          },
+          {
+            "name": "Steve Wieczynski",
+            "firm": "Stifel"
+          },
+          {
+            "name": "Brandt Montour",
+            "firm": "Barclays"
+          },
+          {
+            "name": "James Hardiman",
+            "firm": "Citigroup"
+          },
+          {
+            "name": "Patrick Scholes",
+            "firm": "Truist Securities"
+          },
+          {
+            "name": "Jaime Katz",
+            "firm": "Morningstar"
+          },
+          {
+            "name": "Conor Cunningham",
+            "firm": "Melius Research"
+          },
+          {
+            "name": "David Katz",
+            "firm": "Jefferies"
+          },
+          {
+            "name": "Matthew Boss",
+            "firm": "JPMorgan"
+          },
+          {
+            "name": "Lizzie Dove",
+            "firm": "Goldman Sachs"
+          },
+          {
+            "name": "Vince Ciepiel",
+            "firm": "Cleveland Research"
+          },
+          {
+            "name": "Chris Stathoulopoulos",
+            "firm": "SIG"
+          }
+        ],
+        "q4-2024": [
+          {
+            "name": "Beth Roberts",
+            "firm": "Carnival Corporation & plc"
+          },
+          {
+            "name": "Matthew Boss",
+            "firm": "JPMorgan"
+          },
+          {
+            "name": "Ben Chaiken",
+            "firm": "Evercore ISI"
+          },
+          {
+            "name": "Steven Wieczynski",
+            "firm": "Stifel"
+          },
+          {
+            "name": "Robin Farley",
+            "firm": "UBS"
+          },
+          {
+            "name": "James Hardiman",
+            "firm": "Citi"
+          },
+          {
+            "name": "Patrick Scholes",
+            "firm": "Truist"
+          },
+          {
+            "name": "David Katz",
+            "firm": "Jefferies"
+          },
+          {
+            "name": "Jaime Katz",
+            "firm": "Morning Star"
+          },
+          {
+            "name": "Brandt Montour",
+            "firm": "Barclays"
+          }
+        ],
+        "q3-2024": [
+          {
+            "name": "Matthew Boss",
+            "firm": "JPMorgan"
+          },
+          {
+            "name": "Steve Wieczynski",
+            "firm": "Stifel"
+          },
+          {
+            "name": "Robin Farley",
+            "firm": "UBS"
+          },
+          {
+            "name": "Ben Chaiken",
+            "firm": "Mizuho Securities"
+          },
+          {
+            "name": "James Hardiman",
+            "firm": "Citi"
+          },
+          {
+            "name": "Patrick Scholes",
+            "firm": "Truist Securities"
+          },
+          {
+            "name": "Brandt Montour",
+            "firm": "Barclays"
+          },
+          {
+            "name": "Conor Cunningham",
+            "firm": "Melius Research"
+          },
+          {
+            "name": "David Katz",
+            "firm": "Jefferies"
+          },
+          {
+            "name": "Jaime Katz",
+            "firm": "Morningstar"
+          },
+          {
+            "name": "Assia Georgieva",
+            "firm": "Infinity Research"
+          },
+          {
+            "name": "Dan Politzer",
+            "firm": "Wells Fargo"
+          },
+          {
+            "name": "Chris Stathoulopoulos",
+            "firm": "SIG"
+          },
+          {
+            "name": "Fred Wightman",
+            "firm": "Wolfe Research"
+          }
+        ],
+        "q2-2024": [
+          {
+            "name": "Matthew Boss",
+            "firm": "JPMorgan"
+          },
+          {
+            "name": "Steven Wieczynski",
+            "firm": "Stifel"
+          },
+          {
+            "name": "Patrick Scholes",
+            "firm": "Truist Securities"
+          },
+          {
+            "name": "Benjamin Chaiken",
+            "firm": "Mizuho"
+          },
+          {
+            "name": "Robin Farley",
+            "firm": "UBS"
+          },
+          {
+            "name": "James Hardiman",
+            "firm": "Citi"
+          },
+          {
+            "name": "Brandt Montour",
+            "firm": "Barclays"
+          },
+          {
+            "name": "Conor Cunningham",
+            "firm": "Melius Research"
+          },
+          {
+            "name": "Assia Georgieva",
+            "firm": "Infinity Research"
+          },
+          {
+            "name": "Jaime Katz",
+            "firm": "Morningstar"
+          },
+          {
+            "name": "Daniel Politzer",
+            "firm": "Wells Fargo"
+          },
+          {
+            "name": "David Katz",
+            "firm": "Jefferies"
+          },
+          {
+            "name": "Sharon Zackfia",
+            "firm": "William Blair"
+          }
+        ],
+        "q1-2024": [
+          {
+            "name": "Robin Farley",
+            "firm": "UBS"
+          },
+          {
+            "name": "David Katz",
+            "firm": "Jefferies"
+          },
+          {
+            "name": "Brandt Montour",
+            "firm": "Barclays"
+          },
+          {
+            "name": "James Hardiman",
+            "firm": "Citigroup"
+          },
+          {
+            "name": "Steve Wieczynski",
+            "firm": "Stifel"
+          },
+          {
+            "name": "Jamie Katz",
+            "firm": "Morningstar"
+          },
+          {
+            "name": "Matthew Boss",
+            "firm": "J.P. Morgan"
+          },
+          {
+            "name": "Patrick Scholes",
+            "firm": "Truist Securities"
+          },
+          {
+            "name": "Ben Chaiken",
+            "firm": "Mizuho"
+          },
+          {
+            "name": "Lizzie Dove",
+            "firm": "Goldman Sachs"
+          }
+        ],
+        "q4-2023": [
+          {
+            "name": "Steven Wieczynski",
+            "firm": "Stifel Financial Corp"
+          },
+          {
+            "name": "Brandt Montour",
+            "firm": "Lodging, and Leisure, Barclays"
+          },
+          {
+            "name": "James Hardiman",
+            "firm": "Citi"
+          },
+          {
+            "name": "Jaime M. Katz",
+            "firm": "Morningstar"
+          },
+          {
+            "name": "C. Patrick Scholes",
+            "firm": "Truist Securities"
+          },
+          {
+            "name": "Robin Farley",
+            "firm": "UBS"
+          },
+          {
+            "name": "Daniel B. Politzer",
+            "firm": "Lodging, and Leisure, Wells Fargo"
+          },
+          {
+            "name": "Assia Georgieva",
+            "firm": "Infinity Research"
+          }
+        ],
+        "q3-2023": [
+          {
+            "name": "Steve Wieczynski",
+            "firm": "Stifel"
+          },
+          {
+            "name": "Patrick Scholes",
+            "firm": "Truist"
+          },
+          {
+            "name": "Brandt Montour",
+            "firm": "Barclays"
+          },
+          {
+            "name": "Beth Roberts",
+            "firm": "Carnival"
+          },
+          {
+            "name": "Robin Farley",
+            "firm": "UBS"
+          },
+          {
+            "name": "David Katz",
+            "firm": "Jefferies"
+          },
+          {
+            "name": "Dan Politzer",
+            "firm": "Wells Fargo"
+          },
+          {
+            "name": "Jaime Katz",
+            "firm": "Morningstar"
+          },
+          {
+            "name": "Assia Georgieva",
+            "firm": "Infinity Research"
+          },
+          {
+            "name": "Matthew Boss",
+            "firm": "JPMorgan"
+          },
+          {
+            "name": "Conor Cunningham",
+            "firm": "Melius Research"
+          },
+          {
+            "name": "Chris Stathoulopoulos",
+            "firm": "Susquehanna"
+          }
+        ],
+        "q2-2023": [
+          {
+            "name": "Robin Farley",
+            "firm": "UBS"
+          },
+          {
+            "name": "Steven Wieczynski",
+            "firm": "Stifel"
+          },
+          {
+            "name": "James Hardiman",
+            "firm": "Citi"
+          },
+          {
+            "name": "Fred Wightman",
+            "firm": "Wolfe Research"
+          },
+          {
+            "name": "Jaime Katz",
+            "firm": "Morningstar"
+          },
+          {
+            "name": "Matthew Boss",
+            "firm": "JP Morgan"
+          },
+          {
+            "name": "Patrick Scholes",
+            "firm": "Truist Securities"
+          },
+          {
+            "name": "Daniel Politzer",
+            "firm": "Equity Research Analyst  of Gaming, Lodging, and Leisure, Wells Fargo"
+          },
+          {
+            "name": "Beth Roberts",
+            "firm": "Investor Relations, Carnival"
+          }
+        ],
+        "q1-2023": [
+          {
+            "name": "Patrick Scholes",
+            "firm": "Truist Securities"
+          },
+          {
+            "name": "Steve Wieczynski",
+            "firm": "Stifel"
+          },
+          {
+            "name": "James Hardiman",
+            "firm": "Citi"
+          },
+          {
+            "name": "Fred Wightman",
+            "firm": "Wolfe Research"
+          },
+          {
+            "name": "Robin Farley",
+            "firm": "UBS"
+          },
+          {
+            "name": "Ben Chaiken",
+            "firm": "Credit Suisse"
+          },
+          {
+            "name": "Brandt Montour",
+            "firm": "Lodging, and Leisure, Barclays"
+          },
+          {
+            "name": "Assia Georgieva",
+            "firm": "Infinity Research"
+          },
+          {
+            "name": "Stephen Grambling",
+            "firm": "Morgan Stanley"
+          },
+          {
+            "name": "Chris Stathoulopoulos",
+            "firm": "Cruise Lines, and Auto-Rentals, Susquehanna"
+          },
+          {
+            "name": "Paul Golding",
+            "firm": "Macquarie Capital"
+          }
+        ],
+        "q4-2022": [
+          {
+            "name": "Steven Wieczynski",
+            "firm": "Stifel"
+          },
+          {
+            "name": "Robin Farley",
+            "firm": "UBS"
+          },
+          {
+            "name": "Frederick Wightman",
+            "firm": "Wolfe Research"
+          },
+          {
+            "name": "David Katz",
+            "firm": "Jefferies"
+          },
+          {
+            "name": "Jaime Katz",
+            "firm": "Morningstar"
+          },
+          {
+            "name": "Brandt Montour",
+            "firm": "Barclays"
+          },
+          {
+            "name": "James Hardiman",
+            "firm": "Citigroup"
+          },
+          {
+            "name": "C. Patrick Scholes",
+            "firm": "Truist Securities"
+          },
+          {
+            "name": "Vince Ciepiel",
+            "firm": "Cleveland Research Company"
+          }
+        ],
+        "q3-2022": [
+          {
+            "name": "Steven Wieczynski",
+            "firm": "Stifel"
+          },
+          {
+            "name": "James Hardiman",
+            "firm": "Citi"
+          },
+          {
+            "name": "Robin Farley",
+            "firm": "UBS"
+          },
+          {
+            "name": "Jaime Katz",
+            "firm": "Morningstar"
+          },
+          {
+            "name": "Ben Chaiken",
+            "firm": "Lodging and Leisure, Credit Suisse"
+          },
+          {
+            "name": "David Katz",
+            "firm": "Jefferies"
+          },
+          {
+            "name": "Ali Naqvi",
+            "firm": "HSBC"
+          },
+          {
+            "name": "Brandt Montour",
+            "firm": "Barclays"
+          }
+        ],
+        "q2-2022": [
+          {
+            "name": "Steve Wieczynski",
+            "firm": "Stifel"
+          },
+          {
+            "name": "Robin Farley",
+            "firm": "Leisure Analyst, UBS"
+          },
+          {
+            "name": "Jaime Katz",
+            "firm": "Morningstar"
+          },
+          {
+            "name": "Patrick Scholes",
+            "firm": "Lodging and Leisure Equity Research, Truist"
+          },
+          {
+            "name": "James Hardiman",
+            "firm": "Leisure and Travel Analyst, Citi"
+          },
+          {
+            "name": "Daniel Politzer",
+            "firm": "Equity Research Analyst, Wells Fargo"
+          },
+          {
+            "name": "Assia Georgieva",
+            "firm": "Infinity Research"
+          }
+        ],
+        "q1-2022": [
+          {
+            "name": "Robin Farley",
+            "firm": "UBS"
+          },
+          {
+            "name": "Steven Wieczynski",
+            "firm": "Stifel"
+          },
+          {
+            "name": "James Hardiman",
+            "firm": "Citi"
+          },
+          {
+            "name": "Assia Georgieva",
+            "firm": "Infinity Research"
+          },
+          {
+            "name": "Stuart Gordon",
+            "firm": "Berenberg"
+          },
+          {
+            "name": "Fred Wightman",
+            "firm": "Wolfe Research"
+          }
+        ]
+      }
+    },
+    "nclh": {
+      "name": "Norwegian Cruise Line",
+      "calls": {
+        "q1-2026": [
+          {
+            "name": "Sarah Inmon",
+            "firm": "Norwegian Cruise Line Holdings"
+          },
+          {
+            "name": "Mark Kempa",
+            "firm": "Norwegian Cruise Line Holdings"
+          },
+          {
+            "name": "Matthew Boss",
+            "firm": "J.P. Morgan"
+          },
+          {
+            "name": "Steven Wieczynski",
+            "firm": "Stifel"
+          },
+          {
+            "name": "Ben Chaiken",
+            "firm": "Mizuho"
+          },
+          {
+            "name": "Conor Cunningham",
+            "firm": "Melius Research"
+          },
+          {
+            "name": "Brandt Montour",
+            "firm": "Barclays"
+          },
+          {
+            "name": "James Hardiman",
+            "firm": "Citi"
+          },
+          {
+            "name": "Lizzie Dove",
+            "firm": "Goldman Sachs"
+          },
+          {
+            "name": "Vince Ciepiel",
+            "firm": "Cleveland Research"
+          },
+          {
+            "name": "Robin Farley",
+            "firm": "UBS"
+          },
+          {
+            "name": "Trey Bowers",
+            "firm": "Wells Fargo"
+          }
+        ],
+        "q4-2025": [
+          {
+            "name": "Steve Wieczynski",
+            "firm": "Stifel"
+          },
+          {
+            "name": "Mark Kempa",
+            "firm": "Norwegian Cruise Line Holdings"
+          },
+          {
+            "name": "Ben Chaiken",
+            "firm": "Mizuho Securities"
+          },
+          {
+            "name": "Conor Cunningham",
+            "firm": "Melius Research"
+          },
+          {
+            "name": "Matthew Boss",
+            "firm": "JPMorgan"
+          },
+          {
+            "name": "Brandt Montour",
+            "firm": "Barclays"
+          },
+          {
+            "name": "James Hardiman",
+            "firm": "Citi"
+          },
+          {
+            "name": "Vince Ciepiel",
+            "firm": "Cleveland Research"
+          },
+          {
+            "name": "Lizzie Dove",
+            "firm": "Goldman Sachs"
+          },
+          {
+            "name": "Trey Bowers",
+            "firm": "Lodging and Leisure Analyst, Wells Fargo"
+          }
+        ],
+        "q3-2025": [
+          {
+            "name": "Sarah Inmon",
+            "firm": "Norwegian Cruise Line Holdings"
+          },
+          {
+            "name": "Mark Kempa",
+            "firm": "Norwegian Cruise Line Holdings"
+          },
+          {
+            "name": "Brandt Montour",
+            "firm": "Barclays"
+          },
+          {
+            "name": "Lizzie Dahl",
+            "firm": "Goldman Sachs"
+          },
+          {
+            "name": "Steve Wieczynski",
+            "firm": "Stifel"
+          },
+          {
+            "name": "Matthew Voss",
+            "firm": "JPMorgan"
+          },
+          {
+            "name": "Conor Cunningham",
+            "firm": "Melius Research"
+          },
+          {
+            "name": "Ben Chacon",
+            "firm": "Mizuho Securities"
+          },
+          {
+            "name": "Vince Ciepiel",
+            "firm": "Cleveland Research"
+          },
+          {
+            "name": "Patrick Scholes",
+            "firm": "Truist Securities"
+          },
+          {
+            "name": "Andrew Didora",
+            "firm": "Bank of America"
+          }
+        ],
+        "q2-2025": [
+          {
+            "name": "Sarah Inmon",
+            "firm": "Norwegian Cruise Line Holdings"
+          },
+          {
+            "name": "Mark Kempa",
+            "firm": "Norwegian Cruise Line Holdings"
+          },
+          {
+            "name": "Steve Wieczynski",
+            "firm": "Stifel"
+          },
+          {
+            "name": "Lizzie Dove",
+            "firm": "Goldman Sachs Asset Management"
+          },
+          {
+            "name": "Conor Cunningham",
+            "firm": "Melius Research"
+          },
+          {
+            "name": "Matthew Boss",
+            "firm": "JPMorgan"
+          },
+          {
+            "name": "Brandt Montour",
+            "firm": "Lodging and Leisure, Barclays"
+          },
+          {
+            "name": "Robin Farley",
+            "firm": "UBS"
+          },
+          {
+            "name": "Ben Chaiken",
+            "firm": "Mizuho"
+          },
+          {
+            "name": "David Katz",
+            "firm": "Jefferies"
+          }
+        ],
+        "q1-2025": [
+          {
+            "name": "Sarah Inmon",
+            "firm": "Norwegian Cruise Line Holdings"
+          },
+          {
+            "name": "Mark Kempa",
+            "firm": "Norwegian Cruise Line Holdings"
+          },
+          {
+            "name": "Matthew Boss",
+            "firm": "JPMorgan Chase"
+          },
+          {
+            "name": "Steve Wieczynski",
+            "firm": "Stifel"
+          },
+          {
+            "name": "Robin Farley",
+            "firm": "UBS"
+          },
+          {
+            "name": "Ben Chaiken",
+            "firm": "Mizuho"
+          },
+          {
+            "name": "James Hardiman",
+            "firm": "Citi"
+          },
+          {
+            "name": "Conor Cunningham",
+            "firm": "Melius Research"
+          },
+          {
+            "name": "Brandt Montour",
+            "firm": "Barclays"
+          }
+        ],
+        "q4-2024": [
+          {
+            "name": "Sarah Inmon",
+            "firm": "Norwegian Cruise Line Holdings"
+          },
+          {
+            "name": "Mark Kempa",
+            "firm": "Norwegian Cruise Line Holdings"
+          },
+          {
+            "name": "Lizzie Dove",
+            "firm": "Goldman Sachs"
+          },
+          {
+            "name": "Brandt Montour",
+            "firm": "Barclays"
+          },
+          {
+            "name": "Steve Wieczynski",
+            "firm": "Stifel"
+          },
+          {
+            "name": "Dan Politzer",
+            "firm": "Wells Fargo"
+          },
+          {
+            "name": "James Hardiman",
+            "firm": "Citi"
+          },
+          {
+            "name": "Vince Ciepiel",
+            "firm": "Cleveland Research"
+          },
+          {
+            "name": "Conor Cunningham",
+            "firm": "Melius Research"
+          },
+          {
+            "name": "Robin Farley",
+            "firm": "UBS"
+          }
+        ],
+        "q3-2024": [
+          {
+            "name": "Sarah Inmon",
+            "firm": "Norwegian Cruise Line Holdings"
+          },
+          {
+            "name": "Mark Kempa",
+            "firm": "Norwegian Cruise Line Holdings"
+          },
+          {
+            "name": "James Hardiman",
+            "firm": "Citi"
+          },
+          {
+            "name": "Brandt Montour",
+            "firm": "Barclays"
+          },
+          {
+            "name": "Steve Wieczynski",
+            "firm": "Stifel"
+          },
+          {
+            "name": "Matthew Boss",
+            "firm": "J.P. Morgan"
+          },
+          {
+            "name": "Conor Cunningham",
+            "firm": "Melius Research"
+          },
+          {
+            "name": "Vince Ciepiel",
+            "firm": "Cleveland Research Company"
+          },
+          {
+            "name": "Robin Farley",
+            "firm": "UBS"
+          },
+          {
+            "name": "C. Patrick Scholes",
+            "firm": "Truist Securities"
+          },
+          {
+            "name": "Ben Chaiken",
+            "firm": "Mizuho Securities"
+          }
+        ],
+        "q2-2024": [
+          {
+            "name": "Sarah Inmon",
+            "firm": "Norwegian Cruise Line"
+          },
+          {
+            "name": "Mark Kempa",
+            "firm": "Norwegian Cruise Line"
+          },
+          {
+            "name": "Steven Wieczynski",
+            "firm": "Stifel"
+          },
+          {
+            "name": "Benjamin Chaiken",
+            "firm": "Mizuho"
+          },
+          {
+            "name": "Conor Cunningham",
+            "firm": "Director and Senior Equity Research Analyst"
+          },
+          {
+            "name": "Matthew Boss",
+            "firm": "JPMorgan"
+          },
+          {
+            "name": "Brandt Montour",
+            "firm": "Barclays"
+          },
+          {
+            "name": "Vincent Ciepiel",
+            "firm": "Cleveland Research"
+          },
+          {
+            "name": "James Hardiman",
+            "firm": "Citi"
+          },
+          {
+            "name": "Elizabeth Dove",
+            "firm": "Goldman Sachs"
+          },
+          {
+            "name": "Daniel Politzer",
+            "firm": "Wells Fargo"
+          }
+        ],
+        "q1-2024": [
+          {
+            "name": "Sarah Inman",
+            "firm": "Norwegian Cruise Line Holdings"
+          },
+          {
+            "name": "Daniel Politzer",
+            "firm": "Wells Fargo"
+          },
+          {
+            "name": "Vince Ciepiel",
+            "firm": "Cleveland Research"
+          },
+          {
+            "name": "Steven Wieczynski",
+            "firm": "Stifel Nicolaus & Company Incorporated"
+          },
+          {
+            "name": "Patrick Scholes",
+            "firm": "Truist Securities"
+          },
+          {
+            "name": "Conor T. Cunningham",
+            "firm": "Melius Research LLC"
+          },
+          {
+            "name": "Benjamin Chaiken",
+            "firm": "Mizuho Securities USA LLC"
+          },
+          {
+            "name": "Elizabeth Dove",
+            "firm": "Goldman Sachs Group Inc"
+          },
+          {
+            "name": "Fred Wightman",
+            "firm": "Wolfe Research"
+          },
+          {
+            "name": "Robin M. Farley",
+            "firm": "UBS Investment Bank"
+          },
+          {
+            "name": "James Hardiman",
+            "firm": "Citi"
+          }
+        ],
+        "q4-2023": [
+          {
+            "name": "Sarah Inmon",
+            "firm": "Norwegian Cruise Line Holdings"
+          },
+          {
+            "name": "Mark Kempa",
+            "firm": "Norwegian Cruise Line Holdings"
+          },
+          {
+            "name": "Brandt Montour",
+            "firm": "Barclays"
+          },
+          {
+            "name": "Andrew Didora",
+            "firm": "Bank of America"
+          },
+          {
+            "name": "Steven Wieczynski",
+            "firm": "Stifel"
+          },
+          {
+            "name": "Dan Politzer",
+            "firm": "Wells Fargo"
+          },
+          {
+            "name": "James Hardiman",
+            "firm": "Citi"
+          },
+          {
+            "name": "Vince Ciepiel",
+            "firm": "Cleveland Research"
+          },
+          {
+            "name": "Conor Cunningham",
+            "firm": "Melius Research"
+          }
+        ],
+        "q3-2023": [
+          {
+            "name": "Jessica John",
+            "firm": "Investor Relations and ESG & Corporate Communications, Norwegian Cruise Line"
+          },
+          {
+            "name": "Mark Kempa",
+            "firm": "Norwegian Cruise Line"
+          },
+          {
+            "name": "Dan Politzer",
+            "firm": "Lodging, and Leisure, Wells Fargo"
+          },
+          {
+            "name": "Steve Wieczynski",
+            "firm": "Stifel"
+          },
+          {
+            "name": "Vince Ciepiel",
+            "firm": "OTA\u2019s, Cruise and Luxury, Cleveland Research"
+          },
+          {
+            "name": "Robin Farley",
+            "firm": "UBS"
+          },
+          {
+            "name": "Brandt Montour",
+            "firm": "Lodging and Leisure, Barclays"
+          },
+          {
+            "name": "James Hardiman",
+            "firm": "Citi"
+          },
+          {
+            "name": "Conor Cunningham",
+            "firm": "Melius Research"
+          },
+          {
+            "name": "Patrick Scholes",
+            "firm": "Truist"
+          }
+        ],
+        "q2-2023": [
+          {
+            "name": "Jessica John",
+            "firm": "Norwegian Cruise Line Holdings"
+          },
+          {
+            "name": "Mark Kempa",
+            "firm": "Norwegian Cruise Line Holdings"
+          },
+          {
+            "name": "Vince Ciepiel",
+            "firm": "Cleveland Research"
+          },
+          {
+            "name": "Robin Farley",
+            "firm": "UBS"
+          },
+          {
+            "name": "Patrick Scholes",
+            "firm": "Truist Securities"
+          },
+          {
+            "name": "Brandt Montour",
+            "firm": "Barclays"
+          },
+          {
+            "name": "Steven Wieczynski",
+            "firm": "Stifel"
+          },
+          {
+            "name": "James Hardiman",
+            "firm": "Citi"
+          },
+          {
+            "name": "Conor Cunningham",
+            "firm": "Melius Research"
+          },
+          {
+            "name": "Daniel Politzer",
+            "firm": "Wells Fargo"
+          }
+        ],
+        "q1-2023": [
+          {
+            "name": "Jessica John",
+            "firm": "ESG, and Corporate Communications, Norwegian Cruise Line"
+          },
+          {
+            "name": "Mark Kempa",
+            "firm": "Norwegian Cruise Line"
+          },
+          {
+            "name": "Daniel Politzer",
+            "firm": "Wells Fargo"
+          },
+          {
+            "name": "Steve Wieczynski",
+            "firm": "Senior Equity Research Analyst, Stifel"
+          },
+          {
+            "name": "Vince Ciepiel",
+            "firm": "Cleveland Research Company"
+          },
+          {
+            "name": "Brandt Montour",
+            "firm": "Barclays"
+          },
+          {
+            "name": "Conor Cunningham",
+            "firm": "Melius Research"
+          },
+          {
+            "name": "Stephen Grambling",
+            "firm": "Morgan Stanley"
+          },
+          {
+            "name": "Robin Farley",
+            "firm": "UBS"
+          },
+          {
+            "name": "Patrick Scholes",
+            "firm": "Truist Securities"
+          }
+        ],
+        "q4-2022": [
+          {
+            "name": "Jessica John",
+            "firm": "Norwegian Cruise Line Holdings"
+          },
+          {
+            "name": "Frank Del Rio",
+            "firm": "Norwegian Cruise Line Holdings"
+          },
+          {
+            "name": "Mark Kempa",
+            "firm": "Norwegian Cruise Line Holdings"
+          },
+          {
+            "name": "Daniel Politzer",
+            "firm": "Wells Fargo"
+          },
+          {
+            "name": "Steven Wieczynski",
+            "firm": "Stifel"
+          },
+          {
+            "name": "Conor Cunningham",
+            "firm": "Airlines and Travel Research, Melius Research"
+          },
+          {
+            "name": "C. Patrick Scholes",
+            "firm": "Lodging and Leisure Equity Research, Truist Securities"
+          },
+          {
+            "name": "Fred Wightman",
+            "firm": "Wolfe Research"
+          },
+          {
+            "name": "James Hardiman",
+            "firm": "Leisure and Travel Analyst, Citigroup"
+          },
+          {
+            "name": "Paul Golding",
+            "firm": "Macquarie"
+          },
+          {
+            "name": "Robin Farley",
+            "firm": "UBS"
+          }
+        ],
+        "q3-2022": [
+          {
+            "name": "Jessica John",
+            "firm": "Corporate Communications, and ESG, Norwegian Cruise Line Holdings"
+          },
+          {
+            "name": "Mark Kempa",
+            "firm": "Norwegian Cruise Line Holdings"
+          },
+          {
+            "name": "Patrick Scholes",
+            "firm": "Truist Securities"
+          },
+          {
+            "name": "Robin Farley",
+            "firm": "UBS"
+          },
+          {
+            "name": "Steven Wieczynski",
+            "firm": "Stifel"
+          },
+          {
+            "name": "Daniel Politzer",
+            "firm": "Wells Fargo"
+          },
+          {
+            "name": "Vince Ciepiel",
+            "firm": "Cleveland Research Company"
+          },
+          {
+            "name": "James Hardiman",
+            "firm": "Citi"
+          },
+          {
+            "name": "Paul Golding",
+            "firm": "Macquarie Capital"
+          },
+          {
+            "name": "Ivan Feinseth",
+            "firm": "CIO, and Director of Research, Tigress Financial Partners"
+          }
+        ],
+        "q2-2022": [
+          {
+            "name": "Jessica John",
+            "firm": "ESG, and Corporate Communications, Norwegian Cruise Line Holdings"
+          },
+          {
+            "name": "Mark Kempa",
+            "firm": "Norwegian Cruise Line Holdings"
+          },
+          {
+            "name": "Dan Politzer",
+            "firm": "Lodging, and Leisure, Wells Fargo"
+          },
+          {
+            "name": "Brandt Montour",
+            "firm": "Lodging, and Leisure, Barclays"
+          },
+          {
+            "name": "Steve Wieczynski",
+            "firm": "Stifel"
+          },
+          {
+            "name": "Patrick Scholes",
+            "firm": "Truist"
+          },
+          {
+            "name": "Vince Ciepiel",
+            "firm": "OTA's, Cruise, and Luxury, Cleveland Research"
+          },
+          {
+            "name": "Robin Farley",
+            "firm": "UBS"
+          },
+          {
+            "name": "Jaime Katz",
+            "firm": "Morningstar"
+          }
+        ],
+        "q1-2022": [
+          {
+            "name": "Steven Wieczynski",
+            "firm": "Stifel"
+          },
+          {
+            "name": "Mark Kempa",
+            "firm": "Norwegian Cruise Line Holdings"
+          },
+          {
+            "name": "Vince Ciepiel",
+            "firm": "Cleveland Research Company"
+          },
+          {
+            "name": "Stephen Grambling",
+            "firm": "Goldman Sachs"
+          },
+          {
+            "name": "Patrick Scholes",
+            "firm": "Lodging and Leisure Equity Research, Truist Securities"
+          },
+          {
+            "name": "Robin Farley",
+            "firm": "UBS"
+          },
+          {
+            "name": "Dan Politzer",
+            "firm": "Wells Fargo"
+          },
+          {
+            "name": "Sean Wagner",
+            "firm": "Citi"
+          },
+          {
+            "name": "Jessica John",
+            "firm": "ESG, and Corporate Communications, Norwegian Cruise Line Holdings"
+          }
+        ]
+      }
+    },
+    "mar": {
+      "name": "Marriott",
+      "calls": {
+        "q1-2026": [
+          {
+            "name": "Shaun Kelley",
+            "firm": "Bank of America"
+          },
+          {
+            "name": "Jen Mason",
+            "firm": "Marriott International"
+          },
+          {
+            "name": "Richard Clarke",
+            "firm": "Bernstein"
+          },
+          {
+            "name": "Stephen Grambling",
+            "firm": "Morgan Stanley"
+          },
+          {
+            "name": "Michael Bellisario",
+            "firm": "Baird"
+          },
+          {
+            "name": "Dan Politzer",
+            "firm": "JPMorgan"
+          },
+          {
+            "name": "Ari Klein",
+            "firm": "BMO Capital Markets"
+          },
+          {
+            "name": "Lizzie Dove",
+            "firm": "Goldman Sachs"
+          },
+          {
+            "name": "David Katz",
+            "firm": "Jefferies"
+          },
+          {
+            "name": "Brandt Montour",
+            "firm": "Barclays"
+          },
+          {
+            "name": "Duane Pfennigwerth",
+            "firm": "Evercore ISI"
+          },
+          {
+            "name": "Conor Cunningham",
+            "firm": "Melius Research"
+          },
+          {
+            "name": "Trey Bowers",
+            "firm": "Wells Fargo"
+          },
+          {
+            "name": "Smedes Rose",
+            "firm": "Citi"
+          },
+          {
+            "name": "Steve Pizzella",
+            "firm": "Deutsche Bank"
+          }
+        ],
+        "q4-2025": [
+          {
+            "name": "Shaun Kelley",
+            "firm": "Bank of America"
+          },
+          {
+            "name": "Dan Politzer",
+            "firm": "JPMorgan"
+          },
+          {
+            "name": "Stephen Grambling",
+            "firm": "Lodging, and Leisure Research, Morgan Stanley"
+          },
+          {
+            "name": "Michael Bellisario",
+            "firm": "Baird"
+          },
+          {
+            "name": "Lizzie Dove",
+            "firm": "Goldman Sachs"
+          },
+          {
+            "name": "Richard Clarke",
+            "firm": "Bernstein"
+          },
+          {
+            "name": "David Katz",
+            "firm": "Jefferies"
+          },
+          {
+            "name": "Brandt Montour",
+            "firm": "Barclays"
+          },
+          {
+            "name": "Ari Klein",
+            "firm": "BMO Capital Markets"
+          },
+          {
+            "name": "Conor Cunningham",
+            "firm": "Melius Research"
+          },
+          {
+            "name": "Smedes Rose",
+            "firm": "Citi"
+          },
+          {
+            "name": "Robin Farley",
+            "firm": "UBS"
+          },
+          {
+            "name": "Trey Bowers",
+            "firm": "Wells Fargo"
+          }
+        ],
+        "q3-2025": [
+          {
+            "name": "Jackie McConagha",
+            "firm": "Marriott International"
+          },
+          {
+            "name": "Leeny Oberg",
+            "firm": "Marriott International"
+          },
+          {
+            "name": "Shaun Kelley",
+            "firm": "Lodging and Leisure Equities, Bank of America"
+          },
+          {
+            "name": "Michael Bellisario",
+            "firm": "Baird"
+          },
+          {
+            "name": "David Katz",
+            "firm": "Jefferies"
+          },
+          {
+            "name": "Conor Cunningham",
+            "firm": "Melius Research"
+          },
+          {
+            "name": "Stephen Grambling",
+            "firm": "Morgan Stanley"
+          },
+          {
+            "name": "Patrick Scholes",
+            "firm": "Truist"
+          },
+          {
+            "name": "Brandt Montour",
+            "firm": "Lodging & Leisure, Barclays"
+          },
+          {
+            "name": "Ari Klein",
+            "firm": "BMO"
+          },
+          {
+            "name": "Richard Clarke",
+            "firm": "Bernstein"
+          },
+          {
+            "name": "Duane Pfennigwerth",
+            "firm": "Evercore ISI"
+          },
+          {
+            "name": "Smedes Rose",
+            "firm": "Citi"
+          },
+          {
+            "name": "Lizzie Dove",
+            "firm": "Goldman Sachs"
+          },
+          {
+            "name": "Meredith Jensen",
+            "firm": "HSBC"
+          }
+        ],
+        "q2-2025": [],
+        "q1-2025": [
+          {
+            "name": "Jackie McConagha",
+            "firm": "Marriott International, Inc"
+          },
+          {
+            "name": "Leeny Oberg",
+            "firm": "Marriott International, Inc"
+          },
+          {
+            "name": "Michael Bellisario",
+            "firm": "Baird"
+          },
+          {
+            "name": "Shaun Kelley",
+            "firm": "Bank of America Corporation"
+          },
+          {
+            "name": "David Katz",
+            "firm": "Jefferies Financial Group Inc"
+          },
+          {
+            "name": "Stephen Grambling",
+            "firm": "Morgan Stanley"
+          },
+          {
+            "name": "Ari Klein",
+            "firm": "BMO Capital Markets"
+          },
+          {
+            "name": "Conor Cunningham",
+            "firm": "Melius Research LLC"
+          },
+          {
+            "name": "Patrick Scholes",
+            "firm": "Truist Financial Corporation"
+          },
+          {
+            "name": "Brandt Montour",
+            "firm": "Barclays PLC"
+          },
+          {
+            "name": "Duane Pfennigwerth",
+            "firm": "Evercore"
+          },
+          {
+            "name": "Robin Farley",
+            "firm": "UBS"
+          },
+          {
+            "name": "Lizzie Dove",
+            "firm": "Goldman Sachs"
+          }
+        ],
+        "q4-2024": [
+          {
+            "name": "Shaun Kelley",
+            "firm": "Bank of America"
+          },
+          {
+            "name": "Leeny Oberg",
+            "firm": "Marriott International"
+          },
+          {
+            "name": "Patrick Scholes",
+            "firm": "Truist Securities"
+          },
+          {
+            "name": "Conor Cunningham",
+            "firm": "Melius Research"
+          },
+          {
+            "name": "Richard Clarke",
+            "firm": "Bernstein"
+          },
+          {
+            "name": "Robin Farley",
+            "firm": "UBS"
+          },
+          {
+            "name": "Stephen Grambling",
+            "firm": "Morgan Stanley"
+          },
+          {
+            "name": "David Katz",
+            "firm": "Jefferies"
+          },
+          {
+            "name": "Brandt Montour",
+            "firm": "Barclays"
+          },
+          {
+            "name": "Duane Pfennigwerth",
+            "firm": "Evercore ISI"
+          },
+          {
+            "name": "Smedes Rose",
+            "firm": "Citi"
+          },
+          {
+            "name": "Ari Klein",
+            "firm": "BMO Capital Markets"
+          },
+          {
+            "name": "Chad Beynon",
+            "firm": "Macquarie"
+          },
+          {
+            "name": "Lizzie Dove",
+            "firm": "Goldman Sachs"
+          }
+        ],
+        "q3-2024": [
+          {
+            "name": "Stephen Grambling",
+            "firm": "Morgan Stanley"
+          },
+          {
+            "name": "Shaun Kelley",
+            "firm": "Bank of America"
+          },
+          {
+            "name": "Patrick Scholes",
+            "firm": "Truist Securities"
+          },
+          {
+            "name": "Richard Clarke",
+            "firm": "Bernstein"
+          },
+          {
+            "name": "Robin Farley",
+            "firm": "UBS"
+          },
+          {
+            "name": "Joe Greff",
+            "firm": "JPMorgan"
+          },
+          {
+            "name": "Brandt Montour",
+            "firm": "Barclays"
+          },
+          {
+            "name": "David Katz",
+            "firm": "Jefferies"
+          },
+          {
+            "name": "Daniel Politzer",
+            "firm": "Wells Fargo"
+          },
+          {
+            "name": "Michael Belisario",
+            "firm": "Baird"
+          },
+          {
+            "name": "Duane Pfennigwerth",
+            "firm": "Evercore ISI"
+          },
+          {
+            "name": "Smedes Rose",
+            "firm": "Citi"
+          },
+          {
+            "name": "Lizzie Dove",
+            "firm": "Goldman Sachs"
+          },
+          {
+            "name": "Chad Beynon",
+            "firm": "Macquarie"
+          },
+          {
+            "name": "Conor Cunningham",
+            "firm": "Melius Research"
+          }
+        ],
+        "q2-2024": [
+          {
+            "name": "Jackie Burka McConagha",
+            "firm": "Marriott International"
+          },
+          {
+            "name": "Leeny Oberg",
+            "firm": "Development, Marriott International"
+          },
+          {
+            "name": "Stephen Grambling",
+            "firm": "Morgan Stanley"
+          },
+          {
+            "name": "Shaun Kelley",
+            "firm": "Bank of America"
+          },
+          {
+            "name": "Brandt Montour",
+            "firm": "Barclays"
+          }
+        ],
+        "q1-2024": [
+          {
+            "name": "Jackie McConagha",
+            "firm": "Investor Relations, Marriott International"
+          },
+          {
+            "name": "Leeny Oberg",
+            "firm": "Development, Marriott International"
+          },
+          {
+            "name": "Shaun Kelley",
+            "firm": "Bank of America"
+          },
+          {
+            "name": "Stephen Grambling",
+            "firm": "Morgan Stanley"
+          },
+          {
+            "name": "Joe Greff",
+            "firm": "JPMorgan"
+          },
+          {
+            "name": "Patrick Scholes",
+            "firm": "Lodging and Leisure Equity Research, Truist Securities"
+          },
+          {
+            "name": "Brandt Montour",
+            "firm": "Equity Research - Gaming, Lodging & Leisure, Barclays"
+          },
+          {
+            "name": "Richard Clarke",
+            "firm": "Bernstein"
+          },
+          {
+            "name": "Smedes Rose",
+            "firm": "Citi"
+          },
+          {
+            "name": "Dan Politzer",
+            "firm": "Equity Research Analyst - Gaming, Lodging, and Leisure, Wells Fargo"
+          },
+          {
+            "name": "Bill Crow",
+            "firm": "Raymond James"
+          },
+          {
+            "name": "David Katz",
+            "firm": "Jefferies"
+          },
+          {
+            "name": "Robin Farley",
+            "firm": "UBS"
+          },
+          {
+            "name": "Chad Beynon",
+            "firm": "Analyst, Macquarie"
+          },
+          {
+            "name": "Michael Bellisario",
+            "firm": "Baird"
+          },
+          {
+            "name": "Duane Pfennigwerth",
+            "firm": "Equity Research, Evercore ISI"
+          }
+        ],
+        "q4-2023": [
+          {
+            "name": "Jackie McConagha",
+            "firm": "Marriott International"
+          },
+          {
+            "name": "Leeny Oberg",
+            "firm": "Marriott International"
+          },
+          {
+            "name": "Joe Greff",
+            "firm": "JPMorgan"
+          },
+          {
+            "name": "Shaun Kelley",
+            "firm": "Bank of America"
+          },
+          {
+            "name": "Smedes Rose",
+            "firm": "Citi"
+          },
+          {
+            "name": "Richard Clarke",
+            "firm": "Bernstein"
+          },
+          {
+            "name": "Stephen Grambling",
+            "firm": "Morgan Stanley"
+          },
+          {
+            "name": "Chad Beynon",
+            "firm": "Macquarie"
+          },
+          {
+            "name": "Brandt Montour",
+            "firm": "Barclays"
+          },
+          {
+            "name": "Kevin Kopelman",
+            "firm": "TD Cowen"
+          },
+          {
+            "name": "Michael Bellisario",
+            "firm": "Baird"
+          },
+          {
+            "name": "David Katz",
+            "firm": "Jefferies"
+          },
+          {
+            "name": "Patrick Scholes",
+            "firm": "Truist Securities"
+          },
+          {
+            "name": "Robin Farley",
+            "firm": "UBS"
+          }
+        ],
+        "q3-2023": [
+          {
+            "name": "Jackie McConagha",
+            "firm": "Marriott"
+          },
+          {
+            "name": "Leeny Oberg",
+            "firm": "Marriott"
+          },
+          {
+            "name": "Shaun Kelley",
+            "firm": "Bank of America"
+          },
+          {
+            "name": "Stephen Grambling",
+            "firm": "Morgan Stanley"
+          },
+          {
+            "name": "Smedes Rose",
+            "firm": "Citi"
+          },
+          {
+            "name": "David Katz",
+            "firm": "Jefferies"
+          },
+          {
+            "name": "Robin Farley",
+            "firm": "UBS"
+          },
+          {
+            "name": "Richard Clarke",
+            "firm": "Bernstein"
+          },
+          {
+            "name": "Chad Beynon",
+            "firm": "Macquarie"
+          },
+          {
+            "name": "Michael Bellisario",
+            "firm": "Baird"
+          },
+          {
+            "name": "Bill Crow",
+            "firm": "Raymond James"
+          },
+          {
+            "name": "Conor Cunningham",
+            "firm": "Melius Research"
+          },
+          {
+            "name": "Meredith Jensen",
+            "firm": "HSBC"
+          }
+        ],
+        "q2-2023": [
+          {
+            "name": "Stephen Grambling",
+            "firm": "Morgan Stanley"
+          },
+          {
+            "name": "Leeny Oberg",
+            "firm": "Marriott International"
+          },
+          {
+            "name": "Shaun Kelley",
+            "firm": "Bank of America"
+          },
+          {
+            "name": "Joe Greff",
+            "firm": "JPMorgan"
+          },
+          {
+            "name": "Richard Clarke",
+            "firm": "Bernstein"
+          },
+          {
+            "name": "David Katz",
+            "firm": "Jefferies"
+          },
+          {
+            "name": "Duane Pfennigwerth",
+            "firm": "Evercore ISI"
+          },
+          {
+            "name": "Smedes Rose",
+            "firm": "Citi"
+          },
+          {
+            "name": "Dori Kesten",
+            "firm": "Wells Fargo"
+          },
+          {
+            "name": "Bill Crow",
+            "firm": "Raymond James"
+          },
+          {
+            "name": "Robin Farley",
+            "firm": "UBS"
+          },
+          {
+            "name": "Brandt Montour",
+            "firm": "Barclays"
+          },
+          {
+            "name": "Ari Klein",
+            "firm": "BMO Capital Markets"
+          },
+          {
+            "name": "Michael Bellisario",
+            "firm": "Baird"
+          }
+        ],
+        "q1-2023": [
+          {
+            "name": "Jackie Burka McConagha",
+            "firm": "Marriott International"
+          },
+          {
+            "name": "Leeny Oberg",
+            "firm": "Marriott International"
+          },
+          {
+            "name": "Joe Greff",
+            "firm": "J.P. Morgan"
+          },
+          {
+            "name": "Stephen Grambling",
+            "firm": "Morgan Stanley"
+          },
+          {
+            "name": "Robin Farley",
+            "firm": "UBS"
+          },
+          {
+            "name": "David Katz",
+            "firm": "Jefferies"
+          },
+          {
+            "name": "Shaun Kelley",
+            "firm": "Bank of America Securities"
+          },
+          {
+            "name": "Smedes Rose",
+            "firm": "Citigroup"
+          },
+          {
+            "name": "Patrick Scholes",
+            "firm": "Truist Securities"
+          },
+          {
+            "name": "Richard Clarke",
+            "firm": "Bernstein"
+          },
+          {
+            "name": "Dori Kesten",
+            "firm": "Wells Fargo"
+          },
+          {
+            "name": "Brandt Montour",
+            "firm": "Barclays"
+          },
+          {
+            "name": "Duane Pfennigwerth",
+            "firm": "Evercore ISI"
+          },
+          {
+            "name": "Chad Beynon",
+            "firm": "Macquarie"
+          }
+        ],
+        "q4-2022": [
+          {
+            "name": "Stephen Grambling",
+            "firm": "Morgan Stanley"
+          },
+          {
+            "name": "Leeny Oberg",
+            "firm": "Marriott International"
+          },
+          {
+            "name": "Shaun Kelley",
+            "firm": "Bank of America"
+          },
+          {
+            "name": "Joe Greff",
+            "firm": "JP Morgan"
+          },
+          {
+            "name": "Robin Farley",
+            "firm": "UBS"
+          },
+          {
+            "name": "Richard Clarke",
+            "firm": "Bernstein"
+          },
+          {
+            "name": "Smedes Rose",
+            "firm": "Citi"
+          },
+          {
+            "name": "Dori Kesten",
+            "firm": "Wells Fargo Securities"
+          },
+          {
+            "name": "Patrick Scholes",
+            "firm": "Truist Securities"
+          },
+          {
+            "name": "David Katz",
+            "firm": "Jefferies"
+          },
+          {
+            "name": "Bill Crow",
+            "firm": "Raymond James"
+          },
+          {
+            "name": "Brandt Montour",
+            "firm": "Barclays"
+          },
+          {
+            "name": "Chad Beynon",
+            "firm": "Macquarie"
+          }
+        ],
+        "q3-2022": [
+          {
+            "name": "Jackie Burka McConagha",
+            "firm": "Marriott International"
+          },
+          {
+            "name": "Leeny Oberg",
+            "firm": "Business Operations, Marriott International"
+          },
+          {
+            "name": "Shaun Kelley",
+            "firm": "Americas Equity Research, Bank of America"
+          },
+          {
+            "name": "Joe Greff",
+            "firm": "Equity Research, J.P. Morgan"
+          },
+          {
+            "name": "Robin Farley",
+            "firm": "Leisure & Lodging Research, UBS"
+          },
+          {
+            "name": "Smedes Rose",
+            "firm": "Equity Research, Citi"
+          },
+          {
+            "name": "Patrick Scholes",
+            "firm": "Equity Research Analyst, Truist Securities"
+          },
+          {
+            "name": "David Katz",
+            "firm": "Equity Research Analyst, Jefferies"
+          },
+          {
+            "name": "Bill Crow",
+            "firm": "Real Estate Research, Raymond James"
+          },
+          {
+            "name": "Brandt Montour",
+            "firm": "Equity Research, Barclays"
+          },
+          {
+            "name": "Duane Pfennigwerth",
+            "firm": "Senior Equity Research Analyst, Evercore ISI"
+          }
+        ],
+        "q2-2022": [
+          {
+            "name": "Shaun Kelley",
+            "firm": "Lodging and Leisure Equities, Bank of America"
+          },
+          {
+            "name": "Leeny Oberg",
+            "firm": "Marriott International"
+          },
+          {
+            "name": "Joe Greff",
+            "firm": "JPMorgan"
+          },
+          {
+            "name": "Patrick Scholes",
+            "firm": "Truist Securities"
+          },
+          {
+            "name": "Robin Farley",
+            "firm": "UBS"
+          },
+          {
+            "name": "Smedes Rose",
+            "firm": "Citi"
+          },
+          {
+            "name": "David Katz",
+            "firm": "Jefferies"
+          },
+          {
+            "name": "Brandt Montour",
+            "firm": "Barclays"
+          },
+          {
+            "name": "Michael Bellisario",
+            "firm": "Baird"
+          },
+          {
+            "name": "Richard Clarke",
+            "firm": "Bernstein"
+          },
+          {
+            "name": "Vince Ciepiel",
+            "firm": "Cleveland Research"
+          },
+          {
+            "name": "Dori Kesten",
+            "firm": "Wells Fargo"
+          },
+          {
+            "name": "Bill Crow",
+            "firm": "Raymond James"
+          },
+          {
+            "name": "Duane Pfennigwerth",
+            "firm": "Evercore ISI"
+          }
+        ],
+        "q1-2022": [
+          {
+            "name": "Stephen Grambling",
+            "firm": "Goldman Sachs"
+          },
+          {
+            "name": "Leeny Oberg",
+            "firm": "Marriott International"
+          },
+          {
+            "name": "Shaun Kelley",
+            "firm": "Lodging and Leisure Equities, Bank of America"
+          },
+          {
+            "name": "Joe Greff",
+            "firm": "JPMorgan"
+          },
+          {
+            "name": "Patrick Scholes",
+            "firm": "Truist Securities"
+          },
+          {
+            "name": "Smedes Rose",
+            "firm": "Citi"
+          },
+          {
+            "name": "Richard Clarke",
+            "firm": "OTAs and Catering Analyst, Bernstein"
+          },
+          {
+            "name": "David Katz",
+            "firm": "Jefferies"
+          },
+          {
+            "name": "Chad Beynon",
+            "firm": "Macquarie Group"
+          },
+          {
+            "name": "Robin Farley",
+            "firm": "UBS"
+          },
+          {
+            "name": "Vince Ciepiel",
+            "firm": "Cleveland Research Company"
+          }
+        ]
+      }
+    },
+    "hlt": {
+      "name": "Hilton",
+      "calls": {
+        "q1-2026": [
+          {
+            "name": "Shaun Kelley",
+            "firm": "Bank of America"
+          },
+          {
+            "name": "Daniel Politzer",
+            "firm": "JPMorgan"
+          },
+          {
+            "name": "Stephen Grambling",
+            "firm": "Morgan Stanley"
+          },
+          {
+            "name": "Lizzie Dove",
+            "firm": "Goldman Sachs"
+          },
+          {
+            "name": "Steve Pizzella",
+            "firm": "Deutsche Bank"
+          },
+          {
+            "name": "David Katz",
+            "firm": "Jefferies"
+          },
+          {
+            "name": "Robin Farley",
+            "firm": "UBS"
+          },
+          {
+            "name": "Kevin Jacobs",
+            "firm": "Hilton"
+          },
+          {
+            "name": "Brandt Montour",
+            "firm": "Barclays"
+          },
+          {
+            "name": "Trey Bowers",
+            "firm": "Wells Fargo"
+          },
+          {
+            "name": "Duane Pfennigwerth",
+            "firm": "Evercore ISI"
+          }
+        ],
+        "q4-2025": [
+          {
+            "name": "Charlie Reurer",
+            "firm": "Hilton Worldwide"
+          },
+          {
+            "name": "Kevin Jacobs",
+            "firm": "Hilton Worldwide"
+          },
+          {
+            "name": "Shaun Kelley",
+            "firm": "Bank of America"
+          },
+          {
+            "name": "Dan Politzer",
+            "firm": "JPMorgan"
+          },
+          {
+            "name": "David Katz",
+            "firm": "Jefferies"
+          },
+          {
+            "name": "Stephen Grambling",
+            "firm": "Lodging and Leisure Research, Morgan Stanley"
+          },
+          {
+            "name": "Steve Pizzella",
+            "firm": "Lodging, and Leisure Equity Research Analyst, Deutsche Bank"
+          },
+          {
+            "name": "Robin Farley",
+            "firm": "UBS"
+          },
+          {
+            "name": "Lizzie Dove",
+            "firm": "Goldman Sachs"
+          },
+          {
+            "name": "Brandt Montour",
+            "firm": "Barclays"
+          },
+          {
+            "name": "Michael Bellisario",
+            "firm": "Baird"
+          },
+          {
+            "name": "Patrick Scholes",
+            "firm": "Truist Securities"
+          },
+          {
+            "name": "Trey Bowers",
+            "firm": "Wells Fargo"
+          }
+        ],
+        "q3-2025": [
+          {
+            "name": "Shaun Kelley",
+            "firm": "Bank of America"
+          },
+          {
+            "name": "Stephen Grambling",
+            "firm": "Morgan Stanley"
+          },
+          {
+            "name": "Dan Politzer",
+            "firm": "JPMorgan"
+          },
+          {
+            "name": "Kevin Jacobs",
+            "firm": "Hilton"
+          },
+          {
+            "name": "David Katz",
+            "firm": "Jefferies"
+          },
+          {
+            "name": "Steve Pezzella",
+            "firm": "Deutsche Bank"
+          },
+          {
+            "name": "Robin Farley",
+            "firm": "UBS"
+          },
+          {
+            "name": "Brandt Montour",
+            "firm": "Barclays"
+          },
+          {
+            "name": "Lizzie Dove",
+            "firm": "Goldman Sachs"
+          },
+          {
+            "name": "Mike Bellisario",
+            "firm": "Baird"
+          },
+          {
+            "name": "Smedes Rose",
+            "firm": "Citi"
+          }
+        ],
+        "q2-2025": [
+          {
+            "name": "Shaun Kelley",
+            "firm": "Bank of America"
+          },
+          {
+            "name": "Stephen Grambling",
+            "firm": "Lodging and Leisure Research, Morgan Stanley"
+          },
+          {
+            "name": "Dan Politzer",
+            "firm": "JPMorgan"
+          },
+          {
+            "name": "David Katz",
+            "firm": "Jefferies"
+          },
+          {
+            "name": "Steve Pizzela",
+            "firm": "Lodging, and Leisure Equity Research, Deutsche Bank"
+          },
+          {
+            "name": "Kevin Jacobs",
+            "firm": "Hilton Worldwide Holdings Inc"
+          },
+          {
+            "name": "Robin Farley",
+            "firm": "UBS"
+          },
+          {
+            "name": "Brandt Montour",
+            "firm": "Barclays"
+          },
+          {
+            "name": "Lizzie Dove",
+            "firm": "Goldman Sachs"
+          },
+          {
+            "name": "Michael Bellisario",
+            "firm": "Baird"
+          },
+          {
+            "name": "Smedes Rose",
+            "firm": "Citi"
+          }
+        ],
+        "q1-2025": [
+          {
+            "name": "Jill Chapman",
+            "firm": "Hilton"
+          },
+          {
+            "name": "Carlo Santarelli",
+            "firm": "Deutsche Bank"
+          },
+          {
+            "name": "Shaun Kelley",
+            "firm": "Bank of America"
+          },
+          {
+            "name": "Stephen Grambling",
+            "firm": "Morgan Stanley"
+          },
+          {
+            "name": "David Katz",
+            "firm": "Jefferies"
+          },
+          {
+            "name": "Smedes Rose",
+            "firm": "Citi"
+          },
+          {
+            "name": "Robin Farley",
+            "firm": "UBS"
+          },
+          {
+            "name": "Brandt Montour",
+            "firm": "Barclays"
+          },
+          {
+            "name": "Lizzie Dove",
+            "firm": "Goldman Sachs"
+          },
+          {
+            "name": "Chad Beynon",
+            "firm": "Macquarie"
+          },
+          {
+            "name": "Patrick Scholes",
+            "firm": "Truist"
+          },
+          {
+            "name": "Michael Bellisario",
+            "firm": "Baird"
+          },
+          {
+            "name": "Meredith Jensen",
+            "firm": "HSBC"
+          }
+        ],
+        "q4-2024": [
+          {
+            "name": "Jill Chapman",
+            "firm": "Hilton"
+          },
+          {
+            "name": "Shaun Kelley",
+            "firm": "Bank of America"
+          },
+          {
+            "name": "Stephen Grambling",
+            "firm": "Morgan Stanley"
+          },
+          {
+            "name": "Carlo Santarelli",
+            "firm": "Deutsche Bank"
+          },
+          {
+            "name": "Lizzie Dove",
+            "firm": "Goldman Sachs"
+          },
+          {
+            "name": "David Katz",
+            "firm": "Jefferies"
+          },
+          {
+            "name": "Robin Farley",
+            "firm": "UBS"
+          },
+          {
+            "name": "Brant Montour",
+            "firm": "Barclays"
+          },
+          {
+            "name": "Smedes Rose",
+            "firm": "Citi"
+          },
+          {
+            "name": "Patrick Scholes",
+            "firm": "Truist Securities"
+          },
+          {
+            "name": "Michael Belisario",
+            "firm": "Baird"
+          },
+          {
+            "name": "Chad Beynon",
+            "firm": "Macquarie"
+          },
+          {
+            "name": "Richard Clarke",
+            "firm": "Bernstein"
+          },
+          {
+            "name": "Dan Politzer",
+            "firm": "Wells Fargo"
+          },
+          {
+            "name": "Conor Cunningham",
+            "firm": "Melius Research"
+          }
+        ],
+        "q3-2024": [
+          {
+            "name": "Joseph Greff",
+            "firm": "JPMorgan Chase"
+          },
+          {
+            "name": "Christopher J. Nassetta",
+            "firm": "CEO and Director, Hilton"
+          },
+          {
+            "name": "Shaun Kelley",
+            "firm": "Bank of America Merrill Lynch"
+          },
+          {
+            "name": "Stephen Grambling",
+            "firm": "Morgan Stanley"
+          },
+          {
+            "name": "Carlo Santarelli",
+            "firm": "Deutsche Bank"
+          },
+          {
+            "name": "David Katz",
+            "firm": "Jefferies"
+          },
+          {
+            "name": "Robin Farley",
+            "firm": "UBS"
+          },
+          {
+            "name": "Smedes Rose",
+            "firm": "Citi"
+          },
+          {
+            "name": "Lizzie Dove",
+            "firm": "Goldman Sachs"
+          },
+          {
+            "name": "Brandt Montour",
+            "firm": "Barclays"
+          },
+          {
+            "name": "Michael J. Bellisario",
+            "firm": "Baird"
+          },
+          {
+            "name": "Meredith Prichard Jensen",
+            "firm": "HSBC"
+          },
+          {
+            "name": "Chad Beynon",
+            "firm": "Macquarie"
+          },
+          {
+            "name": "Patrick Scholes",
+            "firm": "Truist Securities"
+          }
+        ],
+        "q2-2024": [
+          {
+            "name": "Joe Greff",
+            "firm": "JPMorgan"
+          },
+          {
+            "name": "Carlo Santarelli",
+            "firm": "Deutsche Bank"
+          },
+          {
+            "name": "Shaun Kelly",
+            "firm": "Bank of America Merrill Lynch"
+          },
+          {
+            "name": "Stephen Grambling",
+            "firm": "Morgan Stanley"
+          },
+          {
+            "name": "David Katz",
+            "firm": "Jefferies"
+          },
+          {
+            "name": "Robin Farley",
+            "firm": "UBS"
+          },
+          {
+            "name": "Smedes Rose",
+            "firm": "Citi"
+          },
+          {
+            "name": "Brandt Montour",
+            "firm": "Barclays"
+          },
+          {
+            "name": "Patrick Scholes",
+            "firm": "Gaming and Leisure Equity Research Analyst, Truist"
+          },
+          {
+            "name": "Chad Beynon",
+            "firm": "Head of US Research & Senior Gaming, Lodging and Theatres Analyst, Macquarie"
+          },
+          {
+            "name": "Duane Pfennigwerth",
+            "firm": "Equities, Evercore ISI"
+          },
+          {
+            "name": "Dan Politzer",
+            "firm": "Wells Fargo"
+          },
+          {
+            "name": "Richard Clarke",
+            "firm": "Bernstein"
+          },
+          {
+            "name": "Kevin Kopelman",
+            "firm": "TD Cowen"
+          },
+          {
+            "name": "Conor Cunningham",
+            "firm": "Melius Research"
+          }
+        ],
+        "q1-2024": [
+          {
+            "name": "Jill Chapman",
+            "firm": "Hilton Worldwide Holdings Inc"
+          },
+          {
+            "name": "Stephen Grambling",
+            "firm": "Morgan Stanley"
+          },
+          {
+            "name": "Joe Greff",
+            "firm": "JPMorgan"
+          },
+          {
+            "name": "Robin Farley",
+            "firm": "UBS Securities"
+          },
+          {
+            "name": "Shaun C. Kelley",
+            "firm": "Bank of America"
+          },
+          {
+            "name": "Carlo Santarelli",
+            "firm": "Deutsche Bank"
+          },
+          {
+            "name": "David Katz",
+            "firm": "Jefferies & Co"
+          },
+          {
+            "name": "Smedes Rose",
+            "firm": "Citigroup"
+          },
+          {
+            "name": "Brent Montour",
+            "firm": "Barclays"
+          },
+          {
+            "name": "Chad Beynon",
+            "firm": "Macquarie"
+          },
+          {
+            "name": "Patrick Scholes",
+            "firm": "Truist Securities"
+          },
+          {
+            "name": "Duane Pfennigwerth",
+            "firm": "Evercore ISI"
+          },
+          {
+            "name": "Michael Bellisario",
+            "firm": "Robert W. Baird & Co"
+          },
+          {
+            "name": "Bill Crow",
+            "firm": "Raymond James"
+          },
+          {
+            "name": "Richard Clarke",
+            "firm": "Sanford C. Bernstein & Co"
+          },
+          {
+            "name": "Conor Cunningham",
+            "firm": "Melius Research"
+          },
+          {
+            "name": "Daniel B. Politzer",
+            "firm": "Wells Fargo"
+          },
+          {
+            "name": "Ben Chaiken",
+            "firm": "Mizuho Securities"
+          }
+        ],
+        "q4-2023": [
+          {
+            "name": "Jill Slattery",
+            "firm": "Investor Relations and Corporate Development, Hilton Worldwide"
+          },
+          {
+            "name": "Joseph Greff",
+            "firm": "JPMorgan"
+          },
+          {
+            "name": "Carlo Santarelli",
+            "firm": "Deutsche Bank"
+          },
+          {
+            "name": "Shaun Kelley",
+            "firm": "Wealth Management Advisor, Bank of America"
+          },
+          {
+            "name": "David Katz",
+            "firm": "Jefferies"
+          },
+          {
+            "name": "Smedes Rose",
+            "firm": "Citi"
+          },
+          {
+            "name": "Brandt Montour",
+            "firm": "Barclays"
+          },
+          {
+            "name": "Robin Farley",
+            "firm": "UBS"
+          },
+          {
+            "name": "Chad Beynon",
+            "firm": "Macquarie"
+          },
+          {
+            "name": "C. Patrick Scholes",
+            "firm": "Truist Securities"
+          },
+          {
+            "name": "Duane Pfennigwerth",
+            "firm": "Evercore ISI"
+          },
+          {
+            "name": "Michael Bellisario",
+            "firm": "Baird"
+          },
+          {
+            "name": "Richard Clarke",
+            "firm": "Bernstein"
+          },
+          {
+            "name": "Bill Crow",
+            "firm": "Real Estate Research, Raymond James"
+          },
+          {
+            "name": "Kevin Kopelman",
+            "firm": "TD Cowen"
+          }
+        ],
+        "q3-2023": [
+          {
+            "name": "Shaun Kelley",
+            "firm": "Bank of America"
+          },
+          {
+            "name": "Joe Greff",
+            "firm": "JPMorgan"
+          },
+          {
+            "name": "Carlo Santarelli",
+            "firm": "Gaming and Lodging Equity Research, Deutsche Bank"
+          },
+          {
+            "name": "Stephen Grambling",
+            "firm": "Morgan Stanley"
+          },
+          {
+            "name": "David Katz",
+            "firm": "Jefferies"
+          },
+          {
+            "name": "Smedes Rose",
+            "firm": "Citi"
+          },
+          {
+            "name": "Brandt Montour",
+            "firm": "Barclays"
+          },
+          {
+            "name": "Robin Farley",
+            "firm": "UBS"
+          },
+          {
+            "name": "Patrick Scholes",
+            "firm": "Truist Securities"
+          },
+          {
+            "name": "Duane Pfennigwerth",
+            "firm": "Evercore ISI"
+          },
+          {
+            "name": "Chad Beynon",
+            "firm": "Macquarie"
+          },
+          {
+            "name": "Michael Bellisario",
+            "firm": "Baird"
+          },
+          {
+            "name": "Bill Crow",
+            "firm": "Raymond James"
+          }
+        ],
+        "q2-2023": [
+          {
+            "name": "Jill Chapman",
+            "firm": "Hilton"
+          },
+          {
+            "name": "Joe Greff",
+            "firm": "J.P. Morgan"
+          },
+          {
+            "name": "Shaun Kelley",
+            "firm": "Bank of America"
+          },
+          {
+            "name": "Stephen Grambling",
+            "firm": "Morgan Stanley"
+          },
+          {
+            "name": "David Katz",
+            "firm": "Jefferies"
+          },
+          {
+            "name": "Smedes Rose",
+            "firm": "Citi"
+          },
+          {
+            "name": "Brandt Montour",
+            "firm": "Barclays"
+          },
+          {
+            "name": "Duane Pfennigwerth",
+            "firm": "Evercore ISI"
+          },
+          {
+            "name": "Robin Farley",
+            "firm": "UBS"
+          },
+          {
+            "name": "Michael Bellisario",
+            "firm": "Baird"
+          },
+          {
+            "name": "Chad Beynon",
+            "firm": "Macquarie"
+          },
+          {
+            "name": "Richard Clarke",
+            "firm": "Bernstein"
+          }
+        ],
+        "q1-2023": [
+          {
+            "name": "Brian Kucaj",
+            "firm": "Hilton Worldwide"
+          },
+          {
+            "name": "Carlo Santarelli",
+            "firm": "Gaming and Lodging Equity Research, Deutsche Bank"
+          },
+          {
+            "name": "Joe Greff",
+            "firm": "JPMorgan"
+          },
+          {
+            "name": "Shaun Kelley",
+            "firm": "Bank of America"
+          },
+          {
+            "name": "Smedes Rose",
+            "firm": "Citi"
+          },
+          {
+            "name": "Stephen Grambling",
+            "firm": "Head of US Gaming, Lodging, and Leisure Research, Morgan Stanley"
+          },
+          {
+            "name": "David Katz",
+            "firm": "Jefferies"
+          },
+          {
+            "name": "Robin Farley",
+            "firm": "UBS"
+          },
+          {
+            "name": "Brandt Montour",
+            "firm": "Barclays"
+          },
+          {
+            "name": "Bill Crow",
+            "firm": "Raymond James"
+          }
+        ],
+        "q4-2022": [
+          {
+            "name": "Carlo Santarelli",
+            "firm": "Deutsche Bank"
+          },
+          {
+            "name": "Joe Greff",
+            "firm": "JPMorgan"
+          },
+          {
+            "name": "Shaun Kelley",
+            "firm": "Bank of America"
+          },
+          {
+            "name": "Smedes Rose",
+            "firm": "Citi"
+          },
+          {
+            "name": "Greg Miller",
+            "firm": "Truist Securities"
+          },
+          {
+            "name": "David Katz",
+            "firm": "Jefferies"
+          },
+          {
+            "name": "Robin Farley",
+            "firm": "UBS"
+          },
+          {
+            "name": "Richard Clarke",
+            "firm": "Bernstein"
+          },
+          {
+            "name": "Chad Beynon",
+            "firm": "Macquarie"
+          },
+          {
+            "name": "Bill Crow",
+            "firm": "Raymond James"
+          },
+          {
+            "name": "Brandt Montour",
+            "firm": "Barclays"
+          }
+        ],
+        "q3-2022": [
+          {
+            "name": "Joe Greff",
+            "firm": "JPMorgan"
+          },
+          {
+            "name": "Kevin Jacobs",
+            "firm": "President, and Head of Global Development, Hilton"
+          },
+          {
+            "name": "Shaun Kelley",
+            "firm": "Bank of America"
+          },
+          {
+            "name": "Carlo Santarelli",
+            "firm": "Deutsche Bank"
+          },
+          {
+            "name": "Smedes Rose",
+            "firm": "Citi"
+          },
+          {
+            "name": "David Katz",
+            "firm": "Jefferies"
+          },
+          {
+            "name": "Robin Farley",
+            "firm": "UBS"
+          },
+          {
+            "name": "Chad Beynon",
+            "firm": "Macquarie"
+          },
+          {
+            "name": "Patrick Scholes",
+            "firm": "Truist Securities"
+          },
+          {
+            "name": "Duane Pfennigwerth",
+            "firm": "Evercore ISI"
+          },
+          {
+            "name": "Stephen Grambling",
+            "firm": "Morgan Stanley"
+          },
+          {
+            "name": "Brandt Montour",
+            "firm": "Barclays"
+          }
+        ],
+        "q2-2022": [
+          {
+            "name": "Carlo Santarelli",
+            "firm": "Deutsche Bank"
+          },
+          {
+            "name": "Kevin Jacobs",
+            "firm": "Hilton"
+          },
+          {
+            "name": "Shaun Kelley",
+            "firm": "Bank of America"
+          },
+          {
+            "name": "Joe Greff",
+            "firm": "J.P. Morgan"
+          },
+          {
+            "name": "David Katz",
+            "firm": "Jefferies"
+          },
+          {
+            "name": "Smedes Rose",
+            "firm": "Citi"
+          },
+          {
+            "name": "Robin Farley",
+            "firm": "UBS"
+          },
+          {
+            "name": "Richard Clarke",
+            "firm": "Bernstein"
+          },
+          {
+            "name": "Chad Beynon",
+            "firm": "Macquarie"
+          },
+          {
+            "name": "Vince Ciepiel",
+            "firm": "Cleveland Research Company"
+          },
+          {
+            "name": "Patrick Scholes",
+            "firm": "Truist Securities"
+          },
+          {
+            "name": "Duane Pfennigwerth",
+            "firm": "Evercore ISI"
+          }
+        ],
+        "q1-2022": [
+          {
+            "name": "Jill Slattery",
+            "firm": "Hilton Worldwide"
+          },
+          {
+            "name": "Joe Greff",
+            "firm": "JPMorgan"
+          },
+          {
+            "name": "Carlo Santarelli",
+            "firm": "Deutsche Bank"
+          },
+          {
+            "name": "Shaun Kelley",
+            "firm": "Bank of America"
+          },
+          {
+            "name": "Thomas Allen",
+            "firm": "Morgan Stanley"
+          },
+          {
+            "name": "Stephen Grambling",
+            "firm": "Lodging, and Gaming, Goldman Sachs"
+          },
+          {
+            "name": "David Katz",
+            "firm": "Jefferies"
+          },
+          {
+            "name": "Smedes Rose",
+            "firm": "Citi"
+          },
+          {
+            "name": "Robin Farley",
+            "firm": "UBS"
+          },
+          {
+            "name": "Patrick Scholes",
+            "firm": "Truist Securities"
+          },
+          {
+            "name": "William Crow",
+            "firm": "Raymond James"
+          },
+          {
+            "name": "Chad Beynon",
+            "firm": "Macquarie"
+          },
+          {
+            "name": "Richard Clarke",
+            "firm": "Bernstein"
+          },
+          {
+            "name": "Vince Ciepiel",
+            "firm": "Cleveland Research"
+          }
+        ]
+      }
+    },
+    "h": {
+      "name": "Hyatt",
+      "calls": {
+        "q1-2026": [
+          {
+            "name": "Lizzie Dove",
+            "firm": "Goldman Sachs"
+          },
+          {
+            "name": "Stephen Grambling",
+            "firm": "Morgan Stanley"
+          },
+          {
+            "name": "Michael Bellisario",
+            "firm": "Baird"
+          },
+          {
+            "name": "Richard Clarke",
+            "firm": "Bernstein"
+          },
+          {
+            "name": "Shaun Kelley",
+            "firm": "Bank of America"
+          },
+          {
+            "name": "Smedes Rose",
+            "firm": "Citi"
+          },
+          {
+            "name": "Duane Pfennigwerth",
+            "firm": "Evercore"
+          },
+          {
+            "name": "Dan Politzer",
+            "firm": "JPMorgan"
+          },
+          {
+            "name": "David Katz",
+            "firm": "Jefferies"
+          },
+          {
+            "name": "Chad Beynon",
+            "firm": "Macquarie"
+          },
+          {
+            "name": "Nick Weichel",
+            "firm": "Wells Fargo"
+          },
+          {
+            "name": "Meredith Jensen",
+            "firm": "HSBC"
+          }
+        ],
+        "q4-2025": [
+          {
+            "name": "Adam Rohman",
+            "firm": "Hyatt Hotels Corporation"
+          },
+          {
+            "name": "Daniel Politzer",
+            "firm": "JPMorgan"
+          },
+          {
+            "name": "Benjamin Chaiken",
+            "firm": "Mizuho"
+          },
+          {
+            "name": "Shaun Kelley",
+            "firm": "Bank of America"
+          },
+          {
+            "name": "Richard Clarke",
+            "firm": "Bernstein"
+          },
+          {
+            "name": "Brandt Montour",
+            "firm": "Barclays"
+          },
+          {
+            "name": "Smedes Rose",
+            "firm": "Citi"
+          },
+          {
+            "name": "Steve Pizzella",
+            "firm": "Deutsche Bank"
+          },
+          {
+            "name": "Elizabeth Dove",
+            "firm": "Goldman Sachs"
+          }
+        ],
+        "q3-2025": [
+          {
+            "name": "Adam Rohman",
+            "firm": "Hyatt"
+          },
+          {
+            "name": "Steve Pizzella",
+            "firm": "Deutsche Bank"
+          },
+          {
+            "name": "Smedes Rose",
+            "firm": "Citi"
+          },
+          {
+            "name": "Ben Chaiken",
+            "firm": "Mizuho"
+          },
+          {
+            "name": "Richard Clarke",
+            "firm": "Bernstein"
+          },
+          {
+            "name": "Stephen Grambling",
+            "firm": "Morgan Stanley"
+          },
+          {
+            "name": "David Katz",
+            "firm": "Jefferies"
+          },
+          {
+            "name": "Shaun Kelley",
+            "firm": "Lodging, and Leisure Equities, Bank of America"
+          },
+          {
+            "name": "Duane Pfennigwerth",
+            "firm": "Evercore ISI"
+          },
+          {
+            "name": "Michael Bellisario",
+            "firm": "Baird"
+          },
+          {
+            "name": "Brandt Montour",
+            "firm": "Barclays"
+          },
+          {
+            "name": "Patrick Scholes",
+            "firm": "Truist Securities"
+          },
+          {
+            "name": "Conor Cunningham",
+            "firm": "Melius Research"
+          },
+          {
+            "name": "Chad Beynon",
+            "firm": "Macquarie"
+          },
+          {
+            "name": "Meredith Jensen",
+            "firm": "HSBC"
+          }
+        ],
+        "q2-2025": [
+          {
+            "name": "Conor Cunningham",
+            "firm": "Melius Research"
+          },
+          {
+            "name": "Stephen Grambling",
+            "firm": "Lodging and Leisure Research, Morgan Stanley"
+          },
+          {
+            "name": "Shaun Kelley",
+            "firm": "Bank of America"
+          },
+          {
+            "name": "Michael Bellisario",
+            "firm": "Equity Research Senior Analyst, Baird"
+          },
+          {
+            "name": "Smedes Rose",
+            "firm": "Citigroup"
+          },
+          {
+            "name": "Benjamin Chaiken",
+            "firm": "Mizuho"
+          },
+          {
+            "name": "Patrick Scholes",
+            "firm": "Truist Securities"
+          },
+          {
+            "name": "Richard Clarke",
+            "firm": "AB Bernstein"
+          },
+          {
+            "name": "Duane Pfennigwerth",
+            "firm": "Evercore ISI"
+          }
+        ],
+        "q1-2025": [
+          {
+            "name": "Adam Rohman",
+            "firm": "FP&A and, Treasurer, Hyatt"
+          },
+          {
+            "name": "Shaun Kelley",
+            "firm": "Lodging & Leisure Equities, Bank of America"
+          },
+          {
+            "name": "Michael Bellisario",
+            "firm": "Baird"
+          },
+          {
+            "name": "Ben Chaiken",
+            "firm": "Mizuho"
+          },
+          {
+            "name": "Richard Clarke",
+            "firm": "Bernstein"
+          },
+          {
+            "name": "Patrick Scholes",
+            "firm": "Lodging, and Leisure Equity Research, Truist Securities"
+          },
+          {
+            "name": "Chad Beynon",
+            "firm": "Macquarie"
+          },
+          {
+            "name": "Stephen Grambling",
+            "firm": "Morgan Stanley"
+          },
+          {
+            "name": "Smedes Rose",
+            "firm": "Citi"
+          },
+          {
+            "name": "Conor Cunningham",
+            "firm": "Transports Analyst, Melius Research"
+          },
+          {
+            "name": "Brandt Montour",
+            "firm": "Lodging and Leisure, Barclays"
+          },
+          {
+            "name": "Kevin Kopelman",
+            "firm": "TD Cowen"
+          }
+        ],
+        "q4-2024": [
+          {
+            "name": "Adam Rohman",
+            "firm": "Hyatt Hotels Corporation"
+          },
+          {
+            "name": "Ben Chaiken",
+            "firm": "Mizuho"
+          },
+          {
+            "name": "David Katz",
+            "firm": "Jefferies"
+          },
+          {
+            "name": "Conor Cunningham",
+            "firm": "Melius Research"
+          },
+          {
+            "name": "Smedes Rose",
+            "firm": "Citi"
+          },
+          {
+            "name": "Stephen Grambling",
+            "firm": "Lodging and Leisure Research, Morgan Stanley"
+          },
+          {
+            "name": "Chad Beynon",
+            "firm": "Macquarie Group"
+          },
+          {
+            "name": "Brandt Montour",
+            "firm": "Barclays"
+          },
+          {
+            "name": "Alex Brignall",
+            "firm": "Redburn Atlantic"
+          },
+          {
+            "name": "Michael Bellisario",
+            "firm": "Baird"
+          },
+          {
+            "name": "Peter McCloskey",
+            "firm": "Evercore ISI"
+          },
+          {
+            "name": "Richard Clarke",
+            "firm": "Bernstein"
+          },
+          {
+            "name": "Patrick Scholes",
+            "firm": "Truist Securities"
+          }
+        ],
+        "q3-2024": [
+          {
+            "name": "Adam Rohman",
+            "firm": "Hyatt Hotels Corporation"
+          },
+          {
+            "name": "Joan Bottarini",
+            "firm": "Hyatt Hotels Corporation"
+          },
+          {
+            "name": "Joseph R. Greff",
+            "firm": "J.P. Morgan"
+          },
+          {
+            "name": "Daniel Politzer",
+            "firm": "Wells Fargo Securities LLC"
+          },
+          {
+            "name": "Ben Chacon",
+            "firm": "Mizuho Securities USA LLC"
+          },
+          {
+            "name": "Shaun Clisby Kelley",
+            "firm": "Bank of America Securities"
+          },
+          {
+            "name": "Conor Cunningham",
+            "firm": "Melius Research LLC"
+          },
+          {
+            "name": "Smedes Rose",
+            "firm": "Citi"
+          },
+          {
+            "name": "David Brian Katz",
+            "firm": "Jefferies Financial Group"
+          },
+          {
+            "name": "Patrick Scholes",
+            "firm": "Truist Securities"
+          },
+          {
+            "name": "Duane Pfennigwerth",
+            "firm": "Evercore ISI"
+          },
+          {
+            "name": "Brandt Montour",
+            "firm": "Barclays PLC"
+          }
+        ],
+        "q2-2024": [
+          {
+            "name": "Adam Rohman",
+            "firm": "Hyatt Hotels"
+          },
+          {
+            "name": "Shaun Kelley",
+            "firm": "Bank of America"
+          },
+          {
+            "name": "Joseph Greff",
+            "firm": "JPMorgan"
+          },
+          {
+            "name": "Dan Politzer",
+            "firm": "Wells Fargo"
+          },
+          {
+            "name": "Michael Bellisario",
+            "firm": "Baird"
+          },
+          {
+            "name": "Stephen Grambling",
+            "firm": "Morgan Stanley"
+          },
+          {
+            "name": "Richard Clarke",
+            "firm": "Bernstein"
+          },
+          {
+            "name": "Patrick Scholes",
+            "firm": "Truist"
+          },
+          {
+            "name": "Chad Beynon",
+            "firm": "Macquarie"
+          }
+        ],
+        "q1-2024": [
+          {
+            "name": "Adam Rohman",
+            "firm": "Hyatt Hotels Corporation"
+          },
+          {
+            "name": "Daniel Politzer",
+            "firm": "Wells Fargo"
+          },
+          {
+            "name": "Shaun Kelley",
+            "firm": "Bank of America"
+          },
+          {
+            "name": "Stephen Grambling",
+            "firm": "Morgan Stanley"
+          },
+          {
+            "name": "Joe Greff",
+            "firm": "J.P. Morgan"
+          },
+          {
+            "name": "Richard Clarke",
+            "firm": "Bernstein"
+          },
+          {
+            "name": "Meredith Jensen",
+            "firm": "HSBC"
+          },
+          {
+            "name": "Patrick Scholes",
+            "firm": "Truist Securities"
+          },
+          {
+            "name": "Michael Bellisario",
+            "firm": "Baird"
+          }
+        ],
+        "q4-2023": [
+          {
+            "name": "Richard Clarke",
+            "firm": "Bernstein"
+          },
+          {
+            "name": "Joe Greff",
+            "firm": "JPMorgan"
+          },
+          {
+            "name": "Shaun Kelley",
+            "firm": "Bank of America"
+          },
+          {
+            "name": "Dan Politzer",
+            "firm": "Wells Fargo"
+          },
+          {
+            "name": "Patrick Scholes",
+            "firm": "Truist Securities"
+          },
+          {
+            "name": "Duane Pfennigwerth",
+            "firm": "Evercore ISI"
+          },
+          {
+            "name": "Michael Bellisario",
+            "firm": "Baird"
+          }
+        ],
+        "q3-2023": [
+          {
+            "name": "C. Patrick Scholes",
+            "firm": "Lodging and Leisure Equity Research, Truist Securities"
+          },
+          {
+            "name": "Stephen Grambling",
+            "firm": "Morgan Stanley"
+          },
+          {
+            "name": "Joe Greff",
+            "firm": "JPMorgan Chase & Co"
+          },
+          {
+            "name": "Chad Beynon",
+            "firm": "Macquarie Group"
+          },
+          {
+            "name": "Richard Clarke",
+            "firm": "AB Bernstein"
+          },
+          {
+            "name": "Duane Pfennigwerth",
+            "firm": "Equity Research, Evercore ISI"
+          },
+          {
+            "name": "Conor Cunningham",
+            "firm": "Travel and Transports Analyst, Melius Research"
+          },
+          {
+            "name": "Smedes Rose",
+            "firm": "Citi"
+          }
+        ],
+        "q2-2023": [
+          {
+            "name": "Joseph Greff",
+            "firm": "JPMorgan"
+          },
+          {
+            "name": "Patrick Scholes",
+            "firm": "Truist Securities"
+          },
+          {
+            "name": "Duane Pfennigwerth",
+            "firm": "Evercore ISI"
+          },
+          {
+            "name": "Chad Beynon",
+            "firm": "Macquarie"
+          },
+          {
+            "name": "Shaun Kelley",
+            "firm": "Bank of America"
+          }
+        ],
+        "q1-2023": [
+          {
+            "name": "Steven Grambling",
+            "firm": "Morgan Stanley"
+          },
+          {
+            "name": "Joe Greff",
+            "firm": "JPMorgan"
+          },
+          {
+            "name": "Dori Klesch",
+            "firm": "Wells Fargo"
+          },
+          {
+            "name": "Duane Pfennigwerth",
+            "firm": "Evercore ISI"
+          },
+          {
+            "name": "Patrick Scholes",
+            "firm": "Truist Securities"
+          },
+          {
+            "name": "William Crow",
+            "firm": "Raymond James"
+          },
+          {
+            "name": "Richard Clarke",
+            "firm": "Bernstein"
+          },
+          {
+            "name": "Shaun Kelley",
+            "firm": "Bank of America"
+          }
+        ],
+        "q4-2022": [
+          {
+            "name": "Patrick Scholes",
+            "firm": "Truist Securities"
+          },
+          {
+            "name": "Noah Hoppe",
+            "firm": "Hyatt Hotels"
+          },
+          {
+            "name": "Stephen Grambling",
+            "firm": "Morgan Stanley"
+          },
+          {
+            "name": "Joe Greff",
+            "firm": "JPMorgan"
+          },
+          {
+            "name": "Shaun Kelley",
+            "firm": "Lodging, & Leisure Equities, Bank of America"
+          },
+          {
+            "name": "Dori Kesten",
+            "firm": "Wells Fargo"
+          },
+          {
+            "name": "Smedes Rose",
+            "firm": "Citigroup"
+          }
+        ],
+        "q3-2022": [
+          {
+            "name": "Shaun Kelley",
+            "firm": "Lodging and Leisure Equities, Bank of America"
+          },
+          {
+            "name": "Joe Greff",
+            "firm": "JPMorgan"
+          },
+          {
+            "name": "Richard Clarke",
+            "firm": "Bernstein"
+          },
+          {
+            "name": "Patrick Scholes",
+            "firm": "Truist Securities"
+          },
+          {
+            "name": "Dori Kesten",
+            "firm": "Wells Fargo"
+          },
+          {
+            "name": "Duane Pfennigwerth",
+            "firm": "Evercore ISI"
+          },
+          {
+            "name": "Noah Hoppe",
+            "firm": "Hyatt"
+          },
+          {
+            "name": "Smedes Rose",
+            "firm": "Citi"
+          }
+        ],
+        "q2-2022": [
+          {
+            "name": "Joseph Greff",
+            "firm": "J.P. Morgan"
+          },
+          {
+            "name": "Shaun Kelley",
+            "firm": "Bank of America"
+          },
+          {
+            "name": "Joan Bottarini",
+            "firm": "Hyatt Hotels Corporation"
+          },
+          {
+            "name": "Michael Bellisario",
+            "firm": "Baird"
+          },
+          {
+            "name": "Patrick Scholes",
+            "firm": "Truist Securities"
+          },
+          {
+            "name": "Dori Kesten",
+            "firm": "Wells Fargo"
+          },
+          {
+            "name": "Noah Hoppe",
+            "firm": "White Lodging"
+          }
+        ],
+        "q1-2022": [
+          {
+            "name": "Shaun Kelley",
+            "firm": "BofA Securities"
+          },
+          {
+            "name": "Stephen Grambling",
+            "firm": "Goldman Sachs"
+          },
+          {
+            "name": "Patrick Scholes",
+            "firm": "Truist Securities"
+          },
+          {
+            "name": "Smedes Rose",
+            "firm": "Citi"
+          },
+          {
+            "name": "Vince Ciepiel",
+            "firm": "Cleveland Research Company"
+          },
+          {
+            "name": "David Katz",
+            "firm": "Jefferies"
+          },
+          {
+            "name": "Noah Hoppe",
+            "firm": "Hyatt Hotels Corporation"
+          }
+        ]
+      }
+    }
+  },
+  "coverage_rcl_analysts": {
+    "andrew didora": {
+      "nclh": [
+        "q3-2025",
+        "q4-2023"
+      ]
+    },
+    "benjamin chaiken": {
+      "ccl": [
+        "q3-2025",
+        "q2-2024"
+      ],
+      "nclh": [
+        "q2-2024",
+        "q1-2024"
+      ],
+      "h": [
+        "q4-2025",
+        "q2-2025"
+      ]
+    },
+    "brandt montour": {
+      "ccl": [
+        "q1-2026",
+        "q4-2025",
+        "q3-2025",
+        "q2-2025",
+        "q1-2025",
+        "q4-2024",
+        "q3-2024",
+        "q2-2024",
+        "q1-2024",
+        "q4-2023",
+        "q3-2023",
+        "q1-2023",
+        "q4-2022",
+        "q3-2022"
+      ],
+      "nclh": [
+        "q1-2026",
+        "q4-2025",
+        "q3-2025",
+        "q2-2025",
+        "q1-2025",
+        "q4-2024",
+        "q3-2024",
+        "q2-2024",
+        "q4-2023",
+        "q3-2023",
+        "q2-2023",
+        "q1-2023",
+        "q2-2022"
+      ],
+      "mar": [
+        "q1-2026",
+        "q4-2025",
+        "q3-2025",
+        "q1-2025",
+        "q4-2024",
+        "q3-2024",
+        "q2-2024",
+        "q1-2024",
+        "q4-2023",
+        "q2-2023",
+        "q1-2023",
+        "q4-2022",
+        "q3-2022",
+        "q2-2022"
+      ],
+      "hlt": [
+        "q1-2026",
+        "q4-2025",
+        "q3-2025",
+        "q2-2025",
+        "q1-2025",
+        "q3-2024",
+        "q2-2024",
+        "q4-2023",
+        "q3-2023",
+        "q2-2023",
+        "q1-2023",
+        "q4-2022",
+        "q3-2022"
+      ],
+      "h": [
+        "q4-2025",
+        "q3-2025",
+        "q1-2025",
+        "q4-2024",
+        "q3-2024"
+      ]
+    },
+    "chris stathoulopoulos": {
+      "ccl": [
+        "q1-2026",
+        "q1-2025",
+        "q3-2024",
+        "q3-2023",
+        "q1-2023"
+      ]
+    },
+    "conor cunningham": {
+      "ccl": [
+        "q1-2026",
+        "q3-2025",
+        "q2-2025",
+        "q1-2025",
+        "q3-2024",
+        "q2-2024",
+        "q3-2023"
+      ],
+      "nclh": [
+        "q1-2026",
+        "q4-2025",
+        "q3-2025",
+        "q2-2025",
+        "q1-2025",
+        "q4-2024",
+        "q3-2024",
+        "q2-2024",
+        "q4-2023",
+        "q3-2023",
+        "q2-2023",
+        "q1-2023",
+        "q4-2022"
+      ],
+      "mar": [
+        "q1-2026",
+        "q4-2025",
+        "q3-2025",
+        "q1-2025",
+        "q4-2024",
+        "q3-2024",
+        "q3-2023"
+      ],
+      "hlt": [
+        "q4-2024",
+        "q2-2024",
+        "q1-2024"
+      ],
+      "h": [
+        "q3-2025",
+        "q2-2025",
+        "q1-2025",
+        "q4-2024",
+        "q3-2024",
+        "q3-2023"
+      ]
+    },
+    "daniel politzer": {
+      "ccl": [
+        "q2-2024",
+        "q2-2023",
+        "q2-2022"
+      ],
+      "nclh": [
+        "q2-2024",
+        "q1-2024",
+        "q2-2023",
+        "q1-2023",
+        "q4-2022",
+        "q3-2022"
+      ],
+      "mar": [
+        "q3-2024"
+      ],
+      "hlt": [
+        "q1-2026"
+      ],
+      "h": [
+        "q4-2025",
+        "q3-2024",
+        "q1-2024"
+      ]
+    },
+    "david katz": {
+      "ccl": [
+        "q3-2025",
+        "q2-2025",
+        "q1-2025",
+        "q4-2024",
+        "q3-2024",
+        "q2-2024",
+        "q1-2024",
+        "q3-2023",
+        "q4-2022",
+        "q3-2022"
+      ],
+      "nclh": [
+        "q2-2025"
+      ],
+      "mar": [
+        "q1-2026",
+        "q4-2025",
+        "q3-2025",
+        "q1-2025",
+        "q4-2024",
+        "q3-2024",
+        "q1-2024",
+        "q4-2023",
+        "q3-2023",
+        "q2-2023",
+        "q1-2023",
+        "q4-2022",
+        "q3-2022",
+        "q2-2022",
+        "q1-2022"
+      ],
+      "hlt": [
+        "q1-2026",
+        "q4-2025",
+        "q3-2025",
+        "q2-2025",
+        "q1-2025",
+        "q4-2024",
+        "q3-2024",
+        "q2-2024",
+        "q1-2024",
+        "q4-2023",
+        "q3-2023",
+        "q2-2023",
+        "q1-2023",
+        "q4-2022",
+        "q3-2022",
+        "q2-2022",
+        "q1-2022"
+      ],
+      "h": [
+        "q1-2026",
+        "q3-2025",
+        "q4-2024",
+        "q1-2022"
+      ]
+    },
+    "fred wightman": {
+      "ccl": [
+        "q3-2024",
+        "q2-2023",
+        "q1-2023",
+        "q1-2022"
+      ],
+      "nclh": [
+        "q1-2024",
+        "q4-2022"
+      ]
+    },
+    "ivan feinseth": {
+      "nclh": [
+        "q3-2022"
+      ]
+    },
+    "jaime katz": {
+      "ccl": [
+        "q1-2025",
+        "q4-2024",
+        "q3-2024",
+        "q2-2024",
+        "q3-2023",
+        "q2-2023",
+        "q4-2022",
+        "q3-2022",
+        "q2-2022"
+      ],
+      "nclh": [
+        "q2-2022"
+      ]
+    },
+    "james hardiman": {
+      "ccl": [
+        "q3-2025",
+        "q1-2025",
+        "q4-2024",
+        "q3-2024",
+        "q2-2024",
+        "q1-2024",
+        "q4-2023",
+        "q2-2023",
+        "q1-2023",
+        "q4-2022",
+        "q3-2022",
+        "q2-2022",
+        "q1-2022"
+      ],
+      "nclh": [
+        "q1-2026",
+        "q4-2025",
+        "q1-2025",
+        "q4-2024",
+        "q3-2024",
+        "q2-2024",
+        "q1-2024",
+        "q4-2023",
+        "q3-2023",
+        "q2-2023",
+        "q4-2022",
+        "q3-2022"
+      ]
+    },
+    "jamie rollo": {},
+    "lizzie dove": {
+      "ccl": [
+        "q3-2025",
+        "q1-2025",
+        "q1-2024"
+      ],
+      "nclh": [
+        "q1-2026",
+        "q4-2025",
+        "q2-2025",
+        "q4-2024"
+      ],
+      "mar": [
+        "q1-2026",
+        "q4-2025",
+        "q3-2025",
+        "q1-2025",
+        "q4-2024",
+        "q3-2024"
+      ],
+      "hlt": [
+        "q1-2026",
+        "q4-2025",
+        "q3-2025",
+        "q2-2025",
+        "q1-2025",
+        "q4-2024",
+        "q3-2024"
+      ],
+      "h": [
+        "q1-2026"
+      ]
+    },
+    "matthew boss": {
+      "ccl": [
+        "q1-2026",
+        "q2-2025",
+        "q1-2025",
+        "q4-2024",
+        "q3-2024",
+        "q2-2024",
+        "q1-2024",
+        "q3-2023",
+        "q2-2023"
+      ],
+      "nclh": [
+        "q1-2026",
+        "q4-2025",
+        "q2-2025",
+        "q1-2025",
+        "q3-2024",
+        "q2-2024"
+      ]
+    },
+    "patrick scholes": {
+      "ccl": [
+        "q1-2025",
+        "q4-2024",
+        "q3-2024",
+        "q2-2024",
+        "q1-2024",
+        "q3-2023",
+        "q2-2023",
+        "q1-2023",
+        "q2-2022"
+      ],
+      "nclh": [
+        "q3-2025",
+        "q1-2024",
+        "q3-2023",
+        "q2-2023",
+        "q1-2023",
+        "q3-2022",
+        "q2-2022",
+        "q1-2022"
+      ],
+      "mar": [
+        "q3-2025",
+        "q1-2025",
+        "q4-2024",
+        "q3-2024",
+        "q1-2024",
+        "q4-2023",
+        "q1-2023",
+        "q4-2022",
+        "q3-2022",
+        "q2-2022",
+        "q1-2022"
+      ],
+      "hlt": [
+        "q4-2025",
+        "q1-2025",
+        "q4-2024",
+        "q3-2024",
+        "q2-2024",
+        "q1-2024",
+        "q3-2023",
+        "q3-2022",
+        "q2-2022",
+        "q1-2022"
+      ],
+      "h": [
+        "q3-2025",
+        "q2-2025",
+        "q1-2025",
+        "q4-2024",
+        "q3-2024",
+        "q2-2024",
+        "q1-2024",
+        "q4-2023",
+        "q2-2023",
+        "q1-2023",
+        "q4-2022",
+        "q3-2022",
+        "q2-2022",
+        "q1-2022"
+      ]
+    },
+    "paul golding": {
+      "ccl": [
+        "q1-2023"
+      ],
+      "nclh": [
+        "q4-2022",
+        "q3-2022"
+      ]
+    },
+    "robin farley": {
+      "ccl": [
+        "q1-2026",
+        "q4-2025",
+        "q3-2025",
+        "q2-2025",
+        "q1-2025",
+        "q4-2024",
+        "q3-2024",
+        "q2-2024",
+        "q1-2024",
+        "q4-2023",
+        "q3-2023",
+        "q2-2023",
+        "q1-2023",
+        "q4-2022",
+        "q3-2022",
+        "q2-2022",
+        "q1-2022"
+      ],
+      "nclh": [
+        "q1-2026",
+        "q2-2025",
+        "q1-2025",
+        "q4-2024",
+        "q3-2024",
+        "q3-2023",
+        "q2-2023",
+        "q1-2023",
+        "q4-2022",
+        "q3-2022",
+        "q2-2022",
+        "q1-2022"
+      ],
+      "mar": [
+        "q4-2025",
+        "q1-2025",
+        "q4-2024",
+        "q3-2024",
+        "q1-2024",
+        "q4-2023",
+        "q3-2023",
+        "q2-2023",
+        "q1-2023",
+        "q4-2022",
+        "q3-2022",
+        "q2-2022",
+        "q1-2022"
+      ],
+      "hlt": [
+        "q1-2026",
+        "q4-2025",
+        "q3-2025",
+        "q2-2025",
+        "q1-2025",
+        "q4-2024",
+        "q3-2024",
+        "q2-2024",
+        "q1-2024",
+        "q4-2023",
+        "q3-2023",
+        "q2-2023",
+        "q1-2023",
+        "q4-2022",
+        "q3-2022",
+        "q2-2022",
+        "q1-2022"
+      ]
+    },
+    "ryan sundby": {},
+    "sean wagner": {
+      "nclh": [
+        "q1-2022"
+      ]
+    },
+    "sharon zackfia": {
+      "ccl": [
+        "q3-2025",
+        "q2-2025",
+        "q2-2024"
+      ]
+    },
+    "stephen grambling": {
+      "ccl": [
+        "q1-2023"
+      ],
+      "nclh": [
+        "q1-2023",
+        "q1-2022"
+      ],
+      "mar": [
+        "q1-2026",
+        "q4-2025",
+        "q3-2025",
+        "q1-2025",
+        "q4-2024",
+        "q3-2024",
+        "q2-2024",
+        "q1-2024",
+        "q4-2023",
+        "q3-2023",
+        "q2-2023",
+        "q1-2023",
+        "q4-2022",
+        "q1-2022"
+      ],
+      "hlt": [
+        "q1-2026",
+        "q4-2025",
+        "q3-2025",
+        "q2-2025",
+        "q1-2025",
+        "q4-2024",
+        "q3-2024",
+        "q2-2024",
+        "q1-2024",
+        "q3-2023",
+        "q2-2023",
+        "q1-2023",
+        "q3-2022",
+        "q1-2022"
+      ],
+      "h": [
+        "q1-2026",
+        "q3-2025",
+        "q2-2025",
+        "q1-2025",
+        "q4-2024",
+        "q2-2024",
+        "q1-2024",
+        "q3-2023",
+        "q4-2022",
+        "q1-2022"
+      ]
+    },
+    "steven wieczynski": {
+      "ccl": [
+        "q3-2025",
+        "q4-2024",
+        "q2-2024",
+        "q4-2023",
+        "q2-2023",
+        "q4-2022",
+        "q3-2022",
+        "q1-2022"
+      ],
+      "nclh": [
+        "q1-2026",
+        "q2-2024",
+        "q1-2024",
+        "q4-2023",
+        "q2-2023",
+        "q4-2022",
+        "q3-2022",
+        "q1-2022"
+      ]
+    },
+    "vince ciepiel": {
+      "ccl": [
+        "q3-2025",
+        "q1-2025",
+        "q4-2022"
+      ],
+      "nclh": [
+        "q1-2026",
+        "q4-2025",
+        "q3-2025",
+        "q4-2024",
+        "q3-2024",
+        "q1-2024",
+        "q4-2023",
+        "q3-2023",
+        "q2-2023",
+        "q1-2023",
+        "q3-2022",
+        "q2-2022",
+        "q1-2022"
+      ],
+      "mar": [
+        "q2-2022",
+        "q1-2022"
+      ],
+      "hlt": [
+        "q2-2022",
+        "q1-2022"
+      ],
+      "h": [
+        "q1-2022"
+      ]
+    }
+  },
+  "peer_only_analysts": {
+    "beth roberts": {
+      "ccl": [
+        "q1-2026",
+        "q4-2025",
+        "q4-2024",
+        "q3-2023",
+        "q2-2023"
+      ]
+    },
+    "steve wieczynski": {
+      "ccl": [
+        "q1-2026",
+        "q2-2025",
+        "q1-2025",
+        "q3-2024",
+        "q1-2024",
+        "q3-2023",
+        "q1-2023",
+        "q2-2022"
+      ],
+      "nclh": [
+        "q4-2025",
+        "q3-2025",
+        "q2-2025",
+        "q1-2025",
+        "q4-2024",
+        "q3-2024",
+        "q3-2023",
+        "q1-2023",
+        "q2-2022"
+      ]
+    },
+    "xian xu": {
+      "ccl": [
+        "q1-2026"
+      ]
+    },
+    "trey bowers": {
+      "ccl": [
+        "q1-2026"
+      ],
+      "nclh": [
+        "q1-2026",
+        "q4-2025"
+      ],
+      "mar": [
+        "q1-2026",
+        "q4-2025"
+      ],
+      "hlt": [
+        "q1-2026",
+        "q4-2025"
+      ]
+    },
+    "ben chaiken": {
+      "ccl": [
+        "q1-2026",
+        "q2-2025",
+        "q1-2025",
+        "q4-2024",
+        "q3-2024",
+        "q1-2024",
+        "q1-2023",
+        "q3-2022"
+      ],
+      "nclh": [
+        "q1-2026",
+        "q4-2025",
+        "q2-2025",
+        "q1-2025",
+        "q3-2024"
+      ],
+      "hlt": [
+        "q1-2024"
+      ],
+      "h": [
+        "q3-2025",
+        "q1-2025",
+        "q4-2024"
+      ]
+    },
+    "matt boss": {
+      "ccl": [
+        "q4-2025",
+        "q3-2025"
+      ]
+    },
+    "josh weinstein": {
+      "ccl": [
+        "q3-2025"
+      ]
+    },
+    "christopher stathoulopoulos": {
+      "ccl": [
+        "q3-2025"
+      ]
+    },
+    "james hardeman": {
+      "ccl": [
+        "q2-2025"
+      ]
+    },
+    "jillian xu": {
+      "ccl": [
+        "q2-2025"
+      ]
+    },
+    "chris sassopoulos": {
+      "ccl": [
+        "q2-2025"
+      ]
+    },
+    "assia georgieva": {
+      "ccl": [
+        "q3-2024",
+        "q2-2024",
+        "q4-2023",
+        "q3-2023",
+        "q1-2023",
+        "q2-2022",
+        "q1-2022"
+      ]
+    },
+    "dan politzer": {
+      "ccl": [
+        "q3-2024",
+        "q3-2023"
+      ],
+      "nclh": [
+        "q4-2024",
+        "q4-2023",
+        "q3-2023",
+        "q2-2022",
+        "q1-2022"
+      ],
+      "mar": [
+        "q1-2026",
+        "q4-2025",
+        "q1-2024"
+      ],
+      "hlt": [
+        "q4-2025",
+        "q3-2025",
+        "q2-2025",
+        "q4-2024",
+        "q2-2024"
+      ],
+      "h": [
+        "q1-2026",
+        "q2-2024",
+        "q4-2023"
+      ]
+    },
+    "jamie katz": {
+      "ccl": [
+        "q1-2024"
+      ]
+    },
+    "jaime m. katz": {
+      "ccl": [
+        "q4-2023"
+      ]
+    },
+    "c. patrick scholes": {
+      "ccl": [
+        "q4-2023",
+        "q4-2022"
+      ],
+      "nclh": [
+        "q3-2024",
+        "q4-2022"
+      ],
+      "hlt": [
+        "q4-2023"
+      ],
+      "h": [
+        "q3-2023"
+      ]
+    },
+    "daniel b. politzer": {
+      "ccl": [
+        "q4-2023"
+      ],
+      "hlt": [
+        "q1-2024"
+      ]
+    },
+    "frederick wightman": {
+      "ccl": [
+        "q4-2022"
+      ]
+    },
+    "ali naqvi": {
+      "ccl": [
+        "q3-2022"
+      ]
+    },
+    "stuart gordon": {
+      "ccl": [
+        "q1-2022"
+      ]
+    },
+    "sarah inmon": {
+      "nclh": [
+        "q1-2026",
+        "q3-2025",
+        "q2-2025",
+        "q1-2025",
+        "q4-2024",
+        "q3-2024",
+        "q2-2024",
+        "q4-2023"
+      ]
+    },
+    "mark kempa": {
+      "nclh": [
+        "q1-2026",
+        "q4-2025",
+        "q3-2025",
+        "q2-2025",
+        "q1-2025",
+        "q4-2024",
+        "q3-2024",
+        "q2-2024",
+        "q4-2023",
+        "q3-2023",
+        "q2-2023",
+        "q1-2023",
+        "q4-2022",
+        "q3-2022",
+        "q2-2022",
+        "q1-2022"
+      ]
+    },
+    "lizzie dahl": {
+      "nclh": [
+        "q3-2025"
+      ]
+    },
+    "matthew voss": {
+      "nclh": [
+        "q3-2025"
+      ]
+    },
+    "ben chacon": {
+      "nclh": [
+        "q3-2025"
+      ],
+      "h": [
+        "q3-2024"
+      ]
+    },
+    "vincent ciepiel": {
+      "nclh": [
+        "q2-2024"
+      ]
+    },
+    "elizabeth dove": {
+      "nclh": [
+        "q2-2024",
+        "q1-2024"
+      ],
+      "h": [
+        "q4-2025"
+      ]
+    },
+    "sarah inman": {
+      "nclh": [
+        "q1-2024"
+      ]
+    },
+    "conor t. cunningham": {
+      "nclh": [
+        "q1-2024"
+      ]
+    },
+    "robin m. farley": {
+      "nclh": [
+        "q1-2024"
+      ]
+    },
+    "jessica john": {
+      "nclh": [
+        "q3-2023",
+        "q2-2023",
+        "q1-2023",
+        "q4-2022",
+        "q3-2022",
+        "q2-2022",
+        "q1-2022"
+      ]
+    },
+    "frank del rio": {
+      "nclh": [
+        "q4-2022"
+      ]
+    },
+    "shaun kelley": {
+      "mar": [
+        "q1-2026",
+        "q4-2025",
+        "q3-2025",
+        "q1-2025",
+        "q4-2024",
+        "q3-2024",
+        "q2-2024",
+        "q1-2024",
+        "q4-2023",
+        "q3-2023",
+        "q2-2023",
+        "q1-2023",
+        "q4-2022",
+        "q3-2022",
+        "q2-2022",
+        "q1-2022"
+      ],
+      "hlt": [
+        "q1-2026",
+        "q4-2025",
+        "q3-2025",
+        "q2-2025",
+        "q1-2025",
+        "q4-2024",
+        "q3-2024",
+        "q4-2023",
+        "q3-2023",
+        "q2-2023",
+        "q1-2023",
+        "q4-2022",
+        "q3-2022",
+        "q2-2022",
+        "q1-2022"
+      ],
+      "h": [
+        "q1-2026",
+        "q4-2025",
+        "q3-2025",
+        "q2-2025",
+        "q1-2025",
+        "q2-2024",
+        "q1-2024",
+        "q4-2023",
+        "q2-2023",
+        "q1-2023",
+        "q4-2022",
+        "q3-2022",
+        "q2-2022",
+        "q1-2022"
+      ]
+    },
+    "jen mason": {
+      "mar": [
+        "q1-2026"
+      ]
+    },
+    "richard clarke": {
+      "mar": [
+        "q1-2026",
+        "q4-2025",
+        "q3-2025",
+        "q4-2024",
+        "q3-2024",
+        "q1-2024",
+        "q4-2023",
+        "q3-2023",
+        "q2-2023",
+        "q1-2023",
+        "q4-2022",
+        "q2-2022",
+        "q1-2022"
+      ],
+      "hlt": [
+        "q4-2024",
+        "q2-2024",
+        "q1-2024",
+        "q4-2023",
+        "q2-2023",
+        "q4-2022",
+        "q2-2022",
+        "q1-2022"
+      ],
+      "h": [
+        "q1-2026",
+        "q4-2025",
+        "q3-2025",
+        "q2-2025",
+        "q1-2025",
+        "q4-2024",
+        "q2-2024",
+        "q1-2024",
+        "q4-2023",
+        "q3-2023",
+        "q1-2023",
+        "q3-2022"
+      ]
+    },
+    "michael bellisario": {
+      "mar": [
+        "q1-2026",
+        "q4-2025",
+        "q3-2025",
+        "q1-2025",
+        "q1-2024",
+        "q4-2023",
+        "q3-2023",
+        "q2-2023",
+        "q2-2022"
+      ],
+      "hlt": [
+        "q4-2025",
+        "q2-2025",
+        "q1-2025",
+        "q1-2024",
+        "q4-2023",
+        "q3-2023",
+        "q2-2023"
+      ],
+      "h": [
+        "q1-2026",
+        "q3-2025",
+        "q2-2025",
+        "q1-2025",
+        "q4-2024",
+        "q2-2024",
+        "q1-2024",
+        "q4-2023",
+        "q2-2022"
+      ]
+    },
+    "ari klein": {
+      "mar": [
+        "q1-2026",
+        "q4-2025",
+        "q3-2025",
+        "q1-2025",
+        "q4-2024",
+        "q2-2023"
+      ]
+    },
+    "duane pfennigwerth": {
+      "mar": [
+        "q1-2026",
+        "q3-2025",
+        "q1-2025",
+        "q4-2024",
+        "q3-2024",
+        "q1-2024",
+        "q2-2023",
+        "q1-2023",
+        "q3-2022",
+        "q2-2022"
+      ],
+      "hlt": [
+        "q1-2026",
+        "q2-2024",
+        "q1-2024",
+        "q4-2023",
+        "q3-2023",
+        "q2-2023",
+        "q3-2022",
+        "q2-2022"
+      ],
+      "h": [
+        "q1-2026",
+        "q3-2025",
+        "q2-2025",
+        "q3-2024",
+        "q4-2023",
+        "q3-2023",
+        "q2-2023",
+        "q1-2023",
+        "q3-2022"
+      ]
+    },
+    "smedes rose": {
+      "mar": [
+        "q1-2026",
+        "q4-2025",
+        "q3-2025",
+        "q4-2024",
+        "q3-2024",
+        "q1-2024",
+        "q4-2023",
+        "q3-2023",
+        "q2-2023",
+        "q1-2023",
+        "q4-2022",
+        "q3-2022",
+        "q2-2022",
+        "q1-2022"
+      ],
+      "hlt": [
+        "q3-2025",
+        "q2-2025",
+        "q1-2025",
+        "q4-2024",
+        "q3-2024",
+        "q2-2024",
+        "q1-2024",
+        "q4-2023",
+        "q3-2023",
+        "q2-2023",
+        "q1-2023",
+        "q4-2022",
+        "q3-2022",
+        "q2-2022",
+        "q1-2022"
+      ],
+      "h": [
+        "q1-2026",
+        "q4-2025",
+        "q3-2025",
+        "q2-2025",
+        "q1-2025",
+        "q4-2024",
+        "q3-2024",
+        "q3-2023",
+        "q4-2022",
+        "q3-2022",
+        "q1-2022"
+      ]
+    },
+    "steve pizzella": {
+      "mar": [
+        "q1-2026"
+      ],
+      "hlt": [
+        "q1-2026",
+        "q4-2025"
+      ],
+      "h": [
+        "q4-2025",
+        "q3-2025"
+      ]
+    },
+    "jackie mcconagha": {
+      "mar": [
+        "q3-2025",
+        "q1-2025",
+        "q1-2024",
+        "q4-2023",
+        "q3-2023"
+      ]
+    },
+    "leeny oberg": {
+      "mar": [
+        "q3-2025",
+        "q1-2025",
+        "q4-2024",
+        "q2-2024",
+        "q1-2024",
+        "q4-2023",
+        "q3-2023",
+        "q2-2023",
+        "q1-2023",
+        "q4-2022",
+        "q3-2022",
+        "q2-2022",
+        "q1-2022"
+      ]
+    },
+    "meredith jensen": {
+      "mar": [
+        "q3-2025",
+        "q3-2023"
+      ],
+      "hlt": [
+        "q1-2025"
+      ],
+      "h": [
+        "q1-2026",
+        "q3-2025",
+        "q1-2024"
+      ]
+    },
+    "chad beynon": {
+      "mar": [
+        "q4-2024",
+        "q3-2024",
+        "q1-2024",
+        "q4-2023",
+        "q3-2023",
+        "q1-2023",
+        "q4-2022",
+        "q1-2022"
+      ],
+      "hlt": [
+        "q1-2025",
+        "q4-2024",
+        "q3-2024",
+        "q2-2024",
+        "q1-2024",
+        "q4-2023",
+        "q3-2023",
+        "q2-2023",
+        "q4-2022",
+        "q3-2022",
+        "q2-2022",
+        "q1-2022"
+      ],
+      "h": [
+        "q1-2026",
+        "q3-2025",
+        "q1-2025",
+        "q4-2024",
+        "q2-2024",
+        "q3-2023",
+        "q2-2023"
+      ]
+    },
+    "joe greff": {
+      "mar": [
+        "q3-2024",
+        "q1-2024",
+        "q4-2023",
+        "q2-2023",
+        "q1-2023",
+        "q4-2022",
+        "q3-2022",
+        "q2-2022",
+        "q1-2022"
+      ],
+      "hlt": [
+        "q2-2024",
+        "q1-2024",
+        "q3-2023",
+        "q2-2023",
+        "q1-2023",
+        "q4-2022",
+        "q3-2022",
+        "q2-2022",
+        "q1-2022"
+      ],
+      "h": [
+        "q1-2024",
+        "q4-2023",
+        "q3-2023",
+        "q1-2023",
+        "q4-2022",
+        "q3-2022"
+      ]
+    },
+    "michael belisario": {
+      "mar": [
+        "q3-2024"
+      ],
+      "hlt": [
+        "q4-2024"
+      ]
+    },
+    "jackie burka mcconagha": {
+      "mar": [
+        "q2-2024",
+        "q1-2023",
+        "q3-2022"
+      ]
+    },
+    "bill crow": {
+      "mar": [
+        "q1-2024",
+        "q3-2023",
+        "q2-2023",
+        "q4-2022",
+        "q3-2022",
+        "q2-2022"
+      ],
+      "hlt": [
+        "q1-2024",
+        "q4-2023",
+        "q3-2023",
+        "q1-2023",
+        "q4-2022"
+      ]
+    },
+    "kevin kopelman": {
+      "mar": [
+        "q4-2023"
+      ],
+      "hlt": [
+        "q2-2024",
+        "q4-2023"
+      ],
+      "h": [
+        "q1-2025"
+      ]
+    },
+    "dori kesten": {
+      "mar": [
+        "q2-2023",
+        "q1-2023",
+        "q4-2022",
+        "q2-2022"
+      ],
+      "h": [
+        "q4-2022",
+        "q3-2022",
+        "q2-2022"
+      ]
+    },
+    "kevin jacobs": {
+      "hlt": [
+        "q1-2026",
+        "q4-2025",
+        "q3-2025",
+        "q2-2025",
+        "q3-2022",
+        "q2-2022"
+      ]
+    },
+    "charlie reurer": {
+      "hlt": [
+        "q4-2025"
+      ]
+    },
+    "steve pezzella": {
+      "hlt": [
+        "q3-2025"
+      ]
+    },
+    "mike bellisario": {
+      "hlt": [
+        "q3-2025"
+      ]
+    },
+    "steve pizzela": {
+      "hlt": [
+        "q2-2025"
+      ]
+    },
+    "jill chapman": {
+      "hlt": [
+        "q1-2025",
+        "q4-2024",
+        "q1-2024",
+        "q2-2023"
+      ]
+    },
+    "carlo santarelli": {
+      "hlt": [
+        "q1-2025",
+        "q4-2024",
+        "q3-2024",
+        "q2-2024",
+        "q1-2024",
+        "q4-2023",
+        "q3-2023",
+        "q1-2023",
+        "q4-2022",
+        "q3-2022",
+        "q2-2022",
+        "q1-2022"
+      ]
+    },
+    "brant montour": {
+      "hlt": [
+        "q4-2024"
+      ]
+    },
+    "joseph greff": {
+      "hlt": [
+        "q3-2024",
+        "q4-2023"
+      ],
+      "h": [
+        "q2-2024",
+        "q2-2023",
+        "q2-2022"
+      ]
+    },
+    "christopher j. nassetta": {
+      "hlt": [
+        "q3-2024"
+      ]
+    },
+    "michael j. bellisario": {
+      "hlt": [
+        "q3-2024"
+      ]
+    },
+    "meredith prichard jensen": {
+      "hlt": [
+        "q3-2024"
+      ]
+    },
+    "shaun kelly": {
+      "hlt": [
+        "q2-2024"
+      ]
+    },
+    "shaun c. kelley": {
+      "hlt": [
+        "q1-2024"
+      ]
+    },
+    "brent montour": {
+      "hlt": [
+        "q1-2024"
+      ]
+    },
+    "jill slattery": {
+      "hlt": [
+        "q4-2023",
+        "q1-2022"
+      ]
+    },
+    "brian kucaj": {
+      "hlt": [
+        "q1-2023"
+      ]
+    },
+    "greg miller": {
+      "hlt": [
+        "q4-2022"
+      ]
+    },
+    "thomas allen": {
+      "hlt": [
+        "q1-2022"
+      ]
+    },
+    "william crow": {
+      "hlt": [
+        "q1-2022"
+      ],
+      "h": [
+        "q1-2023"
+      ]
+    },
+    "nick weichel": {
+      "h": [
+        "q1-2026"
+      ]
+    },
+    "adam rohman": {
+      "h": [
+        "q4-2025",
+        "q3-2025",
+        "q1-2025",
+        "q4-2024",
+        "q3-2024",
+        "q2-2024",
+        "q1-2024"
+      ]
+    },
+    "alex brignall": {
+      "h": [
+        "q4-2024"
+      ]
+    },
+    "peter mccloskey": {
+      "h": [
+        "q4-2024"
+      ]
+    },
+    "joan bottarini": {
+      "h": [
+        "q3-2024",
+        "q2-2022"
+      ]
+    },
+    "joseph r. greff": {
+      "h": [
+        "q3-2024"
+      ]
+    },
+    "shaun clisby kelley": {
+      "h": [
+        "q3-2024"
+      ]
+    },
+    "david brian katz": {
+      "h": [
+        "q3-2024"
+      ]
+    },
+    "steven grambling": {
+      "h": [
+        "q1-2023"
+      ]
+    },
+    "dori klesch": {
+      "h": [
+        "q1-2023"
+      ]
+    },
+    "noah hoppe": {
+      "h": [
+        "q4-2022",
+        "q3-2022",
+        "q2-2022",
+        "q1-2022"
+      ]
+    }
+  }
+}

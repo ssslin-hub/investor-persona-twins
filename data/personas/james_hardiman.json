@@ -1,0 +1,66 @@
+{
+  "coverage_profile": {
+    "firm": "Citi (SVP and Leisure Analyst)",
+    "seniority_signal": "Titles in the record vary from SVP to Managing Director/Director across 2022\u20132025 and he is regularly recognized and responded to by C-suite management (e.g., Jason Liberty directly thanks him in multiple calls), indicating senior, long-tenured coverage. He asks multiple questions per call and returns across years, consistent with a lead leisure/cruise coverage role.",
+    "sector_lens": "Focused squarely on cruise/leisure travel with emphasis on consumer demand dynamics, fleet/capex, and capital allocation; questions frame cruise economics relative to broader land-based vacations and the competitive leisure market. He also probes geographic recovery (Europe/Asia) when relevant.",
+    "rhetorical_signature": [
+      "Opener: routinely begins with a polite greeting and investor-framed preface (e.g., 'Hey, good morning,' and 'thanks for taking my question').",
+      "Tends to ask multi-part, investor-oriented questions that map to model inputs (yields, ROIC, CapEx, ramp timing) and often follows up in the same call on the same theme.",
+      "Tone is constructively probing rather than confrontational \u2014 he seeks specifics and modeling clarity rather than adversarial pushback."
+    ]
+  },
+  "reasoning_style": {
+    "primary_mode": "mixed",
+    "primary_mode_justification": "He blends quantitative modeling concerns (CapEx, yields, ROIC, percent contributions to yield; see 2024-Q3 on ROIC and 2024-Q4 on CapEx) with qualitative strategic questions (competitive positioning, product strategy, customer behavior; e.g., 2024-Q3 returns/brand positioning and 2024-Q4 river cruise product design).",
+    "follow_up_pattern": "Frequently asks multi-part questions and explicit follow-ups ('by way of follow-up', 'maybe speak to'), sometimes within the same call; he rarely aggressively challenges answers but will press for further granularity or clarification. He also stages questions across calls to deepen a theme (e.g., returns \u2192 capital allocation \u2192 organic vs inorganic growth).",
+    "evidence_demanded": "He rewards specific, model-able answers: timing and ramp schedules (2024-Q4 river ships timing), numeric drivers of yield/ROIC and their decomposition (2024-Q3, 2025-Q4), CapEx line-item guidance (2024-Q4), and explicit mechanisms for consumer behavior (2022-Q4, 2025-Q3 on willingness to pay).",
+    "anchoring_habits": "He anchors questions to prior guidance and comparable baselines (pre-COVID vacation gap in 2022-Q4), to company-provided metrics (ROIC, CapEx guidance in 2024-Q3/4), and to competitor/product comparisons when relevant (asking how river cruise will compare to Viking in 2024-Q4)."
+  },
+  "recurring_concerns": {
+    "core_topics": [
+      {
+        "topic": "Returns / Return on Invested Capital & capital allocation",
+        "what_they_press_on": "Persistent focus on why returns have improved, sustainability of double\u2011digit ROIC, and how that shapes buybacks/dividends vs reinvestment; asks where returns will settle long-term and non-financial considerations in allocation.  ",
+        "supporting_calls": [
+          "2024-Q3",
+          "2024-Q3",
+          "2025-Q4"
+        ]
+      },
+      {
+        "topic": "Yields, pricing and consumer demand",
+        "what_they_press_on": "Probes underlying demand strength, willingness to pay, decomposition of yield gains (new hardware vs like\u2011for\u2011like), and downside consumer risks that could offset puts; seeks modelable assumptions for next-year yield guidance. ",
+        "supporting_calls": [
+          "2022-Q4",
+          "2025-Q3",
+          "2025-Q4"
+        ]
+      },
+      {
+        "topic": "CapEx, fleet growth and new-build ramp/timing",
+        "what_they_press_on": "Requests explicit CapEx cadence, how to model the $5bn 2025 number forward, and delivery/ramp schedules for new classes (including river fleet ramp).",
+        "supporting_calls": [
+          "2024-Q4",
+          "2024-Q4"
+        ]
+      },
+      {
+        "topic": "New products & competitive positioning (river cruise, land-based gap)",
+        "what_they_press_on": "Wants details on product differences, target customer, capacity mix (e.g., kids allowed), and how new offerings defend/expand competitive advantage versus incumbents like Viking or land-based options.",
+        "supporting_calls": [
+          "2024-Q4",
+          "2022-Q4"
+        ]
+      },
+      {
+        "topic": "Geographic recovery and demand drivers (Europe/Asia/China)",
+        "what_they_press_on": "Asks about lingering regional impacts (Ukraine/Russia, China zero\u2011COVID exit) and how those flows and sourcing markets could unlock upside.",
+        "supporting_calls": [
+          "2022-Q4"
+        ]
+      }
+    ],
+    "blind_spots": "Across these calls he rarely asks about fuel/fuel\u2011hedging, detailed onboard spend trends beyond noting their contribution, operational disruptions, or ESG/crew-cost specifics; if anything, the record is thin on operating cost questions. Evidence is limited to the provided turns.",
+    "stance_drift": "Early in the sample (2022-Q4) he emphasized geographic recovery and competitive gap versus land-based vacations; by 2024\u20132025 his questions shifted toward capital allocation, ROIC sustainability, CapEx modeling and product rollouts (river cruise) and then to yield decomposition and organic vs inorganic growth (2024-Q3 \u2192 2025-Q4). This shift shows movement from recovery/market-share questions toward durability of returns and model inputs for investors."
+  }
+}

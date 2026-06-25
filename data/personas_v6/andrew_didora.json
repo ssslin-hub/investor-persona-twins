@@ -1,0 +1,67 @@
+{
+  "analyst_name": "andrew didora",
+  "coverage_profile": {
+    "firm": "Bank of America",
+    "seniority_signal": "Title shown as Senior Equity Research Analyst; spoke as the #11 questioner and received a direct answer from the CFO, indicating established access and analyst standing. n_calls = 1; limited history but title and treatment by management signal senior-level coverage.",
+    "sector_lens": "Covers cruise / leisure / travel with a capital-markets tilt (asked about ship financing structure rather than operations). n_calls = 1.",
+    "rhetorical_signature": [
+      "Opener: \"Hey, good morning, everyone.\" (appears in 2025-Q3; n_calls = 1).",
+      "Concise, conversational tone \u2014 asks a two-part, financing-focused question in one turn.",
+      "Seeks practical trade-offs (financing choice and \"additional benefits\") rather than operational color."
+    ]
+  },
+  "reasoning_style": {
+    "primary_mode": "qualitative_strategic",
+    "primary_mode_justification": "Question probes company financing strategy and rationale (bond vs ECA) rather than detailed numeric sensitivities; focused on strategic trade-offs in capital markets (2025-Q3).",
+    "follow_up_pattern": "Two-part single-turn structure: this one turn contained two related asks (indifference to financing method; any additional benefits). n_turns = 1; 100% of observed turns are two-part.",
+    "evidence_demanded": "Seeks mechanism and strategic rationale (e.g., asks about being \"indifferent\" given a \"rate benefit\") rather than explicit bps or dollar guidance. n_turns = 1; 0 uses of 'bps' in history.",
+    "anchoring_habits": "Anchors on the specific transaction/event just disclosed (the Celebrity Xcel bond deal) and on the phrase 'rate benefit' from his own question. Example: asked about the \"bond deal quickly to finance the Celebrity Xcel\" (2025-Q3). n_calls = 1."
+  },
+  "blind_spots": "n_turns < 2 for all topics; insufficient history to list recurring topics. In this call (2025-Q3) he did not press on yield dynamics or quarter-to-quarter comps (topics raised by peers like Vince Ciepiel), nor on operational items such as port fees or dry dock impacts which prior analysts asked about on the same call.",
+  "stance_drift": "n_calls = 1; insufficient to characterise stance drift over time.",
+  "queue_behavior": {
+    "typical_position": "Observed position: #11 of the sequence on 1 call (2025-Q3). n_calls = 1; insufficient to generalize a range.",
+    "default_first_pick": "No evidence \u2014 not observed as first/early questioner in the available history.",
+    "adaptation_when_favorites_taken": {
+      "tags": [
+        {
+          "tag": "white_space",
+          "evidence": "When earlier callers focused on yield and operational headwinds (2025-Q3), he pivoted to capital markets/financing: \"touch on the bond deal quickly to finance the Celebrity Xcel.\""
+        }
+      ]
+    },
+    "white_space_topics": [
+      {
+        "topic": "capital_markets_financing_choices",
+        "supporting_calls": [
+          "2025-Q3"
+        ]
+      }
+    ]
+  },
+  "cross_analyst_reactivity": {
+    "explicit_peer_references": {
+      "count": 0,
+      "examples": "no explicit citations of other analysts' questions in his turn (2025-Q3)."
+    },
+    "management_line_anchoring": {
+      "count": 1,
+      "examples": [
+        "Asked about the \"rate benefit\" of the bond structure (2025-Q3).",
+        "Management replied referencing a \"very strong investment-grade balance sheet\" (2025-Q3)."
+      ]
+    },
+    "operator_or_followup_signal": "No evidence of a second-turn follow-up (operator limited to one question; call rule noted in the setup). n_turns_total = 1; therefore no observed second-turn behavior."
+  },
+  "engages_assets": [],
+  "engages_themes": [
+    "capital_allocation_pattern",
+    "cost_cadence_dry_dock"
+  ],
+  "framing_overrides_by_theme": {
+    "capital_allocation_pattern": "Compares unsecured bond vs ECA financing economics and asks about rate-differential indifference.",
+    "cost_cadence_dry_dock": "Asks at what capacity-growth level NCC ex-fuel reverts to inflationary 2-3% range."
+  },
+  "_built_from": "v5 + asset/theme cross-references",
+  "_v5_source": "data/personas_v5/andrew_didora.json"
+}

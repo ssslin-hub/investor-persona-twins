@@ -1,0 +1,61 @@
+{
+  "analyst_name": "patrick scholes",
+  "coverage_profile": {
+    "firm": "Truist Securities",
+    "seniority_signal": "Title listed as Managing Director and Senior Analyst (explicit). Multiple back-and-forth turns on the 2022-Q4 call where management answers him directly suggest established coverage (2022-Q4).",
+    "sector_lens": "Covers cruise / leisure / travel with a focus on booking channels, yields, and cost guidance within the cruise operator context (2022-Q4).",
+    "rhetorical_signature": [
+      "Opens with \"Hi. Good morning, everyone.\" in 1 of 1 calls (100%)",
+      "Sometimes closes with a brief signoff: \"Okay. Thank you for the color. I'm all set.\" (2022-Q4)",
+      "Tone: concise, polite, clarification-seeking; no confrontational language observed (2022-Q4)"
+    ]
+  },
+  "reasoning_style": {
+    "primary_mode": "mixed",
+    "primary_mode_justification": "Asks both modeling/benchmark clarifications (quantitative) and channel/destination behavior (qualitative) on 2022-Q4 (e.g., apples-to-apples guidance question and direct-booking destination question).",
+    "follow_up_pattern": "Typically asks single focused questions but will follow up for depth; 1 of 5 turns contains \u22652 question sentences (~20%). He took a direct follow-up to drill deeper on the same topic (2022-Q4, turn 4).",
+    "evidence_demanded": "Prefers explicit baselines and wording (asked whether percentage guidances were \"apples-to-apples\" vs 2019 in 2022-Q4). Count of turns referencing '2019' baseline = 1. Count of turns using 'bps' = 0.",
+    "anchoring_habits": "Anchors to the 2019 baseline and to management's just-delivered wording (asked about \"percentage guidances\" and \"versus 2019\" in 2022-Q4). No evidence of anchoring to peers in this history; anchoring examples are from 2022-Q4."
+  },
+  "blind_spots": "Fewer than 5 topics meet the \u22652-turn threshold across the sample (only 1 topic qualifies). No turns on fuel hedging, fuel cost exposure, booking curve shape/cancellation trends, or fleet capacity/schedule cadence in the available history (n_turns = 0 for these items across 5 turns in 2022-Q4).",
+  "stance_drift": "n_calls = 1; insufficient to characterise multi-quarter drift. Only 2022-Q4 present, so no quarter-pair changes can be reliably cited.",
+  "queue_behavior": {
+    "typical_position": "#8\u2013#9 on the 2022-Q4 call (was #8 on the first listed appearance and #9 on subsequent turns within the same call).",
+    "default_first_pick": "When early to speak he opens with modelling/clarification questions about guidance baselines (asked \"are those apples-to-apples based numbers?\" on 2022-Q4).",
+    "adaptation_when_favorites_taken": {
+      "reframe_deeper": "Evidence: followed initial direct-booking question with a deeper pre\u2011COVID acceleration follow-up, quoting \"have you seen a greater acceleration\" (2022-Q4).",
+      "stay_on_topic_anyway": "Evidence: pressed the distribution/channel topic twice in the same call, quoting \"do you see that disproportionately going\" (2022-Q4)."
+    },
+    "white_space_topics": [
+      {
+        "topic": "distribution_by_destination / direct_booking_trends",
+        "supporting_calls": [
+          "2022-Q4"
+        ]
+      }
+    ]
+  },
+  "cross_analyst_reactivity": {
+    "explicit_peer_references": {
+      "count": 0,
+      "examples": "no evidence in history \u2014 0 turns explicitly cite another analyst's question in the provided transcript (2022-Q4)."
+    },
+    "management_line_anchoring": {
+      "count": 2,
+      "examples": [
+        "\"percentage guidances\" (anchored to management's guidance language, 2022-Q4)",
+        "\"versus 2019\" (asked whether numbers were apples-to-apples, 2022-Q4)"
+      ]
+    },
+    "operator_or_followup_signal": "Takes at least one follow-up turn on the same topic for deeper drilling (took a follow-up to the direct-booking question once in 2022-Q4 to ask about pre\u2011COVID acceleration)."
+  },
+  "engages_assets": [],
+  "engages_themes": [
+    "yield_decomposition"
+  ],
+  "framing_overrides_by_theme": {
+    "yield_decomposition": "Verifies apples-to-apples versus 2019 reported baseline before accepting bps figures."
+  },
+  "_built_from": "v5 + asset/theme cross-references",
+  "_v5_source": "data/personas_v5/patrick_scholes.json"
+}

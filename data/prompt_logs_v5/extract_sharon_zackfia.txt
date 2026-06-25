@@ -1,0 +1,236 @@
+You are building a STRUCTURED PERSONA of a sell-side equity research analyst
+who covers Royal Caribbean Cruises (RCL). The persona will later be used to
+predict what this same analyst is likely to ask in a FUTURE RCL earnings call,
+given (a) that call's management presentation and (b) which other analysts have
+already spoken on that call.
+
+You will be given the analyst's name, their firm/title (if known), and a
+chronological list of their prior question turns. For each turn you receive:
+  - The CALL it was asked on (year + quarter)
+  - POSITION metadata: this analyst was the Nth analyst to speak on that call,
+    out of M total unique analysts. The names of the analysts who spoke BEFORE
+    them on the same call are listed explicitly.
+  - A short SETUP excerpt of the management presentation.
+  - The verbatim [Q&A SO FAR] excerpt — what the prior analysts asked BEFORE
+    this analyst took their turn. This is critical: use it to judge whether
+    this analyst is reframing a topic that was already raised, picking
+    untouched white space, or reacting to something a peer just asked.
+  - The analyst's QUESTION (verbatim).
+  - The management's RESPONSE excerpt (verbatim, may be empty).
+
+Produce a single JSON object with FIVE top-level keys:
+
+{
+  "coverage_profile":          { ... },   // analog of "Background"
+  "reasoning_style":           { ... },   // analog of "Decision procedure"
+  "recurring_concerns":        { ... },   // analog of "Evaluation"
+  "queue_behavior":            { ... },   // NEW — adaptation under queue order
+  "cross_analyst_reactivity":  { ... }    // NEW — explicit references to peers / management
+}
+
+Fill each sub-profile as follows. Use evidence from the turns; cite specific
+calls (e.g. "2023-Q2") and quote short verbatim phrases (≤ 12 words) where
+helpful. Do not invent facts not supported by the turns.
+
+# coverage_profile
+Who this analyst is and what lens they bring. Required fields:
+  - "firm": most recent firm/affiliation observed.
+  - "seniority_signal": evidence about their seniority (titles, length of
+    coverage, how management addresses them). 2-3 sentences.
+  - "sector_lens": what beats they cover (cruise / leisure / travel /
+    consumer / gaming / lodging / airlines). 1-2 sentences.
+  - "rhetorical_signature": tics, openers, closers, tone. 2-3 short bullets.
+    If a fixed opener phrase recurs in ≥ 30% of calls, quote it verbatim and
+    give the frequency (e.g. "opens with 'Great. Thanks' in 13 of 17 calls").
+
+# reasoning_style
+HOW the analyst probes management. Required fields:
+  - "primary_mode": one of {"quantitative_modeling", "qualitative_strategic",
+    "mixed"}, plus one sentence of justification grounded in the turns.
+  - "follow_up_pattern": within-turn structure (single question, two-parter,
+    multi-part), and whether they push back. 2-3 sentences. Quantify with
+    rough fraction (e.g. "≈ 18% of turns contain ≥ 2 question marks").
+  - "evidence_demanded": what answers they reward — specific numbers (bps, %,
+    $), explicit guidance, mechanism, peer comparison. 2-3 sentences. If you
+    claim they "demand bps", state the actual count of turns using bps.
+  - "anchoring_habits": where they anchor — prior guidance, 2019 baseline,
+    specific management line just delivered, peers (NCLH/CCL), industry
+    supply, their own prior questions. 2-3 sentences. If they anchor against
+    peers, cite the calls.
+
+# recurring_concerns
+WHAT the analyst keeps coming back to. Required fields:
+  - "core_topics": ranked list of 5-8 topical clusters, RANKED BY n_turns
+    DESCENDING (not by perceived importance). For each topic, give:
+      {
+        "topic": "short label (snake_case or short phrase)",
+        "n_turns": <integer, count of question turns touching this topic>,
+        "n_calls": <integer, count of distinct calls where it was raised>,
+        "share_of_calls": <float, n_calls divided by total calls covered, rounded to 2 decimals>,
+        "what_they_press_on": "1-2 sentences",
+        "supporting_calls": ["2022-Q4", "2023-Q3", ...]
+      }
+    A topic must have n_turns ≥ 2 to be listed. If fewer than 5 topics meet
+    that threshold, list as many as do and say so explicitly in "blind_spots".
+  - "blind_spots": topics this analyst notably does NOT push on, given peers
+    do. Be concrete (e.g. "0 turns on fuel hedging despite peers asking in
+    every Q3 call"). 2-3 sentences.
+  - "stance_drift": how emphasis has shifted across the window. Cite at least
+    two specific quarter-pairs (e.g. "in 2022-Q1/Q2 he asked about testing
+    requirements; by 2024 these dropped to zero turns"). 2-3 sentences.
+
+# queue_behavior   (NEW)
+How this analyst behaves depending on WHERE in the call they speak. Required:
+  - "typical_position": rough range observed (e.g. "#3–#5 of ≈8 analysts; was
+    #1 on 2 of 16 calls, #13+ on 6 of 16").
+  - "default_first_pick": when they are first/early to speak (no topics taken
+    yet), what topic do they typically open with? Cite the calls where they
+    were first.
+  - "adaptation_when_favorites_taken": when their top-3 core_topics have
+    already been raised by prior analysts, what do they do? Choose ONE OR MORE
+    of the following tags AND quote evidence per tag:
+      * "reframe_deeper"           — re-ask the same topic at a deeper modeling
+                                     angle (e.g. asking for like-for-like
+                                     decomposition after headline yield was
+                                     covered).
+      * "white_space"              — pivot to a topic few or no peers cover
+                                     (e.g. loyalty program data, agent feedback,
+                                     specific destination ramp).
+      * "cross_narrative_reconcile"— ask management to reconcile two threads
+                                     that emerged earlier in the Q&A.
+      * "peer_or_industry_meta"    — ask about peer/industry behavior rather
+                                     than the company directly.
+      * "reactive_followup"        — piggyback on a specific phrase a prior
+                                     analyst or management used.
+      * "stay_on_topic_anyway"     — re-ask the popular topic regardless.
+    For each tag chosen, cite ≥ 1 call and quote ≤ 12 verbatim words.
+  - "white_space_topics": list of topic labels this analyst raises that few
+    peers do (with supporting_calls). Empty list if none.
+
+# cross_analyst_reactivity   (NEW)
+How this analyst integrates in-call context that is not in the management
+presentation. Required:
+  - "explicit_peer_references": how often (count of turns and example phrases)
+    they explicitly cite another analyst's question. Examples to look for:
+    "following up on Steven's question", "to Robin's earlier point",
+    "one of your larger peers". Quote ≤ 12 words per example.
+  - "management_line_anchoring": how often they anchor on a SPECIFIC number
+    or phrase management just delivered in this call ("the 90 basis points
+    you laid out", "the 5% implied yield guidance"). Count + 1-2 examples.
+  - "operator_or_followup_signal": whether they tend to take their second turn
+    (when allowed) and what for — clarification, deeper drill, or new topic.
+
+Hard rules:
+- Output ONLY the JSON object. No prose before or after.
+- All free-text fields are 1-3 sentences each.
+- Cite specific call quarters whenever you make a claim about recurrence.
+- Quantify with integer counts (n_turns, n_calls) wherever the schema asks.
+  Do NOT use vague intensifiers ("often", "frequently") without an integer
+  count or fraction next to them.
+- If evidence for a field is thin or absent, write the field with an explicit
+  note such as "no evidence in history" or "n_turns < 2; insufficient to
+  characterise". Do not paper over thin evidence with generic language.
+- Ranking of core_topics is by n_turns descending. If two topics tie, break
+  by n_calls descending, then alphabetical.
+- All quoted verbatim phrases must be ≤ 12 words and appear in the question
+  history you were given.
+
+ANALYST NAME: sharon zackfia
+LAST OBSERVED FIRM/TITLE: Partner and Group Head of the Consumer Sector, William Blair
+NUMBER OF QUESTIONS IN HISTORY: 4
+CALLS COVERED: 2024-Q1, 2025-Q3
+
+QUESTION HISTORY (chronological):
+--- TURN 1 | CALL: 2024-Q1 | TICKER: RCL | SECTOR: cruise | FIRM: Equity Research Analyst, William Blair ---
+            [Queue position] This analyst was #4 to speak on this call.
+            [Analysts who spoke before them on this call]
+            Steven Wieczynski, Ben Chaiken, Matthew Boss
+
+            [Setup: management presentation excerpt]
+            Operator: Good morning, my name is Regina and I will be your conference operator today. At this time I would like to welcome everyone to the Royal Caribbean Group Q1 2024 earnings call. All participants are in the listen-only mode. After the speaker presentation, there will be a question-and-answer session. To ask a question during the session, you'll need to press star one on your telephone keypad. I would now like to introduce Michael McCarthy, Vice President of Investor Relations. Mr. McCarthy, the floor is yours.
+Michael McCarthy (Head of Investor Relations, Royal Caribbean Group): Good morning everyone, and thank you for joining us today for our Q1 2024 earnings call. Joining me here in Miami are Jason Liberty, our Chief Executive Officer; Naftali Holtz, our Chief Financial Officer; and Michael Bayley, President and CEO of Royal Caribbean International. Before we get started, I would like to note that we will be making forward-looking statements during this call. These statements are based on management's current expectations and are subject to risks and uncertainties. A number of factors could cause actual results to differ materially from our current expectations. Please...
+
+            [Q&A SO FAR — what prior analysts asked, truncated]
+            ...(truncated)...umber, cruise is $65 billion of that $1.9 trillion. So we're a very, very small fraction. And I think something we've talked about before is a 1% shift is worth 11 Oasis-class ships to us. And so for us, when you look at things like Perfect Day, when you look at things like the Royal Beach Club, when you look at things like Utopia, when you look at things like what we're doing on Edge and Nova, it's very purposeful, less about what's happening with other cruise operators. It's more how do we take further share? How do we compete with Orlando? How do we compete with Las Vegas? How do we compete with other land-based alternatives to grab that share where, as we know today, currently trades, at least at a 25% or 30% premium, to what we're getting? So we want to close that gap to land-based vacation, and we want to take share. And we believe by waking up and being just obsessed at delivering the best vacation experiences in the world puts us in a position to win.
+Naftali Holtz (CFO, Royal Caribbean Group): Hey, Matt. Just to add one more thing to Jason also, if you kind of look at 2019 versus we are today, we have been taking share. Again, you don't have to believe much. And as Jason said, 1% is 11 Oasis-class ships. That's a pretty significant rise. But we've continued to focus on it and make progress there. I think just in terms of the strength, as you've kind of heard in our prepared remarks, the strength is across all our key itineraries. And of course, the Caribbean continues to be performing very well, but as much as others, Alaska, Europe, and obviously, we're coming back to China. So we feel pretty good of where we are standing today, what our book position, where the pricing is for the rest of the year.
+Matthew Boss (Equity Research Analyst, JPMorgan): Great. Congrats. Best of luck.
+Michael Bayley (President and CEO, Royal Caribbean International): Thank you.
+Operator: Your next question comes from the line of Sharon Zackfia with William Blair. Please go ahead.
+
+            [Operator intro to analyst, if any]
+            Your next question comes from the line of Sharon Zackfia with William Blair. Please go ahead.
+
+            [Analyst question]
+            Hi. Good morning. I think on the last call, you had talked about 80% of passengers being North American this year. I'm just wondering if there's any update on that, if there's any change. And then as we think about next year, kind of where would you expect North America to go? It's kind of been unusually large the last few years. And if we see kind of China or Europe ramp up in the passenger base, how do we think about that impact on onboard revenue?
+
+            [Management response excerpt]
+            Jason Liberty: Yeah. Well, thanks for the question, Sharon. I hope you're doing well. So I think just starting off, we need to just frame that we have global brands, not nationalistic brands. These global brands are supported by a very significant commercial apparatus with leading yield management tools and teams around the world. So the sourcing is really a reflection of the demand patterns that we see to optimize our ultimate revenue. More China next year, as we add that second ship into Ch...
+
+--- TURN 2 | CALL: 2024-Q1 | TICKER: RCL | SECTOR: cruise | FIRM: Equity Research Analyst, William Blair ---
+            [Queue position] This analyst was #5 to speak on this call.
+            [Analysts who spoke before them on this call]
+            Steven Wieczynski, Ben Chaiken, Matthew Boss, Sharon Zackfia
+
+            [Setup: management presentation excerpt]
+            Operator: Good morning, my name is Regina and I will be your conference operator today. At this time I would like to welcome everyone to the Royal Caribbean Group Q1 2024 earnings call. All participants are in the listen-only mode. After the speaker presentation, there will be a question-and-answer session. To ask a question during the session, you'll need to press star one on your telephone keypad. I would now like to introduce Michael McCarthy, Vice President of Investor Relations. Mr. McCarthy, the floor is yours.
+Michael McCarthy (Head of Investor Relations, Royal Caribbean Group): Good morning everyone, and thank you for joining us today for our Q1 2024 earnings call. Joining me here in Miami are Jason Liberty, our Chief Executive Officer; Naftali Holtz, our Chief Financial Officer; and Michael Bayley, President and CEO of Royal Caribbean International. Before we get started, I would like to note that we will be making forward-looking statements during this call. These statements are based on management's current expectations and are subject to risks and uncertainties. A number of factors could cause actual results to differ materially from our current expectations. Please...
+
+            [Q&A SO FAR — what prior analysts asked, truncated]
+            ...(truncated)...h William Blair. Please go ahead.
+Sharon Zackfia (Equity Research Analyst, William Blair): Hi. Good morning. I think on the last call, you had talked about 80% of passengers being North American this year. I'm just wondering if there's any update on that, if there's any change. And then as we think about next year, kind of where would you expect North America to go? It's kind of been unusually large the last few years. And if we see kind of China or Europe ramp up in the passenger base, how do we think about that impact on onboard revenue?
+Jason Liberty (CEO, Royal Caribbean Group): Yeah. Well, thanks for the question, Sharon. I hope you're doing well. So I think just starting off, we need to just frame that we have global brands, not nationalistic brands. These global brands are supported by a very significant commercial apparatus with leading yield management tools and teams around the world. So the sourcing is really a reflection of the demand patterns that we see to optimize our ultimate revenue. More China next year, as we add that second ship into China, can move this number a little bit to be less North American-centric. But we're going to follow the demand patterns. That is how we've done it for a very, very long period of time. Of course, that could potentially shift the mix of onboard and ticket. I don't think it's going to materially shift it because I do think that we'll probably be relatively close to the sourcing that we saw this year. Maybe it moves a little bit, but it's not going to move a lot. We're focused on optimizing our revenue. So if we're getting more in ticket from a customer and a little bit less on onboard, we're perfectly okay with that as long as the answer is higher yield profile and higher margin profile for us. That's how we've run the business for a very long time. I think we're very fortunate to have thought a long time ago to make sure that our brands are positioned to be globally desirable in sourcing from many different markets.
+
+            [Operator intro to analyst, if any]
+            Your next question comes from the line of Sharon Zackfia with William Blair. Please go ahead.
+
+            [Analyst question]
+            Jason, can I ask a follow-up? The 1 in 2 passengers being Millennials at this point, do you find that that customer is more inclined to pre-book onboard versus kind of their elders like me? Or are you seeing pre-booking success kind of across the demographic gamut?
+
+            [Management response excerpt]
+            Jason Liberty: I mean, SKU is a little bit younger. But I think, Sharon, one, if we can pick any positiveness out of COVID, was that the consumer, young or middle-aged, etc., got very used to booking or buying things online. We also really improved our ability to take friction out of the booking experience for a ticket price as well as the booking experience for onboard by curating, taking a lot of steps out of the process, etc. And that's really what is driving that better behavior. The inst...
+
+--- TURN 3 | CALL: 2024-Q1 | TICKER: RCL | SECTOR: cruise | FIRM: Equity Research Analyst, William Blair ---
+            [Queue position] This analyst was #5 to speak on this call.
+            [Analysts who spoke before them on this call]
+            Steven Wieczynski, Ben Chaiken, Matthew Boss, Sharon Zackfia
+
+            [Setup: management presentation excerpt]
+            Operator: Good morning, my name is Regina and I will be your conference operator today. At this time I would like to welcome everyone to the Royal Caribbean Group Q1 2024 earnings call. All participants are in the listen-only mode. After the speaker presentation, there will be a question-and-answer session. To ask a question during the session, you'll need to press star one on your telephone keypad. I would now like to introduce Michael McCarthy, Vice President of Investor Relations. Mr. McCarthy, the floor is yours.
+Michael McCarthy (Head of Investor Relations, Royal Caribbean Group): Good morning everyone, and thank you for joining us today for our Q1 2024 earnings call. Joining me here in Miami are Jason Liberty, our Chief Executive Officer; Naftali Holtz, our Chief Financial Officer; and Michael Bayley, President and CEO of Royal Caribbean International. Before we get started, I would like to note that we will be making forward-looking statements during this call. These statements are based on management's current expectations and are subject to risks and uncertainties. A number of factors could cause actual results to differ materially from our current expectations. Please...
+
+            [Q&A SO FAR — what prior analysts asked, truncated]
+            ...(truncated)...n optimizing our revenue. So if we're getting more in ticket from a customer and a little bit less on onboard, we're perfectly okay with that as long as the answer is higher yield profile and higher margin profile for us. That's how we've run the business for a very long time. I think we're very fortunate to have thought a long time ago to make sure that our brands are positioned to be globally desirable in sourcing from many different markets.
+Sharon Zackfia (Equity Research Analyst, William Blair): Jason, can I ask a follow-up? The 1 in 2 passengers being Millennials at this point, do you find that that customer is more inclined to pre-book onboard versus kind of their elders like me? Or are you seeing pre-booking success kind of across the demographic gamut?
+Jason Liberty (CEO, Royal Caribbean Group): I mean, SKU is a little bit younger. But I think, Sharon, one, if we can pick any positiveness out of COVID, was that the consumer, young or middle-aged, etc., got very used to booking or buying things online. We also really improved our ability to take friction out of the booking experience for a ticket price as well as the booking experience for onboard by curating, taking a lot of steps out of the process, etc. And that's really what is driving that better behavior. The installation of a proper commerce system that we can yield manage, that we can curate, which we're still very in the early innings on, is really what's benefiting that. And you just think about just shopping behavior. In the Q1 , we had 100 million visits to our websites, 100 million. That's twice what we had pre-COVID. And so we have really upped our game, not just on a marketing basis, but also to make that our websites help our customers dream about what they want to do and help them get to the experience that they're looking for, and then making sure that they have all the onboard experiences that they want to have and being able to resolve all that well in advance of them getting on the ship.
+
+            [Operator intro to analyst, if any]
+
+
+            [Analyst question]
+            Thank you so much.
+
+            [Management response excerpt]
+            Jason Liberty: Thanks, Sharon.
+
+--- TURN 4 | CALL: 2025-Q3 | TICKER: RCL | SECTOR: cruise | FIRM: Partner and Group Head of the Consumer Sector, William Blair ---
+            [Queue position] This analyst was #9 to speak on this call.
+            [Analysts who spoke before them on this call]
+            Steven Wieczynski, Robin Farley, Matthew Boss, Lizzie Dove, Brandt Montour, James Hardiman, Ben Chaiken, Connor Cunningham
+
+            [Setup: management presentation excerpt]
+            Operator: Good morning. My name is Regina, and I will be your conference operator today. At this time, I would like to welcome everyone to the Royal Caribbean Group's Third Quarter 2025 Earnings Call. All participants are in the listen-only mode. After the speaker presentation, there will be a question-and-answer session. To ask a question during this session, you'll need to press star one on your telephone keypad. Given the number of participants on today's call, we are strictly limiting each person to one question only. I would now like to introduce Blake Vanier, Vice President of Investor Relations. Mr. Vanier, the floor is yours.
+Blake Vanier (VP of Investor Relations, Royal Caribbean Group): Good morning, everyone, and thank you for joining us today for our Third Quarter 2025 Earnings Call. Joining me here in Miami are Jason Liberty, our President and Chief Executive Officer, Naftali Holtz, our Chief Financial Officer, and Michael Bayley, President and CEO of the Royal Caribbean Brand. Before we get started, I would like to note that we will be making forward-looking statements during this call. These statements are based on management's current expectations and are subject...
+
+            [Q&A SO FAR — what prior analysts asked, truncated]
+            ...(truncated)...Is that a fair assumption? Thank you.
+Jason Liberty (President and CEO, Royal Caribbean Group): Yeah. So, one, I wouldn't say that we are banking on close-in demand. I would probably describe it as each product that we offer to our guests in their different segments and different brands and different destinations has a different booking pattern to it. That's very natural. And a weekend getaway is not typically what's on somebody's mind 18 months in advance. And so as we have more of those opportunities that we're able to deliver because of the assets that we have, that is what's driving a change in that behavior. But the behavior in our other products actually looks very similar to what we have typically seen for a seven-night Caribbean or a seven-night in Europe, etc. And so those patterns are there. They're strong, and they're accelerating. And so I think that's what you want to see is that for each of the products in those different tracks, that things are moving at a rate that's going to optimize your total revenue performance. And so that's how I think we think about it. Now, certainly, we have seen in the past, and we do not count on this, is that close-in on all these products accelerate, and we end up beating our expectations. But we do, of course, try to bake into our forecast. These are the patterns that we saw last quarter, the patterns we saw a year ago, try to inform how we expect the track to occur. And that's how our yield management works. That's how our tools work in trying to predict and to lay out what we should be offering in the market. So I think, again, we feel very good about the booking environment. We feel good about our book position. I would read into our commentary is we are optimizing our revenue as when we look back in time, we see more often than not that we've left some money on the table. And that's our job to maximize revenue.
+Operator: Our next question will come from the line of Sharon Zackfia with William Blair. Please go ahead.
+
+            [Operator intro to analyst, if any]
+            Our next question will come from the line of Sharon Zackfia with William Blair. Please go ahead.
+
+            [Analyst question]
+            Hi. Good morning. I wanted to talk through kind of the composition of your revenue as you ramp up more of the owned destinations. So I know with CocoCay, you also saw a ticket lift in addition to the onboard spend that you get on the island. Is that a similar dynamic with the Royal Beach Clubs? Or as the Royal Beach Clubs come on, do we start to see the composition of yield shift a little bit more to onboard spend and have that lead versus tickets?
+
+            [Management response excerpt]
+            Michael Bayley: Hey, Sharon, it's Michael. Yeah, it's a good question. I mean, Perfect Day really was a huge driver of ticket lift as well as onboard spend. I think with the beach clubs, it's a slightly different product. So it does kind of slip more into the short excursion onboard revenue frame. And so it's also a driver for itinerary as well because we're beginning to see that itineraries that include the beach club as well as Perfect Day seem to be driving even more demand than historical...

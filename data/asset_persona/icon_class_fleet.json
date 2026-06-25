@@ -1,0 +1,361 @@
+{
+  "asset_id": "icon_class_fleet",
+  "display_name": "Icon-class fleet (Icon, Star, Legend; Icon 4-7 on order)",
+  "category": "ship_class",
+  "linked_pillars": [
+    "New hardware yield uplift",
+    "Family/multigenerational market",
+    "Perfecta",
+    "Caribbean deployment with private destinations"
+  ],
+  "lifecycle_by_quarter": {
+    "2022-Q1": {
+      "status": "under_construction",
+      "key_uncertainties": [
+        "fall 2023 debut timing",
+        "feature set differentiation versus Oasis class",
+        "initial booking response"
+      ],
+      "mgmt_statement_summary": "Icon of the Seas construction reached a pivotal milestone ahead of a fall 2023 debut, positioned with reimagined signature features as the lead ship of a new class.",
+      "status_changed_this_quarter": true,
+      "status_delta": {
+        "prior_status": null,
+        "current_status": "under_construction",
+        "change_type": "newly_tracked",
+        "detail": "first quarter this asset appears in the lifecycle record"
+      }
+    },
+    "2022-Q3": {
+      "status": "under_construction",
+      "key_uncertainties": [
+        "sustained pricing power after launch week",
+        "share gain from land-based family destinations",
+        "ramp of new neighborhoods such as Surfside"
+      ],
+      "mgmt_statement_summary": "Detailed reveal of Icon of the Seas with eight distinct neighborhoods and a late-2023 delivery for a January 2024 debut. First week of bookings described as phenomenal, with Icon framed as the first ship of a new family-focused class for Royal Caribbean alongside Perfect Day.",
+      "status_changed_this_quarter": true,
+      "status_delta": {
+        "prior_status": "under_construction",
+        "current_status": "under_construction",
+        "change_type": "date_slip",
+        "detail": "new target year(s) mentioned: ['2024']"
+      }
+    },
+    "2022-Q4": {
+      "status": "under_construction_book_open",
+      "key_uncertainties": [
+        "durability of record booking pace into 2024",
+        "extension of premium pricing across cabin categories",
+        "comparable for Icon-class capacity additions"
+      ],
+      "mgmt_statement_summary": "Icon of the Seas described as the best-selling product in company history since opening for sale, with the Ultimate Family Townhouse 55% sold for 2024 at an average $75,000 per week. Icon called out as the first new Royal Caribbean class in nine years and a major driver of 2024 demand.",
+      "status_changed_this_quarter": true,
+      "status_delta": {
+        "prior_status": "under_construction",
+        "current_status": "under_construction_book_open",
+        "change_type": "status_transition",
+        "detail": "under_construction -> under_construction_book_open"
+      }
+    },
+    "2023-Q1": {
+      "status": "under_construction_book_open",
+      "key_uncertainties": [
+        "yield contribution sizing within 2024",
+        "absolute load factor and rate premium versus prior classes",
+        "Hideaway Beach readiness for Icon's Caribbean season"
+      ],
+      "mgmt_statement_summary": "Icon of the Seas significantly more booked for her inaugural season at materially higher rates than any prior Royal Caribbean ship launch despite only five months on sale. Caribbean debut in January 2024 with itineraries paired to Perfect Day at CocoCay and the new Hideaway Beach.",
+      "status_changed_this_quarter": false,
+      "status_delta": {
+        "prior_status": "under_construction_book_open",
+        "current_status": "under_construction_book_open",
+        "change_type": "none",
+        "detail": ""
+      }
+    },
+    "2023-Q2": {
+      "status": "pre_delivery",
+      "key_uncertainties": [
+        "yield premium versus existing top products",
+        "ramp profile of inaugural Caribbean season",
+        "demand sustainability across 2024-2025"
+      ],
+      "mgmt_statement_summary": "Icon of the Seas delivery scheduled for late Q4 with revenue sailings beginning at the end of January 2024. Management positions Icon and Utopia as effectively closing the gap to land-based resort experiences and notes Icon is breaking prior launch records.",
+      "status_changed_this_quarter": true,
+      "status_delta": {
+        "prior_status": "under_construction_book_open",
+        "current_status": "pre_delivery",
+        "change_type": "status_transition",
+        "detail": "under_construction_book_open -> pre_delivery"
+      }
+    },
+    "2023-Q3": {
+      "status": "pre_delivery",
+      "key_uncertainties": [
+        "2024 yield contribution from Icon plus Utopia and Silver Ray",
+        "cost per APCD impact of new hardware",
+        "Hideaway Beach throughput at scale"
+      ],
+      "mgmt_statement_summary": "Delivery later in Q3 with revenue sailings starting end of January 2024. 2024 capacity guided up 8% on the introduction of Icon, Utopia, and Silver Ray, with Icon described as the best-selling product in company history.",
+      "status_changed_this_quarter": false,
+      "status_delta": {
+        "prior_status": "pre_delivery",
+        "current_status": "pre_delivery",
+        "change_type": "none",
+        "detail": ""
+      }
+    },
+    "2023-Q4": {
+      "status": "in_service",
+      "key_uncertainties": [
+        "sustainability of premium pricing beyond inaugural season",
+        "applicability of Icon features to existing classes",
+        "implications for future newbuild cadence"
+      ],
+      "mgmt_statement_summary": "Icon of the Seas welcomed first revenue guests in late January 2024 after a seven-year development. Management contextualizes Icon, Celebrity Ascent, and Silver Nova as drivers of the 8.5% 2024 capacity growth alongside Utopia and Silver Ray.",
+      "status_changed_this_quarter": true,
+      "status_delta": {
+        "prior_status": "pre_delivery",
+        "current_status": "in_service",
+        "change_type": "status_transition",
+        "detail": "pre_delivery -> in_service"
+      }
+    },
+    "2024-Q1": {
+      "status": "in_service",
+      "key_uncertainties": [
+        "full-year financial contribution sizing",
+        "guest satisfaction durability after wave season",
+        "read-across to Star of the Seas booking curve"
+      ],
+      "mgmt_statement_summary": "Icon described as exceeding lofty expectations on both guest satisfaction and financial performance since launch, with wave season bookings consistently at higher prices than 2023. Management characterizes the success as beyond expectations.",
+      "status_changed_this_quarter": false,
+      "status_delta": {
+        "prior_status": "in_service",
+        "current_status": "in_service",
+        "change_type": "none",
+        "detail": ""
+      }
+    },
+    "2024-Q2": {
+      "status": "in_service_class_expansion",
+      "key_uncertainties": [
+        "repeatability of Icon-level yields on Star and the third Icon-class ship",
+        "sustained load factor above design",
+        "capital allocation implications of accelerating Icon orders"
+      ],
+      "mgmt_statement_summary": "Icon currently sailing at roughly 132% load factor. Order book extended with Star of the Seas in mid-2025 and a third Icon-class ship in 2026, alongside Celebrity Xcel and an Oasis 7 in 2028.",
+      "status_changed_this_quarter": true,
+      "status_delta": {
+        "prior_status": "in_service",
+        "current_status": "in_service_class_expansion",
+        "change_type": "status_transition",
+        "detail": "in_service -> in_service_class_expansion"
+      }
+    },
+    "2024-Q3": {
+      "status": "in_service_class_expansion",
+      "key_uncertainties": [
+        "incremental return profile of the fourth Icon-class ship",
+        "shore-power and energy-transition capex per ship",
+        "port infrastructure readiness for Oasis and Icon-class scale"
+      ],
+      "mgmt_statement_summary": "Announced a fourth Icon-class ship for 2027 delivery on the back of Icon's market response and anticipation for Star. Icon begins shore power at Port of Miami; class continues to exceed expectations on satisfaction and financial performance.",
+      "status_changed_this_quarter": true,
+      "status_delta": {
+        "prior_status": "in_service_class_expansion",
+        "current_status": "in_service_class_expansion",
+        "change_type": "date_slip",
+        "detail": "new target year(s) mentioned: ['2027']"
+      }
+    },
+    "2024-Q4": {
+      "status": "in_service_class_expansion",
+      "key_uncertainties": [
+        "comp difficulty in 2025 against Icon launch year",
+        "first-quarter timing benefit sizing",
+        "size and economics of the future Discovery class versus Icon"
+      ],
+      "mgmt_statement_summary": "Icon and Utopia performing well above expectations into 2025 with Q1 yield disproportionately benefiting from a full quarter of Icon. Management flags 2027 as the year Icon 4 joins and clarifies that the future Discovery class will be smaller than Icon.",
+      "status_changed_this_quarter": true,
+      "status_delta": {
+        "prior_status": "in_service_class_expansion",
+        "current_status": "in_service_class_expansion",
+        "change_type": "date_slip",
+        "detail": "new target year(s) mentioned: ['2025']"
+      }
+    },
+    "2025-Q1": {
+      "status": "in_service_class_expansion",
+      "key_uncertainties": [
+        "pace of load-factor ramp on Star versus Icon's 2024 curve",
+        "yield uplift attributable to adding one Icon-class ship per year",
+        "comp dynamics as Icon laps its inaugural year"
+      ],
+      "mgmt_statement_summary": "Star of the Seas, the second Icon-class ship, plus Celebrity Xcel exceeding expectations on pricing and load factors. 2025 capacity guided up 5.5% on Star, Xcel, and a full year of Icon, Utopia, and Silver Ray.",
+      "status_changed_this_quarter": false,
+      "status_delta": {
+        "prior_status": "in_service_class_expansion",
+        "current_status": "in_service_class_expansion",
+        "change_type": "none",
+        "detail": ""
+      }
+    },
+    "2025-Q2": {
+      "status": "class_expansion_continuing",
+      "key_uncertainties": [
+        "sizing of Icon 4 full-year benefit within 2028 Perfecta",
+        "deployment of Legend in Europe",
+        "integration with Perfect Day Mexico and Royal Beach Club roll-outs"
+      ],
+      "mgmt_statement_summary": "Pipeline of seven new ships over the next several years framed around Star (2025), Legend of the Seas (2026), and Icon 4 (2027), with Icon 4 a named 2028 full-year contributor in Perfecta.",
+      "status_changed_this_quarter": true,
+      "status_delta": {
+        "prior_status": "in_service_class_expansion",
+        "current_status": "class_expansion_continuing",
+        "change_type": "status_transition",
+        "detail": "in_service_class_expansion -> class_expansion_continuing"
+      }
+    },
+    "2025-Q3": {
+      "status": "class_expansion_continuing",
+      "key_uncertainties": [
+        "timing and economics of Icon 5 and the optional seventh Icon-class ship",
+        "transition risk into the post-Icon Discovery class",
+        "shipyard slot allocation through 2030"
+      ],
+      "mgmt_statement_summary": "Confirmed Icon 5 order for 2028 delivery, added an option for a seventh Icon-class ship, and positioned the company for a new game-changing class beyond Icon.",
+      "status_changed_this_quarter": false,
+      "status_delta": {
+        "prior_status": "class_expansion_continuing",
+        "current_status": "class_expansion_continuing",
+        "change_type": "none",
+        "detail": ""
+      }
+    },
+    "2025-Q4": {
+      "status": "class_expansion_continuing",
+      "key_uncertainties": [
+        "European pricing for Legend versus Caribbean Icon and Star comps",
+        "organic-versus-inorganic yield contribution from each new Icon ship",
+        "competitive response to a three-Icon-class fleet"
+      ],
+      "mgmt_statement_summary": "Legend of the Seas, the first Icon-class ship to debut in Europe, in a strong book position with very strong booking trends. Hardware platform now characterized as six Oasis-class plus three Icon-class ships, with Icon framed as having changed the game in 2024.",
+      "status_changed_this_quarter": false,
+      "status_delta": {
+        "prior_status": "class_expansion_continuing",
+        "current_status": "class_expansion_continuing",
+        "change_type": "none",
+        "detail": ""
+      }
+    },
+    "2026-Q1": {
+      "status": "class_expansion_continuing",
+      "key_uncertainties": [
+        "Legend pricing premium relative to Icon and Star",
+        "incremental margin from the Icon 6 and 7 orders",
+        "deployment mix between Perfect Day Mexico, Royal Beach Club Cozumel, and Icon-class ships"
+      ],
+      "mgmt_statement_summary": "Announced orders for Icon 6 and Icon 7 citing confidence in the Icon platform's guest experience and economics. Legend of the Seas, the third Icon-class ship, in a strong book position with prices above those seen for Icon and Star and positioned alongside Perfect Day Mexico and Royal Beach Club Cozumel in the Western Caribbean strategy.",
+      "status_changed_this_quarter": false,
+      "status_delta": {
+        "prior_status": "class_expansion_continuing",
+        "current_status": "class_expansion_continuing",
+        "change_type": "none",
+        "detail": ""
+      }
+    }
+  },
+  "analyst_relevance": {
+    "asked_by_history": [
+      {
+        "analyst": "vince ciepiel",
+        "call": "2022-Q3",
+        "framing": "Anecdotal share-shift from land-based family destinations (Disney) to Icon as evidence of category capture"
+      },
+      {
+        "analyst": "steven wieczynski",
+        "call": "2023-Q1",
+        "framing": "Acknowledged Icon as a recurring topic, signaling repeat franchise-level interest in the launch"
+      },
+      {
+        "analyst": "brandt montour",
+        "call": "2023-Q2",
+        "framing": "Ranking of Icon, CocoCay expansion, and China reopening as 2024 yield tailwinds and any dilutive offsets"
+      },
+      {
+        "analyst": "vince ciepiel",
+        "call": "2023-Q2",
+        "framing": "Pairing of Utopia and Icon deployments at CocoCay and implications for repeat visitation"
+      },
+      {
+        "analyst": "brandt montour",
+        "call": "2023-Q3",
+        "framing": "Effect of Icon on 2024 NCC-ex-fuel through APCD growth and how China offsets play in"
+      },
+      {
+        "analyst": "steven wieczynski",
+        "call": "2023-Q4",
+        "framing": "Decomposition of 2024 yield guidance including Icon hardware, occupancy ramp, and onboard"
+      },
+      {
+        "analyst": "brandt montour",
+        "call": "2023-Q4",
+        "framing": "Balance-of-year European yield cadence given Hideaway Beach and Icon sailing patterns"
+      },
+      {
+        "analyst": "vince ciepiel",
+        "call": "2023-Q4",
+        "framing": "How Icon's launch reception compares to prior new-class launches (Oasis, Quantum) and durability through Utopia and Star"
+      },
+      {
+        "analyst": "jamie rollo",
+        "call": "2023-Q4",
+        "framing": "Whether Icon's reception changes newbuild ordering pace, delivery cadence, or fleet rationalization decisions"
+      },
+      {
+        "analyst": "jamie rollo",
+        "call": "2023-Q4",
+        "framing": "Whether successful Icon features will be retrofitted onto Vision, Radiance, Quantum, or Oasis-class ships"
+      },
+      {
+        "analyst": "vince ciepiel",
+        "call": "2024-Q2",
+        "framing": "Hardware allocation strategy between Icon-style week-long family vacations and Utopia-style short getaway product"
+      },
+      {
+        "analyst": "steven wieczynski",
+        "call": "2025-Q2",
+        "framing": "Whether 2028 earnings growth at least matches Perfecta given Oasis-class, Icon, river, and private-destination launches"
+      },
+      {
+        "analyst": "james hardiman",
+        "call": "2025-Q4",
+        "framing": "Organic versus inorganic decomposition of 2026 growth from another Icon-class ship plus calendar benefits from Icon and Celebrity launches"
+      },
+      {
+        "analyst": "robin farley",
+        "call": "2025-Q4",
+        "framing": "Trade-off between the smaller Discovery class and the larger Icon and Oasis ships in terms of yield versus capacity growth"
+      }
+    ],
+    "primary_framings_observed": [
+      "Yield uplift sizing from each incremental Icon-class delivery",
+      "Pricing premium and load-factor durability versus prior new-class launches",
+      "Family and multigenerational market share capture from land-based competitors",
+      "Cost-per-APCD impact of new hardware on NCC-ex-fuel cadence",
+      "Capital allocation: implications for newbuild ordering pace and fleet rationalization",
+      "Pairing of Icon-class deployment with Perfect Day, Hideaway Beach, and future Western Caribbean private destinations",
+      "Comparability of Icon-class economics to the planned smaller Discovery class"
+    ]
+  },
+  "currently_open_questions_as_of_2026Q1": [
+    "Quantified pricing premium and load-factor profile for Legend in Europe versus Icon and Star in the Caribbean",
+    "Marginal yield and earnings contribution per incremental Icon-class ship (Icon 4 through Icon 7) within Perfecta and beyond",
+    "Capex per ship and energy-transition spend (shore power, alternative fuels) on later Icon-class deliveries",
+    "Strategic rationale and economics for Icon 6 and Icon 7 relative to the planned smaller Discovery class",
+    "Whether Icon-class load factors structurally above 130 percent persist as the class scales to five or more ships",
+    "How Icon-class deployment is sequenced with Perfect Day Mexico and Royal Beach Club Cozumel in the Western Caribbean",
+    "Read-across of Icon features to existing Oasis, Quantum, Vision, and Radiance ships through revitalization capex"
+  ]
+}

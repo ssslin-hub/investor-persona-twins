@@ -1,0 +1,46 @@
+{
+  "coverage_profile": {
+    "firm": "Truist Securities",
+    "seniority_signal": "Managing Director and Senior Analyst title indicates senior, coverage-level standing; he asked multiple direct questions to C-suite (CFO/CEO) on the same call (2022-Q4), suggesting management recognizes him as a regular institutional analyst. His questions are concise and he closes the exchange quickly, consistent with experienced analysts.",
+    "sector_lens": "Focus is squarely on cruise/leisure travel with emphasis on revenue drivers (yields, booking channels) and consumer behavior; questions touch both pricing/guidance mechanics and distribution dynamics. ",
+    "rhetorical_signature": [
+      "Opens politely with a brief greeting (e.g., \"Good morning\") and tends to ask short, focused questions.",
+      "Frequently frames questions as model/clarification requests (e.g., apples\u2011to\u2011apples comparability to 2019) and then follows with a behavioral/strategic follow-up (channel/destination mix).",
+      "Uses a succinct wrap-up (e.g., \"I'm all set\") rather than prolonged pushback or debate."
+    ]
+  },
+  "reasoning_style": {
+    "primary_mode": "mixed",
+    "primary_mode_justification": "He asks quantitative/modeling clarifications (apples\u2011to\u2011apples guidance vs 2019) and qualitative strategic questions (how direct bookings vary by destination and whether trends changed since pre\u2011COVID), showing a blend of numeric and strategic focus.",
+    "follow_up_pattern": "Typically asks one tight question and often follows with a short, related follow-up (two\u2011part structure seen in 2022-Q4). He does not appear to aggressively push answers when management responds; instead he seeks clarification and then moves on.",
+    "evidence_demanded": "Prefers precise comparability and anchoring inputs (explicitly asked if 2019 numbers are apples\u2011to\u2011apples) and also asks for mechanisms/explanations behind trends (why direct bookings skew to shorter or certain destinations). He rewards clear numeric anchors and simple causal explanations.",
+    "anchoring_habits": "Leans on pre\u2011COVID baselines as anchors (explicitly asked about 2019 comparability in 2022-Q4) and frames channel/demand questions against historical (pre\u2011COVID) behavior. There is limited evidence he anchors to peers or consensus in these turns."
+  },
+  "recurring_concerns": {
+    "core_topics": [
+      {
+        "topic": "Guidance/comparability to 2019",
+        "what_they_press_on": "Seeks clarity that percentage guidance (net yields, cruise costs) is apples\u2011to\u2011apples versus reported 2019 figures and whether any adjustments are embedded.",
+        "supporting_calls": [
+          "2022-Q4"
+        ]
+      },
+      {
+        "topic": "Distribution/channel mix (direct vs travel partners)",
+        "what_they_press_on": "Presses on how increases in direct bookings map to types of itineraries and destinations, and whether direct penetration has increased at higher\u2011end/longer sailings since pre\u2011COVID.",
+        "supporting_calls": [
+          "2022-Q4"
+        ]
+      },
+      {
+        "topic": "Consumer booking behavior / digital adoption",
+        "what_they_press_on": "Asks whether consumers across product tiers are increasingly comfortable with digital purchases and whether that change is uniform across brands and destination types.",
+        "supporting_calls": [
+          "2022-Q4"
+        ]
+      }
+    ],
+    "blind_spots": "In this small sample he does not press on balance\u2011sheet topics (liquidity, net debt), capital allocation/returns, fuel/hedging, fleet capacity deployment, or detailed pricing elasticity \u2014 topics commonly pursued by some peers. Evidence is limited to the single 2022-Q4 call, so absence may reflect sample size.",
+    "stance_drift": "There is insufficient history (all turns are from 2022-Q4) to identify any shift in emphasis over time; more calls would be required to assess drift. Evidence for change across 2022\u20132025 is therefore thin."
+  }
+}

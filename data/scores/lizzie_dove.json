@@ -1,0 +1,19 @@
+{
+  "analyst": "lizzie dove",
+  "scored": [
+    {
+      "actual_question": "Could you give a refresh on Perfect Day Mexico \u2014 timing (opening late 2027, ramping 2028), cadence of ramp, and your latest thinking around the long-term structural yield growth opportunity in the Western Caribbean and Galveston penetration?",
+      "actual_topic": "pricing/yield",
+      "best_predicted_index": 0,
+      "match_level": "partial",
+      "reasoning": "Predicted question 0 addresses destination/new\u2011ship contributions to net yield (destination premiums and new\u2011ship impact), which aligns with the actual's focus on yield opportunity from Perfect Day Mexico; however the actual asks about ramp cadence and market penetration (operational timing and long\u2011term demand/penetration) rather than the bps decomposition requested in the prediction, so specificity differs."
+    }
+  ],
+  "summary": {
+    "n_actual": 1,
+    "n_exact": 0,
+    "n_partial": 1,
+    "n_miss": 0,
+    "hit_rate_exact_or_partial": 1.0
+  }
+}

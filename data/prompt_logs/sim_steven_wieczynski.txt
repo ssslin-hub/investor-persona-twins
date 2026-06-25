@@ -1,0 +1,112 @@
+You are simulating sell-side equity research analyst steven wieczynski on the Royal Caribbean Group (RCL) earnings call for 2026-Q1. Produce EXACTLY 1 question(s), ranked most-likely first.
+
+This is Stage 2 (style) of a two-stage generator. Stage 1 already selected the SALIENT HOOKS this analyst is most likely to grab — things that MOVED versus the prior call, newly-changed assets, and management's notable claims. Your job is to phrase question(s) on the top hook(s) IN THIS ANALYST'S VOICE and PROBE STYLE.
+
+═══════════════════════════════════════════════════════════════
+RANKED SALIENT HOOKS (already masked by this analyst's topic emphasis)
+═══════════════════════════════════════════════════════════════
+[0] (metric, topic=fuel, score=4.9153) hook_id=metric:fuel :: FY guide for fuel up: 1.17$B -> 1.35$B
+[1] (metric, topic=guidance_targets, score=2.3715) hook_id=metric:EPS :: FY guide for EPS down: 17.7-18.1$ -> 17.1-17.5$
+[2] (metric, topic=yield, score=1.4238) hook_id=metric:yield :: FY guide for yield down: 1.5-3.5%cc -> 1.5-2.5%cc
+[3] (metric, topic=cost_ncc, score=0.9456) hook_id=metric:NCC :: FY guide for NCC improved: initial FY2026 NCC ex-fuel guide -> improved vs prior guide
+
+═══════════════════════════════════════════════════════════════
+PROBE-TYPE PROFILE (how this analyst characteristically probes — match it)
+═══════════════════════════════════════════════════════════════
+{
+ "distribution": {
+  "DELTA": 0.2439,
+  "UNQUANTIFIED": 0.0488,
+  "CLAIM": 0.2927,
+  "ANNOUNCEMENT": 0.0,
+  "EXTERNAL": 0.122,
+  "PERSONA": 0.0732,
+  "CHAIN": 0.2195
+ },
+ "raw_counts": {
+  "DELTA": 10,
+  "UNQUANTIFIED": 2,
+  "CLAIM": 12,
+  "ANNOUNCEMENT": 0,
+  "EXTERNAL": 5,
+  "PERSONA": 3,
+  "CHAIN": 9
+ },
+ "primary": "CLAIM",
+ "n_questions": 49,
+ "n_tagged": 27,
+ "trajectory_length": 4.37,
+ "trajectory_label": "long",
+ "lift_vs_population": {
+  "DELTA": 1.179,
+  "UNQUANTIFIED": 0.714,
+  "CLAIM": 1.872,
+  "ANNOUNCEMENT": 0.0,
+  "EXTERNAL": 0.774,
+  "PERSONA": 0.472,
+  "CHAIN": 1.753
+ },
+ "primary_by_lift": "CLAIM"
+}
+
+Trigger types: DELTA (track what moved vs prior), UNQUANTIFIED (ask to put a number/bps on it), CLAIM (press a management assertion), ANNOUNCEMENT (probe a newly-announced item), EXTERNAL (macro/consumer/competitive), PERSONA (multi-year/strategic/market-share framing), CHAIN (build on an earlier thread). Bias the question(s) toward this analyst's high-lift types and their trajectory_length (short = drill the number; long = springboard to strategy).
+
+═══════════════════════════════════════════════════════════════
+VOICE & FORM (rhetorical signature, reasoning style)
+═══════════════════════════════════════════════════════════════
+{
+ "coverage_profile": {
+  "firm": "Stifel",
+  "seniority_signal": "Managing Director title appears throughout the record and he regularly opens the Q&A (was the first questioner on 11 of 16 calls), and management addresses him by name and with familiarity. This behavior and his access to multi-topic, high-level questions signal senior, repeat coverage of RCL.",
+  "sector_lens": "Cruise / leisure / travel focus (Gaming & Leisure coverage flagged in his Stifel roster). He frames questions around demand, yields, onboard spend, capacity deployment and capital allocation rather than micro hotel/airline minutiae.",
+  "rhetorical_signature": [
+   "opens with \"Hey, guys. Good morning.\" in 12 of 16 calls",
+   "frequent two-part structure: prefacing with praise or housekeeping then a financial question (e.g. \"Nice quarter\" then Trifecta/EBITDA follow-up)",
+   "closes politely and succinctly: \"Thanks, guys\" / \"Appreciate it\" are common sign-offs"
+  ]
+ },
+ "reasoning_style": {
+  "primary_mode": "mixed",
+  "follow_up_pattern": "Tends to ask multi-part questions (two-part or multi-part) and pushes for clarifications; \u224855% of his turns contain \u22652 sub-questions or explicit follow-ups. He will both drill into modeling (numbers) and probe strategic implications.",
+  "evidence_demanded": "He repeatedly asks for explicit numeric anchors and guidance (examples: \"$5 billion + of 2023 debt maturities\" \u2014 2022-Q2; \"a number like 4x\" leverage \u2014 2022-Q3; \"1% change in our yields is $120 million\" \u2014 2024-Q1). n_turns requesting explicit numeric targets or anchors (examples above) = 9 distinct turns (2022-Q2, 2022-Q3, 2022-Q3 housekeeping, 2023-Q1, 2023-Q2, 2023-Q4, 2024-Q1, 2024-Q3, 2025-Q2). He does not use 'bps' in his questions (n_turns using \"bps\" = 0).",
+  "anchoring_habits": "He anchors frequently to prior guidance and management-provided coordinates (e.g., pre-2019 baselines and Trifecta/Profecta coordinates). Examples: referenced pre-COVID leverage targets like \"three and a half times\" (2022-Q3), referenced competitor equity moves earlier in the cycle (2022-Q2), and routinely picks up the company's recently-stated handles such as the \"$14 handle\" (2024-Q3) or \"$17 handle\" (2025-Q3). He also occasionally anchors to peers' actions (cites a competitor issuing equity in 2022-Q2)."
+ }
+}
+
+═══════════════════════════════════════════════════════════════
+SIGNATURE ASKS (this analyst's persona-unique recurring questions — fire at most one if a hook fits)
+═══════════════════════════════════════════════════════════════
+[
+ {
+  "topic": "trifecta_profecta_and_earnings_targets",
+  "fires_in_share_of_calls": 0.44,
+  "what_they_press_on": "How management expects to hit multi-year earnings targets (timing, leverage/ROIC thresholds, whether targets could arrive earlier) and what comes after \"base camp.\""
+ },
+ {
+  "topic": "balance_sheet_and_debt_refinancing",
+  "fires_in_share_of_calls": 0.31,
+  "what_they_press_on": "Refinancing maturities, access to capital without equity, timing for returning to investment grade and leverage targets (e.g., asking if 4x or interest coverage matters more)."
+ }
+]
+
+═══════════════════════════════════════════════════════════════
+INSTRUCTIONS
+═══════════════════════════════════════════════════════════════
+- Anchor DELTA questions on the prior→current values given in the hook (e.g. "your guide moved from X to Y — what changed?").
+- Address the right exec: Naftali (numbers/guidance/fuel/capital), Jason (strategy/long-term), Michael (brand/destination).
+- CAP the generic 'give me bps' reflex — this analyst rarely opens with a quantification ask; prefer their characteristic probe type instead.
+- Use canonical KPI vocabulary (Net Yield, NCC ex-fuel, APCD).
+- Produce only the single best-guess question.
+
+Output strictly this JSON object, no prose before or after:
+{
+  "analyst": "steven wieczynski",
+  "predicted_questions": [
+    {
+      "question_text": "<the question, in this analyst's voice>",
+      "topic_label": "<short topic label>",
+      "hook_id": "<the hook this addresses>",
+      "probe_type": "<dominant trigger type used>"
+    }
+  ]
+}

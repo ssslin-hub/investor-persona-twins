@@ -1,0 +1,192 @@
+{
+  "analyst_name": "james hardiman",
+  "covers_companies": [
+    "RCL"
+  ],
+  "probe_type_profile": {
+    "distribution": {
+      "DELTA": 0.3077,
+      "UNQUANTIFIED": 0.0769,
+      "CLAIM": 0.0,
+      "ANNOUNCEMENT": 0.0769,
+      "EXTERNAL": 0.3077,
+      "PERSONA": 0.1538,
+      "CHAIN": 0.0769
+    },
+    "raw_counts": {
+      "DELTA": 4,
+      "UNQUANTIFIED": 1,
+      "CLAIM": 0,
+      "ANNOUNCEMENT": 1,
+      "EXTERNAL": 4,
+      "PERSONA": 2,
+      "CHAIN": 1
+    },
+    "primary": "DELTA",
+    "n_questions": 11,
+    "n_tagged": 8,
+    "trajectory_length": 7.09,
+    "trajectory_label": "long",
+    "lift_vs_population": {
+      "DELTA": 1.487,
+      "UNQUANTIFIED": 1.124,
+      "CLAIM": 0.0,
+      "ANNOUNCEMENT": 1.305,
+      "EXTERNAL": 1.952,
+      "PERSONA": 0.991,
+      "CHAIN": 0.614
+    },
+    "primary_by_lift": "EXTERNAL"
+  },
+  "topic_emphasis": {
+    "distribution": {
+      "yield": 0.1818,
+      "cost_ncc": 0.0,
+      "capacity": 0.1818,
+      "bookings": 0.1818,
+      "fuel": 0.0,
+      "capital_return": 0.0909,
+      "guidance_targets": 0.0909,
+      "destinations": 0.0909,
+      "consumer_macro": 0.0909,
+      "loyalty": 0.0,
+      "new_ships": 0.0909
+    },
+    "lift_vs_population": {
+      "yield": 0.892,
+      "cost_ncc": 0.0,
+      "capacity": 1.593,
+      "bookings": 1.224,
+      "fuel": 0.0,
+      "capital_return": 2.833,
+      "guidance_targets": 0.655,
+      "destinations": 1.21,
+      "consumer_macro": 0.748,
+      "loyalty": 0.0,
+      "new_ships": 2.058
+    }
+  },
+  "signature_questions": [
+    {
+      "topic": "regional_demand_and_market_reopening",
+      "fires_in_share_of_calls": 0.6,
+      "what_they_press_on": "Seeks clarity on Europe / China demand disruptions and the timing/impact of reopenings on yields and sourcing. He asks for quantification of any 'drag' from regions and whether reopening creates upside (2022-Q4, 2025-Q3/2025-Q4)."
+    },
+    {
+      "topic": "capex_and_ship_delivery_ramp",
+      "fires_in_share_of_calls": 0.4,
+      "what_they_press_on": "Asks how to model the $5bn CapEx guide and the shape of new-ship deliveries (ramp timing, maintenance vs development spending). He requests explicit year-to-year moves and how non-new-build spend will evolve (2024-Q4, 2025-Q4)."
+    },
+    {
+      "topic": "new_product_and_private_destinations",
+      "fires_in_share_of_calls": 0.4,
+      "what_they_press_on": "Drills into product details (river cruise ramp, passenger mix, whether kids allowed) and the economics/scale of private destinations. Wants operational shape and customer sourcing color (2024-Q4, 2024-Q3)."
+    }
+  ],
+  "distinctive_concerns": {
+    "topics": [
+      {
+        "topic": "regional_demand_and_market_reopening",
+        "what_they_press_on": "Seeks clarity on Europe / China demand disruptions and the timing/impact of reopenings on yields and sourcing. He asks for quantification of any 'drag' from regions and whether reopening creates upside (2022-Q4, 2025-Q3/2025-Q4).",
+        "share_of_calls": 0.6
+      },
+      {
+        "topic": "capex_and_ship_delivery_ramp",
+        "what_they_press_on": "Asks how to model the $5bn CapEx guide and the shape of new-ship deliveries (ramp timing, maintenance vs development spending). He requests explicit year-to-year moves and how non-new-build spend will evolve (2024-Q4, 2025-Q4).",
+        "share_of_calls": 0.4
+      },
+      {
+        "topic": "new_product_and_private_destinations",
+        "what_they_press_on": "Drills into product details (river cruise ramp, passenger mix, whether kids allowed) and the economics/scale of private destinations. Wants operational shape and customer sourcing color (2024-Q4, 2024-Q3).",
+        "share_of_calls": 0.4
+      },
+      {
+        "topic": "balance_sheet_leverage_and_cash_returns",
+        "what_they_press_on": "Pushes on leverage priorities vs opportunistic buybacks/dividends and how refinancing improvement factors into capital allocation. Asks for where balance-sheet sits relative to investment-grade metrics (2024-Q3, 2024-Q4).",
+        "share_of_calls": 0.4
+      }
+    ],
+    "blind_spots": "No evidence in history of him asking about fuel hedging, sustainability / emissions strategy, or crew labor/operational costs (n_turns = 0 for these topics). Peers sometimes surface these; he has not. This is n_turns < 2; insufficient to characterise as an active concern.",
+    "stance_drift": "Early in the history (2022-Q4) he emphasized regional reopening and the 'land-based vacation' gap; by 2024-Q3/4 his focus shifted to returns and capital allocation (see 2024-Q3 returns questions). By 2025-Q3/4 he concentrated more on yield decomposition and organic vs inorganic drivers for 2026 (compare 2022-Q4 \u2192 2024-Q3 and 2024-Q4 \u2192 2025-Q4)."
+  },
+  "coverage_profile": {
+    "firm": "Citi",
+    "seniority_signal": "Listed across calls with senior analyst titles (SVP / Managing Director / Director at Citi); multiple consecutive turns and management-directed recognition indicate a senior, repeat coverage role. Management treats him as a go-to leisure/cruise questioner (appears repeatedly in top question slots across calls).",
+    "sector_lens": "Leisure/travel with a cruise-first focus; questions center on cruise economics (yields, APD), new product (private islands, river cruises) and capital allocation. He frames cruise results in the context of broader travel/land-based vacation competition.",
+    "rhetorical_signature": [
+      "opens with \"Hey, good morning\" in 5 of 11 calls (e.g., 2022-Q4, 2024-Q3, 2024-Q4, 2025-Q3, 2025-Q4)",
+      "frequently prefaces follow-ups with \"By way of follow-up\" (2022-Q4) or 'Got it' / 'Makes a lot of sense' to pivot",
+      "tones are collegial and constructive \u2014 often closes with a short 'Thanks' or 'Got it' rather than adversarial challenge"
+    ]
+  },
+  "reasoning_style": {
+    "primary_mode": "mixed",
+    "follow_up_pattern": "Mostly multi-part questions: \u22489 of 11 turns contain two-or-more sub-questions (e.g., Europe + China in 2022-Q4; CapEx + modeling in 2024-Q4). He routinely asks sequential follow-ups rather than adversarial pushback; pushes deeper when answers are high-level.",
+    "evidence_demanded": "He requests numeric decompositions and explicit guidance (\u22485 of 11 turns ask for quantification or like-for-like decompositions \u2014 e.g., asks about '$5 billion' CapEx modeling in 2024-Q4 and 'north of 2%' contribution in 2025-Q4). He rewards specific $ / % / ship-count detail and runway mechanisms.",
+    "anchoring_habits": "He anchors to management-delivered numbers and recent baselines: references the '$5 billion' CapEx guide (2024-Q4), 'pre-COVID' / 20% baseline for land-vacation gap (2022-Q4), and 'negative ship timing' from the prior year when modeling 2026 (2025-Q3). He will also cite peer/competitive moves when framing Caribbean supply (2025-Q3)."
+  },
+  "queue_behavior": {
+    "typical_position": "#3\u2013#10 range; breakdown: #3 in 3 of 11 calls (2024-Q4 twice and 2025-Q4), #6 in 2 calls (2022-Q4, 2025-Q3), #7 in 2 calls (2022-Q4 twice), #9 in 1 call (2024-Q3), #10 in 2 calls (2024-Q3).",
+    "default_first_pick": "When early (#2\u2013#3), he commonly opens on new product or capital questions (e.g., river cruise ramp and product details when #2 in 2024-Q4; CapEx modeling when early in 2024-Q4).",
+    "adaptation_when_favorites_taken": {
+      "reframe_deeper": "Yes \u2014 when high-level answers are given he drills further (2024-Q3: after returns commentary he asks 'any non-financial considerations' and leverage tradeoffs).",
+      "reactive_followup": "Yes \u2014 he explicitly signals follow-ups: 'By way of follow-up' (2022-Q4) and often follows earlier answers with deeper sub-questions.",
+      "cross_narrative_reconcile": "Yes \u2014 he asks management to reconcile threads like organic vs inorganic contributors to yields ('organic versus inorganic' in 2025-Q4).",
+      "supporting_evidence": [
+        "2024-Q3 quote: 'where do you think returns ultimately settle' (reframe deeper)",
+        "2022-Q4 quote: 'By way of follow-up here' (reactive_followup)",
+        "2025-Q4 quote: 'organic versus inorganic' (cross_narrative_reconcile)"
+      ]
+    },
+    "white_space_topics": [
+      {
+        "topic": "river_cruise_design_and_ramp",
+        "supporting_calls": [
+          "2024-Q4"
+        ]
+      },
+      {
+        "topic": "non-financial_considerations_in_capalloc",
+        "supporting_calls": [
+          "2024-Q3"
+        ]
+      }
+    ]
+  },
+  "cross_analyst_reactivity": {
+    "explicit_peer_references": {
+      "count": 0,
+      "example_phrases": "no explicit 'following up on X' peer citations found; uses 'By way of follow-up' (2022-Q4) but not an explicit analyst name reference."
+    },
+    "management_line_anchoring": {
+      "count": 3,
+      "examples": [
+        "\"$5 billion\" (anchors CapEx question to the '$5 billion' guide in 2024-Q4)",
+        "\"10 ships\" (repeats management's 'initial order of 10 ships' when asking about ramp in 2024-Q4)",
+        "\"negative ship timing\" (builds on management's prior-year timing issue when modeling 2026 in 2025-Q3)"
+      ]
+    },
+    "operator_or_followup_signal": "He has taken additional turns within the same call multiple times (took follow-up turns in 2022-Q4, 2024-Q3 and 2024-Q4 \u2014 3 distinct calls) and uses them primarily for clarification or deeper drilling rather than to start new topics."
+  },
+  "engages_assets": [
+    "icon_class_fleet",
+    "royal_beach_club_cozumel"
+  ],
+  "engages_themes": [
+    "booking_dynamics",
+    "capital_allocation_pattern"
+  ],
+  "framing_overrides_by_theme": {
+    "booking_dynamics": "Frames post-shock recovery as a trajectory question vs a pre-event baseline.",
+    "capital_allocation_pattern": "Asks about non-financial considerations in allocation given land-based optionality."
+  },
+  "_built_from": "v7: company-layer split + probe/topic structure + v6 prose",
+  "_train_calls": [
+    "2022-Q4",
+    "2024-Q3",
+    "2024-Q4",
+    "2025-Q3",
+    "2025-Q4"
+  ],
+  "_n_train_questions": 11
+}

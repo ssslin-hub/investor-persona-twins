@@ -1,0 +1,451 @@
+{
+  "n_companies": 6,
+  "n_calls": 102,
+  "per_ticker_calls": {
+    "rcl": 17,
+    "ccl": 17,
+    "nclh": 17,
+    "mar": 17,
+    "hlt": 17,
+    "h": 17
+  },
+  "n_persons_dedup_name_firm": 121,
+  "n_distinct_names": 84,
+  "n_firms_canonical": 66,
+  "breadth_name_firm": {
+    "5": 4,
+    "3": 20,
+    "6": 7,
+    "2": 9,
+    "1": 80,
+    "4": 1
+  },
+  "breadth_name_only": {
+    "5": 2,
+    "3": 17,
+    "6": 8,
+    "2": 9,
+    "1": 47,
+    "4": 1
+  },
+  "multi_company_name_only": [
+    {
+      "name": "brandt montour",
+      "tickers": [
+        "ccl",
+        "h",
+        "hlt",
+        "mar",
+        "nclh",
+        "rcl"
+      ]
+    },
+    {
+      "name": "conor cunningham",
+      "tickers": [
+        "ccl",
+        "h",
+        "hlt",
+        "mar",
+        "nclh",
+        "rcl"
+      ]
+    },
+    {
+      "name": "daniel politzer",
+      "tickers": [
+        "ccl",
+        "h",
+        "hlt",
+        "mar",
+        "nclh",
+        "rcl"
+      ]
+    },
+    {
+      "name": "david katz",
+      "tickers": [
+        "ccl",
+        "h",
+        "hlt",
+        "mar",
+        "nclh",
+        "rcl"
+      ]
+    },
+    {
+      "name": "lizzie dove",
+      "tickers": [
+        "ccl",
+        "h",
+        "hlt",
+        "mar",
+        "nclh",
+        "rcl"
+      ]
+    },
+    {
+      "name": "patrick scholes",
+      "tickers": [
+        "ccl",
+        "h",
+        "hlt",
+        "mar",
+        "nclh",
+        "rcl"
+      ]
+    },
+    {
+      "name": "stephen grambling",
+      "tickers": [
+        "ccl",
+        "h",
+        "hlt",
+        "mar",
+        "nclh",
+        "rcl"
+      ]
+    },
+    {
+      "name": "vince ciepiel",
+      "tickers": [
+        "ccl",
+        "h",
+        "hlt",
+        "mar",
+        "nclh",
+        "rcl"
+      ]
+    },
+    {
+      "name": "benjamin chaiken",
+      "tickers": [
+        "ccl",
+        "h",
+        "hlt",
+        "nclh",
+        "rcl"
+      ]
+    },
+    {
+      "name": "robin farley",
+      "tickers": [
+        "ccl",
+        "hlt",
+        "mar",
+        "nclh",
+        "rcl"
+      ]
+    },
+    {
+      "name": "trey bowers",
+      "tickers": [
+        "ccl",
+        "hlt",
+        "mar",
+        "nclh"
+      ]
+    },
+    {
+      "name": "chad beynon",
+      "tickers": [
+        "h",
+        "hlt",
+        "mar"
+      ]
+    },
+    {
+      "name": "duane pfennigwerth",
+      "tickers": [
+        "h",
+        "hlt",
+        "mar"
+      ]
+    },
+    {
+      "name": "fred wightman",
+      "tickers": [
+        "ccl",
+        "nclh",
+        "rcl"
+      ]
+    },
+    {
+      "name": "jaime katz",
+      "tickers": [
+        "ccl",
+        "nclh",
+        "rcl"
+      ]
+    },
+    {
+      "name": "james hardiman",
+      "tickers": [
+        "ccl",
+        "nclh",
+        "rcl"
+      ]
+    },
+    {
+      "name": "joseph greff",
+      "tickers": [
+        "h",
+        "hlt",
+        "mar"
+      ]
+    },
+    {
+      "name": "kevin kopelman",
+      "tickers": [
+        "h",
+        "hlt",
+        "mar"
+      ]
+    },
+    {
+      "name": "matthew boss",
+      "tickers": [
+        "ccl",
+        "nclh",
+        "rcl"
+      ]
+    },
+    {
+      "name": "meredith jensen",
+      "tickers": [
+        "h",
+        "hlt",
+        "mar"
+      ]
+    },
+    {
+      "name": "michael bellisario",
+      "tickers": [
+        "h",
+        "hlt",
+        "mar"
+      ]
+    },
+    {
+      "name": "paul golding",
+      "tickers": [
+        "ccl",
+        "nclh",
+        "rcl"
+      ]
+    },
+    {
+      "name": "richard clarke",
+      "tickers": [
+        "h",
+        "hlt",
+        "mar"
+      ]
+    },
+    {
+      "name": "shaun kelley",
+      "tickers": [
+        "h",
+        "hlt",
+        "mar"
+      ]
+    },
+    {
+      "name": "smedes rose",
+      "tickers": [
+        "h",
+        "hlt",
+        "mar"
+      ]
+    },
+    {
+      "name": "steven pizzella",
+      "tickers": [
+        "h",
+        "hlt",
+        "mar"
+      ]
+    },
+    {
+      "name": "steven wieczynski",
+      "tickers": [
+        "ccl",
+        "nclh",
+        "rcl"
+      ]
+    },
+    {
+      "name": "william crow",
+      "tickers": [
+        "h",
+        "hlt",
+        "mar"
+      ]
+    },
+    {
+      "name": "andrew didora",
+      "tickers": [
+        "nclh",
+        "rcl"
+      ]
+    },
+    {
+      "name": "benjamin chacon",
+      "tickers": [
+        "h",
+        "nclh"
+      ]
+    },
+    {
+      "name": "christopher stathoulopoulos",
+      "tickers": [
+        "ccl",
+        "rcl"
+      ]
+    },
+    {
+      "name": "dori kesten",
+      "tickers": [
+        "h",
+        "mar"
+      ]
+    },
+    {
+      "name": "elizabeth dove",
+      "tickers": [
+        "h",
+        "nclh"
+      ]
+    },
+    {
+      "name": "ivan feinseth",
+      "tickers": [
+        "nclh",
+        "rcl"
+      ]
+    },
+    {
+      "name": "michael belisario",
+      "tickers": [
+        "hlt",
+        "mar"
+      ]
+    },
+    {
+      "name": "sean wagner",
+      "tickers": [
+        "nclh",
+        "rcl"
+      ]
+    },
+    {
+      "name": "sharon zackfia",
+      "tickers": [
+        "ccl",
+        "rcl"
+      ]
+    }
+  ],
+  "namesake_candidates": {
+    "benjamin chaiken": [
+      "credit suisse",
+      "evercore",
+      "mizuho"
+    ],
+    "matthew boss": [
+      "j p morgan",
+      "jpmorgan"
+    ],
+    "conor cunningham": [
+      "director and senior equity research analyst",
+      "melius research"
+    ],
+    "daniel politzer": [
+      "jpmorgan",
+      "wells fargo"
+    ],
+    "ivan feinseth": [
+      "chief investment officer and director of research tigress",
+      "cio and director of research tigress"
+    ],
+    "jaime katz": [
+      "morning star",
+      "morningstar"
+    ],
+    "stephen grambling": [
+      "goldman sachs",
+      "morgan stanley"
+    ],
+    "christopher stathoulopoulos": [
+      "sig",
+      "susquehanna"
+    ],
+    "beth roberts": [
+      "carnival",
+      "carnival corporation",
+      "carnival corporation plc",
+      "investor relations carnival"
+    ],
+    "sarah inmon": [
+      "norwegian cruise line",
+      "norwegian cruise line holdings"
+    ],
+    "mark kempa": [
+      "norwegian cruise line",
+      "norwegian cruise line holdings"
+    ],
+    "jessica john": [
+      "corporate communications and esg norwegian cruise line holdings",
+      "esg and corporate communications norwegian cruise line",
+      "esg and corporate communications norwegian cruise line holdings",
+      "investor relations and esg corporate communications norwegian cruise line",
+      "norwegian cruise line holdings"
+    ],
+    "ari klein": [
+      "bmo",
+      "bmo markets"
+    ],
+    "jackie mcconagha": [
+      "investor relations marriott international",
+      "marriott",
+      "marriott international"
+    ],
+    "leeny oberg": [
+      "business operations marriott international",
+      "development marriott international",
+      "marriott",
+      "marriott international"
+    ],
+    "joseph greff": [
+      "equity research j p morgan",
+      "j p morgan",
+      "jpmorgan"
+    ],
+    "kevin jacobs": [
+      "hilton",
+      "hilton worldwide",
+      "hilton worldwide holdings",
+      "president and head of global development hilton"
+    ],
+    "jill chapman": [
+      "hilton",
+      "hilton worldwide holdings"
+    ],
+    "jill slattery": [
+      "hilton worldwide",
+      "investor relations and corporate development hilton worldwide"
+    ],
+    "adam rohman": [
+      "fp a and treasurer hyatt",
+      "hyatt",
+      "hyatt hotels",
+      "hyatt hotels corporation"
+    ],
+    "noah hoppe": [
+      "hyatt",
+      "hyatt hotels",
+      "hyatt hotels corporation",
+      "white lodging"
+    ]
+  }
+}

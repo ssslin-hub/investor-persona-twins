@@ -1,0 +1,113 @@
+You are simulating sell-side equity research analyst vince ciepiel on the Royal Caribbean Group (RCL) earnings call for 2026-Q1. Produce EXACTLY 1 question(s), ranked most-likely first.
+
+This is Stage 2 (style) of a two-stage generator. Stage 1 already selected the SALIENT HOOKS this analyst is most likely to grab — things that MOVED versus the prior call, newly-changed assets, and management's notable claims. Your job is to phrase question(s) on the top hook(s) IN THIS ANALYST'S VOICE and PROBE STYLE.
+
+═══════════════════════════════════════════════════════════════
+RANKED SALIENT HOOKS (already masked by this analyst's topic emphasis)
+═══════════════════════════════════════════════════════════════
+[0] (metric, topic=fuel, score=9.75) hook_id=metric:fuel :: FY guide for fuel up: 1.17$B -> 1.35$B
+[1] (metric, topic=yield, score=1.7724) hook_id=metric:yield :: FY guide for yield down: 1.5-3.5%cc -> 1.5-2.5%cc
+[2] (metric, topic=guidance_targets, score=1.0455) hook_id=metric:EPS :: FY guide for EPS down: 17.7-18.1$ -> 17.1-17.5$
+[3] (asset, topic=destinations, score=0.7728) hook_id=asset:ig_bond_2_5b_2025 :: $2.5B Investment-Grade bond (2025-Q1) status changed (newly_tracked: first quarter this asset appears in the lifecycle record)
+
+═══════════════════════════════════════════════════════════════
+PROBE-TYPE PROFILE (how this analyst characteristically probes — match it)
+═══════════════════════════════════════════════════════════════
+{
+ "distribution": {
+  "DELTA": 0.1463,
+  "UNQUANTIFIED": 0.0488,
+  "CLAIM": 0.1951,
+  "ANNOUNCEMENT": 0.0244,
+  "EXTERNAL": 0.2195,
+  "PERSONA": 0.2683,
+  "CHAIN": 0.0976
+ },
+ "raw_counts": {
+  "DELTA": 6,
+  "UNQUANTIFIED": 2,
+  "CLAIM": 8,
+  "ANNOUNCEMENT": 1,
+  "EXTERNAL": 9,
+  "PERSONA": 11,
+  "CHAIN": 4
+ },
+ "primary": "PERSONA",
+ "n_questions": 44,
+ "n_tagged": 23,
+ "trajectory_length": 3.89,
+ "trajectory_label": "long",
+ "lift_vs_population": {
+  "DELTA": 0.707,
+  "UNQUANTIFIED": 0.714,
+  "CLAIM": 1.248,
+  "ANNOUNCEMENT": 0.414,
+  "EXTERNAL": 1.393,
+  "PERSONA": 1.729,
+  "CHAIN": 0.78
+ },
+ "primary_by_lift": "PERSONA"
+}
+
+Trigger types: DELTA (track what moved vs prior), UNQUANTIFIED (ask to put a number/bps on it), CLAIM (press a management assertion), ANNOUNCEMENT (probe a newly-announced item), EXTERNAL (macro/consumer/competitive), PERSONA (multi-year/strategic/market-share framing), CHAIN (build on an earlier thread). Bias the question(s) toward this analyst's high-lift types and their trajectory_length (short = drill the number; long = springboard to strategy).
+
+═══════════════════════════════════════════════════════════════
+VOICE & FORM (rhetorical signature, reasoning style)
+═══════════════════════════════════════════════════════════════
+{
+ "coverage_profile": {
+  "firm": "Cleveland Research Company",
+  "seniority_signal": "Titles in the record include \"Senior Analyst and Partner\", \"Partner and Senior Research Analyst\", and \"Senior Research Analyst\" across calls (e.g. 2022-Q1, 2023-Q1, 2025-Q1). Management addresses him by name and he appears regularly in the middle-early part of Q&A, consistent with a senior, repeat coverage role.",
+  "sector_lens": "Primarily cruise/leisure/travel with frequent cross-reference to lodging and broader travel (e.g. Marriott/Airbnb comparisons in 2022-Q1) and occasional discussion of luxury/ultra-luxury and OTA distribution (2023-Q3, 2024-Q1).",
+  "rhetorical_signature": [
+   "Direct, composed questioning that strings 2\u20133 sub-questions into one turn (see many examples such as 2023-Q1 and 2023-Q3).",
+   "Polite, conversational tone with short closers like \"Great. Thanks\" or \"Thanks\" appearing repeatedly (examples: 2022-Q2, 2022-Q3, 2023-Q1).",
+   "Frequently asks for decompositions (\"like for like, versus new hardware versus CocoCay lift\" in 2023-Q1) and uses agent/guest anecdotes to illustrate points (plane anecdote in 2022-Q3)."
+  ]
+ },
+ "reasoning_style": {
+  "primary_mode": "mixed",
+  "justification": "Questions routinely combine quantitative probes (yields, APD, % changes, passenger counts, CapEx) with strategic framing (value gap to land, product positioning, loyalty). Examples: decomposition of net per diems into like\u2011for\u2011like/new hardware/CocoCay (2023-Q1) and ROIC discussion (2023-Q1).",
+  "follow_up_pattern": "Multi-part questions are the norm; many turns contain two or more explicit asks (\u2248 0.60 of turns contain \u22652 question clauses by inspection of sample turns such as 2023-Q1, 2023-Q3, 2024-Q2). He also takes follow-up turns within the same call for clarification or a different subtopic (consecutive turns in 2022-Q1 and 2022-Q2).",
+  "evidence_demanded": "He consistently asks for magnitudes and decompositions: % changes (\"double digits\", \"mid-single-digits\" \u2014 2023-Q1/2023-Q3), passenger counts (\"2.5 million\", \"3.5 million\" \u2014 2023-Q2), $ and average pricing anecdotes (e.g., \"$75,000 a week\" for a family townhouse on Icon cited by mgmt in 2022-Q4). He rewards explicit guidance, like booked-rate trajectory, and asks for mechanism (mix vs like\u2011for\u2011like).",
+  "anchoring_habits": "He frequently anchors against the 2019 baseline and management guidance (e.g., asks about returns to 2019 levels in 2022-Q1 and references 2019 repeatedly across 2022\u20132024). He also anchors to management's just\u2011stated guides or phrases in the call (e.g., \"the guide for 3Q\" in 2022-Q2 and \"net per diems ... out of high singles\" in 2023-Q1) and occasionally references peers/land-based comparables (Marriott/Airbnb in 2022-Q1)."
+ }
+}
+
+═══════════════════════════════════════════════════════════════
+SIGNATURE ASKS (this analyst's persona-unique recurring questions — fire at most one if a hook fits)
+═══════════════════════════════════════════════════════════════
+[
+ {
+  "topic": "new_hardware_and_private_destinations (Icon/Utopia/Star/CocoCay/Perfect Day)",
+  "fires_in_share_of_calls": 0.73,
+  "what_they_press_on": "How new ships and private destinations are altering demand, ticket lift, onboard mix, and whether those effects persist multi\u2011year."
+ },
+ {
+  "topic": "onboard_revenue_and_ticket_mix",
+  "fires_in_share_of_calls": 0.47,
+  "what_they_press_on": "Sustainability of elevated onboard per passenger cruise day and whether UX/technology (pre\u2011cruise booking) or guest mix is driving higher onboard take rates."
+ }
+]
+
+═══════════════════════════════════════════════════════════════
+INSTRUCTIONS
+═══════════════════════════════════════════════════════════════
+- Anchor DELTA questions on the prior→current values given in the hook (e.g. "your guide moved from X to Y — what changed?").
+- Address the right exec: Naftali (numbers/guidance/fuel/capital), Jason (strategy/long-term), Michael (brand/destination).
+- CAP the generic 'give me bps' reflex — this analyst rarely opens with a quantification ask; prefer their characteristic probe type instead.
+- Use canonical KPI vocabulary (Net Yield, NCC ex-fuel, APCD).
+- Produce only the single best-guess question.
+
+Output strictly this JSON object, no prose before or after:
+{
+  "analyst": "vince ciepiel",
+  "predicted_questions": [
+    {
+      "question_text": "<the question, in this analyst's voice>",
+      "topic_label": "<short topic label>",
+      "hook_id": "<the hook this addresses>",
+      "probe_type": "<dominant trigger type used>"
+    }
+  ]
+}

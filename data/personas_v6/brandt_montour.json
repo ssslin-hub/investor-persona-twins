@@ -1,0 +1,129 @@
+{
+  "analyst_name": "brandt montour",
+  "coverage_profile": {
+    "firm": "Barclays Capital",
+    "seniority_signal": "Title shown as Director / Senior Equity Research Analyst across the history; management routinely treats him as a repeat, knowledgeable questioner (multiple follow-ups taken in the same calls). This indicates a mid\u2011to\u2011senior sell\u2011side role with sustained coverage since 2022.",
+    "sector_lens": "Focused on cruise/leisure/travel with a consumer and revenue-management lens: questions center on yields, bookings cadence, mix effects (China, new ships), costs, and capital allocation.",
+    "rhetorical_signature": [
+      "opens with a concise greeting and quick 'thanks' or 'congrats' (e.g. 'Hey, good morning, everybody')",
+      "structures questions as two\u2011part or multi\u2011part (setup + a pointed quant request) and often says 'just to follow up' or 'just to clarify'",
+      "tends to close turns with a brief acknowledgement ('Thanks', 'Perfect') and will frequently take a second turn for a clarification"
+    ]
+  },
+  "reasoning_style": {
+    "primary_mode": "mixed",
+    "justification": "He combines quantitative requests (explicit asks for mid\u2011single digits, EPS handles, percent/like\u2011for\u2011like impacts) with strategic framing (value gap to land vacations, new\u2011ship impact, channel/distribution). Example: 2022-Q2 asked about 'mid-single-digit net revenue per PCD' and 2024-Q1 probed China deployment strategy.",
+    "follow_up_pattern": "Multi\u2011part and follow\u2011up heavy \u2014 many turns are two\u2011part questions or include a specific follow-up ('A follow-up on Naftali's comments'). Rough fraction: \u2248 0.40 of turns contain \u22652 question segments (multi\u2011part or explicit follow\u2011up).",
+    "evidence_demanded": "He rewards explicit quantification and guidance (rates, EPS, percent booked). n_turns demanding explicit numerical quantification \u2248 10 (examples include 2022-Q2, 2022-Q3, 2023-Q3, 2024-Q2, 2024-Q4). n_turns using the word 'bps' = 0; he asks for basis\u2011point style precision but typically in percent or dollar handles.",
+    "anchoring_habits": "He repeatedly anchors to pre\u2011COVID/2019 baselines (e.g., 2022-Q2 and 2022-Q3 reference 2019), to the management line just delivered (e.g., 'mid-single-digit net revenue per PCD' in 2022-Q2), and occasionally to peer signals (e.g., 2025-Q1 referenced 'one of your larger peers')."
+  },
+  "blind_spots": "He asks very little about fuel\u2011hedging strategy or hedging policy (0 turns on explicit fuel hedging despite peers discussing fuel in other calls). He also rarely presses on operational safety or specific health protocols after early 2022, even though peers raised those topics earlier.",
+  "stance_drift": "Early (2022-Q2/2022-Q3) his focus was on COVID protocol effects and apparent discounting; by 2023-Q3/2024-Q1 the emphasis shifted to yields, new\u2011ship impact and load factors (e.g., 2022-Q2 -> 2024-Q1). From 2023-Q3 to 2025-Q2 his questions increasingly covered private\u2011destination economics and capital allocation (dry docks/Hideaway -> Perfect Day Mexico/Royal Beach Club).",
+  "queue_behavior": {
+    "typical_position": "#1\u2013#6 across calls; distribution: #5 on 13 of 47 calls, #3 on 8 of 47, #4 on 8 of 47, #6 on 10 of 47, #2 on 6 of 47, #1 on 2 of 47.",
+    "default_first_pick": "When he is first/early he opens on big\u2011picture pricing or like\u2011for\u2011like yield questions (examples: 2024-Q3 asked about cumulative pricing versus 2019; 2024-Q4 opened on bridging yield guidance).",
+    "adaptation_when_favorites_taken": {
+      "reframe_deeper": [
+        {
+          "call": "2022-Q3",
+          "evidence": "\"what the mix shift alone would do\""
+        },
+        {
+          "call": "2024-Q2",
+          "evidence": "\"how to think about the likes, the embedded like\u2011for\u2011like\""
+        }
+      ],
+      "white_space": [
+        {
+          "call": "2024-Q1",
+          "evidence": "\"what the board needs to see to reestablish capital returns\""
+        },
+        {
+          "call": "2025-Q2",
+          "evidence": "\"Royal Beach Club\" ramp\u2011up questions"
+        }
+      ],
+      "reactive_followup": [
+        {
+          "call": "2022-Q2",
+          "evidence": "\"A follow-up on Naftali's comments\""
+        }
+      ],
+      "stay_on_topic_anyway": [
+        {
+          "call": "2022-Q4",
+          "evidence": "multiple follow ups on WAVE Season / pricing"
+        }
+      ]
+    },
+    "white_space_topics": [
+      {
+        "label": "river_cruise_strategy",
+        "supporting_calls": [
+          "2024-Q4"
+        ]
+      },
+      {
+        "label": "private_destination_operational_ramp",
+        "supporting_calls": [
+          "2025-Q2",
+          "2024-Q3"
+        ]
+      }
+    ]
+  },
+  "cross_analyst_reactivity": {
+    "explicit_peer_references": {
+      "count": 3,
+      "examples": [
+        {
+          "phrase": "\"A follow-up on Naftali's comments\"",
+          "call": "2022-Q2"
+        },
+        {
+          "phrase": "\"A follow\u2011up on Naftali's comments in his prepared remarks\"",
+          "call": "2022-Q2"
+        },
+        {
+          "phrase": "\"one of your larger peers\"",
+          "call": "2025-Q1"
+        }
+      ]
+    },
+    "management_line_anchoring": {
+      "count": 6,
+      "examples": [
+        {
+          "phrase": "\"mid-single-digit net revenue per PCD\"",
+          "call": "2022-Q2"
+        },
+        {
+          "phrase": "\"start at $9\"",
+          "call": "2023-Q3"
+        },
+        {
+          "phrase": "\"the 5% implied yield guidance\"",
+          "call": "2024-Q2"
+        }
+      ]
+    },
+    "operator_or_followup_signal": "Takes a second turn in many calls for clarification or a deeper drill \u2014 observed taking multiple turns in \u2248 9 of the 15 calls (examples: 2022-Q2 had sequential follow ups; 2022-Q4, 2023-Q1, 2024-Q1 also show followups). When he takes a second turn it is usually for clarification or to reframe to a more quantitative angle."
+  },
+  "engages_assets": [
+    "cococay",
+    "icon_class_fleet",
+    "perfect_day_mexico"
+  ],
+  "engages_themes": [
+    "booking_dynamics",
+    "capital_allocation_pattern",
+    "yield_decomposition"
+  ],
+  "framing_overrides_by_theme": {
+    "booking_dynamics": "Measures wave-season pace by brand and tests booked-position run vs peers.",
+    "capital_allocation_pattern": "Frames capital return as a board-trigger question: what credit metrics unlock dividend/buyback.",
+    "yield_decomposition": "Bridges midpoint guide to per-diem run-rate; isolates like-for-like inside guide and seasonality of Caribbean-weighted quarters."
+  },
+  "_built_from": "v5 + asset/theme cross-references",
+  "_v5_source": "data/personas_v5/brandt_montour.json"
+}

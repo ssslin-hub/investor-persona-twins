@@ -1,0 +1,64 @@
+{
+  "coverage_profile": {
+    "firm": "Macquarie Capital",
+    "seniority_signal": "Holds senior analyst titles at Macquarie (Senior US Payments and Lifestyle Analyst / Senior US Payments and Digital Commerce Analyst / Senior Analyst) and is a repeat questioner across multiple RCL calls; management addresses him by name and gives substantive answers, consistent with a senior coverage role. Evidence: appears on 2022-Q1, 2022-Q2, 2022-Q3 and 2023-Q1 calls.",
+    "sector_lens": "Primary lens is cruise/leisure/travel with a consumer-marketing and digital-commerce tilt (questions about booking curves, itineraries, new-to-cruise, and marketing efficiency). He also brings a payments/digital-commerce lifestyle perspective given his Macquarie remit.",
+    "rhetorical_signature": [
+      "Opener: typically polite\u2014opens with \u201cThanks/Great/Congrats\u201d and often signals a follow-up (e.g., \u201cI have a follow-up\u201d).",
+      "Tends to frame questions as structural vs transitory (asks whether changes are post\u2011COVID or permanent) and invitations to compare to pre\u2011COVID norms.",
+      "Usually asks concise, targeted two-part questions focused on measurable operating levers (booking window, itinerary mix, marketing spend, labor)."
+    ]
+  },
+  "reasoning_style": {
+    "primary_mode": "mixed \u2014 blends quantitative-modeling concerns (booking curves, marketing cost per acquisition, SG&A normalization) with qualitative strategic questions (China re\u2011entry, itinerary/portfolio strategy, Trifecta tradeoffs).",
+    "follow_up_pattern": "Frequently asks two-part questions and explicitly signals follow-ups (repeatedly says \u201cI have a follow-up\u201d across 2022-Q1, 2022-Q2, 2023-Q1). He does not often visibly press aggressively when given an answer in the provided history.",
+    "evidence_demanded": "Seeks concrete framing and normalization\u2014wants explicit statements about \u2018normal\u2019 levels, costs associated with shifts, and mechanisms behind booking curve moves (e.g., asks about costs, structural vs temporary effects, and return to historical booking windows in 2022-Q2 and 2023-Q1).",
+    "anchoring_habits": "Anchors questions to pre\u2011COVID norms and prior company commentary (e.g., repeatedly asks whether trends will \u2018return to normal\u2019 and references past guidance/behavior). He also frames questions around company initiatives (Wave, Trifecta) rather than frequently citing peers."
+  },
+  "recurring_concerns": {
+    "core_topics": [
+      {
+        "topic": "Booking curve / demand timing",
+        "what_they_press_on": "How close\u2011in booking trends are evolving and whether the booking window is returning to historical norms; how RCL is managing inventory release and wave strategies. He revisits this topic in follow-ups about Wave and booking cycles.",
+        "supporting_calls": [
+          "2022-Q2",
+          "2022-Q2",
+          "2023-Q1"
+        ]
+      },
+      {
+        "topic": "Itinerary mix / new\u2011to\u2011cruise and China re\u2011entry",
+        "what_they_press_on": "Whether shorter itineraries are a post\u2011COVID tactic or a structural change to drive new\u2011to\u2011cruise demand, and longer\u2011term plans for redeploying ships to China given volatility.",
+        "supporting_calls": [
+          "2022-Q1",
+          "2022-Q2"
+        ]
+      },
+      {
+        "topic": "Marketing / customer acquisition efficiency (SG&A)",
+        "what_they_press_on": "Whether sales & marketing spend is normalizing, whether customer acquisition is getting cheaper/easier, and the structural level of marketing investment relative to TAM and unit economics.",
+        "supporting_calls": [
+          "2022-Q3",
+          "2022-Q2"
+        ]
+      },
+      {
+        "topic": "Shoreside labor / wage trends",
+        "what_they_press_on": "Seeks color on shoreside labor market dynamics and whether employers are seeing wage pressure or tapping international labor as peers reported.",
+        "supporting_calls": [
+          "2022-Q1",
+          "2022-Q1"
+        ]
+      },
+      {
+        "topic": "ROIC / sustainability tradeoffs (Trifecta)",
+        "what_they_press_on": "How RCL prioritizes ROIC, EBITDA/margin, deleveraging versus carbon reduction investments and whether carbon efforts carry meaningful near\u2011term costs or capital.",
+        "supporting_calls": [
+          "2022-Q3"
+        ]
+      }
+    ],
+    "blind_spots": "In the provided history he rarely presses on unit pricing/yields, onboard revenue composition, fuel costs/hedging, or detailed capital allocation (share buybacks/dividends). Evidence is limited to these 11 turns, so absence of these topics may reflect the sample rather than his entire coverage universe.",
+    "stance_drift": "Early in 2022 his focus skewed to reopening geography and labor (China re\u2011entry, shoreside wages in 2022-Q1) and short\u2011itinerary tactics (2022-Q2). By mid\u20112022 he shifted toward marketing efficiency and longer\u2011term strategic tradeoffs (SG&A normalization in 2022-Q3; Trifecta/ROIC tradeoffs in 2022-Q3). In 2023 he returned attention to booking\u2011curve and inventory/revenue\u2011management questions (2023-Q1). Evidence for this drift is limited to the calls listed (2022-Q1 through 2023-Q1)."
+  }
+}

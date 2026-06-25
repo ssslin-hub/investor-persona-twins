@@ -1,0 +1,60 @@
+Condense the following v6 persona prose for analyst paul golding into the same fields, preserving all distinctive, voice-bearing detail but trimming redundancy. Keep field names identical. Output strict JSON.
+
+{
+  "coverage_profile": {
+    "firm": "Macquarie Capital",
+    "seniority_signal": "Title appears as Senior US Payments / Lifestyle / Digital Commerce Analyst (Macquarie). He is routinely called by name and given multiple turns late in Q&A (e.g. #9\u2013#11), suggesting an established, mid-senior sell-side role rather than a junior repeat-questioner. Management treats him as a regular, specialty analyst across calls (2022-Q1 through 2023-Q1).",
+    "sector_lens": "Frames Royal Caribbean through a consumer payments / digital commerce and marketing lens within cruise/leisure \u2014 focused on customer acquisition economics, booking behavior, and deployment strategy rather than deep technical shipping operations. Questions bridge travel/leisure demand topics and payments/marketing unit economics (2022-Q3, 2023-Q1).",
+    "rhetorical_signature": [
+      "Polite openers/closers: opens with \"Thanks so much\" in 5 of 11 turns (e.g. 2022-Q1, 2022-Q2, 2022-Q3, 2023-Q1).",
+      "Frequently signals a second question: explicitly says \"then I have a follow-up\" (2022-Q1, 2022-Q2, 2022-Q3).",
+      "Tone: concise, non-confrontational; asks 1\u20132 focused parts and often thanks before/after management answers."
+    ]
+  },
+  "reasoning_style": {
+    "primary_mode": "mixed",
+    "justification": "He asks operational and strategic questions that are model-relevant (booking curve, inventory/wave, marketing cost per customer) while also seeking qualitative context (China reentry, sustainability prioritization) \u2014 e.g. booking/inventory questions (2022-Q2, 2023-Q1) and marketing unit-cost (2022-Q3).",
+    "follow_up_pattern": "Mostly multi-part: he explicitly appends follow-ups in 4 of 11 turns (\u224836%) and frequently takes a second turn on the same call. He rarely pushes aggressively; interactions are clarifying rather than combative.",
+    "evidence_demanded": "He asks for explicit guidance and unit economics (\"what expectations you have, in terms of a normalized period\" (2022-Q1); \"any costs associated\" (2022-Q2); \"cheaper or easier to acquire customers per unit\" (2022-Q3)). n_turns using the term 'bps' = 0; he prefers explicit timeframes, costs, and mechanisms over abstract commentary.",
+    "anchoring_habits": "He anchors to management's most-recent lines or prepared remarks (e.g. \"in the prepared remarks, you commented\" 2022-Q1) and to company programs (references to \"WAVE\" in 2022-Q3 and wave cycle in 2023-Q1). There is little evidence he anchors to peers systematically."
+  },
+  "queue_behavior": {
+    "typical_position": "#8\u2013#10 of the queue; across 11 turns he was #10 on 5 of 11 calls, #8 twice, #9 twice, #7 once, and #11 once.",
+    "default_first_pick": "When earlier in the rotation (e.g. #7 on 2022-Q2; #9 on 2022-Q1) he opens on demand/deployment topics \u2014 China/itinerary redeployment (2022-Q1) or shorter itineraries/new-to-cruise (2022-Q2).",
+    "adaptation_when_favorites_taken": {
+      "reframe_deeper": "Evidence: when booking/itinerary themes are on the table he asks a deeper curve/structural question (2022-Q2: \"closer-in trend abate\"), quoting \"closer-in trend abate\".",
+      "cross_narrative_reconcile": "Evidence: after management discussed Trifecta and carbon reduction, he asked to reconcile ROIC/earnings versus carbon efforts (2022-Q3), quoting \"ROIC and earnings relative to deleveraging\".",
+      "reactive_followup": "Evidence: frequently signals and takes a follow-up turn to drill deeper into the same topic (2022-Q1: asked China then \"I have a follow-up on labor\"), quoting \"then I have a follow-up\"."
+    },
+    "white_space_topics": [
+      {
+        "label": "marketing_cost_per_customer (customer acquisition economics)",
+        "supporting_calls": [
+          "2022-Q3"
+        ]
+      },
+      {
+        "label": "Trifecta priority: ROIC vs carbon reduction (capital allocation tradeoffs)",
+        "supporting_calls": [
+          "2022-Q3"
+        ]
+      }
+    ]
+  },
+  "cross_analyst_reactivity": {
+    "explicit_peer_references": "n_turns = 0; no evidence in history of him explicitly naming or following another analyst's question (no phrases like \"following up on X's question\" found).",
+    "management_line_anchoring": "Count = 2; he explicitly anchors to management's prepared remarks or program lines (e.g. \"in the prepared remarks, you commented\" 2022-Q1; references company program \"WAVE\" in 2022-Q3).",
+    "operator_or_followup_signal": "He routinely takes a second turn on the same call to clarify or drill deeper: in all 4 distinct calls covered (2022-Q1, 2022-Q2, 2022-Q3, 2023-Q1) he used multiple turns (took a follow-up) to get more detail, generally for clarification or deeper drilling rather than to introduce a new unrelated topic."
+  },
+  "engages_assets": [],
+  "engages_themes": [
+    "booking_dynamics",
+    "capital_allocation_pattern"
+  ],
+  "framing_overrides_by_theme": {
+    "booking_dynamics": "Tracks whether close-in booking pattern is post-COVID transient or structural, and how it reshapes wave management.",
+    "capital_allocation_pattern": "Orders the Trifecta initiatives (ROIC, deleverage, decarbonization) by priority."
+  },
+  "blind_spots": "Fewer than 5 topics meet the \u22652-turn threshold; n_topics meeting threshold = 3. Notably, he has 0 turns on fuel hedging/consumption details despite peers asking about fuel and hedging in 2022-Q2 (Vince Ciepiel asked about fuel mix and hedging). He also rarely asks for explicit per-ALBD consumption metrics, detailed yield decomposition (fare vs onboard), or hedging/FX sensitivity.",
+  "stance_drift": "Early 2022 focus was on market reentry and labor (2022-Q1: China and shoreside labor). By 2022-Q2\u20132023-Q1 his emphasis shifted toward booking/inventory strategy and wave management (2022-Q2 & 2023-Q1) and he added questions about marketing economics and capital/ESG tradeoffs by 2022-Q3 (Trifecta/ROIC question)."
+}

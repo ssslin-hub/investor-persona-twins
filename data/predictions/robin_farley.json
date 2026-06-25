@@ -1,0 +1,15 @@
+{
+  "analyst": "Robin (UBS)",
+  "predicted_questions": [
+    {
+      "question_text": "Thanks, good morning \u2014 two quick ones on yields. First, you laid out 2026 Net Yield growth of 1.5%\u20132.5%: can you give us a rough split of that range between ticket/APD, onboard/pre\u2011cruise ancillaries, and itinerary/mix (please quantify in bps or % and vs. 2019 if possible)? Second, you said booked load factor is within historical ranges but APD is at a record \u2014 can you quantify APD versus 2019 and give a $/night or $/APD figure for pre\u2011cruise spend so we can separate ticket versus onboard contributions in our model?",
+      "topic_label": "pricing/yield",
+      "rationale": "Robin often presses on yield composition and load factor (recurring_concerns.core_topics[0]) and will ask for bps/$ splits; the presentation disclosed Net Yield guidance of 1.5%\u20132.5%, record APD and that >50% of onboard revenue is booked pre\u2011cruise, leaving open how much of yield is ticket vs onboard and how this compares to 2019."
+    },
+    {
+      "question_text": "Thanks \u2014 and on costs/fuel: you called out almost 400bps of Q2 cost headwinds from extra dry\u2011dock days and crew travel and said Net Cruise Costs ex\u2011fuel are roughly flat for the year \u2014 how much of that quarterly headwind is timing versus structural (please give bps or $/share) and what run\u2011rate of dry\u2011dock\u2011related cost pressure should we model beyond 2026? As a follow up, please reconcile the fuel headwind references \u2014 Jason mentioned ~$0.62 per share, the slides/discussion referenced $0.74 and you said ~59%\u201360% hedged \u2014 what fuel price ($/bbl or $/MT) is embedded in the $17.10\u2013$17.50 guide and which per\u2011share fuel headwind should we put in our model?",
+      "topic_label": "costs",
+      "rationale": "Robin frequently distinguishes transitional vs structural cost drivers and asks for quantified dry\u2011dock impacts (recurring_concerns.core_topics[1]); management highlighted ~400bps Q2 headwind from dry docks and gave mixed fuel\u2011headwind figures (CEO $0.62, CFO $0.74 and 59%/60% hedged), so Robin will press for precise bps/$ reconciliation and what is baked into guidance."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "analyst": "Vince (Cleveland Research)",
+  "predicted_questions": [
+    {
+      "question_text": "Thanks, Naf \u2014 two quick, model\u2011oriented ones on yield and APD: first, you reported Net Yield +2% in Q1 and record APD \u2014 can you break that +2% down for us into ticket versus onboard components, and within ticket yield quantify like\u2011for\u2011like pricing versus the contribution from new hardware (Legend/Icon) and shore\u2011product (Royal Beach Club/Perfect Day)? Second, on the 1.5%\u20132.5% Net Yield guide for 2026, what is the expected H1-versus\u2011H2 cadence and how much of that range is still at risk from the Mediterranean and West\u2011Coast\u2011Mexico pockets you flagged (i.e., how much yield/inventory remains exposed in Q2/Q3 versus already rebooked at those record APDs)?",
+      "topic_label": "pricing/yield",
+      "rationale": "Vince regularly requests numerical decompositions of yield moves (recurring_concerns.core_topics[0]) and asks for attribution to new hardware and shore products (recurring_concerns.core_topics[1]); management noted Net Yields +2%, record APD, and that Mediterranean and West\u2011Coast Mexico softened then began rebounding, leaving the cadence and exposed inventory unclear in the presentation."
+    },
+    {
+      "question_text": "Thanks \u2014 one on the commercial/digital side: you said more than half of onboard revenue is now booked before guests board and app MAUs are 5x 2019 \u2014 can you quantify pre\u2011cruise penetration in 2019 versus today (percent of onboard revenue pre\u2011booked), the average number of pre\u2011booked items and spend per pre\u2011booked item, and your estimate for how much of the year\u2011over\u2011year APD / Net Yield improvement is coming from earlier pre\u2011booking and loyalty initiatives (Status Match, Royal ONE) versus in\u2011cruise impulse spend?",
+      "topic_label": "onboard spend and ancillary revenues",
+      "rationale": "Vince frequently presses on sustainability of onboard spend and impact of digital/Hybris investments (recurring_concerns.core_topics[2]) and on loyalty/brand initiatives (recurring_concerns.core_topics[4]); management highlighted >50% pre\u2011booking, app adoption, and new Royal ONE card but didn\u2019t quantify the historical split or the contribution to APD/yield in the prepared remarks."
+    }
+  ]
+}

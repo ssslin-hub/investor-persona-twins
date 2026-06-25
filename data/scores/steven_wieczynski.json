@@ -1,0 +1,19 @@
+{
+  "analyst": "steven wieczynski",
+  "scored": [
+    {
+      "actual_question": "Asking what gives you confidence that Q4 yields can grow mid-single-digits to drive the full-year ~2% guide, given Q2/Q3 Europe headwinds; and whether without those headwinds you'd have raised full-year yield guidance.",
+      "actual_topic": "yield_guidance",
+      "best_predicted_index": 0,
+      "match_level": "partial",
+      "reasoning": "Predicted question 0 concerns booking visibility and APD by quarter and bridges bookings to the net yield guide, which is related to asking about forward yield trajectory and confidence, but the predicted is more specific about book/APD and mix; the actual asks qualitatively about drivers/confidence for Q4 yield growth rather than the exact booking/APD metrics requested."
+    }
+  ],
+  "summary": {
+    "n_actual": 1,
+    "n_exact": 0,
+    "n_partial": 1,
+    "n_miss": 0,
+    "hit_rate_exact_or_partial": 1.0
+  }
+}

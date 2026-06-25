@@ -1,0 +1,208 @@
+{
+  "asset_id": "royal_beach_club_paradise_island",
+  "display_name": "Royal Beach Club Paradise Island",
+  "category": "private_destination",
+  "matched_keywords": [
+    "royal beach club paradise island",
+    "\\bparadise island\\b"
+  ],
+  "layer": 2,
+  "asset_profile": {
+    "asset_type": "private_destination",
+    "brand_parent": "Royal Caribbean Group",
+    "brand_family": "Royal Beach Club",
+    "location": {
+      "country": "Bahamas",
+      "region": "Nassau / Paradise Island",
+      "positioning": "at the entrance to Nassau, adjacent to existing Bahamas itineraries"
+    },
+    "lifecycle": {
+      "ground_broken": "2024-Q1",
+      "opened_for_sale": "2025-Q2",
+      "opened_to_guests": "2025-Q4 (late December 2025)",
+      "ramp_phase": "2026",
+      "status_as_of_latest_call": "operational, ramping; called out as 'off to an incredible start' in 2025-Q4 and as a continued tailwind in 2026-Q1"
+    },
+    "strategic_role": [
+      "First Royal Beach Club in Royal Caribbean's private destination portfolio",
+      "Anchor of the Caribbean private-destination expansion alongside Perfect Day at CocoCay, Labadee, RBC Cozumel (2026), Perfect Day Mexico (2027/2028)",
+      "Lever to drive private-destination guest penetration from ~70% toward ~90% by 2027 on Royal Caribbean brand Caribbean itineraries",
+      "Yield and onboard-spend uplift vehicle benefiting 2026 Caribbean deployment"
+    ],
+    "guidance_linkages": [
+      "Cited as a driver of second-half-weighted 2026 net yield growth (2025-Q4)",
+      "Flagged as a late-2024 cost item during ramp (2024-Q4)",
+      "Tied to broader land-based destination portfolio expansion from 2 to 8 by 2028 (2025-Q3)"
+    ]
+  },
+  "mgmt_narrative_arc": {
+    "2024-Q1": "Ground-breaking milestone announced; location framed as advantaged 'entrance to Nassau'.",
+    "2024-Q2": "Construction milestones tracked; opening targeted for 2025; paired in narrative with RBC Cozumel (2026).",
+    "2024-Q3": "Reaffirmed end-of-2025 opening; explicitly tied to benefits for 2026 Caribbean itineraries.",
+    "2024-Q4": "Bundled into year-in-review private-destination strategy; ramp costs flagged for late-year impact.",
+    "2025-Q1": "Reiterated end-of-year opening alongside Star of the Seas and Celebrity Xcel hardware milestones.",
+    "2025-Q2": "Opened for sale; management reports 'incredibly strong' early demand and positions asset within the destination-led ecosystem strategy.",
+    "2025-Q3": "Featured as a 2026 yield/experience driver; framed within the 2-to-8 destination expansion roadmap.",
+    "2025-Q4": "Opened late December; described as 'off to an incredible start'; named as a contributor to 2026 net-yield cadence and second-half weighting.",
+    "2026-Q1": "Treated as in-market tailwind; referenced as antecedent to the Royal Beach Club Santorini launch and as a continued benefit to Caribbean positioning."
+  },
+  "analyst_engagement_profile": {
+    "total_distinct_analysts": 3,
+    "all_analysts_mentioning": [
+      "ben chaiken",
+      "benjamin chaiken",
+      "vince ciepiel"
+    ],
+    "analyst_coverage_notes": [
+      "ben chaiken / benjamin chaiken (Mizuho) is the same analyst across two name spellings, accounting for 3 of 4 Q&A turns and engaging on the asset in 3 consecutive quarters (2024-Q1, 2024-Q2, 2024-Q3) during the construction phase.",
+      "vince ciepiel (Cleveland Research) engaged in 2026-Q1 once the asset was operational, framing it as part of the new-hardware/new-destination yield contribution question."
+    ],
+    "analyst_question_themes": [
+      {
+        "theme": "demand profile and customer segmentation",
+        "instances": ["2024-Q1 (Chaiken)", "2024-Q2 (Chaiken)"],
+        "summary": "Whether Paradise Island guests are incremental versus CocoCay returners, and how marketing differentiates the destinations across ship classes and itineraries."
+      },
+      {
+        "theme": "ancillary / per-customer monetization",
+        "instances": ["2024-Q3 (Chaiken)"],
+        "summary": "Whether Paradise Island will deliver an ancillary uplift directionally similar to CocoCay, accounting for geographic differences."
+      },
+      {
+        "theme": "yield contribution post-launch",
+        "instances": ["2026-Q1 (Ciepiel)"],
+        "summary": "How Paradise Island (alongside RBC Santorini, Star of the Seas, Celebrity Xcel) contributes to 2026 yield growth versus the like-for-like base, with regional emphasis on Caribbean and Europe."
+      }
+    ],
+    "qa_intensity_by_quarter": {
+      "2024-Q1": 1,
+      "2024-Q2": 1,
+      "2024-Q3": 1,
+      "2024-Q4": 0,
+      "2025-Q1": 0,
+      "2025-Q2": 0,
+      "2025-Q3": 0,
+      "2025-Q4": 0,
+      "2026-Q1": 1
+    },
+    "mgmt_intensity_by_quarter": {
+      "2024-Q1": 2,
+      "2024-Q2": 1,
+      "2024-Q3": 2,
+      "2024-Q4": 3,
+      "2025-Q1": 1,
+      "2025-Q2": 4,
+      "2025-Q3": 3,
+      "2025-Q4": 3,
+      "2026-Q1": 2
+    }
+  },
+  "predictive_signals": {
+    "likely_future_analyst_questions": [
+      "Realized onboard spend / ancillary uplift per guest at Paradise Island versus CocoCay benchmark.",
+      "Run-rate yield contribution once Paradise Island has lapped its initial ramp quarters.",
+      "Incrementality of Paradise Island demand vis-a-vis existing Nassau port calls and CocoCay rotations.",
+      "Capex absorption and margin trajectory as Paradise Island stabilizes ahead of RBC Cozumel (2026) and Perfect Day Mexico (2027/2028)."
+    ],
+    "framing_levers_for_management": [
+      "Position Paradise Island as a proof point for the broader 2-to-8 private destination roadmap.",
+      "Quantify the private-destination penetration trajectory (~70% to ~90% by 2027) with Paradise Island as a near-term contributor.",
+      "Connect the asset to second-half-weighted 2026 net-yield growth narrative."
+    ]
+  },
+  "mgmt_mentions_by_quarter": {
+    "2024-Q1": [
+      "Earlier this week, we also celebrated another important milestone when we officially broke ground on Royal Beach Club Paradise Island in Nassau, which is scheduled to open next year.",
+      "But the beautiful thing is that the Royal Beach Club in Paradise Island is positioned pretty much at the entrance to Nassau."
+    ],
+    "2024-Q2": [
+      "Perfect Day at CocoCay continues to perform exceptionally well, and we are reaching important milestones on Royal Beach Club Paradise Island, opening in 2025, and Royal Beach Club in Cozumel, Mexico, opening in 2026."
+    ],
+    "2024-Q3": [
+      "Upon its completion in 2027, Perfect Day Mexico will join our incredible collection of private destinations that include Perfect Day at CocoCay and Labadee, Royal Beach Club Paradise Island opening in 2025, and Royal Beach Club Cozumel opening in 2026.",
+      "We expect the opening of Royal Beach Club Paradise Island in Nassau at the end of 2025, which will benefit our 2026 Caribbean itineraries."
+    ],
+    "2024-Q4": [
+      "2024 was another year of remarkable innovation as we ushered in a new era of vacations with the launch of Icon of the Seas, Utopia of the Seas, and Silver Ray, while announcing and advancing several key private destinations that will further differentiate our leading portfolio of brands, including Perfect Day Mexico, Royal Beach Clubs in Paradise Island, and Cozumel.",
+      "Over 70% of guests on these itineraries sailing with the Royal Caribbean brand will visit a private destination this year, and that percentage will increase to 90% in 2027 with the opening of the Beach Clubs at Paradise Island, Nassau, and Cozumel and Perfect Day Mexico.",
+      "And then as we ramp up some of our private destinations, mainly the Paradise Island and Nassau, obviously, there are some costs kind of towards the end of the year."
+    ],
+    "2025-Q1": [
+      "With the introduction of Star of the Seas in late August, Celebrity Xcel in November, and the opening of Royal Beach Club Paradise Island by the end of this year, Europe will account for 15% of capacity for the year and 20% of capacity in the Q2."
+    ],
+    "2025-Q2": [
+      "We also recently opened the Royal Beach Club Paradise Island for sale, and early demand has been incredibly strong, reinforcing our strategy of delivering exclusive destination-led experiences that elevate the vacation value proposition within our ecosystem.",
+      "On land, we're expanding our destination portfolio with Royal Beach Club Paradise Island, opening in the Bahamas later this year, Royal Beach Club Cozumel at the end of 2026, and in late 2027, Perfect Day Mexico, which is approximately the size of the Magic Kingdom in Orlando, will debut.",
+      "Our leading hardware and private destinations strengthen our competitive position in this market with the introduction of Star of the Seas, Celebrity Xcel, and the opening of Royal Beach Club Paradise Island by the end of the year.",
+      "We're excited for the beach club in Paradise Island, and we're equally excited for the beach club in Mexico, Lelepa , and of course, the really big thing, which is, of course, Perfect Day Mexico in full year 2028."
+    ],
+    "2025-Q3": [
+      "This reflects our vision to redefine how the world vacations, and together with the Royal Beach Club Paradise Island, Perfect Day Mexico, and others, we expect to increase our exclusive land-based destination portfolio from two to eight by 2028.",
+      "These include industry-leading hardware, shorter and longer attractive itineraries, the upcoming Royal Beach Club Paradise Island, and Perfect Day Mexico.",
+      "So next year is going to be the Paradise Island Beach Club in Nassau."
+    ],
+    "2025-Q4": [
+      "We welcomed Royal Caribbean Star of the Seas, took delivery of Celebrity Xcel, launched Celebrity River Cruises, and finally, in late December, opened the Royal Beach Club Paradise Island.",
+      "We're especially excited about Royal Beach Club Paradise Island, which opened in December and is off to an incredible start.",
+      "We do expect net yield growth to be higher in the second half of the year compared to the first half, given the impact of dry dock timing, the ramp-up of Royal Beach Club Paradise Island, timing of new ship deliveries, and deployment mix changes."
+    ],
+    "2026-Q1": [
+      "Following the launch of Royal Beach Club Paradise Island last year, we recently opened the Royal Beach Club Santorini.",
+      "Our competitive position in the region is further supported by our industry-leading hardware and destinations, including the introduction of Legend of the Seas into the Caribbean in November, following its redeployment from Europe, as well as the continued benefit from the new Royal Beach Club Paradise Island."
+    ]
+  },
+  "qa_mentions_by_quarter": {
+    "2024-Q1": [
+      {
+        "analyst": "ben chaiken",
+        "affiliation": "Equity Research Analyst, Mizuho",
+        "question_snippet": "Hey, good morning. Sounds like demand's accelerating. Would be great to hear any color on demand for Paradise Island. And then I guess related, can you talk to us how you're differentiating the destinations from a marketing perspective of CocoCay and then Paradise Island and Cozumel, or maybe by ship class? Just any nuances you would call out. Is this a CocoCay returning customer or a different person? That'd be great. Thanks.",
+        "matched_sentences": [
+          "Would be great to hear any color on demand for Paradise Island.",
+          "And then I guess related, can you talk to us how you're differentiating the destinations from a marketing perspective of CocoCay and then Paradise Island and Cozumel, or maybe by ship class?"
+        ]
+      }
+    ],
+    "2024-Q2": [
+      {
+        "analyst": "benjamin chaiken",
+        "affiliation": "Analyst, Mizuho",
+        "question_snippet": "Hi, good morning. With Paradise Island, how are you positioning this relative to CocoCay? And is this a different customer or similar? Meaning, are your future Paradise Island guests going to CocoCay today, or is it a different itinerary? And then, a quick follow-up. Thanks.",
+        "matched_sentences": [
+          "With Paradise Island, how are you positioning this relative to CocoCay?",
+          "Meaning, are your future Paradise Island guests going to CocoCay today, or is it a different itinerary?"
+        ]
+      }
+    ],
+    "2024-Q3": [
+      {
+        "analyst": "ben chaiken",
+        "affiliation": "Equity Research, Mizuho",
+        "question_snippet": "Got it. That's very helpful. And then shifting gears a little bit, CocoCay has clearly been a material positive over the last couple of years. As you think about your next private destination, Paradise Island, directionally, will that have a similar level of ancillary uplift per customer? Why or why not? I know it's slightly different than CocoCay geographically.",
+        "matched_sentences": [
+          "As you think about your next private destination, Paradise Island, directionally, will that have a similar level of ancillary uplift per customer?"
+        ]
+      }
+    ],
+    "2026-Q1": [
+      {
+        "analyst": "vince ciepiel",
+        "affiliation": "Analyst, Cleveland Research Company",
+        "question_snippet": "Thanks. Just wanted to dig a little bit more into yield outlook for the year. Could you maybe comment on how you think new hardware, you have Star , Xcel contribution, Paradise Island, RBC Santorini, like a lot of, you know, exciting new products out there, how they might be contributing to the yield growth overall versus the like- for-L ike impact. Also on a regional basis, I think you had mentioned or used the term that Europe was doing well, I think was the quote. Is it fair to assume that Europe yields will grow this year? What does the guide assume? Thanks.",
+        "matched_sentences": [
+          "Could you maybe comment on how you think new hardware, you have Star , Xcel contribution, Paradise Island, RBC Santorini, like a lot of, you know, exciting new products out there, how they might be contributing to the yield growth overall versus the like- for-L ike impact."
+        ]
+      }
+    ]
+  },
+  "all_analysts_mentioning": [
+    "ben chaiken",
+    "benjamin chaiken",
+    "vince ciepiel"
+  ],
+  "provenance": {
+    "source_slice": "data_auto/persona_slices/asset_royal_beach_club_paradise_island_mentions.json",
+    "built_at": "2026-05-24",
+    "layer": "Layer 2 — Asset Persona"
+  }
+}

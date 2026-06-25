@@ -1,0 +1,15 @@
+{
+  "analyst": "Stifel Managing Director",
+  "predicted_questions": [
+    {
+      "question_text": "Thanks, congrats on the quarter \u2014 really impressive wave season. Two parts on bookings and yield: First, can you quantify your current book (% booked) and APD by quarter (Q2, Q3 and full year) and tell us how those metrics compare to 2019 so we can bridge what you\u2019re seeing in the book to the 1.5%\u20132.5% net yield guide? Second, can you split the recent 2% net yield (and the guidance midpoint) into ticket versus onboard contributions, confirm the share of onboard that is already booked pre\u2011cruise (you noted >50%), and give us a rough EPS sensitivity if onboard spend reverted, say, 10% from today\u2019s levels? Hope that makes sense.",
+      "topic_label": "booking_visibility & ticket/onboard_mix",
+      "rationale": "Matches the analyst's habit of multi\u2011part quantitative booking/yield questions (recurring_concerns.core_topics[0] and reasoning_style.evidence_demanded) and pulls directly on management's statements of 2% net yield, record APD/booked load factor and the comment that >50% of onboard revenue is booked pre\u2011cruise in the presentation."
+    },
+    {
+      "question_text": "Congrats again. Quick question on capital allocation and guidance framing: does the $17.10\u2013$17.50 EPS range assume any incremental share repurchases beyond the $836 million you repurchased this quarter (i.e., is the $1 billion remaining authorization assumed), and relatedly, with leverage now below 3x after the $2.5 billion bond deal, what explicit leverage threshold would you want to reach before materially accelerating buybacks or saying you\u2019ve returned to an investment\u2011grade posture?",
+      "topic_label": "guidance_setting & capital_return",
+      "rationale": "Follows the analyst's recurring focus on whether buybacks are included in guidance and on balance\u2011sheet thresholds for capital return (recurring_concerns.core_topics[3] and [1]) and references the presentation's disclosure of $836M repurchases, $1B remaining authorization, the $2.5B bond offering, and leverage below 3x."
+    }
+  ]
+}

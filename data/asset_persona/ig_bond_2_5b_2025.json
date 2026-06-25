@@ -1,0 +1,42 @@
+{
+  "asset_id": "ig_bond_2_5b_2025",
+  "display_name": "$2.5B Investment-Grade bond (2025-Q1)",
+  "category": "financing",
+  "linked_pillars": [
+    "Capital Structure",
+    "Investment-Grade Balance Sheet",
+    "Perfecta"
+  ],
+  "lifecycle_by_quarter": {
+    "2026-Q1": {
+      "status": "issued",
+      "key_uncertainties": [
+        "use-of-proceeds allocation between refinancing and new-build CapEx",
+        "blended coupon and tenor relative to existing stack",
+        "incremental impact on leverage ratios and IG rating headroom"
+      ],
+      "mgmt_statement_summary": "Accessed capital markets during the quarter via a $2.5B investment-grade bond offering, marking continued execution of the IG-era financing playbook.",
+      "status_changed_this_quarter": true,
+      "status_delta": {
+        "prior_status": null,
+        "current_status": "issued",
+        "change_type": "newly_tracked",
+        "detail": "first quarter this asset appears in the lifecycle record"
+      }
+    }
+  },
+  "analyst_relevance": {
+    "asked_by_history": [],
+    "primary_framings_observed": [
+      "Validation of investment-grade access at scale",
+      "Liquidity and refinancing runway for the new-build pipeline",
+      "Cost-of-debt trajectory under the Perfecta capital plan"
+    ]
+  },
+  "currently_open_questions_as_of_2026Q1": [
+    "What is the coupon, tenor, and tranching of the $2.5B issuance?",
+    "How are proceeds split between refinancing higher-cost debt and funding new-build / destination CapEx?",
+    "What is the pro-forma effect on net leverage and interest expense for FY2026?",
+    "Does this issuance change the cadence of expected future IG market access through 2027?"
+  ]
+}

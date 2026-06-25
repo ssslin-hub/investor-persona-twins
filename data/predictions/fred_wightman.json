@@ -1,0 +1,15 @@
+{
+  "analyst": "Wolfe Research \u2013 SVP and Director",
+  "predicted_questions": [
+    {
+      "question_text": "Good morning. Two quick ones on the Europe/Med disruption: can you split the roughly 200 bps Q2 yield headwind you called out between (a) Mediterranean airlift/flight disruptions vs (b) West Coast Mexico demand effects and (c) dry-dock/timing items? And given you say bookings have been 'rebounding' in recent weeks, when should we expect Med yields/pricing to re-normalize toward the January trajectory \u2014 late Q3, Q4, or later?",
+      "topic_label": "demand/booking_curve",
+      "rationale": "Matches the analyst's recurring focus on regional bookings/European occupancy (recurring_concerns.core_topics[0]) and requests the quarter-level magnitude and timing he typically presses for; ties directly to Naftali's comment that 'year\u2011over\u2011year comparison elements ... contribute almost 200 basis point headwind to yields' and management's note that Med bookings have recently been rebounding."
+    },
+    {
+      "question_text": "Hey \u2014 on the Caribbean versus Europe divergence: you note Caribbean is 57% of deployment and that Legend will be redeployed plus Beach Club demand is 'very strong' \u2014 can you quantify the APD or yield premium you're seeing in the Caribbean versus the high\u2011yielding Mediterranean, and how much of the Caribbean outperformance is product\u2011pull (Beach Club/Legend) versus mix/new\u2011to\u2011cruise or pure pricing? Also, with you seeing more millennials/younger guests and higher pre\u2011cruise penetration, do you expect onboard spend per guest to continue to grow or should we expect some moderation as the mix shifts?",
+      "topic_label": "caribbean_vs_europe",
+      "rationale": "Leverages the analyst's repeated probing of Caribbean vs Europe drivers (recurring_concerns.core_topics[1]) and onboard spend resilience (recurring_concerns.core_topics[2]), and asks for quantification and persistence tied to management remarks that Caribbean yields remain positive, Legend redeployment, strong Beach Club demand, increased younger guests, and higher pre\u2011cruise booking penetration."
+    }
+  ]
+}

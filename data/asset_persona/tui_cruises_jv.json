@@ -1,0 +1,93 @@
+{
+  "asset_id": "tui_cruises_jv",
+  "display_name": "TUI Cruises (joint venture)",
+  "category": "joint_venture",
+  "linked_pillars": [
+    "Equity Investments / JVs",
+    "European brands"
+  ],
+  "lifecycle_by_quarter": {
+    "2022-Q4": {
+      "status": "post_covid_recovery",
+      "key_uncertainties": [
+        "pace of negative-carry burn-off",
+        "2023 European ramp shape",
+        "contribution back to 2019 EBITDA baseline"
+      ],
+      "mgmt_statement_summary": "TUI characterized as a very successful brand still working off negative carry, similar to Holland America Line and the rest of the industry.",
+      "status_changed_this_quarter": true,
+      "status_delta": {
+        "prior_status": null,
+        "current_status": "post_covid_recovery",
+        "change_type": "newly_tracked",
+        "detail": "first quarter this asset appears in the lifecycle record"
+      }
+    },
+    "2025-Q3": {
+      "status": "cash_generative",
+      "key_uncertainties": [
+        "sustainability of the dividend cadence",
+        "JV balance-sheet capacity for future capital returns"
+      ],
+      "mgmt_statement_summary": "Received a $258M cash dividend from TUI Cruises in September; expects continued regular dividends given strong financial performance and balance sheet.",
+      "status_changed_this_quarter": true,
+      "status_delta": {
+        "prior_status": "post_covid_recovery",
+        "current_status": "cash_generative",
+        "change_type": "status_transition",
+        "detail": "post_covid_recovery -> cash_generative"
+      }
+    },
+    "2025-Q4": {
+      "status": "fleet_growth",
+      "key_uncertainties": [
+        "Mein Schiff Relax ramp and incremental contribution",
+        "JV CapEx envelope going forward"
+      ],
+      "mgmt_statement_summary": "JV delivered Mein Schiff Relax, first vessel in a new class and the largest in TUI Cruises' fleet, adding to 2025 momentum.",
+      "status_changed_this_quarter": true,
+      "status_delta": {
+        "prior_status": "cash_generative",
+        "current_status": "fleet_growth",
+        "change_type": "status_transition",
+        "detail": "cash_generative -> fleet_growth"
+      }
+    },
+    "2026-Q1": {
+      "status": "earnings_headwind",
+      "key_uncertainties": [
+        "drivers of the lower 2026 earnings contribution",
+        "duration of the headwind (one-time vs. structural)",
+        "interaction with Perfecta EPS trajectory"
+      ],
+      "mgmt_statement_summary": "Lower expected TUI Cruises earnings contribution is a $0.12 FY EPS headwind and a meaningful piece of the ~$1 in-quarter earnings impact called out.",
+      "status_changed_this_quarter": true,
+      "status_delta": {
+        "prior_status": "fleet_growth",
+        "current_status": "earnings_headwind",
+        "change_type": "status_transition",
+        "detail": "fleet_growth -> earnings_headwind"
+      }
+    }
+  },
+  "analyst_relevance": {
+    "asked_by_history": [
+      {
+        "analyst": "daniel politzer",
+        "call": "2022-Q4",
+        "framing": "Post-COVID ramp of the European JV through 2023 and trajectory back toward its 2019 EBITDA contribution."
+      }
+    ],
+    "primary_framings_observed": [
+      "JV cash returns to parent (dividend cadence)",
+      "European cruise demand proxy via TUI",
+      "Earnings volatility from JV equity contribution"
+    ]
+  },
+  "currently_open_questions_as_of_2026Q1": [
+    "What is driving the lower 2026 TUI Cruises earnings contribution \u2014 pricing, cost, fuel, or fleet transition?",
+    "Is the $0.12 EPS headwind transitory (resolving in 2027) or a reset of the JV run-rate?",
+    "Does the dividend cadence established in 2025 hold through the earnings headwind?",
+    "How does the Mein Schiff Relax ramp interact with the 2026 earnings step-down?"
+  ]
+}

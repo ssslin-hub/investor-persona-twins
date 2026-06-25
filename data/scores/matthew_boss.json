@@ -1,0 +1,19 @@
+{
+  "analyst": "matthew boss",
+  "scored": [
+    {
+      "actual_question": "Great. Thanks. Jason, maybe if we take a step back. Despite geopolitical developments and the elevated industry capacity in the Caribbean, your yield guide at the high end this year stands at 2.5% constant currency. Maybe could you speak to the drivers of durable growth multi-year, which seem intact here regardless of the macro, and just how you see the company set up today relative to pre-pandemic?",
+      "actual_topic": "durable long\u2011term growth / pre\u2011pandemic positioning",
+      "best_predicted_index": null,
+      "match_level": "miss",
+      "reasoning": "No predicted question addresses multi\u2011year durable growth drivers or the company's positioning versus pre\u2011pandemic; predicted items focus on short\u2011term booking/region dynamics (0) or margin/cost trajectory (1), so none match the long\u2011term strategic inquiry."
+    }
+  ],
+  "summary": {
+    "n_actual": 1,
+    "n_exact": 0,
+    "n_partial": 0,
+    "n_miss": 1,
+    "hit_rate_exact_or_partial": 0.0
+  }
+}

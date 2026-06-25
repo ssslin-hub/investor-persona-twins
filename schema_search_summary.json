@@ -1,0 +1,251 @@
+{
+  "calibration": {
+    "V1": {
+      "n_actual": 9,
+      "n_exact": 2,
+      "n_partial": 5,
+      "n_miss": 2,
+      "hit_rate_exact_or_partial": 0.7777777777777778,
+      "per_analyst": {
+        "matthew boss": {
+          "n_actual": 2,
+          "n_exact": 0,
+          "n_partial": 1,
+          "n_miss": 1,
+          "hit_rate_exact_or_partial": 0.5
+        },
+        "steven wieczynski": {
+          "n_actual": 1,
+          "n_exact": 0,
+          "n_partial": 1,
+          "n_miss": 0,
+          "hit_rate_exact_or_partial": 1.0
+        },
+        "james hardiman": {
+          "n_actual": 1,
+          "n_exact": 0,
+          "n_partial": 1,
+          "n_miss": 0,
+          "hit_rate_exact_or_partial": 1.0
+        },
+        "lizzie dove": {
+          "n_actual": 1,
+          "n_exact": 0,
+          "n_partial": 1,
+          "n_miss": 0,
+          "hit_rate_exact_or_partial": 1.0
+        },
+        "robin farley": {
+          "n_actual": 2,
+          "n_exact": 1,
+          "n_partial": 1,
+          "n_miss": 0,
+          "hit_rate_exact_or_partial": 1.0
+        },
+        "brandt montour": {
+          "n_actual": 1,
+          "n_exact": 0,
+          "n_partial": 0,
+          "n_miss": 1,
+          "hit_rate_exact_or_partial": 0.0
+        },
+        "conor cunningham": {
+          "n_actual": 1,
+          "n_exact": 1,
+          "n_partial": 0,
+          "n_miss": 0,
+          "hit_rate_exact_or_partial": 1.0
+        }
+      }
+    },
+    "V2": {
+      "n_actual": 8,
+      "n_exact": 1,
+      "n_partial": 5,
+      "n_miss": 2,
+      "hit_rate_exact_or_partial": 0.75,
+      "per_analyst": {
+        "matthew boss": {
+          "n_actual": 2,
+          "n_exact": 0,
+          "n_partial": 1,
+          "n_miss": 1,
+          "hit_rate_exact_or_partial": 0.5
+        },
+        "steven wieczynski": {
+          "n_actual": 1,
+          "n_exact": 0,
+          "n_partial": 1,
+          "n_miss": 0,
+          "hit_rate_exact_or_partial": 1.0
+        },
+        "james hardiman": {
+          "n_actual": 1,
+          "n_exact": 0,
+          "n_partial": 1,
+          "n_miss": 0,
+          "hit_rate_exact_or_partial": 1.0
+        },
+        "lizzie dove": {
+          "n_actual": 1,
+          "n_exact": 0,
+          "n_partial": 1,
+          "n_miss": 0,
+          "hit_rate_exact_or_partial": 1.0
+        },
+        "robin farley": {
+          "n_actual": 1,
+          "n_exact": 0,
+          "n_partial": 1,
+          "n_miss": 0,
+          "hit_rate_exact_or_partial": 1.0
+        },
+        "brandt montour": {
+          "n_actual": 1,
+          "n_exact": 0,
+          "n_partial": 0,
+          "n_miss": 1,
+          "hit_rate_exact_or_partial": 0.0
+        },
+        "conor cunningham": {
+          "n_actual": 1,
+          "n_exact": 1,
+          "n_partial": 0,
+          "n_miss": 0,
+          "hit_rate_exact_or_partial": 1.0
+        }
+      }
+    },
+    "V3": {
+      "n_actual": 8,
+      "n_exact": 1,
+      "n_partial": 3,
+      "n_miss": 4,
+      "hit_rate_exact_or_partial": 0.5,
+      "per_analyst": {
+        "matthew boss": {
+          "n_actual": 2,
+          "n_exact": 1,
+          "n_partial": 0,
+          "n_miss": 1,
+          "hit_rate_exact_or_partial": 0.5
+        },
+        "steven wieczynski": {
+          "n_actual": 1,
+          "n_exact": 0,
+          "n_partial": 1,
+          "n_miss": 0,
+          "hit_rate_exact_or_partial": 1.0
+        },
+        "james hardiman": {
+          "n_actual": 1,
+          "n_exact": 0,
+          "n_partial": 0,
+          "n_miss": 1,
+          "hit_rate_exact_or_partial": 0.0
+        },
+        "lizzie dove": {
+          "n_actual": 1,
+          "n_exact": 0,
+          "n_partial": 1,
+          "n_miss": 0,
+          "hit_rate_exact_or_partial": 1.0
+        },
+        "robin farley": {
+          "n_actual": 1,
+          "n_exact": 0,
+          "n_partial": 1,
+          "n_miss": 0,
+          "hit_rate_exact_or_partial": 1.0
+        },
+        "brandt montour": {
+          "n_actual": 1,
+          "n_exact": 0,
+          "n_partial": 0,
+          "n_miss": 1,
+          "hit_rate_exact_or_partial": 0.0
+        },
+        "conor cunningham": {
+          "n_actual": 1,
+          "n_exact": 0,
+          "n_partial": 0,
+          "n_miss": 1,
+          "hit_rate_exact_or_partial": 0.0
+        }
+      }
+    }
+  },
+  "winner": "V1",
+  "test_summary": {
+    "n_actual": 10,
+    "n_exact": 1,
+    "n_partial": 5,
+    "n_miss": 4,
+    "hit_rate_exact_or_partial": 0.6,
+    "per_analyst": {
+      "steven wieczynski": {
+        "n_actual": 1,
+        "n_exact": 0,
+        "n_partial": 1,
+        "n_miss": 0,
+        "hit_rate_exact_or_partial": 1.0
+      },
+      "matthew boss": {
+        "n_actual": 1,
+        "n_exact": 0,
+        "n_partial": 1,
+        "n_miss": 0,
+        "hit_rate_exact_or_partial": 1.0
+      },
+      "brandt montour": {
+        "n_actual": 1,
+        "n_exact": 0,
+        "n_partial": 1,
+        "n_miss": 0,
+        "hit_rate_exact_or_partial": 1.0
+      },
+      "james hardiman": {
+        "n_actual": 1,
+        "n_exact": 0,
+        "n_partial": 0,
+        "n_miss": 1,
+        "hit_rate_exact_or_partial": 0.0
+      },
+      "lizzie dove": {
+        "n_actual": 1,
+        "n_exact": 0,
+        "n_partial": 1,
+        "n_miss": 0,
+        "hit_rate_exact_or_partial": 1.0
+      },
+      "robin farley": {
+        "n_actual": 2,
+        "n_exact": 0,
+        "n_partial": 1,
+        "n_miss": 1,
+        "hit_rate_exact_or_partial": 0.5
+      },
+      "andrew didora": {
+        "n_actual": 1,
+        "n_exact": 0,
+        "n_partial": 0,
+        "n_miss": 1,
+        "hit_rate_exact_or_partial": 0.0
+      },
+      "sharon zackfia": {
+        "n_actual": 1,
+        "n_exact": 0,
+        "n_partial": 0,
+        "n_miss": 1,
+        "hit_rate_exact_or_partial": 0.0
+      },
+      "vince ciepiel": {
+        "n_actual": 1,
+        "n_exact": 1,
+        "n_partial": 0,
+        "n_miss": 0,
+        "hit_rate_exact_or_partial": 1.0
+      }
+    }
+  }
+}

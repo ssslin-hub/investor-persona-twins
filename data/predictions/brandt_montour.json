@@ -1,0 +1,10 @@
+{
+  "analyst": "Barclays - Senior Leisure Analyst",
+  "predicted_questions": [
+    {
+      "question_text": "Congrats on the quarter \u2014 two-part question to help with modeling: (1) You reported Net Yield +2% and are guiding +1.5\u20132.5% for 2026, and Naftali flagged Q2 yields only +0.2% with almost a 200bp headwind from dry docks and the regional disruptions \u2014 can you help us quantify how much of the reported/guided yield improvement is true like\u2011for\u2011like (vs. 2019) versus mix/new\u2011ship/destination premium (Icon/Legend, Perfect Day/Royal Beach Club) and FX? If you can, give a bps split and the specific bps drag you\u2019re carrying for the Mediterranean and West Coast Mexico into the full\u2011year guide. (2) You said Legend is pricing higher than Icon/Star and Royal Beach Club Santorini demand is very strong \u2014 should we assume a durable APD/yield premium for Icon\u2011class and Beach Club\u2011enabled itineraries? If yes, what is the normalized premium ($ APD or bps vs legacy fleet / 2019) we should bake into 2027+?",
+      "topic_label": "pricing/yield",
+      "rationale": "Fits the analyst's recurring_concerns.core_topics[0] (pricing/yields vs 2019 and need for a single modelable input) and core_topics[3] (new ship/product mix). It directly references management's comments that Net Yield grew 2%, guidance of 1.5\u20132.5%, Naftali's remark about Q2 ~0.2% with ~200bps headwind, and Jason's comments that Legend pricing is higher and Beach Club demand is very strong."
+    }
+  ]
+}

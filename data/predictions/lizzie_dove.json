@@ -1,0 +1,15 @@
+{
+  "analyst": "Goldman Sachs - Vice President, Equity Research",
+  "predicted_questions": [
+    {
+      "question_text": "Hi there. Good morning. Thanks for taking the question. I'm curious on two things: (1) can you decompose the 1.5%\u20132.5% Net Yield guide \u2014 roughly what portion (in bps or %) is coming from new\u2011ship and destination premiums (Legend/Icon deliveries, Royal Beach Club openings) versus like\u2011for\u2011like ticket/onboard pricing and mix? and (2) you called out Q2 Net Yields of about +0.2% and that Mediterranean and West Coast Mexico moderations were temporary and now rebounding \u2014 can you quantify, in bps, how much of the Q2/Q3 yield drag is from itinerary/geographic mix (Med/WC Mexico) versus timing effects (dry\u2011dock days, air/flight disruption impacts)? Thanks.",
+      "topic_label": "pricing/yield",
+      "rationale": "This mirrors the persona's preference for a decomposition-style, two-part yield question (coverage_profile.rhetorical_signature and reasoning_style.evidence_demanded) and targets recurring_concerns.core_topics[0] (Yield composition). It anchors to management's statements that Net Yields are guided to 1.5%\u20132.5%, Q2 Net Yields are ~0.2% (CFO), and comments about Legend/Icon, Royal Beach Club demand and the temporary Mediterranean/West Coast of Mexico moderation (CEO/CFO)."
+    },
+    {
+      "question_text": "Hi there. Good morning. Thanks for taking the question. On costs and cadence: you said Net Cruise Costs ex\u2011fuel will be roughly flat for the year but up 4.6%\u20135.1% in Q2, and that Q2 carries almost 400 bps of cost headwinds from extra dry\u2011dock days, crew travel and year\u2011over\u2011year comparatives \u2014 can you walk through that in more detail and give a dollar or bps split across the major buckets (dry\u2011dock maintenance/depreciation, crew travel, other operating costs), and indicate when you expect each of those to abate through the back half of the year? Thanks.",
+      "topic_label": "costs",
+      "rationale": "This question follows the persona's recurring focus on cost timing and dry\u2011dock impacts (recurring_concerns.core_topics[1]) and asks for the concrete decomposition the analyst typically demands (reasoning_style.evidence_demanded). It directly references the CFO's remarks that Net Cruise Costs ex\u2011fuel are expected to be up 4.6%\u20135.1% in Q2 and that the quarter includes almost 400 bps of dry\u2011dock and travel\u2011related headwinds."
+    }
+  ]
+}

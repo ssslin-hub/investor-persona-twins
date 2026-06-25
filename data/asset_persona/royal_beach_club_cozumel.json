@@ -1,0 +1,148 @@
+{
+  "asset_id": "royal_beach_club_cozumel",
+  "display_name": "Royal Beach Club Cozumel",
+  "category": "private_destination",
+  "linked_pillars": [
+    "Perfecta",
+    "Private destinations expansion",
+    "Western Caribbean strategy"
+  ],
+  "lifecycle_by_quarter": {
+    "2024-Q1": {
+      "status": "announced",
+      "key_uncertainties": [
+        "opening-date credibility",
+        "differentiation versus CocoCay and Paradise Island",
+        "target guest segment"
+      ],
+      "mgmt_statement_summary": "Introduced as the newest addition to the private-destinations portfolio with a 2026 target opening, framed as enhancing the guest beach-day experience alongside CocoCay and Paradise Island.",
+      "status_changed_this_quarter": true,
+      "status_delta": {
+        "prior_status": null,
+        "current_status": "announced",
+        "change_type": "newly_tracked",
+        "detail": "first quarter this asset appears in the lifecycle record"
+      }
+    },
+    "2024-Q2": {
+      "status": "pre_construction",
+      "key_uncertainties": [
+        "construction-milestone visibility",
+        "permitting and local-partner progress"
+      ],
+      "mgmt_statement_summary": "Cited as reaching important milestones in parallel with Royal Beach Club Paradise Island (2025 opening), with a 2026 Cozumel opening reaffirmed.",
+      "status_changed_this_quarter": true,
+      "status_delta": {
+        "prior_status": "announced",
+        "current_status": "pre_construction",
+        "change_type": "status_transition",
+        "detail": "announced -> pre_construction"
+      }
+    },
+    "2024-Q3": {
+      "status": "pre_construction",
+      "key_uncertainties": [
+        "interaction with Perfect Day Mexico positioning",
+        "Gulf Coast and drive-market sourcing strategy"
+      ],
+      "mgmt_statement_summary": "Positioned alongside Perfect Day Mexico (2027) as anchors of an expanded private-destination collection, with Cozumel highlighted as a lever for lower-cost flight-cruise itineraries from the Gulf Coast and other drive markets.",
+      "status_changed_this_quarter": true,
+      "status_delta": {
+        "prior_status": "pre_construction",
+        "current_status": "pre_construction",
+        "change_type": "date_slip",
+        "detail": "new target year(s) mentioned: ['2027']"
+      }
+    },
+    "2024-Q4": {
+      "status": "pre_construction",
+      "key_uncertainties": [
+        "share of 2025 non-ship capex attributable to Cozumel",
+        "private-destination penetration trajectory to 90% by 2027"
+      ],
+      "mgmt_statement_summary": "Identified as part of $1.6B 2025 non-ship capital, alongside the Costa Maya port acquisition and Paradise Island opening; flagged as a key contributor to lifting Royal Caribbean private-destination penetration to roughly 90% by 2027.",
+      "status_changed_this_quarter": true,
+      "status_delta": {
+        "prior_status": "pre_construction",
+        "current_status": "pre_construction",
+        "change_type": "date_slip",
+        "detail": "new target year(s) mentioned: ['2025']"
+      }
+    },
+    "2025-Q2": {
+      "status": "construction_ongoing",
+      "key_uncertainties": [
+        "end-of-2026 opening credibility",
+        "sequencing with Costa Maya in 2026",
+        "amenity scope and capacity"
+      ],
+      "mgmt_statement_summary": "Opening described as end of 2026, with Costa Maya also coming online in 2026 and Perfect Day Mexico following in late 2027 as part of the broader land-based destination expansion.",
+      "status_changed_this_quarter": true,
+      "status_delta": {
+        "prior_status": "pre_construction",
+        "current_status": "construction_ongoing",
+        "change_type": "status_transition",
+        "detail": "pre_construction -> construction_ongoing"
+      }
+    },
+    "2025-Q4": {
+      "status": "construction_ongoing",
+      "key_uncertainties": [
+        "2026 non-ship capex split between Santorini, Cozumel, and Perfect Day Mexico",
+        "timing slippage versus the prior end-of-2026 plan"
+      ],
+      "mgmt_statement_summary": "Grouped with Santorini Beach Club and Perfect Day Mexico as the primary destinations driving $1.8B of 2026 non-ship capex; paired with Perfect Day Mexico as the assets that lift private-destination guest penetration to 90% by 2028.",
+      "status_changed_this_quarter": true,
+      "status_delta": {
+        "prior_status": "construction_ongoing",
+        "current_status": "construction_ongoing",
+        "change_type": "date_slip",
+        "detail": "new target year(s) mentioned: ['2028']"
+      }
+    },
+    "2026-Q1": {
+      "status": "construction_ongoing",
+      "key_uncertainties": [
+        "early-2028 opening credibility after the slip from end-2026",
+        "incremental 2027 carry costs with no revenue contribution",
+        "ramp cadence relative to Perfect Day Mexico",
+        "Western Caribbean yield uplift sizing"
+      ],
+      "mgmt_statement_summary": "Opening explicitly pushed to early 2028, paired with Perfect Day Mexico (late 2027 opening, ramping into early 2028) and Costa Maya; jointly described as the centerpiece of the Western Caribbean strategy alongside Icon Class deployment.",
+      "status_changed_this_quarter": true,
+      "status_delta": {
+        "prior_status": "construction_ongoing",
+        "current_status": "construction_ongoing",
+        "change_type": "date_slip",
+        "detail": "new target year(s) mentioned: ['2027']"
+      }
+    }
+  },
+  "analyst_relevance": {
+    "asked_by_history": [
+      {
+        "analyst": "ben chaiken",
+        "call": "2024-Q1",
+        "framing": "Differentiation of Cozumel versus CocoCay and Paradise Island from a marketing and guest-segmentation perspective, including by ship class"
+      },
+      {
+        "analyst": "james hardiman",
+        "call": "2025-Q4",
+        "framing": "Inorganic 2026 yield contribution from new assets, noting Cozumel was not expected to contribute in 2026 while Paradise Island would"
+      }
+    ],
+    "primary_framings_observed": [
+      "Differentiation and guest segmentation versus other private destinations",
+      "Inorganic contribution timing to yield growth",
+      "Sequencing with Paradise Island, Costa Maya, and Perfect Day Mexico in the Western Caribbean buildout"
+    ]
+  },
+  "currently_open_questions_as_of_2026Q1": [
+    "Credibility of the revised early-2028 opening after slippage from end-2026",
+    "Magnitude of 2026-2027 carry costs and capex with no offsetting revenue",
+    "Sizing of Western Caribbean yield uplift attributable specifically to Cozumel versus Perfect Day Mexico",
+    "Drive-market and Gulf Coast sourcing impact on Cozumel-itinerary pricing",
+    "Capacity, amenity mix, and per-guest unit economics at maturity",
+    "Sequencing of revenue contribution in 2028 relative to Perfect Day Mexico's late-2027 opening"
+  ]
+}

@@ -1,0 +1,177 @@
+{
+  "analyst_name": "daniel politzer",
+  "covers_companies": [
+    "RCL"
+  ],
+  "probe_type_profile": {
+    "distribution": {
+      "DELTA": 0.2,
+      "UNQUANTIFIED": 0.0,
+      "CLAIM": 0.1333,
+      "ANNOUNCEMENT": 0.1333,
+      "EXTERNAL": 0.2667,
+      "PERSONA": 0.1333,
+      "CHAIN": 0.1333
+    },
+    "raw_counts": {
+      "DELTA": 3,
+      "UNQUANTIFIED": 0,
+      "CLAIM": 2,
+      "ANNOUNCEMENT": 2,
+      "EXTERNAL": 4,
+      "PERSONA": 2,
+      "CHAIN": 2
+    },
+    "primary": "EXTERNAL",
+    "n_questions": 17,
+    "n_tagged": 8,
+    "trajectory_length": 3.29,
+    "trajectory_label": "long",
+    "lift_vs_population": {
+      "DELTA": 0.966,
+      "UNQUANTIFIED": 0.0,
+      "CLAIM": 0.853,
+      "ANNOUNCEMENT": 2.262,
+      "EXTERNAL": 1.692,
+      "PERSONA": 0.859,
+      "CHAIN": 1.065
+    },
+    "primary_by_lift": "ANNOUNCEMENT"
+  },
+  "topic_emphasis": {
+    "distribution": {
+      "yield": 0.25,
+      "cost_ncc": 0.1875,
+      "capacity": 0.25,
+      "bookings": 0.125,
+      "fuel": 0.0,
+      "capital_return": 0.0,
+      "guidance_targets": 0.0,
+      "destinations": 0.0625,
+      "consumer_macro": 0.125,
+      "loyalty": 0.0,
+      "new_ships": 0.0
+    },
+    "lift_vs_population": {
+      "yield": 1.227,
+      "cost_ncc": 1.731,
+      "capacity": 2.191,
+      "bookings": 0.841,
+      "fuel": 0.0,
+      "capital_return": 0.0,
+      "guidance_targets": 0.0,
+      "destinations": 0.832,
+      "consumer_macro": 1.029,
+      "loyalty": 0.0,
+      "new_ships": 0.0
+    }
+  },
+  "signature_questions": [
+    {
+      "topic": "china_relaunch_and_asia_demand",
+      "fires_in_share_of_calls": 0.5,
+      "what_they_press_on": "Requests re-opening timing, demand quality (volume and rate), mix of onboard/pre-board spend and relative EBITDA/APCD contribution as China returns."
+    }
+  ],
+  "distinctive_concerns": {
+    "topics": [
+      {
+        "topic": "china_relaunch_and_asia_demand",
+        "what_they_press_on": "Requests re-opening timing, demand quality (volume and rate), mix of onboard/pre-board spend and relative EBITDA/APCD contribution as China returns.",
+        "share_of_calls": 0.5
+      },
+      {
+        "topic": "tui_and_other_subsidiary_ramp",
+        "what_they_press_on": "Seeks cadence and EBITDA contribution timing for TUI (how it ramps back to 2019 contribution levels).",
+        "share_of_calls": 0.17
+      }
+    ],
+    "blind_spots": "No analyst questions in the history explicitly address fuel\u2011hedging / bunker fuel hedges (0 turns on fuel hedging despite peers often asking commodity/hedge questions in Q3/Q4 seasons) and no focused questions on loyalty-program KPIs (repeat-booking rates, member cohorts) despite repeated discussion of loyalty in management comments. n_turns < 2 for these topics; insufficient to characterize deeper stance.",
+    "stance_drift": "Early 2022 (2022-Q1/2022-Q2) emphasis was on demand recovery and booking-window dynamics and immediate protocol impacts; by 2023 (2023-Q1/2023-Q3) he shifts to capacity allocation, pricing decomposition, and China re-opening economics (compare booking/mix focus in 2022-Q1 to China/APCD and capacity allocation focus in 2023-Q1 and 2023-Q3)."
+  },
+  "coverage_profile": {
+    "firm": "Wells Fargo",
+    "seniority_signal": "Titles progress from 'Equity Analyst' to 'Director' and 'Director and Senior Equity Research Analyst' across 2022\u20132023 (e.g., 2022-Q1 listed as 'Equity Analyst, Wells Fargo'; 2022-Q3 onward shows 'Director' or 'Director and Senior'). Management addresses him by first name 'Dan' and repeatedly yields time for multiple turns, suggesting a mid-to-senior sell-side role. ",
+    "sector_lens": "Primary coverage is cruises/leisure travel with repeated questions about bookings, capacity deployment, pricing, and China re-opening; by 2023 his remit is described as 'Gaming, Lodging, and Leisure', showing a broader leisure/travel lens. ",
+    "rhetorical_signature": [
+      "Opener: frequently begins informally \u2014 opens with 'Hey, good morning' in 6 of 17 calls (e.g., 2022-Q1, 2022-Q2, 2022-Q3, 2022-Q4, 2023-Q1, 2023-Q3).",
+      "Frequent verbal tic/acknowledgement: uses 'Got it.' as a transition or closer in multiple turns (examples: 'Got it.' in 2022-Q2, 2022-Q3, 2023-Q3).",
+      "Tone: concise, collegial, and follow-up oriented \u2014 typically frames multi-part, practical questions (demand -> mix -> implication)."
+    ]
+  },
+  "reasoning_style": {
+    "primary_mode": "mixed",
+    "justification": "He blends quantitative asks (requests for % bookings, 'mid-single digits', '1%-2%' cost impacts, APCD/EBITDA asks) with strategic deployment questions (capacity allocation, product mix, China relaunch). Examples: 2022-Q2 asks about 'mid-single digits' net cruise costs and 2023-Q1 asks about capacity allocation between Caribbean and Europe.",
+    "follow_up_pattern": "Multi-part questions are common; \u2248 9 of 17 turns contain \u22652 question parts (examples: 2022-Q1, 2022-Q2, 2022-Q3, 2023-Q1, 2023-Q3). He regularly takes follow-up turns for clarification or deeper drill rather than confrontational pushback. Push-back is rare; most turns are exploratory or seeking granularity.",
+    "evidence_demanded": "He asks for specific percentages and guidance repeatedly \u2014 explicit % requests appear in at least 6 analyst turns (examples: asking 'what's the typical % of bookings' in 2022-Q3; '1%-2% cost increase' in 2022-Q4; references to 'mid-single digits' in 2022-Q2). He also requests mechanisms and like\u2011for\u2011like decompositions (e.g., 2023-Q1 'pre-board spend versus onboard' and 'EBITDA relative ... per APCD yields').",
+    "anchoring_habits": "He frequently anchors to management's recent phrases/guidance and to pre\u2011COVID/2019 baselines. Examples: he references management's 'mid-single digits' cost comment (2022-Q2) and asks about the historical '% booked' benchmark that management quoted as '55% and 60%' (2022-Q3). There is no strong evidence of anchoring to peer names (NCLH/CCL) in the history provided."
+  },
+  "queue_behavior": {
+    "typical_position": "#4\u2013#9 of the queue across calls; distribution by position (of 17 turns): #4:1, #5:3, #6:4, #7:2, #8:4, #9:3 \u2014 most common positions are #6\u2013#8 (11 of 17 turns).",
+    "default_first_pick": "When early to speak (e.g., 2022-Q1 when he was #4) he opens on demand mix and booking cadence \u2014 example question: 'How would you break that out between ... new cruise customers ... longer term bookings or short-end bookings?' (2022-Q1).",
+    "adaptation_when_favorites_taken": {
+      "reframe_deeper": "Evidence: when peers/management already discussed China/bookings he asks for a decomposition or economics \u2014 e.g., 'pre-board spend versus onboard, the EBITDA relative to the rest of your portfolio per APCD yields' (2023-Q1).",
+      "reactive_followup": "Evidence: he explicitly references management wording to drill deeper \u2014 e.g., picks up on management's 'mid-single digits' phrase to ask pacing and 2023 outlook ('I think you said mid-single digits') (2022-Q2).",
+      "stay_on_topic_anyway": "Evidence: even after earlier Q&A coverage of bookings/mix in a call, he still asks the bookings 'what's the typical % of bookings that you have on the books' (2022-Q3) instead of pivoting away."
+    },
+    "white_space_topics": [
+      {
+        "topic": "tui_ramp_and_contribution",
+        "supporting_calls": [
+          "2022-Q4"
+        ]
+      },
+      {
+        "topic": "marketing_spend_timing_vs_protocol_changes",
+        "supporting_calls": [
+          "2022-Q2"
+        ]
+      }
+    ]
+  },
+  "cross_analyst_reactivity": {
+    "explicit_peer_references": {
+      "count": 0,
+      "note": "No evidence in the provided history of explicit references to other analysts' questions (phrases like 'following up on X's question' do not appear in his verbatim turns)."
+    },
+    "management_line_anchoring": {
+      "count": 1,
+      "examples": [
+        {
+          "call": "2022-Q2",
+          "quote": "mid-single digits"
+        }
+      ],
+      "note": "He explicitly cites management's phrasing in his question at least once (2022-Q2 'mid-single digits'). Other turns implicitly build on management guidance but do not quote a specific phrase."
+    },
+    "operator_or_followup_signal": {
+      "behavior": "He routinely takes a second (or additional) turn within the same call to clarify or drill deeper rather than to change topic.",
+      "supporting_calls_count": 6,
+      "examples": [
+        "2022-Q2 (asked net cruise costs then immediately asked about marketing ramp)",
+        "2022-Q4 (asked initial cost/one-time items and then followed with a TUI follow-up)",
+        "2023-Q1 (asked Caribbean/short-product allocation then followed with China/APCD drill)"
+      ]
+    }
+  },
+  "engages_assets": [
+    "cococay",
+    "tui_cruises_jv"
+  ],
+  "engages_themes": [
+    "cost_cadence_dry_dock"
+  ],
+  "framing_overrides_by_theme": {
+    "cost_cadence_dry_dock": "Asks for pacing of NCC in H2 and into next year with inflation overlay."
+  },
+  "_built_from": "v7: company-layer split + probe/topic structure + v6 prose",
+  "_train_calls": [
+    "2022-Q1",
+    "2022-Q2",
+    "2022-Q3",
+    "2022-Q4",
+    "2023-Q1",
+    "2023-Q3"
+  ],
+  "_n_train_questions": 17
+}

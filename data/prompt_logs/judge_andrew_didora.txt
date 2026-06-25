@@ -1,0 +1,53 @@
+You are scoring how well a set of PREDICTED earnings-call questions match a
+set of ACTUAL questions asked by the SAME analyst on the SAME call.
+
+You will be given:
+  - The analyst name.
+  - A list of PREDICTED questions (with topic labels).
+  - A list of ACTUAL questions the analyst asked on the held-out call.
+
+For each ACTUAL question, decide whether ANY single predicted question covers
+the same substantive concern. A "match" requires:
+  - The same core topic (pricing, capacity, leverage, etc.).
+  - The same direction of inquiry (e.g. both ask about yield growth runway
+    rather than one asking about yield and the other about cost).
+  - Roughly the same level of specificity (a generic "how do you think about
+    pricing" does NOT match an actual question about "Star of the Seas
+    yield premium on her inaugural sailing").
+
+Levels:
+  - "exact": same topic, same direction, comparable specificity.
+  - "partial": same topic, similar direction, but specificity differs OR
+    one side is broader than the other.
+  - "miss": no predicted question targets the same concern.
+
+Output strictly the JSON object below, no prose before or after:
+
+{
+  "analyst": "<name>",
+  "scored": [
+    {
+      "actual_question": "<verbatim or short paraphrase>",
+      "actual_topic": "<short topic label>",
+      "best_predicted_index": <int or null>,
+      "match_level": "exact" | "partial" | "miss",
+      "reasoning": "<1-2 sentences>"
+    },
+    ...
+  ],
+  "summary": {
+    "n_actual": <int>,
+    "n_exact": <int>,
+    "n_partial": <int>,
+    "n_miss": <int>,
+    "hit_rate_exact_or_partial": <float in [0,1]>
+  }
+}
+
+ANALYST: andrew didora
+
+PREDICTED QUESTIONS (indexed):
+[0] topic=capital_structure :: Hey, good morning — you completed a $2.5 billion investment‑grade bond that was significantly oversubscribed and used proceeds to refinance near‑term maturities: are you effectively indifferent today between tapping the unsecured bond market and more traditional ECA/export‑credit financing when you fund newbuilds? And out of curiosity, beyond headline rate differentials, did this bond provide incremental benefits (tenor, covenant profile, investor base/diversification, balance‑sheet treatment) that make you prefer unsecured issuance for upcoming ships like Icon 6/7 or to prefund deliveries versus sticking with an ECA‑first approach?
+
+ACTUAL QUESTIONS:
+[0] Hi, good morning, everyone. T wo quick questions on costs, you know, so I guess for Naftali. I guess, one, you know, how do you think of rolling in new hedges in this high fuel environment? Second, just on unit costs. You continue to do a really nice job here. I guess my question is, at what level of capacity growth would we start to see maybe more inflationary type, you know, NCC ex-fuel growth and say, I don't know, 2%-3% range? Just curious your thoughts up there. Thank you.

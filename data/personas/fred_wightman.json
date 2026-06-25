@@ -1,0 +1,66 @@
+{
+  "coverage_profile": {
+    "firm": "Wolfe Research",
+    "seniority_signal": "Progression in labels across calls from 'Analyst' to 'Director' to 'SVP and Director' (seen in 2022-Q1 through 2022-Q3) and frequent direct engagement by C-suite (Jason/Naftali) indicate a senior, long\u2011standing coverage role. Management routinely answers his questions succinctly, suggesting they treat him as a regular, informed participant.",
+    "sector_lens": "Clearly focused on cruise/leisure and travel-related consumer behavior, with repeated questions about regional booking patterns, onboard spend, occupancy, and recovery from China; he frames cruise-specific dynamics against broader consumer/retail signals. ",
+    "rhetorical_signature": [
+      "Prefaces questions tersely and often opens with 'Hey/Good morning' then jumps to a focused metric or comparison (e.g., gap vs land-based, European occupancy vs Caribbean).",
+      "Frequently asks compact, pointed questions about drivers and whether trends will persist into the next quarter/year (e.g., 2022-Q3 on Europe into 4Q/next year; 2022-Q4 on new-to-cruise into 2023).",
+      "Tends to close with quick confirmations like 'Makes sense' or 'Perfect. Thank you,' rarely pressing aggressively after the initial answer."
+    ]
+  },
+  "reasoning_style": {
+    "primary_mode": "mixed",
+    "primary_mode_justification": "Combines quantitative interest in metrics/seasonality (occupancy, new\u2011to\u2011cruise %, 9\u201310% booking lift, expense bps) with qualitative probing of mechanisms (airlift, testing requirements, CocoCay/experience proposition).",
+    "follow_up_pattern": "Usually asks single focused questions or short two-part questions (e.g., pricing gap vs land peers and strategy), and occasionally follows up to clarify timing/seasonality; he seldom engages in extended pushback but asks for concrete placement of benefits across quarters. Evidence: many short turns across 2022-Q1 through 2023-Q1.",
+    "evidence_demanded": "Prefers specific pacing/timing and magnitude (percent lifts, occupancy comparisons, whether an effect shows up in a particular quarter) and causal explanations (airlift, testing, product differences) rather than anecdotes alone. He also asks for comparisons to pre\u2011COVID (2019) baselines at times.",
+    "anchoring_habits": "Anchors questions to pre-COVID/2019 comparisons, prior-quarter trends and company commentary, and occasionally to land\u2011based peers or large retailers when probing consumer spend; he references management's prior remarks (e.g., 2022-Q1 pricing gap) and recent commentary (e.g., reentry testing, airlift) to frame questions."
+  },
+  "recurring_concerns": {
+    "core_topics": [
+      {
+        "topic": "Regional bookings / European occupancy and airlift",
+        "what_they_press_on": "Persistent focus on why Europe lagged (Ukraine, testing, airlift) and whether that underperformance will persist into subsequent quarters/years and normalize. He repeatedly seeks timing and normalization expectations.",
+        "supporting_calls": [
+          "2022-Q2",
+          "2022-Q3",
+          "2023-Q1"
+        ]
+      },
+      {
+        "topic": "Caribbean vs Europe demand divergence",
+        "what_they_press_on": "Asks what is driving stronger Caribbean demand versus inline European demand\u2014probing product pulls (CocoCay), airfare issues, and sourcing differences. He requests the primary drivers behind the divergence.",
+        "supporting_calls": [
+          "2023-Q1",
+          "2022-Q3",
+          "2022-Q2"
+        ]
+      },
+      {
+        "topic": "Consumer spend / onboard spending resilience",
+        "what_they_press_on": "Challenges apparent disconnects between onboard/pre-departure spending data and soft consumer signals from retailers, asking whether customer mix or product/experience explains strength and whether it will hold up.",
+        "supporting_calls": [
+          "2022-Q2"
+        ]
+      },
+      {
+        "topic": "New-to-cruise mix and China recovery",
+        "what_they_press_on": "Wants the order-of-magnitude for new-to-cruise trends and how the absence/return of China affects comparisons to 2019 and longer-term targets (e.g., Trifecta assumptions).",
+        "supporting_calls": [
+          "2022-Q4",
+          "2022-Q3"
+        ]
+      },
+      {
+        "topic": "Seasonality / timing of expense benefits and equity investment seasonality",
+        "what_they_press_on": "Seeks clarity on whether identified expense timing benefits appear in the next quarter(s) and whether equity investment/negative carry will remain below 2019 levels and follow similar seasonality.",
+        "supporting_calls": [
+          "2022-Q4",
+          "2023-Q1"
+        ]
+      }
+    ],
+    "blind_spots": "Rarely questions fuel/fuel\u2011hedging, detailed capital allocation (buybacks/dividends) or long-term fleetcapex beyond asking about China assumptions; given peers often press these items, his coverage appears more demand/seasonality and product\u2011driven. If unclear: evidence is limited to 2022\u2013early\u20112023 turns, so blind\u2011spot inference is tentative.",
+    "stance_drift": "Evidence through 2023 shows a shift from early 2022 focus on pricing gap and market share (2022-Q1) toward granular regional booking dynamics and operational timing (airlift, testing, Europe vs Caribbean) through 2022\u2011Q3, and then toward expense timing and quarter\u2011level guidance in 2023-Q1. Coverage has moved from high\u2011level competitive/pricing framing into more quarter\u2011by\u2011quarter cadence and channel/product drivers; note that available history ends at 2023-Q1 so later drift is not observable."
+  }
+}

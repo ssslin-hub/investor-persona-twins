@@ -1,0 +1,10 @@
+{
+  "analyst": "Bank of America - Senior Equity Research Analyst",
+  "predicted_questions": [
+    {
+      "question_text": "Hey, good morning \u2014 you completed a $2.5 billion investment\u2011grade bond that was significantly oversubscribed and used proceeds to refinance near\u2011term maturities: are you effectively indifferent today between tapping the unsecured bond market and more traditional ECA/export\u2011credit financing when you fund newbuilds? And out of curiosity, beyond headline rate differentials, did this bond provide incremental benefits (tenor, covenant profile, investor base/diversification, balance\u2011sheet treatment) that make you prefer unsecured issuance for upcoming ships like Icon 6/7 or to prefund deliveries versus sticking with an ECA\u2011first approach?",
+      "topic_label": "capital_structure",
+      "rationale": "Directly follows his capital\u2011structure/ship\u2011financing focus (recurring_concerns.core_topics[0] and reasoning_style.primary_mode) and mirrors his two\u2011part yes/no + 'out of curiosity' pattern (coverage_profile.rhetorical_signature). It pulls on management's comments about the $2.5B oversubscribed bond used to refinance near\u2011term maturities, the announced Icon 6/7 orders, and the stated leverage/liquidity position (below 3x leverage, $6.9B liquidity) which leave open whether unsecured issuance is now the go\u2011to and what structural benefits beyond rates drove the decision."
+    }
+  ]
+}

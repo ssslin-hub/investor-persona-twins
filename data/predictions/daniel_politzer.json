@@ -1,0 +1,15 @@
+{
+  "analyst": "Wells Fargo - Director (Gaming, Lodging & Leisure)",
+  "predicted_questions": [
+    {
+      "question_text": "Hey, good morning and congrats on the quarter. Two related ones on Europe and deployment: first, can you quantify the current booked position for Mediterranean itineraries for Q2 and Q3 as a percent of capacity and tell us how those booking prices compare to 2019 (i.e., are we seeing a pure rate gap versus mix or is mix driving the moderation you described)? Second, on Legend of the Seas \u2014 you noted you're moving the Icon from Europe to the Caribbean in November after redeployment \u2014 is that a tactical response to the recent volatility or a longer\u2011term change in your deployment philosophy, and what APD/yield uplift should we model for the Caribbean once Icon replaces the incumbents?",
+      "topic_label": "capacity allocation / demand/booking_curve",
+      "rationale": "Follows the analyst's recurring focus on bookings and regional mix (recurring_concerns.core_topics[0]) and his multi\u2011part, numerically anchored style (coverage_profile.rhetorical_signature). It directly probes management comments that Mediterranean bookings \"moderated\" following geopolitical events and that Legend of the Seas will be redeployed to the Caribbean (management noted Mediterranean weakness, Icon redeployment and record APD)."
+    },
+    {
+      "question_text": "Naftali, quick one on costs and spend dynamics: you guided Net Cruise Costs ex\u2011fuel roughly flat for the year but Q2 is up 4.6%\u20135.1% given dry docks and crew travel \u2014 can you walk through the cadence and say when you expect Net Cruise Costs ex\u2011fuel to meaningfully revert toward 2019 margin levels? Please quantify expected bps (or $) contribution from Perfecta/AI/tech by year\u2011end and/or by 2027. And related \u2014 with more than half of onboard revenue now booked pre\u2011cruise and an increase in younger guests, how does pre\u2011booked spend compare to onboard spontaneous spend on a per\u2011guest or APD basis, and are younger demographics lifting or diluting APCD?",
+      "topic_label": "costs / pricing and onboard spend",
+      "rationale": "Matches the analyst's evidence\u2011driven demand for numbers on net cruise costs and the timing to margin normalization (reasoning_style.primary_mode, recurring_concerns.core_topics[2]). It ties to Naftali's comments that Net Cruise Costs ex\u2011fuel are \"approximately flat\" for the year, the Q2 4.6%\u20135.1% increase, and management's point that >50% of onboard revenue is now pre\u2011booked and that younger/repeat guests increased this quarter (presentation)."
+    }
+  ]
+}

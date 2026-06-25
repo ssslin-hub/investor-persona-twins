@@ -1,0 +1,19 @@
+{
+  "analyst": "james hardiman",
+  "scored": [
+    {
+      "actual_question": "Good morning, thanks for taking my questions. I wanted to sort of zoom in on the idea that we're turning the corner. Obviously, you know, the weeks following the initial geopolitical disruption were probably the worst, but maybe some indication of where we stand today in terms of the booking trajectory versus where we were in February before a lot of this started. I don't know if we're fully back or we're just heading in that direction. As we think about sort of the 2Q and 3Q, we're saying that's most pronounced. I'm just curious if that's because those are what's next or whether consumers are comfortable booking beyond the third quarter and into 2027, assuming that, you know, this disruption will go away or we'll sort of worry about that when we get to that point in time. Thanks.",
+      "actual_topic": "bookings/demand",
+      "best_predicted_index": 1,
+      "match_level": "partial",
+      "reasoning": "Predicted question 1 addresses demand and the impact of geopolitical/Mediterranean disruptions (and asks about whether second-half demand/yields recover), so it covers the same core concern about booking recovery; however, the predicted item focused on yield/APD decomposition and quantification, whereas the actual question asks more directly about booking trajectory and consumer comfort booking beyond Q3, so specificity/direction differ."
+    }
+  ],
+  "summary": {
+    "n_actual": 1,
+    "n_exact": 0,
+    "n_partial": 1,
+    "n_miss": 0,
+    "hit_rate_exact_or_partial": 1.0
+  }
+}

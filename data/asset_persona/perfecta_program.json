@@ -1,0 +1,106 @@
+{
+  "asset_id": "perfecta_program",
+  "display_name": "Perfecta strategic program (2024-2027)",
+  "category": "strategic_program",
+  "linked_pillars": [
+    "Perfecta"
+  ],
+  "lifecycle_by_quarter": {
+    "2025-Q1": {
+      "status": "recently_announced_in_flight",
+      "key_uncertainties": [
+        "credibility of 20% EPS CAGR target",
+        "whether moderate capacity + yield + cost formula holds through 2027"
+      ],
+      "mgmt_statement_summary": "Reaffirms Perfecta as the operating frame: 20% adjusted EPS CAGR through 2027 and high-teens ROIC, driven by moderate capacity growth, moderate yield growth, and strong cost control.",
+      "status_changed_this_quarter": true,
+      "status_delta": {
+        "prior_status": null,
+        "current_status": "recently_announced_in_flight",
+        "change_type": "newly_tracked",
+        "detail": "first quarter this asset appears in the lifecycle record"
+      }
+    },
+    "2025-Q2": {
+      "status": "in_flight_framed_as_milestone",
+      "key_uncertainties": [
+        "post-Perfecta ambition not yet quantified",
+        "annual CapEx run-rate (~$5B) sustainability through 2026-2027"
+      ],
+      "mgmt_statement_summary": "Positions Perfecta as a milestone rather than the ceiling of ambition; analyst probing on whether $5B CapEx and new-build/non-new-build mix is the right shape for 2026-2027.",
+      "status_changed_this_quarter": true,
+      "status_delta": {
+        "prior_status": "recently_announced_in_flight",
+        "current_status": "in_flight_framed_as_milestone",
+        "change_type": "status_transition",
+        "detail": "recently_announced_in_flight -> in_flight_framed_as_milestone"
+      }
+    },
+    "2025-Q3": {
+      "status": "on_track",
+      "key_uncertainties": [
+        "execution risk on game-changing ship pipeline",
+        "scaling exclusive destinations",
+        "AI-fueled commercial tech ROI"
+      ],
+      "mgmt_statement_summary": "Reiterates on-track status for 2027 Perfecta targets; previews a Post-Perfecta step change driven by new ships, destinations, AI commercial platforms, and disciplined capital.",
+      "status_changed_this_quarter": true,
+      "status_delta": {
+        "prior_status": "in_flight_framed_as_milestone",
+        "current_status": "on_track",
+        "change_type": "status_transition",
+        "detail": "in_flight_framed_as_milestone -> on_track"
+      }
+    },
+    "2025-Q4": {
+      "status": "on_track_ahead_of_pace",
+      "key_uncertainties": [
+        "sustaining 20% CAGR after two years at 23%",
+        "what Post-Perfecta targets will be"
+      ],
+      "mgmt_statement_summary": "23% adjusted EPS CAGR over the first two years of Perfecta keeps the company on track for 2027 targets; framed again as a milestone, not the endpoint.",
+      "status_changed_this_quarter": true,
+      "status_delta": {
+        "prior_status": "on_track",
+        "current_status": "on_track_ahead_of_pace",
+        "change_type": "status_transition",
+        "detail": "on_track -> on_track_ahead_of_pace"
+      }
+    },
+    "2026-Q1": {
+      "status": "on_track",
+      "key_uncertainties": [
+        "fuel and TUI JV headwinds offsetting Perfecta progression in near term",
+        "explicit Post-Perfecta framework still pending"
+      ],
+      "mgmt_statement_summary": "On-track restatement of 20% adjusted EPS CAGR through 2027 and high-teens ROIC under the Perfecta performance program.",
+      "status_changed_this_quarter": true,
+      "status_delta": {
+        "prior_status": "on_track_ahead_of_pace",
+        "current_status": "on_track",
+        "change_type": "status_transition",
+        "detail": "on_track_ahead_of_pace -> on_track"
+      }
+    }
+  },
+  "analyst_relevance": {
+    "asked_by_history": [
+      {
+        "analyst": "vince ciepiel",
+        "call": "2025-Q2",
+        "framing": "CapEx shape inside Perfecta: is $5B/yr (with current new-build vs non-new-build mix) the right run-rate for 2026 and 2027?"
+      }
+    ],
+    "primary_framings_observed": [
+      "Perfecta as the 2027 financial scorecard (EPS CAGR, ROIC)",
+      "CapEx and capital allocation envelope implied by the plan",
+      "Perfecta as milestone vs. Post-Perfecta ambition"
+    ]
+  },
+  "currently_open_questions_as_of_2026Q1": [
+    "Will FY2026 absorb the TUI JV and fuel headwinds without compromising the 20% adjusted EPS CAGR trajectory?",
+    "What is the Post-Perfecta financial framework (targets, time horizon, capital intensity)?",
+    "Is the implied CapEx envelope through 2027 still ~$5B/yr and how is it split between new-builds and destinations/fleet modernization?",
+    "How much of Perfecta upside is structural (destinations, AI commercial platforms) vs. cyclical pricing?"
+  ]
+}

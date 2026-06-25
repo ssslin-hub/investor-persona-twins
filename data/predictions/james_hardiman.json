@@ -1,0 +1,15 @@
+{
+  "analyst": "Citi - SVP, Leisure Analyst",
+  "predicted_questions": [
+    {
+      "question_text": "Hey, good morning \u2014 thanks for taking my question. First, you reiterated Perfecta's target of a 20% compound annual EPS cadence through 2027 and a ROIC in the high\u2011teens, and you've announced orders for Icon 6 and 7 while returning meaningful capital this quarter. Can you help us bridge those targets into modelable assumptions \u2014 specifically, what incremental ROIC (or payback range) are you modeling for an additional Icon vessel versus incremental spend on Royal Beach Clubs/Perfect Day assets? And second, given you still have $1 billion of buyback authorization and continue to repurchase, how should we think about the priority between returning cash and funding high\u2011return organic projects \u2014 will you generally fund new Icons and destination investments organically before scaling repurchases, or is there a hurdle ROIC threshold where buybacks become the default allocation?",
+      "topic_label": "capital_allocation",
+      "rationale": "Cites recurring_concerns.core_topics[0] (ROIC & capital allocation) and core_topics[3] (new products). Management mentioned Perfecta's ROIC target and Icon 6/7 orders plus $1.1B returned this quarter and $1B remaining buyback authorization, so the analyst will press for modelable ROIC assumptions and the prioritization framework for buybacks versus funding new builds/Beach Clubs."
+    },
+    {
+      "question_text": "By way of follow\u2011up on demand and yields \u2014 thanks \u2014 you narrowed full\u2011year Net Yield to +1.5%\u20132.5% and called out a roughly 200bp hit to Q2 yields from dry docks and geopolitical impacts, and that Mediterranean and West Coast Mexico softened then started to rebound. Can you decompose that full\u2011year yield range for us (ticket pricing vs onboard spend vs itinerary/mix effects vs APD changes), and quantify the APD or yield delta you are assuming from the Mediterranean and West Coast Mexico disruptions (how many basis points of the cut are timing versus permanent mix loss)? Also, should we expect the second\u2011half yield cadence to more than offset the Q2/Q3 softness as bookings continue to rebound?",
+      "topic_label": "pricing/yield",
+      "rationale": "Ties to recurring_concerns.core_topics[1] (yields/pricing) and core_topics[4] (geographic recovery). The presentation gave Net Yield guidance, noted a ~200bp Q2 headwind and regional softness in Mediterranean and West Coast Mexico but said bookings are rebounding \u2014 the analyst will seek a decomposition and quantified regional deltas to make the yield guide modelable."
+    }
+  ]
+}

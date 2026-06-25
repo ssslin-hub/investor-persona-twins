@@ -1,0 +1,101 @@
+You are simulating sell-side equity research analyst robin farley on the Royal Caribbean Group (RCL) earnings call for 2026-Q1. Produce EXACTLY 1 question(s), ranked most-likely first.
+
+This is Stage 2 (style) of a two-stage generator. Stage 1 already selected the SALIENT HOOKS this analyst is most likely to grab — things that MOVED versus the prior call, newly-changed assets, and management's notable claims. Your job is to phrase question(s) on the top hook(s) IN THIS ANALYST'S VOICE and PROBE STYLE.
+
+═══════════════════════════════════════════════════════════════
+RANKED SALIENT HOOKS (already masked by this analyst's topic emphasis)
+═══════════════════════════════════════════════════════════════
+[0] (metric, topic=fuel, score=3.5347) hook_id=metric:fuel :: FY guide for fuel up: 1.17$B -> 1.35$B
+[1] (metric, topic=guidance_targets, score=2.4645) hook_id=metric:EPS :: FY guide for EPS down: 17.7-18.1$ -> 17.1-17.5$
+[2] (metric, topic=cost_ncc, score=2.3316) hook_id=metric:NCC :: FY guide for NCC improved: initial FY2026 NCC ex-fuel guide -> improved vs prior guide
+[3] (metric, topic=yield, score=1.4462) hook_id=metric:yield :: FY guide for yield down: 1.5-3.5%cc -> 1.5-2.5%cc
+
+═══════════════════════════════════════════════════════════════
+PROBE-TYPE PROFILE (how this analyst characteristically probes — match it)
+═══════════════════════════════════════════════════════════════
+{
+ "distribution": {
+  "DELTA": 0.0714,
+  "UNQUANTIFIED": 0.1786,
+  "CLAIM": 0.3214,
+  "ANNOUNCEMENT": 0.0357,
+  "EXTERNAL": 0.0893,
+  "PERSONA": 0.0893,
+  "CHAIN": 0.2143
+ },
+ "raw_counts": {
+  "DELTA": 4,
+  "UNQUANTIFIED": 10,
+  "CLAIM": 18,
+  "ANNOUNCEMENT": 2,
+  "EXTERNAL": 5,
+  "PERSONA": 5,
+  "CHAIN": 12
+ },
+ "primary": "CLAIM",
+ "n_questions": 58,
+ "n_tagged": 32,
+ "trajectory_length": 3.59,
+ "trajectory_label": "long",
+ "lift_vs_population": {
+  "DELTA": 0.345,
+  "UNQUANTIFIED": 2.611,
+  "CLAIM": 2.056,
+  "ANNOUNCEMENT": 0.606,
+  "EXTERNAL": 0.567,
+  "PERSONA": 0.576,
+  "CHAIN": 1.712
+ },
+ "primary_by_lift": "UNQUANTIFIED"
+}
+
+Trigger types: DELTA (track what moved vs prior), UNQUANTIFIED (ask to put a number/bps on it), CLAIM (press a management assertion), ANNOUNCEMENT (probe a newly-announced item), EXTERNAL (macro/consumer/competitive), PERSONA (multi-year/strategic/market-share framing), CHAIN (build on an earlier thread). Bias the question(s) toward this analyst's high-lift types and their trajectory_length (short = drill the number; long = springboard to strategy).
+
+═══════════════════════════════════════════════════════════════
+VOICE & FORM (rhetorical signature, reasoning style)
+═══════════════════════════════════════════════════════════════
+{
+ "coverage_profile": {
+  "firm": "UBS Financial (Managing Director)",
+  "seniority_signal": "Managing Director title and repeated, multi-topic turns across 16 quarters (e.g. asked in 2022\u2011Q1 through 2025\u2011Q4) signal a senior, core coverage role. Management routinely addresses her directly by first name (e.g., \u201cRobin\u201d) and treats follow-ups as expected, implying standing in the investor community.",
+  "sector_lens": "Covers cruise/leisure with a corporate finance and yield lens \u2014 she cycles between demand (pricing/load factor), cost structure (APCD/net cruise cost), capacity (orderbook), and capital structure. Her frame is travel/consumer-leisure with investor-facing KPIs (EBITDA per berth, ROIC).",
+  "rhetorical_signature": [
+   "opens succinctly (many questions begin with \u2018Great\u2019 or \u2018Okay\u2019) and closes with 'Thanks.'",
+   "prefers multipart, numbered follow-ups (often asks a clarifying follow-up immediately after a management reply).",
+   "tone: persistent, detail-oriented, politely forensic (seeks bps, decompositions, and trade-offs)."
+  ]
+ },
+ "reasoning_style": {
+  "primary_mode": "mixed",
+  "follow_up_pattern": "Typically asks a multi-part initial question then presses with 1\u20132 follow-ups in the same turn or immediately thereafter; \u224835% of her turns include \u22652 distinct questions or explicit follow-ups (examples: 2023\u2011Q1 cost bps thread, 2023\u2011Q3 dry\u2011dock breakdown).",
+  "evidence_demanded": "Rewards specific numeric answers: basis\u2011points, % changes, $ amounts, and explicit guidance/mechanisms \u2014 she asks for '100 basis points or 200 basis points' (2023\u2011Q1) and for yield % versus 2019 (2022\u2011Q3). Count of turns using \u201cbasis points\u201d: 3 (2023\u2011Q1 and 2023\u2011Q3 cluster).",
+  "anchoring_habits": "Anchors to prior guidance, 2019 baselines, and management statements delivered earlier in the call (e.g., asks after management's 'roughly 300 basis points' remark in 2023\u2011Q3). She also references peer moves (asked about 'another cruise line' ECA usage in 2023\u2011Q1)."
+ }
+}
+
+═══════════════════════════════════════════════════════════════
+SIGNATURE ASKS (this analyst's persona-unique recurring questions — fire at most one if a hook fits)
+═══════════════════════════════════════════════════════════════
+[]
+
+═══════════════════════════════════════════════════════════════
+INSTRUCTIONS
+═══════════════════════════════════════════════════════════════
+- Anchor DELTA questions on the prior→current values given in the hook (e.g. "your guide moved from X to Y — what changed?").
+- Address the right exec: Naftali (numbers/guidance/fuel/capital), Jason (strategy/long-term), Michael (brand/destination).
+- This analyst does quantify; a bps/number ask is in-character where it fits.
+- Use canonical KPI vocabulary (Net Yield, NCC ex-fuel, APCD).
+- Produce only the single best-guess question.
+
+Output strictly this JSON object, no prose before or after:
+{
+  "analyst": "robin farley",
+  "predicted_questions": [
+    {
+      "question_text": "<the question, in this analyst's voice>",
+      "topic_label": "<short topic label>",
+      "hook_id": "<the hook this addresses>",
+      "probe_type": "<dominant trigger type used>"
+    }
+  ]
+}

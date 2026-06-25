@@ -1,0 +1,15 @@
+{
+  "analyst": "Mizuho - Senior Analyst",
+  "predicted_questions": [
+    {
+      "question_text": "Hey, good morning \u2014 quick one on the Beach Clubs: you called out Royal Beach Club Santorini as very strong and said Paradise Island / future Cozumel/Perfect Day Mexico and Costa Maya are accretive to yield. Part one: can you give us napkin economics for a Beach Club visit \u2014 guests-per-day capacity (guests/day), the realized pricing premium versus a comparable port visit, and the APCD or $/stateroom/night lift you\u2019re seeing at sites like Santorini and Paradise Island? Part two: is the uplift you\u2019re describing mostly higher spend per existing guest (pricing/attach) or truly incremental guests you wouldn\u2019t have captured otherwise?",
+      "topic_label": "private destinations / shore economics",
+      "rationale": "Directly pulls on recurring_concerns.core_topics[0] (private destinations/shore product economics) and asks for concrete unit metrics tied to management\u2019s comments about Royal Beach Club Santorini, Paradise Island and Cozumel timing in the presentation."
+    },
+    {
+      "question_text": "Quick follow-up on onboard and yields: you noted >50% of onboard revenue is booked pre-cruise, >70% penetration in pre-cruise engines with over five items per booking, and Net Yield was +2% while Q2 is guided to ~+0.2% (with ~200bps headwind). Part one: can you quantify how much of year-to-date Net Yield improvement is ticket pricing versus APCD/pre-cruise ancillary (percent split) and provide attach-rate or spend-per-night by cohort (repeat guests vs younger/millennial guests you said increased)? Part two: as capacity grows ~6.7% for the year and Legend enters the Caribbean at higher prices, should we model pre-cruise APCD as structurally higher than 2019 or will some of this normalize as occupancy and mix shift?",
+      "topic_label": "onboard/ancillary spend & yields",
+      "rationale": "Matches the analyst\u2019s reasoning_style (mixed quantitative + qualitative) and recurring_concerns.core_topics[1] and [2] by seeking a ticket vs ancillary split, cohort attach rates, and whether pre-cruise spend is structural \u2014 all tied to presentation details on pre-cruise penetration, >5 items/booking, younger guest mix, Net Yield moves and capacity guidance."
+    }
+  ]
+}

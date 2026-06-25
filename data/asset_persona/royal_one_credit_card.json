@@ -1,0 +1,75 @@
+{
+  "asset_id": "royal_one_credit_card",
+  "display_name": "Royal ONE co-branded credit card",
+  "category": "loyalty",
+  "linked_pillars": [
+    "Loyalty ecosystem",
+    "Points Choice",
+    "Status Match",
+    "Repeat guest monetization"
+  ],
+  "lifecycle_by_quarter": {
+    "2025-Q2": {
+      "status": "in_development",
+      "key_uncertainties": [
+        "timing of launch",
+        "structure of integration with loyalty program",
+        "size of gap versus land-based competitors' co-branded programs"
+      ],
+      "mgmt_statement_summary": "Confirmed existence of a co-branded credit card and signaled a meaningful announcement was imminent in close partnership with the card provider. Card was not yet tied into the loyalty program at this point.",
+      "status_changed_this_quarter": true,
+      "status_delta": {
+        "prior_status": null,
+        "current_status": "in_development",
+        "change_type": "newly_tracked",
+        "detail": "first quarter this asset appears in the lifecycle record"
+      }
+    },
+    "2026-Q1": {
+      "status": "launched",
+      "key_uncertainties": [
+        "pace of cardholder growth toward another doubling",
+        "net yield and onboard-spend implications",
+        "repeat-guest booking-window and spend lift attributable to the card",
+        "share of loyalty-tier upgrades driven by Status Match plus the card"
+      ],
+      "mgmt_statement_summary": "Launched Royal ONE co-branded credit card as part of an expanded loyalty ecosystem alongside Points Choice and Status Match. Positioned as the most powerful way for guests to earn and redeem points across brands. Cardholder accounts have more than doubled since 2019, with management citing an opportunity to double again as integration deepens.",
+      "status_changed_this_quarter": true,
+      "status_delta": {
+        "prior_status": "in_development",
+        "current_status": "launched",
+        "change_type": "status_transition",
+        "detail": "in_development -> launched"
+      }
+    }
+  },
+  "analyst_relevance": {
+    "asked_by_history": [
+      {
+        "analyst": "conor cunningham",
+        "call": "2025-Q2",
+        "framing": "Co-branded credit card and loyalty program as the key gap versus land-based competitors, including the fact that the card was not yet tied to the loyalty program"
+      },
+      {
+        "analyst": "xian siew",
+        "call": "2026-Q1",
+        "framing": "Implications of the new co-branded card and loyalty program changes for net yield growth, repeat-guest booking-window, and onboard spend"
+      }
+    ],
+    "primary_framings_observed": [
+      "Closing the loyalty and co-branded credit card gap versus land-based competitors",
+      "Integration of the card with the broader loyalty program and rewards ecosystem",
+      "Implications for net yield growth from higher repeat-guest penetration",
+      "Booking-window lengthening and onboard spend uplift from cardholders",
+      "Scaling of cardholder accounts and runway for further doubling"
+    ]
+  },
+  "currently_open_questions_as_of_2026Q1": [
+    "Quantified contribution of Royal ONE to 2026-2027 net yield growth",
+    "Cardholder account count today and trajectory toward management's implied second doubling",
+    "Differential booking-window, repeat rate, and onboard spend for Royal ONE cardholders versus non-cardholders",
+    "Economics of the co-brand agreement, including fee share and marketing support from the card provider",
+    "Interaction effects with Points Choice and Status Match on loyalty-tier migration",
+    "Penetration ceiling of the card across the Royal Caribbean, Celebrity, and Silversea guest bases"
+  ]
+}

@@ -1,0 +1,106 @@
+Condense the following v6 persona prose for analyst conor cunningham into the same fields, preserving all distinctive, voice-bearing detail but trimming redundancy. Keep field names identical. Output strict JSON.
+
+{
+  "coverage_profile": {
+    "firm": "Melius Research",
+    "seniority_signal": "Titles progress from 'Director' to 'Managing Director' in the record; management routinely answers him directly and he speaks multiple times per call, consistent with a senior analyst role. 2\u20133 sentence signal of seniority (Managing Director title, repeated follow-up turns).",
+    "sector_lens": "Focused squarely on cruise and broader travel/leisure topics (pricing, itineraries, private destinations, balance sheet and shareholder returns). He repeatedly frames questions in consumer-demand and capital-allocation terms rather than narrow shipbuilding engineering topics.",
+    "rhetorical_signature": [
+      "opens with \"Hi, everyone. Thank you\" in 10 of 22 turns (\u224845%).",
+      "frequent two-part / clarifying openers: \"Maybe just...\", \"Just on...\"; closes most turns with \"Thank you\" or \"Appreciate it.\"",
+      "tone: concise, collegial, often frames questions as requests for clarification (e.g., \"sorry to ask about the 2025 booking comment again\")"
+    ]
+  },
+  "reasoning_style": {
+    "primary_mode": "mixed",
+    "follow_up_pattern": "Typically asks single pointed questions but regularly uses multi-part or follow-up turns; \u22487 of 22 turns (~0.32) contain multi-part phrasing or explicit follow-ups. He frequently takes a second turn on the same call to drill or clarify.",
+    "evidence_demanded": "He asks for specific percentages, timing, and guide shape (e.g., \"% of the bookings are people that are new to cruise\" in 2023-Q1; \"is anything embedded in fourth quarter\" re: Star in 2025-Q2). He did not use the phrase 'basis points' himself in questions (bps_count = 0) but routinely asks for numeric detail \u2014 roughly 16 of 22 turns request quantitative detail (percent, timing, or guide shape).",
+    "anchoring_habits": "Anchors to management's recent remarks and prior guidance in the same call (e.g., \"sorry to ask about the 2025 booking comment again\" in 2024-Q2) and to historical benchmarks like pre-COVID/2019 levels (see 2023-Q1 and 2023-Q4). He also references management-provided survey or metric lines (e.g., '9 in 10' in 2025-Q1)."
+  },
+  "queue_behavior": {
+    "typical_position": "#3\u2013#9 of ~8\u201310 analysts; was as early as #3 on 1 of 9 calls (2025-Q2) and appeared as late as #9 on 3 of 9 calls (e.g., 2024-Q3, 2025-Q1).",
+    "default_first_pick": "When early to speak he tends to open on bookings/demand or capital allocation (examples: 2025-Q2 as #3 opened on loyalty; 2024-Q2 as #5 opened on shareholder returns; 2023-Q1 as #6 opened on customer deposits/new-to-cruise).",
+    "adaptation_when_favorites_taken": {
+      "reframe_deeper": {
+        "evidence": [
+          {
+            "call": "2024-Q2",
+            "quote": "\"how does your yield management strategy change next year\""
+          }
+        ]
+      },
+      "reactive_followup": {
+        "evidence": [
+          {
+            "call": "2025-Q2",
+            "quote": "\"Is there anything embedded in fourth quarter\""
+          }
+        ]
+      },
+      "white_space": {
+        "evidence": [
+          {
+            "call": "2024-Q4",
+            "quote": "\"Maybe it's just a higher-level question\""
+          }
+        ]
+      }
+    },
+    "white_space_topics": [
+      {
+        "topic": "river_cruise_demographics",
+        "supporting_calls": [
+          "2024-Q4"
+        ]
+      },
+      {
+        "topic": "loyalty_credit_card_integration",
+        "supporting_calls": [
+          "2025-Q2"
+        ]
+      },
+      {
+        "topic": "short_itineraries_and_close-in_dynamics",
+        "supporting_calls": [
+          "2025-Q3",
+          "2025-Q4"
+        ]
+      }
+    ]
+  },
+  "cross_analyst_reactivity": {
+    "explicit_peer_references": {
+      "count": 0,
+      "examples": "no evidence in history of explicit peer-citation phrases such as 'following up on X's question'."
+    },
+    "management_line_anchoring": {
+      "count": 5,
+      "examples": [
+        {
+          "call": "2024-Q2",
+          "quote": "\"sorry to ask about the 2025 booking comment again\""
+        },
+        {
+          "call": "2025-Q2",
+          "quote": "\"Is there anything embedded in fourth quarter\""
+        }
+      ]
+    },
+    "operator_or_followup_signal": "He frequently takes a second turn on the same call for clarification or a deeper drill \u2014 took a follow-up turn on 6 of 9 calls (examples: 2023-Q1, 2024-Q2, 2024-Q3, 2024-Q4, 2025-Q1, 2025-Q2). When he returns it's usually for clarification or to press numerics/timing rather than to introduce an entirely new topic."
+  },
+  "engages_assets": [
+    "royal_one_credit_card"
+  ],
+  "engages_themes": [
+    "booking_dynamics",
+    "capital_allocation_pattern",
+    "yield_decomposition"
+  ],
+  "framing_overrides_by_theme": {
+    "booking_dynamics": "Frames close-in skew (shorter itineraries) as a yield-optionality lever rather than a visibility loss.",
+    "capital_allocation_pattern": "Pushes on buyback pace: dividend back, why not lean harder; sequencing of additional returns.",
+    "yield_decomposition": "Frames yield growth as a function of closing the discount-to-land gap and close-in mix from shorter itineraries."
+  },
+  "blind_spots": "No evidence in the history provided of questions about fuel hedging policy (0 turns on fuel hedging across 9 calls). He also asked about digital/direct bookings only once (2023-Q4) despite peers occasionally drilling distribution; that topic is not a recurring focus for him.",
+  "stance_drift": "Early (2023-Q1/Q4) emphasis was on demand quality and closing the gap to land-based vacations; by 2024-Q2/2025-Q1 his focus shifted more to capital allocation and shareholder returns (see 2024-Q2 Q on dividends and 2025-Q1 follow-ups on buybacks). In 2025 (Q2\u2013Q4) he broadened into loyalty/credit-card integration and itinerary mix as operational levers."
+}

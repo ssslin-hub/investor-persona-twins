@@ -1,0 +1,19 @@
+{
+  "analyst": "sharon zackfia",
+  "scored": [
+    {
+      "actual_question": "Are you making any itinerary changes given higher fuel either currently or looking out to 2027, 2028? ... Is there anything you've pulled back on this year in terms of initiatives or spend that we should think of as deferring to 2027?",
+      "actual_topic": "costs/fuel/itinerary/initiative spend",
+      "best_predicted_index": null,
+      "match_level": "miss",
+      "reasoning": "Predicted questions focus on demand/pre-booking dynamics and private\u2011destination yield split; none address fuel costs, itinerary changes, or deferring initiatives/spend, so there is no match."
+    }
+  ],
+  "summary": {
+    "n_actual": 1,
+    "n_exact": 0,
+    "n_partial": 0,
+    "n_miss": 1,
+    "hit_rate_exact_or_partial": 0.0
+  }
+}

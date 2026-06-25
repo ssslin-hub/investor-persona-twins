@@ -1,0 +1,28 @@
+{
+  "theme_id": "cost_cadence_dry_dock",
+  "display_name": "Cost cadence / dry-dock / structural vs timing",
+  "description": "Analysts press on the intra-year cadence of NCC ex-fuel, separating one-time dry-dock and crew-travel passthroughs from structural run-rate, and ask how this shapes FY normalization into 2027.",
+  "recurring_framings_by_quarter": {
+    "2022-Q2": ["NCC pacing into 2023 and whether inflation offsets ramp-down of one-time costs"],
+    "2023-Q3": ["dry-dock as non-recurring carve-out inside the 300bp cost step for next year"],
+    "2024-Q4": ["whether 2025 NCC embeds new destination (Nassau/RBC) costs and how it compares to CocoCay"],
+    "2025-Q1": ["capacity-growth tweak tied to dry-dock scheduling vs delivery timing"],
+    "2025-Q3": ["'anemic' NCC growth: like-for-like vs inclusive of new destinations", "port fees, dry-dock, Haiti as cadence callouts"],
+    "2025-Q4": ["Q2 dry-dock concentration shaping yield/cost cadence", "second straight year of unusually low NCC -- structural or harvested?"],
+    "2026-Q1": ["capacity-growth threshold above which NCC ex-fuel reverts to 2-3% inflation", "itinerary changes and deferred initiatives that flatter 2026 cost"]
+  },
+  "analyst_affinity": {
+    "robin farley": "Asks for an explicit carve-out of dry-dock bps from the FY cost step and whether 'anemic' NCC is pre- or post-new-destination opening.",
+    "lizzie dove": "Probes intra-year cost cadence with Q2 dry-dock concentration as the pivot point.",
+    "vince ciepiel": "Lists port fees, dry-dock and Haiti as cadence items and asks whether they normalize in the out-year.",
+    "ben chaiken": "Tests whether new owned-destination opex (Nassau, RBC) is embedded in NCC and benchmarks vs CocoCay efficiency.",
+    "andrew didora": "Asks at what capacity-growth level NCC ex-fuel reverts to inflationary 2-3% range.",
+    "sharon zackfia": "Frames lower NCC as either efficiency harvest or deferral of initiatives into 2027-2028.",
+    "daniel politzer": "Asks for pacing of NCC in H2 and into next year with inflation overlay."
+  },
+  "default_framing_options": [
+    "structural vs timing carve-out within NCC ex-fuel growth",
+    "Q2 dry-dock concentration and its effect on intra-year cost cadence",
+    "FY run-rate normalization into 2027 once new-destination opex is fully loaded"
+  ]
+}

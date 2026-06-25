@@ -1,0 +1,92 @@
+{
+  "coverage_profile": {
+    "firm": "Stifel",
+    "seniority_signal": "Managing Director title (appears as Managing Director / Managing Director and Senior Equity Analyst across calls) and a large volume of repeat questions (49 turns across 2022\u20132025) signal senior, long\u2011standing coverage; management routinely greets him by name and answers directly, indicating he is a regular, influential participant. ",
+    "sector_lens": "Covers gaming & leisure / cruises within the broader consumer & travel sector, repeatedly framing questions around cruise-specific KPIs (yields, onboard spend, load factors) and company-level capital allocation. ",
+    "rhetorical_signature": [
+      "Often opens with a collegial compliment or congratulations before launching into detailed, multi-part questions (e.g., 2022\u2011Q3, 2023\u2011Q1, 2024\u2011Q3).",
+      "Frequently asks two\u2011part or multi\u2011part questions that mix high\u2011level strategy with model inputs (guidance, booked %, EBITDA bases), and ends with 'hope that makes sense' or similar clarifying phrasing (seen across 2023\u20132025).",
+      "Tone is probing but collegial; he presses for specific metrics and line\u2011item breakdowns rather than adversarial confrontation (examples: EBITDA base question 2022\u2011Q3; buyback inclusion 2024\u2011Q4)."
+    ]
+  },
+  "reasoning_style": {
+    "primary_mode": "mixed \u2014 he blends quantitative modeling requests (EBITDA bases, booked %, APCD, yield %s, leverage implications) with qualitative strategic questions (demand durability, product launches, destination/itinerary shifts).",
+    "follow_up_pattern": "Typically structures turns as multi\u2011part questions (two\u2011part or longer) and will ask an immediate follow\u2011up or clarification if permitted; he rarely escalates into hostile pushback but will press on conservatism in guidance (e.g., 2025\u2011Q1, 2024\u2011Q4).",
+    "evidence_demanded": "Consistently asks for numeric granularity (percent booked, 2019 EBITDA base, APCD/like\u2011for\u2011like yield comparisons, explicit inclusion/exclusion of buybacks), mechanism explanations (ticket vs onboard split), and concrete booking/guest behavior anecdotes to justify trends (examples: ticket/onboard split 2022\u2011Q3, booking window comments 2024\u2011Q1).",
+    "anchoring_habits": "Anchors questions to pre\u2011COVID (2019) baselines and the company's own targets (Trifecta/Profecta), regularly refers back to prior guidance and company math (e.g., 3.6B EBITDA base in 2019 \u2014 2022\u2011Q3), and occasionally references peer actions or market context when probing balance sheet strategy (competitor equity raise mention in 2022\u2011Q2)."
+  },
+  "recurring_concerns": {
+    "core_topics": [
+      {
+        "topic": "Booking visibility & yield trajectory",
+        "what_they_press_on": "Repeatedly asks where book percentages, forward booking momentum, and yield cadence sit versus historical norms and how that translates into near\u2011term and multi\u2011year EBITDA; presses on whether strong early bookings will persist into subsequent years. ",
+        "supporting_calls": [
+          "2022\u2011Q4",
+          "2023\u2011Q1",
+          "2023\u2011Q2",
+          "2024\u2011Q1",
+          "2024\u2011Q2",
+          "2025\u2011Q1",
+          "2025\u2011Q2",
+          "2025\u2011Q3",
+          "2025\u2011Q4"
+        ]
+      },
+      {
+        "topic": "Balance sheet, liquidity & return to investment grade",
+        "what_they_press_on": "Frequently probes refinancing options, 2023/2025 debt maturities, leverage targets and whether management has agency conversations or concrete leverage thresholds for investment\u2011grade return. ",
+        "supporting_calls": [
+          "2022\u2011Q1",
+          "2022\u2011Q2",
+          "2022\u2011Q3",
+          "2023\u2011Q4",
+          "2024\u2011Q4"
+        ]
+      },
+      {
+        "topic": "Ticket vs onboard yield mix and onboard spend durability",
+        "what_they_press_on": "Asks managers to break yields into ticket and onboard components, and whether elevated onboard spend is sustainable or vulnerable to close\u2011in pressure; presses management on how onboard trends affect guidance sensitivity. ",
+        "supporting_calls": [
+          "2022\u2011Q3",
+          "2023\u2011Q1",
+          "2023\u2011Q3",
+          "2024\u2011Q3",
+          "2025\u2011Q1",
+          "2025\u2011Q2"
+        ]
+      },
+      {
+        "topic": "Guidance conservatism and capital returns (buybacks/refis)",
+        "what_they_press_on": "Seeks to know what is or is not included in EPS/guidance (buybacks, debt refinancings) and questions whether guidance is conservatively set relative to current trading momentum. ",
+        "supporting_calls": [
+          "2024\u2011Q4",
+          "2025\u2011Q1",
+          "2025\u2011Q2"
+        ]
+      },
+      {
+        "topic": "Impact of new product / capacity deployment (Icon, Perfect Day, Ovation redeployments)",
+        "what_they_press_on": "Probes how new ships and private\u2011island assets are translating into incremental yields and booking dynamics, and asks about redeployments (e.g., China \u2192 US) as signals on regional demand. ",
+        "supporting_calls": [
+          "2023\u2011Q1",
+          "2024\u2011Q2",
+          "2024\u2011Q3",
+          "2025\u2011Q2"
+        ]
+      },
+      {
+        "topic": "Cost headwinds / transitory COVID costs / APCD",
+        "what_they_press_on": "Consistently asks about timing and magnitude of transitory costs dissipating (COVID related costs), APCD implications and fuel/FX impact on margins. ",
+        "supporting_calls": [
+          "2022\u2011Q2",
+          "2022\u2011Q4",
+          "2023\u2011Q3",
+          "2024\u2011Q1",
+          "2024\u2011Q2"
+        ]
+      }
+    ],
+    "blind_spots": "He rarely presses on ESG/regulatory specifics, labor/crew cost detail, detailed hedging programs (fuel/FX hedges) or granular competitor ship\u2011level pricing tactics (except high\u2011level peer mentions); the transcript record is thin on questions about operational execution details like port agreements beyond river berthing (one question in 2024\u2011Q4).",
+    "stance_drift": "Early in 2022 his focus was on recovery/liquidity and whether cash flow positivity was sustainable (2022\u2011Q1/ Q2); by 2023 he shifted toward validating management targets (Trifecta), booking momentum and yield mix as the recovery progressed (2023\u2011Q1 through 2023\u2011Q4); in 2024\u20132025 his emphasis moved further toward capital allocation, inclusion of buybacks in guidance, long\u2011range product impacts (Profecta/2028 runway) and sensitivity of guidance to close\u2011in onboard/ticket dynamics. Evidence is drawn from the progression of his questions across 2022\u20132025 calls."
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "theme_id": "yield_decomposition",
+  "display_name": "Yield decomposition / bps walk",
+  "description": "Analysts dissect reported and guided net yield growth into ticket vs onboard, like-for-like vs new hardware/private destinations, and regional drivers, often quantified in basis points against the FY midpoint.",
+  "recurring_framings_by_quarter": {
+    "2022-Q3": ["ticket vs onboard split going forward", "puts and takes vs 2019 baseline (Pullmantur, Azamara, CocoCay, China exit)"],
+    "2022-Q4": ["occupancy vs revenue per diem split", "apples-to-apples vs 2019 reported"],
+    "2023-Q1": ["onboard staying healthy vs decelerating in back half", "bps quantification of transition cost and expense timing"],
+    "2023-Q2": ["stacking 2024 yield tailwinds (Icon, CocoCay expansion, China)", "ticket vs onboard mix on leading-edge price"],
+    "2023-Q3": ["yield-cost spread in bps (200-400 normal vs ~900 actual)", "dry-dock carve-out within 300bp cost step"],
+    "2023-Q4": ["yield cadence tied to Caribbean seasonality", "discount-to-land closure as multi-year yield driver"],
+    "2024-Q1": ["capacity x yield x cost algorithm to $20 EPS"],
+    "2024-Q2": ["Q4 implied 5% as deceleration vs tough load-factor comp", "like-for-like inside 2025 setup (Utopia/Star/Xcel/RBC)"],
+    "2024-Q3": ["like-for-like vs cumulative US inflation since 2019", "PDMx yield uplift parallel to CocoCay for Western Caribbean"],
+    "2024-Q4": ["3.5% midpoint bridge from high-single per diems with 40bp tough comp", "river cruise yield premium vs existing fleet"],
+    "2025-Q1": ["new-ship 140bp 2H headwind (ramp/test-cruise effect)", "new-ship premium vs like-for-like contribution"],
+    "2025-Q2": ["why top end of yield range came down vs Q1 optimism", "like-for-like Q3 ~4% off +8% comp"],
+    "2025-Q3": ["cleansed Q4 exit-rate yield (add back 90bp comp + storms)", "ticket vs onboard composition as Royal Beach Clubs ramp"],
+    "2025-Q4": ["2.5% midpoint vs 'moderate yield growth' tagline", "intra-year yield cadence given Q2 dry-dock"],
+    "2026-Q1": ["Europe 200bp Q2/Q3 drag and reversion in 2027", "Perfect Day Mexico structural lift for Galveston/Western Caribbean"]
+  },
+  "analyst_affinity": {
+    "steven wieczynski": "Breaks yields into ticket vs onboard and probes whether 'moderate yield growth' tagline still fits; pushes on yield-cost spread in bps and PDMx uplift for 2027.",
+    "robin farley": "Quantifies bps walks (occupancy vs price, dry-dock vs structural, European reversion); compares initial guide to pre-pandemic 3-4% baseline.",
+    "brandt montour": "Bridges midpoint guide to per-diem run-rate; isolates like-for-like inside guide and seasonality of Caribbean-weighted quarters.",
+    "vince ciepiel": "Decomposes growth into like-for-like vs new hardware vs CocoCay/private destination lift; tracks new-hardware contribution by region.",
+    "lizzie dove": "Asks whether moderate yield growth bakes in new-ship and private-island premiums or is like-for-like only; probes cadence ramp.",
+    "conor cunningham": "Frames yield growth as a function of closing the discount-to-land gap and close-in mix from shorter itineraries.",
+    "matthew boss": "Asks for durable multi-year yield drivers in bps relative to pre-pandemic margin baseline.",
+    "benjamin chaiken": "Clarifies whether implied yield ramp is occupancy or revenue-per-day and tests bps headwinds from new-ship ramp.",
+    "patrick scholes": "Verifies apples-to-apples versus 2019 reported baseline before accepting bps figures.",
+    "sharon zackfia": "Asks whether owned destinations shift the ticket vs onboard composition of yield."
+  },
+  "default_framing_options": [
+    "ticket vs onboard split within the implied yield walk",
+    "bps decomposition by region (Med vs Western Caribbean vs Caribbean)",
+    "guidance bridge to FY midpoint with dry-dock timing vs structural carve-out"
+  ]
+}

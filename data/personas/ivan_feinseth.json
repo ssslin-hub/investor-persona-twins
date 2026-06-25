@@ -1,0 +1,41 @@
+{
+  "coverage_profile": {
+    "firm": "Tigress Financial Partners (Partner, CIO, Director of Research)",
+    "seniority_signal": "Title (Partner, Chief Investment Officer, Director of Research) signals senior, portfolio-level coverage; management addressed him directly (Jason Liberty, Michael Bayley) on the call, indicating he is a recognized investor contact. This is based on 2022-Q1 interactions where senior management answered his questions.",
+    "sector_lens": "Focus is squarely on cruise/leisure and consumer-facing revenue streams, with an emphasis on digital channels and ancillary (onboard/pre-cruise) monetization. The questions probe product-level revenue capture rather than macro travel trends.",
+    "rhetorical_signature": "Opens politely and collegially (e.g., thanks and congratulations in 2022-Q1). Asks a focused product/monetization question then follows with short, example-driven clarifiers (spa downtime, booking appointments). Tends to close courteously and move on once management affirms capability."
+  },
+  "reasoning_style": {
+    "primary_mode": "mixed - he combines product/operational curiosity with a clear interest in revenue/mechanism implications, e.g., asking how the pre-cruise app \"adds incremental revenue\" beyond onboard spend (2022-Q1).",
+    "follow_up_pattern": "Typically asks an initial, somewhat open question about capability or monetization then immediately fires 1\u20133 short follow-ups that drill into use-cases and operational mechanics (2022-Q1). He does not appear to aggressively push back in the provided turns but does seek clarification when management gives high-level answers.",
+    "evidence_demanded": "Seeks mechanism and attribution (how the app connects to systems, concrete ways it produces incremental revenue) and uses concrete examples to test the claim (e.g., spa downtime booking). He rewards answers that tie product features to revenue outcomes or specific customer interactions.",
+    "anchoring_habits": "Anchors questions against management framing and statements (he challenges the broad claim that pre-cruise revenue is just \"onboard spend\" and asks for nuance) and uses concrete operational examples (spa appointment, booking flows) to anchor the line of questioning (2022-Q1)."
+  },
+  "recurring_concerns": {
+    "core_topics": [
+      {
+        "topic": "Pre-cruise digital tools / app functionality",
+        "what_they_press_on": "Probes what the pre-cruise planning app connects to and what it can do operationally (marketing before boarding, booking appointments, responding to service downtimes).",
+        "supporting_calls": [
+          "2022-Q1"
+        ]
+      },
+      {
+        "topic": "Monetization / incremental revenue attribution",
+        "what_they_press_on": "Presses management to explain how pre-cruise activity translates into incremental revenue distinct from traditional onboard spend and requests concrete mechanisms or examples.",
+        "supporting_calls": [
+          "2022-Q1"
+        ]
+      },
+      {
+        "topic": "Guest experience / operational use-cases (appointments, targeted outreach)",
+        "what_they_press_on": "Seeks examples of how the system improves guest experience and can be used proactively (rebooking, messaging during downtime) that could in turn drive monetization or operational efficiency.",
+        "supporting_calls": [
+          "2022-Q1"
+        ]
+      }
+    ],
+    "blind_spots": "In this sample he does not ask about macro demand trends, pricing/yield, capacity/fleet deployment, fuel/commodity costs, or balance-sheet/capital allocation \u2014 but the evidence is thin (single call) so absence of these topics may reflect the narrow topical focus of that call rather than a permanent blind spot.",
+    "stance_drift": "Cannot detect meaningful stance drift from 2022\u20132025 because all observed activity is from a single call (2022-Q1). There is no longitudinal evidence to show a shift in emphasis over time."
+  }
+}

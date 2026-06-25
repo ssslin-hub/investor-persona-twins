@@ -1,0 +1,273 @@
+You are building a STRUCTURED PERSONA of a sell-side equity research analyst
+who covers Royal Caribbean Cruises (RCL). The persona will later be used to
+predict what this same analyst is likely to ask in a FUTURE RCL earnings call,
+given (a) that call's management presentation and (b) which other analysts have
+already spoken on that call.
+
+You will be given the analyst's name, their firm/title (if known), and a
+chronological list of their prior question turns. For each turn you receive:
+  - The CALL it was asked on (year + quarter)
+  - POSITION metadata: this analyst was the Nth analyst to speak on that call,
+    out of M total unique analysts. The names of the analysts who spoke BEFORE
+    them on the same call are listed explicitly.
+  - A short SETUP excerpt of the management presentation.
+  - The verbatim [Q&A SO FAR] excerpt — what the prior analysts asked BEFORE
+    this analyst took their turn. This is critical: use it to judge whether
+    this analyst is reframing a topic that was already raised, picking
+    untouched white space, or reacting to something a peer just asked.
+  - The analyst's QUESTION (verbatim).
+  - The management's RESPONSE excerpt (verbatim, may be empty).
+
+Produce a single JSON object with FIVE top-level keys:
+
+{
+  "coverage_profile":          { ... },   // analog of "Background"
+  "reasoning_style":           { ... },   // analog of "Decision procedure"
+  "recurring_concerns":        { ... },   // analog of "Evaluation"
+  "queue_behavior":            { ... },   // NEW — adaptation under queue order
+  "cross_analyst_reactivity":  { ... }    // NEW — explicit references to peers / management
+}
+
+Fill each sub-profile as follows. Use evidence from the turns; cite specific
+calls (e.g. "2023-Q2") and quote short verbatim phrases (≤ 12 words) where
+helpful. Do not invent facts not supported by the turns.
+
+# coverage_profile
+Who this analyst is and what lens they bring. Required fields:
+  - "firm": most recent firm/affiliation observed.
+  - "seniority_signal": evidence about their seniority (titles, length of
+    coverage, how management addresses them). 2-3 sentences.
+  - "sector_lens": what beats they cover (cruise / leisure / travel /
+    consumer / gaming / lodging / airlines). 1-2 sentences.
+  - "rhetorical_signature": tics, openers, closers, tone. 2-3 short bullets.
+    If a fixed opener phrase recurs in ≥ 30% of calls, quote it verbatim and
+    give the frequency (e.g. "opens with 'Great. Thanks' in 13 of 17 calls").
+
+# reasoning_style
+HOW the analyst probes management. Required fields:
+  - "primary_mode": one of {"quantitative_modeling", "qualitative_strategic",
+    "mixed"}, plus one sentence of justification grounded in the turns.
+  - "follow_up_pattern": within-turn structure (single question, two-parter,
+    multi-part), and whether they push back. 2-3 sentences. Quantify with
+    rough fraction (e.g. "≈ 18% of turns contain ≥ 2 question marks").
+  - "evidence_demanded": what answers they reward — specific numbers (bps, %,
+    $), explicit guidance, mechanism, peer comparison. 2-3 sentences. If you
+    claim they "demand bps", state the actual count of turns using bps.
+  - "anchoring_habits": where they anchor — prior guidance, 2019 baseline,
+    specific management line just delivered, peers (NCLH/CCL), industry
+    supply, their own prior questions. 2-3 sentences. If they anchor against
+    peers, cite the calls.
+
+# recurring_concerns
+WHAT the analyst keeps coming back to. Required fields:
+  - "core_topics": ranked list of 5-8 topical clusters, RANKED BY n_turns
+    DESCENDING (not by perceived importance). For each topic, give:
+      {
+        "topic": "short label (snake_case or short phrase)",
+        "n_turns": <integer, count of question turns touching this topic>,
+        "n_calls": <integer, count of distinct calls where it was raised>,
+        "share_of_calls": <float, n_calls divided by total calls covered, rounded to 2 decimals>,
+        "what_they_press_on": "1-2 sentences",
+        "supporting_calls": ["2022-Q4", "2023-Q3", ...]
+      }
+    A topic must have n_turns ≥ 2 to be listed. If fewer than 5 topics meet
+    that threshold, list as many as do and say so explicitly in "blind_spots".
+  - "blind_spots": topics this analyst notably does NOT push on, given peers
+    do. Be concrete (e.g. "0 turns on fuel hedging despite peers asking in
+    every Q3 call"). 2-3 sentences.
+  - "stance_drift": how emphasis has shifted across the window. Cite at least
+    two specific quarter-pairs (e.g. "in 2022-Q1/Q2 he asked about testing
+    requirements; by 2024 these dropped to zero turns"). 2-3 sentences.
+
+# queue_behavior   (NEW)
+How this analyst behaves depending on WHERE in the call they speak. Required:
+  - "typical_position": rough range observed (e.g. "#3–#5 of ≈8 analysts; was
+    #1 on 2 of 16 calls, #13+ on 6 of 16").
+  - "default_first_pick": when they are first/early to speak (no topics taken
+    yet), what topic do they typically open with? Cite the calls where they
+    were first.
+  - "adaptation_when_favorites_taken": when their top-3 core_topics have
+    already been raised by prior analysts, what do they do? Choose ONE OR MORE
+    of the following tags AND quote evidence per tag:
+      * "reframe_deeper"           — re-ask the same topic at a deeper modeling
+                                     angle (e.g. asking for like-for-like
+                                     decomposition after headline yield was
+                                     covered).
+      * "white_space"              — pivot to a topic few or no peers cover
+                                     (e.g. loyalty program data, agent feedback,
+                                     specific destination ramp).
+      * "cross_narrative_reconcile"— ask management to reconcile two threads
+                                     that emerged earlier in the Q&A.
+      * "peer_or_industry_meta"    — ask about peer/industry behavior rather
+                                     than the company directly.
+      * "reactive_followup"        — piggyback on a specific phrase a prior
+                                     analyst or management used.
+      * "stay_on_topic_anyway"     — re-ask the popular topic regardless.
+    For each tag chosen, cite ≥ 1 call and quote ≤ 12 verbatim words.
+  - "white_space_topics": list of topic labels this analyst raises that few
+    peers do (with supporting_calls). Empty list if none.
+
+# cross_analyst_reactivity   (NEW)
+How this analyst integrates in-call context that is not in the management
+presentation. Required:
+  - "explicit_peer_references": how often (count of turns and example phrases)
+    they explicitly cite another analyst's question. Examples to look for:
+    "following up on Steven's question", "to Robin's earlier point",
+    "one of your larger peers". Quote ≤ 12 words per example.
+  - "management_line_anchoring": how often they anchor on a SPECIFIC number
+    or phrase management just delivered in this call ("the 90 basis points
+    you laid out", "the 5% implied yield guidance"). Count + 1-2 examples.
+  - "operator_or_followup_signal": whether they tend to take their second turn
+    (when allowed) and what for — clarification, deeper drill, or new topic.
+
+Hard rules:
+- Output ONLY the JSON object. No prose before or after.
+- All free-text fields are 1-3 sentences each.
+- Cite specific call quarters whenever you make a claim about recurrence.
+- Quantify with integer counts (n_turns, n_calls) wherever the schema asks.
+  Do NOT use vague intensifiers ("often", "frequently") without an integer
+  count or fraction next to them.
+- If evidence for a field is thin or absent, write the field with an explicit
+  note such as "no evidence in history" or "n_turns < 2; insufficient to
+  characterise". Do not paper over thin evidence with generic language.
+- Ranking of core_topics is by n_turns descending. If two topics tie, break
+  by n_calls descending, then alphabetical.
+- All quoted verbatim phrases must be ≤ 12 words and appear in the question
+  history you were given.
+
+ANALYST NAME: patrick scholes
+LAST OBSERVED FIRM/TITLE: Managing Director and Senior Analyst, Truist Securities
+NUMBER OF QUESTIONS IN HISTORY: 5
+CALLS COVERED: 2022-Q4
+
+QUESTION HISTORY (chronological):
+--- TURN 1 | CALL: 2022-Q4 | TICKER: RCL | SECTOR: cruise | FIRM: Managing Director and Senior Analyst, Truist Securities ---
+            [Queue position] This analyst was #8 to speak on this call.
+            [Analysts who spoke before them on this call]
+            Steven Wieczynski, Robin Farley, Vince Ciepiel, Brandt Montour, Benjamin Chaiken, James Hardiman, Daniel Politzer
+
+            [Setup: management presentation excerpt]
+            Operator: Good morning. My name is Regina. I will be your conference operator today. At this time, I would like to welcome everyone to Royal Caribbean Group's fourth quarter full year 2022 and business update earnings call. All participants are in a listen-only mode. After the speaker presentation, there will be a question and answer session. To ask a question during this session, you will need to press star one on your telephone. I would now like to introduce Michael McCarthy, Vice President of Investor Relations. Mr. McCarthy, the floor is yours.
+Michael McCarthy (VP of Investor Relations, Royal Caribbean Group): Good morning, everyone, and thank you for joining us today for our fourth quarter and full year 2022 business update conference call. Joining me here in Miami are Jason Liberty, our Chief Executive Officer, Naftali Holtz, our Chief Financial Officer, and Michael Bayley, President and CEO of Royal Caribbean International. Before we get started, I'd like to note that we will be making forward-looking statements during this call. These statements are based on management's current expectations and are subject to risks and uncertainties. A number of factors could cause act...
+
+            [Q&A SO FAR — what prior analysts asked, truncated]
+            ...(truncated)...h, strong cost control. Obviously you have some moving pieces here in the first quarter and throughout the year. This is kind of where we're marching towards. Our expectation is to get back to that formula.
+Daniel Politzer (Director and Senior Equity Research Analyst, Wells Fargo): Got it. I guess for my follow-up on TUI, can you just talk a little bit more about the ramp there? I know that there's a big European piece, and it sounds like things are moving along. How should we think about that contribution, you know, ramping over the course of 2023, given that it was a big piece of that adjusted EBITDA in 2019?
+Naftali Holtz (CFO, Royal Caribbean Group): Yeah. That continues. You know, we're very happy with TUI, and their performance has been a very successful cruise brand. Their recovery is well underway. They've been positive operating cash flow and EBITDA for several quarters now. They're very strong occupancy levels and pricing. We expect this to continue to recover towards 2019 levels and beyond.
+Jason Liberty (CEO, Royal Caribbean Group): Yeah. The only thing I would add is, you know, for TUI, you know, for TUI Cruises and Holland America Line, just similar to all of us, you know, they still have some negative carry to burn off, as well. I think, you know, they're a few, you know, years from being at a place where they're contributing at the same level to us as they were in 2019. But that's, you know, I think it's a very short duration as they have been really effectively managing the business. They really have been outpacing, I think, just a broader cruise world and getting their business back up and running, and profitable and generating positive cash flow. Like all of us, they, you know, they have some negative carry they're gonna have to burn off.
+Daniel Politzer (Director and Senior Equity Research Analyst, Wells Fargo): Got it. Thanks so much.
+Operator: Your next question will come from the line of Patrick Scholes with Truist Securities. Please go ahead.
+
+            [Operator intro to analyst, if any]
+            Your next question will come from the line of Patrick Scholes with Truist Securities. Please go ahead.
+
+            [Analyst question]
+            Hi. Good morning, everyone.
+
+            [Management response excerpt]
+            Naftali Holtz: Morning.
+
+--- TURN 2 | CALL: 2022-Q4 | TICKER: RCL | SECTOR: cruise | FIRM: Managing Director and Senior Analyst, Truist Securities ---
+            [Queue position] This analyst was #9 to speak on this call.
+            [Analysts who spoke before them on this call]
+            Steven Wieczynski, Robin Farley, Vince Ciepiel, Brandt Montour, Benjamin Chaiken, James Hardiman, Daniel Politzer, Patrick Scholes
+
+            [Setup: management presentation excerpt]
+            Operator: Good morning. My name is Regina. I will be your conference operator today. At this time, I would like to welcome everyone to Royal Caribbean Group's fourth quarter full year 2022 and business update earnings call. All participants are in a listen-only mode. After the speaker presentation, there will be a question and answer session. To ask a question during this session, you will need to press star one on your telephone. I would now like to introduce Michael McCarthy, Vice President of Investor Relations. Mr. McCarthy, the floor is yours.
+Michael McCarthy (VP of Investor Relations, Royal Caribbean Group): Good morning, everyone, and thank you for joining us today for our fourth quarter and full year 2022 business update conference call. Joining me here in Miami are Jason Liberty, our Chief Executive Officer, Naftali Holtz, our Chief Financial Officer, and Michael Bayley, President and CEO of Royal Caribbean International. Before we get started, I'd like to note that we will be making forward-looking statements during this call. These statements are based on management's current expectations and are subject to risks and uncertainties. A number of factors could cause act...
+
+            [Q&A SO FAR — what prior analysts asked, truncated]
+            ...(truncated)...s. Our expectation is to get back to that formula.
+Daniel Politzer (Director and Senior Equity Research Analyst, Wells Fargo): Got it. I guess for my follow-up on TUI, can you just talk a little bit more about the ramp there? I know that there's a big European piece, and it sounds like things are moving along. How should we think about that contribution, you know, ramping over the course of 2023, given that it was a big piece of that adjusted EBITDA in 2019?
+Naftali Holtz (CFO, Royal Caribbean Group): Yeah. That continues. You know, we're very happy with TUI, and their performance has been a very successful cruise brand. Their recovery is well underway. They've been positive operating cash flow and EBITDA for several quarters now. They're very strong occupancy levels and pricing. We expect this to continue to recover towards 2019 levels and beyond.
+Jason Liberty (CEO, Royal Caribbean Group): Yeah. The only thing I would add is, you know, for TUI, you know, for TUI Cruises and Holland America Line, just similar to all of us, you know, they still have some negative carry to burn off, as well. I think, you know, they're a few, you know, years from being at a place where they're contributing at the same level to us as they were in 2019. But that's, you know, I think it's a very short duration as they have been really effectively managing the business. They really have been outpacing, I think, just a broader cruise world and getting their business back up and running, and profitable and generating positive cash flow. Like all of us, they, you know, they have some negative carry they're gonna have to burn off.
+Daniel Politzer (Director and Senior Equity Research Analyst, Wells Fargo): Got it. Thanks so much.
+Operator: Your next question will come from the line of Patrick Scholes with Truist Securities. Please go ahead.
+Patrick Scholes (Managing Director and Senior Analyst, Truist Securities): Hi. Good morning, everyone.
+Naftali Holtz (CFO, Royal Caribbean Group): Morning.
+
+            [Operator intro to analyst, if any]
+            Your next question will come from the line of Patrick Scholes with Truist Securities. Please go ahead.
+
+            [Analyst question]
+            Just, first. Good morning. First, this actually is just a model and clarification question. On your percentage guidances, to grow off of versus 2019 for the net yields and the various cruise costs, are those apples-to-apples based numbers? Basically, you know, the reported numbers that you had back in 2019, are those the numbers we should be going off of, or is there any adjustments in there that might make those percentages different than? Okay. All apples to apples?
+
+            [Management response excerpt]
+            Naftali Holtz: No. No adjustments. Those are apples to apples. Obviously we gave you the color of all the moving pieces.
+
+--- TURN 3 | CALL: 2022-Q4 | TICKER: RCL | SECTOR: cruise | FIRM: Managing Director and Senior Analyst, Truist Securities ---
+            [Queue position] This analyst was #9 to speak on this call.
+            [Analysts who spoke before them on this call]
+            Steven Wieczynski, Robin Farley, Vince Ciepiel, Brandt Montour, Benjamin Chaiken, James Hardiman, Daniel Politzer, Patrick Scholes
+
+            [Setup: management presentation excerpt]
+            Operator: Good morning. My name is Regina. I will be your conference operator today. At this time, I would like to welcome everyone to Royal Caribbean Group's fourth quarter full year 2022 and business update earnings call. All participants are in a listen-only mode. After the speaker presentation, there will be a question and answer session. To ask a question during this session, you will need to press star one on your telephone. I would now like to introduce Michael McCarthy, Vice President of Investor Relations. Mr. McCarthy, the floor is yours.
+Michael McCarthy (VP of Investor Relations, Royal Caribbean Group): Good morning, everyone, and thank you for joining us today for our fourth quarter and full year 2022 business update conference call. Joining me here in Miami are Jason Liberty, our Chief Executive Officer, Naftali Holtz, our Chief Financial Officer, and Michael Bayley, President and CEO of Royal Caribbean International. Before we get started, I'd like to note that we will be making forward-looking statements during this call. These statements are based on management's current expectations and are subject to risks and uncertainties. A number of factors could cause act...
+
+            [Q&A SO FAR — what prior analysts asked, truncated]
+            ...(truncated)... flow and EBITDA for several quarters now. They're very strong occupancy levels and pricing. We expect this to continue to recover towards 2019 levels and beyond.
+Jason Liberty (CEO, Royal Caribbean Group): Yeah. The only thing I would add is, you know, for TUI, you know, for TUI Cruises and Holland America Line, just similar to all of us, you know, they still have some negative carry to burn off, as well. I think, you know, they're a few, you know, years from being at a place where they're contributing at the same level to us as they were in 2019. But that's, you know, I think it's a very short duration as they have been really effectively managing the business. They really have been outpacing, I think, just a broader cruise world and getting their business back up and running, and profitable and generating positive cash flow. Like all of us, they, you know, they have some negative carry they're gonna have to burn off.
+Daniel Politzer (Director and Senior Equity Research Analyst, Wells Fargo): Got it. Thanks so much.
+Operator: Your next question will come from the line of Patrick Scholes with Truist Securities. Please go ahead.
+Patrick Scholes (Managing Director and Senior Analyst, Truist Securities): Hi. Good morning, everyone.
+Naftali Holtz (CFO, Royal Caribbean Group): Morning.
+Patrick Scholes (Managing Director and Senior Analyst, Truist Securities): Just, first. Good morning. First, this actually is just a model and clarification question. On your percentage guidances, to grow off of versus 2019 for the net yields and the various cruise costs, are those apples-to-apples based numbers? Basically, you know, the reported numbers that you had back in 2019, are those the numbers we should be going off of, or is there any adjustments in there that might make those percentages different than? Okay. All apples to apples?
+Naftali Holtz (CFO, Royal Caribbean Group): No. No adjustments. Those are apples to apples. Obviously we gave you the color of all the moving pieces.
+
+            [Operator intro to analyst, if any]
+
+
+            [Analyst question]
+            Okay. Thank you. A different question here. With the increase in direct business, you know, do you see that disproportionately going to any types of destinations such as Caribbean or perhaps higher end Alaska or Mediterranean? You know, any differentiation between those?
+
+            [Management response excerpt]
+            Jason Liberty: Well, you know, you know, clearly, on direct business, you know, the shorter the product, the higher the percentage, and that's just more because the consumer is comfortable and understands the complexity of the lack of complexity on the short product. The further typically the consumer goes or the higher end that it goes, you know, typically requires, you know, they're more comfortable going to our travel partners. We have really tried hard to be just kind of a channel of choi...
+
+--- TURN 4 | CALL: 2022-Q4 | TICKER: RCL | SECTOR: cruise | FIRM: Managing Director and Senior Analyst, Truist Securities ---
+            [Queue position] This analyst was #9 to speak on this call.
+            [Analysts who spoke before them on this call]
+            Steven Wieczynski, Robin Farley, Vince Ciepiel, Brandt Montour, Benjamin Chaiken, James Hardiman, Daniel Politzer, Patrick Scholes
+
+            [Setup: management presentation excerpt]
+            Operator: Good morning. My name is Regina. I will be your conference operator today. At this time, I would like to welcome everyone to Royal Caribbean Group's fourth quarter full year 2022 and business update earnings call. All participants are in a listen-only mode. After the speaker presentation, there will be a question and answer session. To ask a question during this session, you will need to press star one on your telephone. I would now like to introduce Michael McCarthy, Vice President of Investor Relations. Mr. McCarthy, the floor is yours.
+Michael McCarthy (VP of Investor Relations, Royal Caribbean Group): Good morning, everyone, and thank you for joining us today for our fourth quarter and full year 2022 business update conference call. Joining me here in Miami are Jason Liberty, our Chief Executive Officer, Naftali Holtz, our Chief Financial Officer, and Michael Bayley, President and CEO of Royal Caribbean International. Before we get started, I'd like to note that we will be making forward-looking statements during this call. These statements are based on management's current expectations and are subject to risks and uncertainties. A number of factors could cause act...
+
+            [Q&A SO FAR — what prior analysts asked, truncated]
+            ...(truncated)...ck Scholes (Managing Director and Senior Analyst, Truist Securities): Just, first. Good morning. First, this actually is just a model and clarification question. On your percentage guidances, to grow off of versus 2019 for the net yields and the various cruise costs, are those apples-to-apples based numbers? Basically, you know, the reported numbers that you had back in 2019, are those the numbers we should be going off of, or is there any adjustments in there that might make those percentages different than? Okay. All apples to apples?
+Naftali Holtz (CFO, Royal Caribbean Group): No. No adjustments. Those are apples to apples. Obviously we gave you the color of all the moving pieces.
+Patrick Scholes (Managing Director and Senior Analyst, Truist Securities): Okay. Thank you. A different question here. With the increase in direct business, you know, do you see that disproportionately going to any types of destinations such as Caribbean or perhaps higher end Alaska or Mediterranean? You know, any differentiation between those?
+Jason Liberty (CEO, Royal Caribbean Group): Well, you know, you know, clearly, on direct business, you know, the shorter the product, the higher the percentage, and that's just more because the consumer is comfortable and understands the complexity of the lack of complexity on the short product. The further typically the consumer goes or the higher end that it goes, you know, typically requires, you know, they're more comfortable going to our travel partners. We have really tried hard to be just kind of a channel of choice. Of course, the consumer has become a little bit more, you know, digitally minded through COVID because they were buying a lot of stuff online, as we all know. As they now shift to experiences, they're comfortable in different channels. Some of those digital platforms are through us, and some of those digital platforms are through our travel partners. That's typically how you would see it, is the shorter and closer, the higher.
+
+            [Operator intro to analyst, if any]
+
+
+            [Analyst question]
+            No, I mean, yeah, no, that I understand. As far as any changes since pre-COVID, you know, have you seen a greater acceleration in sort of direct booking to higher end or perhaps a greater acceleration to.
+
+            [Management response excerpt]
+            Jason Liberty: It's really across the board. The consumer at all different levels have gotten more comfortable using digital commerce to make their purchases. That is whether you want to look at Royal Caribbean International or Celebrity Cruises or Silversea Cruises or TUI Cruises or Hapag-Lloyd Cruises, that's, you know, that's what we have been consistently seeing.
+
+--- TURN 5 | CALL: 2022-Q4 | TICKER: RCL | SECTOR: cruise | FIRM: Managing Director and Senior Analyst, Truist Securities ---
+            [Queue position] This analyst was #9 to speak on this call.
+            [Analysts who spoke before them on this call]
+            Steven Wieczynski, Robin Farley, Vince Ciepiel, Brandt Montour, Benjamin Chaiken, James Hardiman, Daniel Politzer, Patrick Scholes
+
+            [Setup: management presentation excerpt]
+            Operator: Good morning. My name is Regina. I will be your conference operator today. At this time, I would like to welcome everyone to Royal Caribbean Group's fourth quarter full year 2022 and business update earnings call. All participants are in a listen-only mode. After the speaker presentation, there will be a question and answer session. To ask a question during this session, you will need to press star one on your telephone. I would now like to introduce Michael McCarthy, Vice President of Investor Relations. Mr. McCarthy, the floor is yours.
+Michael McCarthy (VP of Investor Relations, Royal Caribbean Group): Good morning, everyone, and thank you for joining us today for our fourth quarter and full year 2022 business update conference call. Joining me here in Miami are Jason Liberty, our Chief Executive Officer, Naftali Holtz, our Chief Financial Officer, and Michael Bayley, President and CEO of Royal Caribbean International. Before we get started, I'd like to note that we will be making forward-looking statements during this call. These statements are based on management's current expectations and are subject to risks and uncertainties. A number of factors could cause act...
+
+            [Q&A SO FAR — what prior analysts asked, truncated]
+            ...(truncated)...oving pieces.
+Patrick Scholes (Managing Director and Senior Analyst, Truist Securities): Okay. Thank you. A different question here. With the increase in direct business, you know, do you see that disproportionately going to any types of destinations such as Caribbean or perhaps higher end Alaska or Mediterranean? You know, any differentiation between those?
+Jason Liberty (CEO, Royal Caribbean Group): Well, you know, you know, clearly, on direct business, you know, the shorter the product, the higher the percentage, and that's just more because the consumer is comfortable and understands the complexity of the lack of complexity on the short product. The further typically the consumer goes or the higher end that it goes, you know, typically requires, you know, they're more comfortable going to our travel partners. We have really tried hard to be just kind of a channel of choice. Of course, the consumer has become a little bit more, you know, digitally minded through COVID because they were buying a lot of stuff online, as we all know. As they now shift to experiences, they're comfortable in different channels. Some of those digital platforms are through us, and some of those digital platforms are through our travel partners. That's typically how you would see it, is the shorter and closer, the higher.
+Patrick Scholes (Managing Director and Senior Analyst, Truist Securities): No, I mean, yeah, no, that I understand. As far as any changes since pre-COVID, you know, have you seen a greater acceleration in sort of direct booking to higher end or perhaps a greater acceleration to.
+Jason Liberty (CEO, Royal Caribbean Group): It's really across the board. The consumer at all different levels have gotten more comfortable using digital commerce to make their purchases. That is whether you want to look at Royal Caribbean International or Celebrity Cruises or Silversea Cruises or TUI Cruises or Hapag-Lloyd Cruises, that's, you know, that's what we have been consistently seeing.
+
+            [Operator intro to analyst, if any]
+
+
+            [Analyst question]
+            Okay. Thank you for the color. I'm all set.
+
+            [Management response excerpt]
+            Jason Liberty: Okay. Operator, we have time for one more question.

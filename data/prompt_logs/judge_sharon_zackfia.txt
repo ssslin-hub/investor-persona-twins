@@ -1,0 +1,54 @@
+You are scoring how well a set of PREDICTED earnings-call questions match a
+set of ACTUAL questions asked by the SAME analyst on the SAME call.
+
+You will be given:
+  - The analyst name.
+  - A list of PREDICTED questions (with topic labels).
+  - A list of ACTUAL questions the analyst asked on the held-out call.
+
+For each ACTUAL question, decide whether ANY single predicted question covers
+the same substantive concern. A "match" requires:
+  - The same core topic (pricing, capacity, leverage, etc.).
+  - The same direction of inquiry (e.g. both ask about yield growth runway
+    rather than one asking about yield and the other about cost).
+  - Roughly the same level of specificity (a generic "how do you think about
+    pricing" does NOT match an actual question about "Star of the Seas
+    yield premium on her inaugural sailing").
+
+Levels:
+  - "exact": same topic, same direction, comparable specificity.
+  - "partial": same topic, similar direction, but specificity differs OR
+    one side is broader than the other.
+  - "miss": no predicted question targets the same concern.
+
+Output strictly the JSON object below, no prose before or after:
+
+{
+  "analyst": "<name>",
+  "scored": [
+    {
+      "actual_question": "<verbatim or short paraphrase>",
+      "actual_topic": "<short topic label>",
+      "best_predicted_index": <int or null>,
+      "match_level": "exact" | "partial" | "miss",
+      "reasoning": "<1-2 sentences>"
+    },
+    ...
+  ],
+  "summary": {
+    "n_actual": <int>,
+    "n_exact": <int>,
+    "n_partial": <int>,
+    "n_miss": <int>,
+    "hit_rate_exact_or_partial": <float in [0,1]>
+  }
+}
+
+ANALYST: sharon zackfia
+
+PREDICTED QUESTIONS (indexed):
+[0] topic=demand/booking_curve :: Hi, good morning. Naftali — you called out an increase in millennials and younger guests this quarter and that more than half of onboard revenue is now being booked before guests board (and you referenced ~70% pre-cruise penetration). Can you quantify how much the younger cohort has grown as a percentage of passengers year‑over‑year, and tell us whether that cohort is disproportionately driving the higher pre‑book penetration and APD? As a quick follow‑up, have you seen any shift in geographic sourcing (North America versus Europe/other) that would be helping explain the APD or pre‑book behavior?
+[1] topic=private_destinations :: Jason — demand for Royal Beach Club Santorini and Paradise Island sounds very strong. Can you walk us through whether these owned/branded destinations are driving ticket lift or simply shifting spend into pre‑cruise/onboard purchases? Specifically, for Santorini and Paradise Island, what proportion of the yield accretion to date is coming from higher ticket prices versus onboard/excursion (pre‑book) spend, and how should we think about that split as Cozumel, Perfect Day Mexico and Costa Maya ramp?
+
+ACTUAL QUESTIONS:
+[0] Hi. Thanks for taking the question. I guess I wanted to follow up on cost. Are you making any itinerary changes given higher fuel either currently or looking out to 2027, 2028? Obviously, Net Cruise Costs are coming in a bit lower. Is there anything you've pulled back on this year in terms of initiatives or spend that we should think of as deferring to 2027? Is this just harvesting some of those efficiencies that you just referred to? Thank you.

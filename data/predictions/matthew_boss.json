@@ -1,0 +1,15 @@
+{
+  "analyst": "Matt (J.P. Morgan)",
+  "predicted_questions": [
+    {
+      "question_text": "Great, thanks and congrats on the quarter. Jason \u2014 you referenced a short\u2011term moderation in Mediterranean bookings that has started to rebound; can you quantify how much of the reduction to your Net Yield outlook (now 1.5%\u20132.5%) is already reflected in booked positions versus how much remains exposed to further near\u2011term softness or air\u2011travel disruption? And Naftali \u2014 can you give us APD and booked load factor detail (and close\u2011in vs. forward booking cadence) for Mediterranean vs. Caribbean vs. West\u2011Coast Mexico so we can understand the stickiness of current pricing and the upside optionality into 2H?",
+      "topic_label": "demand/booking_curve",
+      "rationale": "Feeds directly from the persona's focus on Demand & bookings dynamics (recurring_concerns.core_topics[0]) and Booked position translation (recurring_concerns.core_topics[3]); asks for numbers and cadence after management said Mediterranean bookings moderated then rebounded and that Net Yield guidance was adjusted to 1.5%\u20132.5% in the presentation."
+    },
+    {
+      "question_text": "Great, quick follow \u2014 Naftali, you reiterated the Perfecta 20% EPS CAGR to 2027 and noted Net Cruise Costs ex\u2011fuel are roughly flat to slightly better, yet Q2 carries 4.6%\u20135.1% ex\u2011fuel headwinds from dry docks and crew travel; can you bridge for us where the margin expansion for the back\u2011half and the 20% target is expected to come from (cost run\u2011rate savings vs. yield/onboard mix vs. tech/AI commercial gains), and how sensitive that pathway is to the ~$0.62 fuel headwind you called out?",
+      "topic_label": "margins / Trifecta / cost trajectory",
+      "rationale": "Aligns with the analyst's repeated push on Margins/Trifecta sizing (recurring_concerns.core_topics[1]) and demand for explicit mechanisms and sensitivities; references Naftali's commentary on Q2 cost guidance (4.6%\u20135.1% ex\u2011fuel), the $0.62 fuel headwind, and the Perfecta 20% CAGR target from the presentation."
+    }
+  ]
+}

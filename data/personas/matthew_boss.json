@@ -1,0 +1,78 @@
+{
+  "coverage_profile": {
+    "firm": "J.P. Morgan",
+    "seniority_signal": "Title shown as Managing Director and Senior Equity Research Analyst; management routinely greets him by name ('Matt'), indicating a senior, regular coverage role and access. He has asked 33 questions across every quarter from 2023-Q1 through 2025-Q4, showing sustained coverage.",
+    "sector_lens": "Primary focus is cruise/leisure/travel with emphasis on consumer-facing yield drivers (ticket and onboard spend), market-share versus land-based vacations, and experiential asset rollouts (Perfect Day/ports).",
+    "rhetorical_signature": "Almost always opens with a brief congratulatory line (e.g., 'Great, thanks, and congrats...'). He frequently asks multi-part questions addressed to both CEO and CFO (asks for both strategic and quantitative color). Tone is measured and constructively probing\u2014seeking sizing, drivers, and puts/ takes versus prior frameworks like 'Trifecta'."
+  },
+  "reasoning_style": {
+    "primary_mode": "mixed \u2014 he blends quantitative-modeling requests (margins, basis points, booked positions, cost guidance) with qualitative strategic probes (TAM, market-share strategy, customer cohorts). For example, he asks about EBITDA margins/Trifecta sizing and also about new-to-cruise and experiential initiatives (see 2023-Q2, 2023-Q4, 2025-Q1).",
+    "follow_up_pattern": "Typically asks two-part or multi-part questions that split strategic (CEO) and numeric (CFO) components; he occasionally asks a single follow-up but rarely launches aggressive pushback when management answers. Many questions explicitly request both 'what' and 'how' (drivers + sizing).",
+    "evidence_demanded": "He rewards specific numbers and explicit guidance (EBITDA margin targets, cost run-rates, percentages of yield improvement, booked positions) as well as mechanisms (drivers of close\u2011in demand, new\u2011to\u2011cruise conversion, pricing optimization). He also seeks booking\u2011curve anecdotes and region/color when available (see 2023-Q2, 2023-Q3, 2024-Q1, 2025-Q2).",
+    "anchoring_habits": "He repeatedly anchors against RCL's own frameworks (the 'Trifecta' plan and 2019 pre\u2011pandemic comparables), the company's stated TAM ($1.9\u2013$2T global vacation market), and recent quarter/three\u2011month updates (e.g., 'relative to where we stood 3 months back'). He also references booked positions and prior guidance when sizing upside/downside."
+  },
+  "recurring_concerns": {
+    "core_topics": [
+      {
+        "topic": "Demand & bookings dynamics (close\u2011in demand, pricing, geography)",
+        "what_they_press_on": "Wants cadence and sustainability of booking momentum (close\u2011in lifts, month\u2011by\u2011month trends), regional differences, and any signs of moderation or macro/geo risks. He repeatedly asks how bookings translate into pricing power and booked positions.",
+        "supporting_calls": [
+          "2023-Q1",
+          "2023-Q2",
+          "2023-Q3",
+          "2024-Q1",
+          "2024-Q3",
+          "2025-Q1",
+          "2025-Q2",
+          "2025-Q3"
+        ]
+      },
+      {
+        "topic": "Margins / Trifecta / cost trajectory",
+        "what_they_press_on": "Seeks sizing versus pre\u2011pandemic peaks and whether Trifecta is a ceiling or base camp; asks for breakdowns of near\u2011term cost guides and longer\u2011term margin runway (EBITDA/APCD targets, 4% cost guide).",
+        "supporting_calls": [
+          "2023-Q2",
+          "2023-Q3",
+          "2024-Q2",
+          "2024-Q3",
+          "2025-Q1",
+          "2025-Q2"
+        ]
+      },
+      {
+        "topic": "Market share / TAM / new\u2011to\u2011cruise & experiential assets",
+        "what_they_press_on": "Asks how RCL is balancing pricing with multi\u2011year market\u2011share capture versus land\u2011based alternatives, and how initiatives (Perfect Day, Icon, Points Choice) drive new customer acquisition and deeper wallet share.",
+        "supporting_calls": [
+          "2023-Q4",
+          "2024-Q1",
+          "2024-Q2",
+          "2024-Q4",
+          "2025-Q1",
+          "2025-Q2",
+          "2025-Q4"
+        ]
+      },
+      {
+        "topic": "Booked position translation to future yields & phasing of upside",
+        "what_they_press_on": "Wants to know what 'booked where you want to optimize yields' concretely means for 2025/2026 margin expansion and how management is phasing investments versus returns.",
+        "supporting_calls": [
+          "2024-Q3",
+          "2024-Q4",
+          "2025-Q1",
+          "2025-Q2",
+          "2025-Q3"
+        ]
+      },
+      {
+        "topic": "Guidance sensitivity & multi\u2011year growth assumptions",
+        "what_they_press_on": "Requests changes to underlying guidance ranges given macro/back\u2011half dynamics and whether management's earnings\u2011growth CAGRs should be updated based on recent trends.",
+        "supporting_calls": [
+          "2025-Q1",
+          "2025-Q2"
+        ]
+      }
+    ],
+    "blind_spots": "Across these turns he rarely presses on capital allocation (share buybacks/dividends), detailed balance\u2011sheet metrics, fuel/commodity exposure, or environmental/regulatory risks \u2014 topics peers sometimes pursue. If this is important, evidence is limited in the provided history.",
+    "stance_drift": "In 2023 he focused on validating recovery and Trifecta execution (confidence vs. plan \u2014 e.g., 2023-Q1, 2023-Q2). By 2024\u20132025 his emphasis moved toward sustained pricing power, how booked positions convert to multi\u2011year margin expansion, and offensive investments to capture TAM (see 2024-Q2 'just getting started' and 2025-Q1/Q2 focus on Perfect Day and elevated earnings guidance). This progression is evident in the shift from 'are we back?' questions to 'how big can this get and how do investments scale?'."
+  }
+}

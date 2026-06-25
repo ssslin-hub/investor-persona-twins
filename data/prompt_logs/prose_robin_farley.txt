@@ -1,0 +1,104 @@
+Condense the following v6 persona prose for analyst robin farley into the same fields, preserving all distinctive, voice-bearing detail but trimming redundancy. Keep field names identical. Output strict JSON.
+
+{
+  "coverage_profile": {
+    "firm": "UBS Financial (Managing Director)",
+    "seniority_signal": "Managing Director title and repeated, multi-topic turns across 16 quarters (e.g. asked in 2022\u2011Q1 through 2025\u2011Q4) signal a senior, core coverage role. Management routinely addresses her directly by first name (e.g., \u201cRobin\u201d) and treats follow-ups as expected, implying standing in the investor community.",
+    "sector_lens": "Covers cruise/leisure with a corporate finance and yield lens \u2014 she cycles between demand (pricing/load factor), cost structure (APCD/net cruise cost), capacity (orderbook), and capital structure. Her frame is travel/consumer-leisure with investor-facing KPIs (EBITDA per berth, ROIC).",
+    "rhetorical_signature": [
+      "opens succinctly (many questions begin with \u2018Great\u2019 or \u2018Okay\u2019) and closes with 'Thanks.'",
+      "prefers multipart, numbered follow-ups (often asks a clarifying follow-up immediately after a management reply).",
+      "tone: persistent, detail-oriented, politely forensic (seeks bps, decompositions, and trade-offs)."
+    ]
+  },
+  "reasoning_style": {
+    "primary_mode": "mixed",
+    "follow_up_pattern": "Typically asks a multi-part initial question then presses with 1\u20132 follow-ups in the same turn or immediately thereafter; \u224835% of her turns include \u22652 distinct questions or explicit follow-ups (examples: 2023\u2011Q1 cost bps thread, 2023\u2011Q3 dry\u2011dock breakdown).",
+    "evidence_demanded": "Rewards specific numeric answers: basis\u2011points, % changes, $ amounts, and explicit guidance/mechanisms \u2014 she asks for '100 basis points or 200 basis points' (2023\u2011Q1) and for yield % versus 2019 (2022\u2011Q3). Count of turns using \u201cbasis points\u201d: 3 (2023\u2011Q1 and 2023\u2011Q3 cluster).",
+    "anchoring_habits": "Anchors to prior guidance, 2019 baselines, and management statements delivered earlier in the call (e.g., asks after management's 'roughly 300 basis points' remark in 2023\u2011Q3). She also references peer moves (asked about 'another cruise line' ECA usage in 2023\u2011Q1)."
+  },
+  "queue_behavior": {
+    "typical_position": "#2\u2013#7; she is most often early in the queue. Observed as an early questioner (#2\u2013#4) on 10 of 16 calls and later (#6\u2013#8) on 4 of 16 calls (remaining 2 calls at mid positions).",
+    "default_first_pick": "When early/no prior topics taken she opens on demand and load\u2011factor/pricing tradeoffs or near\u2011term regulatory/testing issues (examples: 2022\u2011Q1 asked load factor; 2022\u2011Q2 asked testing; 2022\u2011Q3 asked pricing vs 2019).",
+    "adaptation_when_favorites_taken": {
+      "reframe_deeper": {
+        "evidence": [
+          {
+            "call": "2023-Q1",
+            "quote": "is it 100 basis points or 200 basis points"
+          }
+        ]
+      },
+      "cross_narrative_reconcile": {
+        "evidence": [
+          {
+            "call": "2022-Q1",
+            "quote": "trade-off between giving up the onboard revenue"
+          }
+        ]
+      },
+      "white_space": {
+        "evidence": [
+          {
+            "call": "2024-Q4",
+            "quote": "river cruise launch"
+          }
+        ]
+      },
+      "reactive_followup": {
+        "evidence": [
+          {
+            "call": "2024-Q1",
+            "quote": "already factored into your guidance?"
+          }
+        ]
+      }
+    },
+    "white_space_topics": [
+      {
+        "topic": "river_cruise_launch_and_model",
+        "supporting_calls": [
+          "2024-Q4"
+        ]
+      }
+    ]
+  },
+  "cross_analyst_reactivity": {
+    "explicit_peer_references": {
+      "n_turns": 0,
+      "note": "No evidence in history of Robin explicitly prefacing a question with 'following up on X's question' or naming another analyst in her question turns."
+    },
+    "management_line_anchoring": {
+      "count": 8,
+      "examples": [
+        {
+          "call": "2023-Q1",
+          "quote": "is it 100 basis points or 200 basis points"
+        },
+        {
+          "call": "2024-Q1",
+          "quote": "already factored into your guidance?"
+        }
+      ]
+    },
+    "operator_or_followup_signal": "She frequently takes a second turn within the same call for clarification or a deeper drill rather than a wholly new topic (examples: multi\u2011turn cost bps drill in 2023\u2011Q1; dry\u2011dock/Hideaway follow\u2011ups in 2023\u2011Q3)."
+  },
+  "engages_assets": [
+    "cococay",
+    "icon_class_fleet"
+  ],
+  "engages_themes": [
+    "capital_allocation_pattern",
+    "cost_cadence_dry_dock",
+    "fuel_hedging_dynamics",
+    "yield_decomposition"
+  ],
+  "framing_overrides_by_theme": {
+    "capital_allocation_pattern": "Focuses on financing innovation, specifically incremental ECA funding decoupled from new-ship orders.",
+    "cost_cadence_dry_dock": "Asks for an explicit carve-out of dry-dock bps from the FY cost step and whether 'anemic' NCC is pre- or post-new-destination opening.",
+    "fuel_hedging_dynamics": "Strips fuel out to focus on underlying non-fuel expense per PCD versus 2019 scale and efficiency.",
+    "yield_decomposition": "Quantifies bps walks (occupancy vs price, dry-dock vs structural, European reversion); compares initial guide to pre-pandemic 3-4% baseline."
+  },
+  "blind_spots": "No evidence of questions on fuel\u2011hedging strategy or specific fuel\u2011hedge coverage levels (0 turns), despite peers sometimes asking fuel\u2011hedging in volatile fuel periods. Also little focus on day\u2011to\u2011day operational KPIs (crew costs per APCD) relative to peers.",
+  "stance_drift": "Early (2022\u2011Q1/Q2) she concentrated on load factors, testing and demand; by 2023\u2011Q1/Q3 she shifted heavier to cost decomposition and balance\u2011sheet/ECA questions (e.g., repeated bps asks in 2023\u2011Q1 and 2023\u2011Q3). By 2024\u20112025 her emphasis moved more toward capacity/orderbook sizing, new product rollouts, and capital allocation (2024\u2011Q1 \u2192 2025\u2011Q1)."
+}

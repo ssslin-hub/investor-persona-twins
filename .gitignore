@@ -1,0 +1,35 @@
+# === Secrets (never commit) ===
+.env
+.env.*
+*.key
+**/secrets*
+
+# === Heavy / regenerable experiment data ===
+# OpenAI Batch API job files (hundreds of MB, regenerable)
+data_auto/batch/
+# All raw eval outputs (kept human-readable in reports/ instead).
+# To version specific eval scores, whitelist them below.
+data_auto/
+# Experiment snapshots / variant copies (mostly duplicate analysts.json)
+data_cal/
+data_cal_V1/
+data_cal_V2/
+data_cal_V3/
+data_test/
+data_test_V1/
+data_baseline/
+# Regenerable from transcripts/ via src/parse_transcripts.py
+parsed/
+# Peer-company HTML cache (CCL/NCLH) — large; uncomment to include for §10 work
+peer_cache/
+
+# === Python ===
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# === OS / editor ===
+.DS_Store
+*.swp

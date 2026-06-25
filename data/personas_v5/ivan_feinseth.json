@@ -1,0 +1,102 @@
+{
+  "coverage_profile": {
+    "firm": "Tigress Financial Partners",
+    "seniority_signal": "Partner, Chief Investment Officer, and Director of Research \u2014 title indicates senior, portfolio-level role; management addresses him informally as \"Ivan,\" suggesting recurring access and respect (2022-Q1).",
+    "sector_lens": "Cruise / leisure / consumer travel with a focus on guest experience, digital engagement, and ancillary revenue (questions in 2022-Q1 center on pre-cruise app and incremental revenue).",
+    "rhetorical_signature": [
+      "Opener: polite, collegial opening \u2014 \"Hi. Thanks for taking my question\" (2022-Q1).",
+      "Uses concrete hypotheticals and \"let's say\" examples to probe implementation (e.g., \"Let's say if there was downtime in the spa\").",
+      "Closes succinctly and thanks management repeatedly \u2014 short sign-offs such as \"All right. Sounds appreciated. Thanks.\""
+    ]
+  },
+  "reasoning_style": {
+    "primary_mode": "mixed",
+    "justification": "Questions combine qualitative strategy (app functionality, marketing cadence) with a demand for commercial impact (\"add incremental revenue specifically outside of just onboard spending\") \u2014 see 2022-Q1.",
+    "follow_up_pattern": "Multi-part initial questions followed by multiple short follow-ups/clarifications; \u2248 33% of turns contain \u2265 2 explicit question clauses (2 of 6 turns show multi-clause follow-ups) and he pushes for clarification rather than adversarial pushback.",
+    "evidence_demanded": "He rewards mechanisms and incremental commercial metrics \u2014 asks how the app \"adds incremental revenue specifically outside of just onboard spending\" (2022-Q1). He does not ask for bps; count of turns using 'bps' = 0.",
+    "anchoring_habits": "Anchors to management product/initiative names and management statements delivered on the call (e.g., reacts to the management framing that \"pre-cruise revenue is fundamentally about onboard spend\" and to \"Project Excalibur\" in 2022-Q1). There is no history of anchoring to peers in this sample (n_calls = 1)."
+  },
+  "recurring_concerns": {
+    "core_topics": [
+      {
+        "topic": "pre_cruise_app_functionality",
+        "n_turns": 4,
+        "n_calls": 1,
+        "share_of_calls": 1.0,
+        "what_they_press_on": "What systems the pre-cruise planning app connects to and the concrete user flows (booking, calendar, reminders) that enable a seamless guest experience.",
+        "supporting_calls": [
+          "2022-Q1"
+        ]
+      },
+      {
+        "topic": "pre_cruise_marketing_and_monetization",
+        "n_turns": 3,
+        "n_calls": 1,
+        "share_of_calls": 1.0,
+        "what_they_press_on": "How the app is used to proactively market before and onboard and whether that drives incremental revenue beyond onboard spending.",
+        "supporting_calls": [
+          "2022-Q1"
+        ]
+      },
+      {
+        "topic": "onboard_operations_and_appointment_booking",
+        "n_turns": 2,
+        "n_calls": 1,
+        "share_of_calls": 1.0,
+        "what_they_press_on": "Operational use-cases such as booking spa appointments and re-routing demand (e.g., \"if there was downtime in the spa, you could connect with somebody\").",
+        "supporting_calls": [
+          "2022-Q1"
+        ]
+      }
+    ],
+    "blind_spots": "n_calls < 2; insufficient to characterise many recurring blind spots across quarters. Within the 2022-Q1 record, he does not press on fuel hedging, fleet capacity/itinerary cadence, guidance/yield figures, or balance-sheet/liquidity metrics \u2014 0 turns on these topics in this sample.",
+    "stance_drift": "n_calls < 2; insufficient to characterise stance drift across quarters. Only 2022-Q1 available, so no multi-quarter comparison is possible."
+  },
+  "queue_behavior": {
+    "typical_position": "#10\u2013#11 on the single observed call (2022-Q1); he was among the final questioners/\"last question\" on that call.",
+    "default_first_pick": "No evidence in history \u2014 he was not observed as an early/first questioner in the provided calls (only 2022-Q1, where he was late).",
+    "adaptation_when_favorites_taken": {
+      "tags": [
+        "reframe_deeper",
+        "stay_on_topic_anyway"
+      ],
+      "evidence": [
+        {
+          "tag": "reframe_deeper",
+          "call": "2022-Q1",
+          "quote": "add incremental revenue specifically outside of just onboard spending"
+        },
+        {
+          "tag": "stay_on_topic_anyway",
+          "call": "2022-Q1",
+          "quote": "proactively market both before and/or use it to proactively market"
+        }
+      ]
+    },
+    "white_space_topics": [
+      {
+        "topic": "pre_cruise_app_monetization",
+        "supporting_calls": [
+          "2022-Q1"
+        ]
+      }
+    ]
+  },
+  "cross_analyst_reactivity": {
+    "explicit_peer_references": {
+      "count_of_turns": 0,
+      "examples": "no explicit peer-citation phrases in the provided turns"
+    },
+    "management_line_anchoring": {
+      "count_of_turns": 1,
+      "examples": [
+        {
+          "call": "2022-Q1",
+          "quote": "pre-cruise revenue is fundamentally about onboard spend"
+        }
+      ],
+      "note": "He explicitly pushes against that management framing by asking for incremental revenue \"outside of just onboard spending.\""
+    },
+    "operator_or_followup_signal": "Took multiple follow-up utterances within the same call (4 follow-up utterances beyond the initial substantive question in 2022-Q1) primarily for clarification and deeper drill into functionality and monetization rather than to introduce a new topic."
+  }
+}

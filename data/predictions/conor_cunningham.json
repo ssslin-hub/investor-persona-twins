@@ -1,0 +1,20 @@
+{
+  "analyst": "Conor (Melius Research)",
+  "predicted_questions": [
+    {
+      "question_text": "Thanks, and congrats on the quarter. Relative to the assumptions you used in January, how did close\u2011in pricing and the booking curve for the Mediterranean and West\u2011Coast Mexico itineraries actually reconcile \u2014 did you need to take pricing actions or promotions to re\u2011fill inventory, and roughly what percentage of your Q2/Q3 capacity was booked at close\u2011in prices below your January APD assumptions? In short, did you leave meaningful yield on the table that you expect to recapture later?",
+      "topic_label": "demand/booking_curve",
+      "rationale": "Conor repeatedly presses on booking dynamics and close\u2011in pricing (recurring_concerns.core_topics[0]); management flagged a short\u2011term moderation in Med and West\u2011Coast Mexico bookings, an updated lower Net Yield outlook versus January, and said bookings have recently rebounded \u2014 this question asks for the numeric close\u2011in reconciliation versus January assumptions."
+    },
+    {
+      "question_text": "Quick follow on capital allocation: you returned $1.1bn this quarter and repurchased $836m with $1bn remaining under the program \u2014 given $6.9bn liquidity and leverage below 3x after the bond deal, should we expect a more deliberate pace of opportunistic buybacks this year (i.e., use most or all of the remaining $1bn), or is the board still prioritizing cash/flexibility for Perfecta, new builds and other investments?",
+      "topic_label": "capital_return",
+      "rationale": "Conor frequently revisits buybacks and board capital\u2011allocation philosophy (recurring_concerns.core_topics[1]); management disclosed repurchases, remaining authorization, liquidity and leverage metrics in the presentation, so he will press on cadence and the tradeoff versus strategic investments."
+    },
+    {
+      "question_text": "One modeling question on costs: you guide Q2 Net Cruise Costs ex\u2011fuel up ~4.6\u20135.1% and said first\u2011half cost growth is higher than second half driven by dry docks and travel disruptions \u2014 can you break that Q2 delta out roughly between incremental dry\u2011dock expense, crew/air travel disruption costs, and secular inflation? And separately, are the Perfecta/digital and AI investments creating any structural cost pressure, or are they expected to be margin\u2011accretive over the medium term?",
+      "topic_label": "costs",
+      "rationale": "Conor presses for cost cadence and investment\u2011related cost detail (recurring_concerns.core_topics[2]); the CFO called out sizable Q2 ex\u2011fuel cost increases, dry\u2011dock days and crew travel impacts, and referenced Perfecta \u2014 this asks for a quant split to model H2 cadence and the ongoing cost impact of strategic investments."
+    }
+  ]
+}

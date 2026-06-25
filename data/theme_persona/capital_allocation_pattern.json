@@ -1,0 +1,33 @@
+{
+  "theme_id": "capital_allocation_pattern",
+  "display_name": "Capital allocation: buyback / leverage / financing choice",
+  "description": "Analysts probe the priority stack across deleveraging to investment grade, dividend reinstatement, buyback pace and ship-financing choice between ECA-backed debt and the unsecured market.",
+  "recurring_framings_by_quarter": {
+    "2022-Q2": ["deleverage vs high-return reinvestment in existing fleet"],
+    "2022-Q3": ["leverage trajectory back to investment grade under Trifecta EBITDA path", "priority order between ROIC, deleverage and decarbonization capex"],
+    "2023-Q1": ["incremental ECA funding not tied to new-ship orders as a financing innovation"],
+    "2023-Q4": ["IG return timing relative to Trifecta completion"],
+    "2024-Q1": ["credit metrics nearing IG -- what does board need to see to reinstate capital return"],
+    "2024-Q2": ["dividend reinstatement as first step; next avenues (buyback) and pacing"],
+    "2024-Q3": ["is buyback embedded in $14 EPS or accretive to it", "non-financial drivers of allocation given land-based investments"],
+    "2024-Q4": ["are buybacks/refis embedded in EPS guide or upside"],
+    "2025-Q1": ["balancing buyback against macro/balance-sheet shoring", "why not lean harder into buyback given conviction"],
+    "2025-Q3": ["unsecured bond vs ECA financing for Celebrity Xcel -- rate differential and indifference"]
+  },
+  "analyst_affinity": {
+    "steven wieczynski": "Anchors on the path back to investment grade and tests whether EPS guides embed or exclude buybacks/refis.",
+    "robin farley": "Focuses on financing innovation, specifically incremental ECA funding decoupled from new-ship orders.",
+    "brandt montour": "Frames capital return as a board-trigger question: what credit metrics unlock dividend/buyback.",
+    "conor cunningham": "Pushes on buyback pace: dividend back, why not lean harder; sequencing of additional returns.",
+    "vince ciepiel": "Balances buyback against macro and CapEx, and links deleverage to fleet reinvestment.",
+    "andrew didora": "Compares unsecured bond vs ECA financing economics and asks about rate-differential indifference.",
+    "james hardiman": "Asks about non-financial considerations in allocation given land-based optionality.",
+    "paul golding": "Orders the Trifecta initiatives (ROIC, deleverage, decarbonization) by priority.",
+    "steve wieczynski": "Sizes leverage profile required for IG and engages on rating-agency conversations."
+  },
+  "default_framing_options": [
+    "buyback pace vs continued deleverage to investment grade",
+    "ECA-backed financing vs unsecured bond on new ship orders",
+    "dividend reinstatement and incremental capital-return cadence"
+  ]
+}

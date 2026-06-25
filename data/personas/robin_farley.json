@@ -1,0 +1,76 @@
+{
+  "coverage_profile": {
+    "firm": "UBS",
+    "seniority_signal": "Managing Director title observed and 58 question turns across 2022\u20132025 indicate a senior, long-standing coverage relationship; management consistently recognizes and answers Robin directly (e.g., Jason/Naftali responses across multiple calls). Robin frames questions at a strategic and financial level consistent with a senior equity analyst.",
+    "sector_lens": "Primarily cruise/leisure and broader travel/consumer exposure; questions consistently focus on cruise-specific KPIs (yields, load factors, onboard revenue) but also touch on adjacent topics like hotels/river cruises and financing. The lens is operational + financial within the leisure travel sector.",
+    "rhetorical_signature": [
+      "Opens politely and often with a short preface or 'great/thanks' before asking (e.g., many calls such as 2022-Q1, 2023-Q1, 2024-Q1).",
+      "Tends to ask multi-part questions and two- to three-part follow-ups in the same turn, frequently asking for quantification (basis points, % vs 2019, $/berth).",
+      "Frames questions around specific model inputs (yield split, load factor, dry-dock basis points, ECA financing) and requests ballparks or ranges rather than broad statements."
+    ]
+  },
+  "reasoning_style": {
+    "primary_mode": "mixed",
+    "primary_mode_justification": "Robin blends quantitative modeling checks (requests for basis points, % comparisons to 2019, cost breakdowns) with qualitative strategic probing (demand drivers, itinerary changes, new products and markets) across calls such as 2022-Q4, 2023-Q1, and 2024-Q2.",
+    "follow_up_pattern": "Frequently uses multi-part questions and immediate clarifying follow-ups in the same call (examples: 2023-Q1 series on transition vs structural costs; 2023-Q3 drilling into dry dock vs Hideaway). Robin will press for specificity but generally accepts answers once quantified; occasional persistence when initial color is high-level.",
+    "evidence_demanded": "Rewards specific numerical answers (basis points, % changes, ballpark $/ship, timing windows), explicit guidance or what is already baked into guidance (e.g., Red Sea routing baked into 2024 guidance \u2014 2023-Q4/2024-Q1), and causal mechanisms linking actions to financial outcomes (e.g., how Hideaway/dry docks affect yields and EBITDA per berth).",
+    "anchoring_habits": "Frequently anchors against the 2019 pre-pandemic baseline (explicit in 2022-Q4 and elsewhere), prior guidance/quarterly guidance (asks what is baked into guidance in 2023-Q4/2024-Q1), and occasionally peers (mentions 'another cruise line' re: ECA funding in 2023-Q1); also references their own prior questions across calls."
+  },
+  "recurring_concerns": {
+    "core_topics": [
+      {
+        "topic": "Yield composition & load factor (ticket vs onboard)",
+        "what_they_press_on": "How much yield upside is coming from price versus occupancy and how onboard spend trends compare to ticket (requests % vs 2019 and whether onboard > ticket).",
+        "supporting_calls": [
+          "2022-Q1",
+          "2022-Q3",
+          "2022-Q4",
+          "2023-Q3",
+          "2025-Q2"
+        ]
+      },
+      {
+        "topic": "Expenses \u2014 structural vs transitional / net cruise cost growth",
+        "what_they_press_on": "Seeks breakouts of one-time/transition costs (basis points) versus structural increases (dry docks, new destinations, crew/protocols) and whether costs will moderate in following years.",
+        "supporting_calls": [
+          "2022-Q3",
+          "2022-Q4",
+          "2023-Q1",
+          "2023-Q3",
+          "2025-Q3"
+        ]
+      },
+      {
+        "topic": "Capacity growth, order book and ship strategy",
+        "what_they_press_on": "Questions timing of orders, how far out the company is ordering, new ship classes (smaller Discovery class) and how new hardware affects market access and drive markets.",
+        "supporting_calls": [
+          "2024-Q1",
+          "2024-Q2",
+          "2024-Q3",
+          "2025-Q4"
+        ]
+      },
+      {
+        "topic": "Financing & liquidity (ECAs, maturities)",
+        "what_they_press_on": "Opportunities to use ECA funding beyond ship orders, ability to manage maturities and the attractiveness of ECA terms versus capital markets.",
+        "supporting_calls": [
+          "2022-Q2",
+          "2023-Q1"
+        ]
+      },
+      {
+        "topic": "Private destinations / new products (CocoCay/Hideaway/river cruises)",
+        "what_they_press_on": "Impact of private destinations and new product launches on yields, demand and incremental costs; asks whether these investments are offsetting cost increases and how quickly they'll scale.",
+        "supporting_calls": [
+          "2022-Q4",
+          "2023-Q3",
+          "2024-Q4",
+          "2024-Q2",
+          "2025-Q3"
+        ]
+      }
+    ],
+    "blind_spots": "Rarely presses on fuel-hedging strategy, detailed FX or pension exposures, or ESG/emissions topics that some peers ask about; evidence across the calls shows limited questions in these areas. If this is important, evidence is thin in the transcript set provided.",
+    "stance_drift": "Early in 2022 Robin focused on reopening uncertainties, load factors and testing (e.g., 2022-Q1 questions). By 2023 the emphasis shifted to parsing cost structure (transition vs structural) and margins (many 2023-Q1/Q3 turns). From 2024\u20132025 the focus increasingly moved to capacity/orderbook timing, new product strategy (river cruises, Discovery class) and how those affect long-term yields and EBITDA per berth (2024-Q1, 2024-Q2, 2025-Q4)."
+  }
+}

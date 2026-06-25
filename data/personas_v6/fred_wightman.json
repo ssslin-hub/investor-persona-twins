@@ -1,0 +1,58 @@
+{
+  "analyst_name": "fred wightman",
+  "coverage_profile": {
+    "firm": "Wolfe Research",
+    "seniority_signal": "Title shown most recently as SVP and Director (Wolfe Research). Management repeatedly recognizes him by name and slots him into late/late-middle question slots (e.g. #8/#9/#10), consistent with a senior equity research role who gets recurring access. 2\u20133 sentence profile.",
+    "sector_lens": "Primary coverage lens is cruise / leisure / travel with a consumer tilt (onboard and pre-cruise spend). Questions repeatedly link demand, pricing, and consumer behavior to operational geography (Europe, Caribbean, China).",
+    "rhetorical_signature": [
+      "opens with \"Hey, guys. Good morning.\" in 4 of 5 calls (2022-Q1, 2022-Q2, 2022-Q3, 2023-Q1)",
+      "asks concise, investor-oriented follow-ups and often requests an \"order of magnitude\" or percent; closes frequently with short affirmations like \"Makes sense\" or \"Perfect. Thank you.\"",
+      "tone is direct, collegial, non-confrontational; uses multi-part questions to force quant/qual trade-offs"
+    ]
+  },
+  "reasoning_style": {
+    "primary_mode": "mixed",
+    "justification": "He mixes quantitative probes (asks for %s, 'order of magnitude', and referenced '180 basis points') with qualitative competitive/demand framing (land-based gap, CocoCay, airlift, consumer behavior).",
+    "follow_up_pattern": "Multi-part and follow-up oriented: \u22487 of 17 turns contain \u22652 question marks (\u224841%), and he often layers two-part questions (e.g. pricing vs share, or timing vs carry-through). He pushes for clarification but rarely confrontational.",
+    "evidence_demanded": "He asks for explicit guidance and magnitudes (percent, order of magnitude) and used 'basis points' language once (referencing management's '180 basis points' in 2023-Q1). He also asks for percent/bookings and occupancy comparisons across multiple turns.",
+    "anchoring_habits": "Anchors to the 2019/pre-COVID baseline (cites pre-2019 comparisons in 2022-Q4), to recent management lines delivered in the call (e.g., '180 basis points' in 2023-Q1), and to land-based peers/retail commentary (asks about 'gap versus land-based peers' in 2022-Q1)."
+  },
+  "blind_spots": "n_turns < 2 for topics such as deferred maintenance/CapEx (no direct questions from him though Stephen Grambling asked in 2022-Q1) and detailed debt maturity / ECA restructuring (Robin Farley asked about ECA maturities in 2022-Q2; Fred did not). He also asked little to nothing about fuel hedging or loyalty-program metrics \u2014 topics other analysts sometimes raise.",
+  "stance_drift": "Early (2022-Q1) he focused on pricing gaps versus land-based peers (2022-Q1). By mid-2022 (2022-Q2/Q3) emphasis shifted heavily to Europe bookings/occupancy and consumer spend; by late-2022/early-2023 (2022-Q4 \u2192 2023-Q1) he moved toward mix (new-to-cruise) and more granular modeling questions (equity investment seasonality and the '180 basis points' expense timing).",
+  "queue_behavior": {
+    "typical_position": "#8\u2013#10 most frequently (was #3 on 1 of 17 calls, #4 on 3 of 17, #7 on 1 of 17, #8 on 5 of 17, #9 on 3 of 17, #10 on 5 of 17).",
+    "default_first_pick": "When early (e.g., #3 on 2022-Q2) he opens on bookings/Europe: 2022-Q2 opened with a Europe bookings/occupancy question.",
+    "adaptation_when_favorites_taken": {
+      "reframe_deeper": "Yes \u2014 re-asks or drills deeper on the same topic rather than abandoning it (example 2022-Q2: 'have you seen those European bookings numbers accelerate' following earlier testing discussion; quote: \"have you seen those European bookings numbers accelerate\").",
+      "peer_or_industry_meta": "Yes \u2014 will reference industry/retailer commentary to contrast consumer trends (2022-Q2 asked to 'explain that away' vs Walmart/retail commentary; quote: \"sort of explain that away from where you sit?\").",
+      "reactive_followup": "Yes \u2014 anchors to a specific management phrase/number provided earlier in the call and asks follow-up (2023-Q1 referencing '180 basis points'; quote: \"that was sized at 180 basis points\").",
+      "cross_narrative_reconcile": "Yes \u2014 asks management to reconcile different narratives raised earlier in Q&A (2023-Q1 asks what's driving Caribbean strength vs inline Europe after earlier comments that airlift normalized; quote: \"what is driving sort of that divergence?\")"
+    },
+    "white_space_topics": [
+      {
+        "topic": "equity_investment_line / seasonality",
+        "supporting_calls": [
+          "2022-Q4"
+        ]
+      },
+      {
+        "topic": "consumer_spend_disconnect relative to retail peers",
+        "supporting_calls": [
+          "2022-Q2"
+        ]
+      }
+    ]
+  },
+  "cross_analyst_reactivity": {
+    "explicit_peer_references": "no evidence in history; 0 turns explicitly say 'following up on X's question' or name another analyst while prefacing a follow-up. He generally picks up topics raised earlier but does not explicitly cite peers by name.",
+    "management_line_anchoring": "Count = 2; he explicitly anchors his questions to management lines/numbers at least twice \u2014 e.g. quoted management's '4Q new to cruise was above pre-COVID levels' (2022-Q4) and '180 basis points' (2023-Q1).",
+    "operator_or_followup_signal": "He frequently takes a second (or third) turn when the queue allows: in 4 of 5 calls (2022-Q2, 2022-Q3, 2022-Q4, 2023-Q1) he had multiple back-to-back turns and used them for clarification/deeper drilling (examples: 2022-Q2 multiple follow-ups on Europe and consumer spend; 2023-Q1 follow-up on expense timing)."
+  },
+  "engages_assets": [
+    "cococay"
+  ],
+  "engages_themes": [],
+  "framing_overrides_by_theme": {},
+  "_built_from": "v5 + asset/theme cross-references",
+  "_v5_source": "data/personas_v5/fred_wightman.json"
+}

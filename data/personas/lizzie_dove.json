@@ -1,0 +1,55 @@
+{
+  "coverage_profile": {
+    "firm": "Goldman Sachs",
+    "seniority_signal": "Listed as Vice President and Equity Research Analyst at Goldman Sachs and a repeat questioner across multiple RCL calls (2024-Q3 through 2025-Q4), suggesting a mid-senior sell-side role who is regularly invited into Q&A and addressed directly by management. Management answers her directly and concisely, indicating she is a known, regular coverage analyst.",
+    "sector_lens": "Focused on cruise/leisure/travel with emphasis on company-level revenue/yield dynamics, deployment and product (ships/islands) drivers, and operational cost timing. Questions probe commercial drivers (yields, bookings, markets) rather than broader consumer cyclicality.",
+    "rhetorical_signature": [
+      "Opens politely with \u201cHi there. Good morning. Thanks for taking the question,\u201d \u2014 often frames questions as \u2018curious\u2019 or asking for \u2018color.\u2019",
+      "Prefers focused, decomposition-style questions (e.g., split new-ship premiums vs like-for-like; cost buckets/timing) and frequently requests contribution/percentage context.",
+      "Typically closes quickly after getting a numerical or directional answer with brief acknowledgment (e.g., \u201cGot it. Thanks.\u201d)."
+    ]
+  },
+  "reasoning_style": {
+    "primary_mode": "mixed",
+    "follow_up_pattern": "Usually asks single-focused or two-part questions seeking a clear decomposition; she rarely presses aggressively when management provides a direct numerical or qualitative answer and often accepts the response (e.g., ends with 'Thanks').",
+    "evidence_demanded": "Seeks concrete decompositions and cadence (e.g., contribution of new-ship premiums vs like-for-like, quarter-by-quarter yield cadence, and which cost buckets/timing are affected). She values explicit contribution numbers or clear directional mechanisms and occasional qualitative color on bookings/markets.",
+    "anchoring_habits": "Anchors questions to management's prior language/guidance (e.g., 'moderate yield growth') and to recent company-specific events (dry docks, new-ship timing, private islands), and sometimes references market narratives (e.g., reported softness in Canada or Caribbean supply stories)."
+  },
+  "recurring_concerns": {
+    "core_topics": [
+      {
+        "topic": "Yield composition and cadence",
+        "what_they_press_on": "Regularly asks how much yield improvement comes from new-ship premiums versus like-for-like pricing and how that maps into quarterly/annual cadence and guidance. She probes whether premium assets (private islands, new hardware) are already baked into the 'moderate yield growth' framing.",
+        "supporting_calls": [
+          "2024-Q3",
+          "2025-Q1",
+          "2025-Q4"
+        ]
+      },
+      {
+        "topic": "Cost timing / dry-dock impacts",
+        "what_they_press_on": "Asks which cost buckets are affected by favorable/unfavorable timing and how dry-dock scheduling and supply-chain timing are shifting expense recognition across quarters. Focused on which quarters will see the cost impacts.",
+        "supporting_calls": [
+          "2024-Q3",
+          "2025-Q4"
+        ]
+      },
+      {
+        "topic": "Booking mix and market/regional trends",
+        "what_they_press_on": "Wants color on the makeup of remaining inventory \u2014 by geography, brand, trip length, or drive-to/short-duration patterns \u2014 to infer demand softness or strength across segments.",
+        "supporting_calls": [
+          "2025-Q1"
+        ]
+      },
+      {
+        "topic": "Regional capacity dynamics (Caribbean)",
+        "what_they_press_on": "Presses management on reports of oversupply in the Caribbean and how rising capacity might affect pricing and the 2026 setup for the region.",
+        "supporting_calls": [
+          "2025-Q3"
+        ]
+      }
+    ],
+    "blind_spots": "Across these calls she does not press on capital allocation (share buybacks/dividends), balance-sheet leverage, fuel/hedging or detailed onboard/ancillary revenue dynamics; the sample is small, so this absence may reflect focus rather than ignorance of those topics.",
+    "stance_drift": "In the available 2024\u20132025 sample she moved from high-level questions about cost timing and the 'moderate yield growth' framing (2024-Q3) toward more granular decomposition of yield and booking mix (2025-Q1) and then to cadence and regional supply dynamics (2025-Q3/2025-Q4). Evidence is limited to 2024\u20132025, but the pattern shows increasing interest in quarter-by-quarter cadence and market-level supply effects."
+  }
+}

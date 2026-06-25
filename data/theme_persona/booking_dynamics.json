@@ -1,0 +1,32 @@
+{
+  "theme_id": "booking_dynamics",
+  "display_name": "Booking dynamics / forward visibility / recovery",
+  "description": "Analysts track the booking curve (close-in vs forward), booked position vs optimal, wave-season pace and post-shock recovery trajectory to gauge forward yield visibility.",
+  "recurring_framings_by_quarter": {
+    "2022-Q2": ["close-in booking trend: cyclical post-COVID or structural", "shorter itineraries as new-to-cruise lever"],
+    "2022-Q4": ["wave season pace by brand and geography", "Europe/Asia booking recovery post Russia-Ukraine"],
+    "2023-Q1": ["how strong close-in Q1 reshapes wave management and booking curve normalization"],
+    "2023-Q2": ["booked position vs historical 55-60% turn-of-year benchmark"],
+    "2024-Q1": ["strongest-ever wave continuation into April by region"],
+    "2024-Q2": ["did leaving inventory on the table this year set up better 2025 booking curve"],
+    "2024-Q3": ["booked position 'exactly where you want' and translation to margin", "ad-budget cadence through hurricane/election noise into wave"],
+    "2025-Q1": ["2026 booked position vs optimal", "willingness to flex load factor to defend price in slowdown"],
+    "2025-Q2": ["close-in momentum not embedded in H2 guide"],
+    "2025-Q4": ["shorter (3-4 day) itineraries shifting mix toward close-in yield upside"],
+    "2026-Q1": ["turning-the-corner trajectory vs February pre-disruption baseline"]
+  },
+  "analyst_affinity": {
+    "steven wieczynski": "Anchors on booked position vs optimal and tests willingness to flex load factor versus price in a slowdown.",
+    "paul golding": "Tracks whether close-in booking pattern is post-COVID transient or structural, and how it reshapes wave management.",
+    "brandt montour": "Measures wave-season pace by brand and tests booked-position run vs peers.",
+    "vince ciepiel": "Asks how the booking curve and ad-budget cadence interact through Q4 noise into wave season.",
+    "conor cunningham": "Frames close-in skew (shorter itineraries) as a yield-optionality lever rather than a visibility loss.",
+    "matthew boss": "Asks for booked-position color tied to margin and yield optimization.",
+    "james hardiman": "Frames post-shock recovery as a trajectory question vs a pre-event baseline."
+  },
+  "default_framing_options": [
+    "close-in vs forward booking mix and what is embedded in guide",
+    "remaining inventory percent vs optimal booked position",
+    "recovery trajectory after booking moderation / wave-season pace"
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "asset_id": "royal_beach_club_santorini",
+  "display_name": "Royal Beach Club Santorini",
+  "category": "private_destination",
+  "linked_pillars": [
+    "Exclusive Destinations",
+    "Perfecta"
+  ],
+  "lifecycle_by_quarter": {
+    "2025-Q3": {
+      "status": "announced",
+      "key_uncertainties": [
+        "local stakeholder alignment in Santorini",
+        "permitting and construction timeline",
+        "monetization model per guest"
+      ],
+      "mgmt_statement_summary": "Announces Royal Beach Club Santorini as the next addition to the exclusive destination portfolio, extending brand reach beyond the ship.",
+      "status_changed_this_quarter": true,
+      "status_delta": {
+        "prior_status": null,
+        "current_status": "announced",
+        "change_type": "newly_tracked",
+        "detail": "first quarter this asset appears in the lifecycle record"
+      }
+    },
+    "2025-Q4": {
+      "status": "in_development_capex_disclosed",
+      "key_uncertainties": [
+        "share of $1.8B non-ship capital allocated to Santorini specifically",
+        "guest mix between city tour and beach club",
+        "destination yield uplift quantification"
+      ],
+      "mgmt_statement_summary": "Santorini called out as a meaningful piece of $1.8B non-ship capital alongside Cozumel Beach Club and Perfect Day Mexico; framed as complementary to (not substitute for) the Santorini city experience.",
+      "status_changed_this_quarter": true,
+      "status_delta": {
+        "prior_status": "announced",
+        "current_status": "in_development_capex_disclosed",
+        "change_type": "status_transition",
+        "detail": "announced -> in_development_capex_disclosed"
+      }
+    },
+    "2026-Q1": {
+      "status": "opened",
+      "key_uncertainties": [
+        "early-season guest satisfaction and rebooking signal",
+        "incremental yield vs. like-for-like Santorini calls",
+        "ramp curve relative to Royal Beach Club Paradise Island"
+      ],
+      "mgmt_statement_summary": "Recently opened Royal Beach Club Santorini, developed with local stakeholders, positioned as the centerpiece of the 'ultimate Santorini Day' guest itinerary.",
+      "status_changed_this_quarter": true,
+      "status_delta": {
+        "prior_status": "in_development_capex_disclosed",
+        "current_status": "opened",
+        "change_type": "status_transition",
+        "detail": "in_development_capex_disclosed -> opened"
+      }
+    }
+  },
+  "analyst_relevance": {
+    "asked_by_history": [
+      {
+        "analyst": "vince ciepiel",
+        "call": "2026-Q1",
+        "framing": "New-hardware vs. like-for-like contribution to yield growth, with RBC Santorini grouped alongside Star, Xcel, and Paradise Island as the new-product slate; also tied to Europe yield trajectory."
+      }
+    ],
+    "primary_framings_observed": [
+      "New private destination contribution to yield growth",
+      "European itinerary differentiation and pricing power",
+      "Capital allocation to non-ship (destination) CapEx"
+    ]
+  },
+  "currently_open_questions_as_of_2026Q1": [
+    "What is the per-guest economics of RBC Santorini versus RBC Paradise Island in year one?",
+    "How much of 2026 Europe yield growth is attributable to Santorini vs. broader European pricing?",
+    "What is the capacity throughput of the destination and how does it scale across the Aegean season?",
+    "Will Santorini operate at the upper end of the destination ROIC range implied by Perfecta?"
+  ]
+}

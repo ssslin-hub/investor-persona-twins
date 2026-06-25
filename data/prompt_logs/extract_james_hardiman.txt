@@ -1,0 +1,230 @@
+You are building a STRUCTURED PERSONA of a sell-side equity research analyst
+who covers Royal Caribbean Cruises (RCL). The persona will later be used to
+predict what this same analyst is likely to ask in a future RCL earnings call,
+given that call's management presentation.
+
+You will be given the analyst's name, their firm/title (if known), and a
+chronological list of their prior question turns on RCL earnings calls. Each
+turn includes:
+  - The CALL it was asked on (year + quarter)
+  - A short SETUP that summarises the management presentation and any Q&A that
+    preceded the question on that call
+  - The analyst's QUESTION (verbatim)
+  - The management's RESPONSE (verbatim, may be empty)
+
+Produce a single JSON object with three top-level keys, matching the BDE
+structure adapted to sell-side analysts:
+
+{
+  "coverage_profile": { ... },         // analog of "Background"
+  "reasoning_style": { ... },          // analog of "Decision procedure"
+  "recurring_concerns": { ... }        // analog of "Evaluation"
+}
+
+Fill each sub-profile as follows. Use evidence from the turns; cite specific
+calls (e.g. "2023-Q2") where helpful. Do not invent facts not supported by the
+turns.
+
+# coverage_profile
+Who this analyst is and what lens they bring. Required fields:
+  - "firm": most recent firm/affiliation observed.
+  - "seniority_signal": evidence about their seniority (titles, length of
+    coverage, how management addresses them). 2-3 sentences.
+  - "sector_lens": what beats they appear to cover (cruise / leisure / travel /
+    consumer / gaming / lodging / airlines). 1-2 sentences.
+  - "rhetorical_signature": tics, openers, closers, tone (e.g. "always opens
+    with a thank-you", "tends to ask two-parters", "frames around model
+    inputs"). 2-3 short bullet sentences.
+
+# reasoning_style
+HOW the analyst probes management. Required fields:
+  - "primary_mode": one of {"quantitative_modeling", "qualitative_strategic",
+    "mixed"}, plus a sentence of justification.
+  - "follow_up_pattern": how their question turns are structured (single
+    question, two-parter, multi-part with sub-questions; whether they push back
+    on management answers). 2-3 sentences.
+  - "evidence_demanded": what kinds of answers they reward (specific numbers,
+    explicit guidance, mechanism/cause, anecdotes from the booking curve,
+    comparison to peers). 2-3 sentences.
+  - "anchoring_habits": where they anchor their questions (against prior
+    guidance, against consensus, against peers like NCLH/CCL, against their own
+    prior calls). 2-3 sentences.
+
+# recurring_concerns
+WHAT the analyst keeps coming back to. Required fields:
+  - "core_topics": ranked list (highest-priority first) of 3-6 topical clusters
+    the analyst returns to most often. For each, give:
+      { "topic": short label,
+        "what_they_press_on": 1-2 sentences,
+        "supporting_calls": list of calls where they raised it (e.g. ["2022-Q4", "2023-Q3"]) }
+  - "blind_spots": topics this analyst notably does NOT push on, given their
+    peers do. 1-2 sentences. If unclear, say so.
+  - "stance_drift": how their emphasis has shifted across the 2022-2025 window
+    (e.g. moved from balance-sheet/recovery questions to capital-return and
+    yield questions). 2-3 sentences.
+
+Hard rules:
+- Output ONLY the JSON object. No prose before or after.
+- All free-text fields must be 1-3 sentences each.
+- Cite specific call quarters where you make claims about recurrence.
+- If evidence is thin (few turns), say so explicitly in the relevant field;
+  do not paper over it with generic language.
+
+ANALYST NAME: james hardiman
+LAST OBSERVED FIRM/TITLE: SVP and Leisure Analyst, Citi
+NUMBER OF QUESTIONS IN HISTORY: 11
+CALLS COVERED: 2022-Q4, 2024-Q3, 2024-Q4, 2025-Q3, 2025-Q4
+
+QUESTION HISTORY (chronological):
+--- TURN 1 | CALL: 2022-Q4 | FIRM: SVP and Leisure Analyst, Citi ---
+            [Setup: management presentation excerpt]
+            Operator: Good morning. My name is Regina. I will be your conference operator today. At this time, I would like to welcome everyone to Royal Caribbean Group's fourth quarter full year 2022 and business update earnings call. All participants are in a listen-only mode. After the speaker presentation, there will be a question and answer session. To ask a question during this session, you will need to press star one on your telephone. I would now like to introduce Michael McCarthy, Vice President of Investor Relations. Mr. McCarthy, the floor is yours.
+Michael McCarthy (VP of Investor Relations, Royal Caribbean Group): Good morning, everyone, and thank you for joining us today for our fourth quarter and full year 2022 business update conference call. Joining me here in Miami are Jason Liberty, our Chief Executive Officer, Naftali Holtz, our Chief Financial Officer, and Michael Bayley, President and CEO of Royal Caribbean International. Before we get started, I'd like to note that we will be making forward-looking statements during this call. These statements are based on management's current expectations and are subject to risks and uncertainties. A number of factors could cause act...
+
+            [Operator intro to analyst, if any]
+            Your next question will come from the line of James Hardiman with Citi. Please go ahead.
+
+            [Analyst question]
+            Hey, good morning. Thanks for taking my question and congrats on a great quarter and some really important benchmarks here. I wanted to dig in a little bit on Europe and Asia. Obviously, you know, one year ago,  WAVE Season, it was obviously marred by the Russia-Ukraine conflict. Being such a global brand, you guys do what you do, you adjust. It sounds like both in terms of the destination markets as well as sourcing customers, things are getting better. I guess my question is on Europe, is there still a lingering impact of that conflict in your business that, you know, who knows what's gonna happen with that conflict, but that could ultimately be a positive for next year? A sort of similar question with China? I'm assuming there's not much of a benefit yet from sort of the zero COVID policy going away there. Is there any way to sort of quantify, or even anecdotally speak to, you know, what sort of a drag that is on your business that could potentially open up for you next year?
+
+            [Management response excerpt]
+            Jason Liberty: I'll start on the Europe one and Michael can then take China. You know, first off, I think the consumer... The impact on the Ukraine-Russia I think comes to us in two ways, one of which is there's a little bit of a deployment impact, and, you know, we're not able to go more east into the Baltics because of the, you know, very unfortunate conflict that continues on. Obviously there's some impact on the European consumer because of energy prices. That I think is the impact that h...
+
+--- TURN 2 | CALL: 2022-Q4 | FIRM: SVP and Leisure Analyst, Citi ---
+            [Setup: management presentation excerpt]
+            Operator: Good morning. My name is Regina. I will be your conference operator today. At this time, I would like to welcome everyone to Royal Caribbean Group's fourth quarter full year 2022 and business update earnings call. All participants are in a listen-only mode. After the speaker presentation, there will be a question and answer session. To ask a question during this session, you will need to press star one on your telephone. I would now like to introduce Michael McCarthy, Vice President of Investor Relations. Mr. McCarthy, the floor is yours.
+Michael McCarthy (VP of Investor Relations, Royal Caribbean Group): Good morning, everyone, and thank you for joining us today for our fourth quarter and full year 2022 business update conference call. Joining me here in Miami are Jason Liberty, our Chief Executive Officer, Naftali Holtz, our Chief Financial Officer, and Michael Bayley, President and CEO of Royal Caribbean International. Before we get started, I'd like to note that we will be making forward-looking statements during this call. These statements are based on management's current expectations and are subject to risks and uncertainties. A number of factors could cause act...
+
+            [Operator intro to analyst, if any]
+
+
+            [Analyst question]
+            Got it. All really helpful. By way of follow-up here, I mean, you've talked a couple times, I think, about closing that gap to land-based vacations. I thought the commentary about cruise search outpacing general vacation searching seemed relevant. Maybe speak to that. Do you think that gap has gotten as big as it's gonna get, and maybe you close that gap this year? Obviously, you have much more insight into your own business than into land-based vacations, but maybe sort of updated thoughts there. Thanks.
+
+            [Management response excerpt]
+            Jason Liberty: Yeah, I don't know. I don't think we're gonna close that gap in 2023. I'm encouraged by the ability now for us to increase our pricing even more, which I think will give us the opportunity to close that gap. I'm excited about what we're seeing in the onboard side, which also helps us close that gap. That, you know, that gap, which used to be 20%, is now in the 30% zone relative to pre-COVID, which was around the 20% mark. We do think that there's a lot of runway for us, and tha...
+
+--- TURN 3 | CALL: 2022-Q4 | FIRM: SVP and Leisure Analyst, Citi ---
+            [Setup: management presentation excerpt]
+            Operator: Good morning. My name is Regina. I will be your conference operator today. At this time, I would like to welcome everyone to Royal Caribbean Group's fourth quarter full year 2022 and business update earnings call. All participants are in a listen-only mode. After the speaker presentation, there will be a question and answer session. To ask a question during this session, you will need to press star one on your telephone. I would now like to introduce Michael McCarthy, Vice President of Investor Relations. Mr. McCarthy, the floor is yours.
+Michael McCarthy (VP of Investor Relations, Royal Caribbean Group): Good morning, everyone, and thank you for joining us today for our fourth quarter and full year 2022 business update conference call. Joining me here in Miami are Jason Liberty, our Chief Executive Officer, Naftali Holtz, our Chief Financial Officer, and Michael Bayley, President and CEO of Royal Caribbean International. Before we get started, I'd like to note that we will be making forward-looking statements during this call. These statements are based on management's current expectations and are subject to risks and uncertainties. A number of factors could cause act...
+
+            [Operator intro to analyst, if any]
+
+
+            [Analyst question]
+            Got it. Thanks. Thanks, good luck the rest of the WAVE, guys.
+
+            [Management response excerpt]
+            Jason Liberty: Thanks, James.
+
+--- TURN 4 | CALL: 2024-Q3 | FIRM: Managing Director, Citi ---
+            [Setup: management presentation excerpt]
+            Operator: Good morning. My name is Regina, and I will be your conference operator today. At this time, I would like to welcome everyone to the Royal Caribbean Group Third Quarter 2024 earnings call. All participants are in listen-only mode. After the speaker presentation, there will be a question-and-answer session. To ask a question during the session, you will need to press star one on your telephone. I would now like to introduce Blake Bannier, Vice President of Investor Relations. Mr. Bannier, the floor is yours.
+Blake Banier (VP of Investor Relations, Royal Caribbean Group): Good morning, everyone, and thank you for joining us today for our Third Quarter 2024 earnings call. Joining me here in Miami are Jason Liberty, our Chief Executive Officer, Naftali Holtz, our Chief Financial Officer, and Michael Bayley, President and CEO of Royal Caribbean International. Before we get started, I'd like to note that we will be making forward-looking statements during this call. These statements are based on management's current expectations and are subject to risks and uncertainties. A number of factors could cause actual results to differ materially from our current expectations. Pleas...
+
+            [Operator intro to analyst, if any]
+            Our next question comes from the line of James Hardiman with Citi. Please go ahead.
+
+            [Analyst question]
+            Hey, good morning. I wanted to actually stay on this topic of potential investments. It certainly seems like you have a broader menu of investments available to you maybe than ever and at higher returns, I should say. I guess maybe speak to why your return profile seems to be so much better than it has been for you, and I would argue maybe better than we've ever seen in this industry. It's one of the questions I continually get, certainly for new cruise investors who just haven't seen this as a viable or a strong return type of an industry. It seems like something has changed meaningfully, and I guess as we think about moving forward, where do you think returns ultimately settle in over the long term? Is there a ceiling? You're at double digits return on invested capital. It doesn't seem like it's slowing down necessarily, so just trying to think through sort of what the end game is there, or at least the long term.
+
+            [Management response excerpt]
+            Jason Liberty: Yeah, well, James, I think there's a lot of things that are inside of that. I mean, for this is a long-term business. We've been making very, I think, thoughtful investments for a very long period of time. And I think a lot of it starts with being very discerning about what are the segments we want to be in, building our brands to be leaders in those segments, making sure they're suited with ships and experiences on those ships that are very much tuned into those segments and w...
+
+--- TURN 5 | CALL: 2024-Q3 | FIRM: Managing Director, Citi ---
+            [Setup: management presentation excerpt]
+            Operator: Good morning. My name is Regina, and I will be your conference operator today. At this time, I would like to welcome everyone to the Royal Caribbean Group Third Quarter 2024 earnings call. All participants are in listen-only mode. After the speaker presentation, there will be a question-and-answer session. To ask a question during the session, you will need to press star one on your telephone. I would now like to introduce Blake Bannier, Vice President of Investor Relations. Mr. Bannier, the floor is yours.
+Blake Banier (VP of Investor Relations, Royal Caribbean Group): Good morning, everyone, and thank you for joining us today for our Third Quarter 2024 earnings call. Joining me here in Miami are Jason Liberty, our Chief Executive Officer, Naftali Holtz, our Chief Financial Officer, and Michael Bayley, President and CEO of Royal Caribbean International. Before we get started, I'd like to note that we will be making forward-looking statements during this call. These statements are based on management's current expectations and are subject to risks and uncertainties. A number of factors could cause actual results to differ materially from our current expectations. Pleas...
+
+            [Operator intro to analyst, if any]
+            Our next question comes from the line of James Hardiman with Citi. Please go ahead.
+
+            [Analyst question]
+            Got it. That's really helpful. And then along those lines, as I think about capital allocation, obviously, returns focus is key. But maybe can you speak to any non-financial considerations to that? And by that, I mean, an earlier question Nav talked about leverage profile. It sounds like there's really no priority that you're putting on bringing debt down even further outside of just refinancing and sort of improving maybe that interest rate. But maybe as I think about some of these land-based vacations in the context of the competitive environment, whether it be other cruise lines or other land-based competitors, how do you think about these investments in the context of continuing to push your advantage in those areas and what that brings you longer term? Sure.
+
+            [Management response excerpt]
+            Jason Liberty: As you said, James, well, I think we feel really good about the balance sheet. Naftali commented, there's always an opportunity for us to do better. We're obviously also returning and being thoughtful about returning capital to our shareholders. I've talked about it, competitive dividend as well as share repurchasing, especially on an opportunistic basis. But of course, that's always a board decision. And then look, we're focused on how do we keep our customer in our ecosystem,...
+
+--- TURN 6 | CALL: 2024-Q3 | FIRM: Managing Director, Citi ---
+            [Setup: management presentation excerpt]
+            Operator: Good morning. My name is Regina, and I will be your conference operator today. At this time, I would like to welcome everyone to the Royal Caribbean Group Third Quarter 2024 earnings call. All participants are in listen-only mode. After the speaker presentation, there will be a question-and-answer session. To ask a question during the session, you will need to press star one on your telephone. I would now like to introduce Blake Bannier, Vice President of Investor Relations. Mr. Bannier, the floor is yours.
+Blake Banier (VP of Investor Relations, Royal Caribbean Group): Good morning, everyone, and thank you for joining us today for our Third Quarter 2024 earnings call. Joining me here in Miami are Jason Liberty, our Chief Executive Officer, Naftali Holtz, our Chief Financial Officer, and Michael Bayley, President and CEO of Royal Caribbean International. Before we get started, I'd like to note that we will be making forward-looking statements during this call. These statements are based on management's current expectations and are subject to risks and uncertainties. A number of factors could cause actual results to differ materially from our current expectations. Pleas...
+
+            [Operator intro to analyst, if any]
+
+
+            [Analyst question]
+            That's really helpful.
+
+            [Management response excerpt]
+
+--- TURN 7 | CALL: 2024-Q4 | FIRM: Director and Leisure and Travel Analyst, Citi ---
+            [Setup: management presentation excerpt]
+            Operator: Good morning. My name is Regina, and I will be your conference operator today. At this time, I would like to welcome everyone to the Royal Caribbean Group Fourth Quarter and Full Year 2024 Earnings Conference Call. All participants are in a listen-only mode. After the speaker presentation, there will be a question-and-answer session. To ask a question during this session, you'll need to press star one on your telephone keypad. I would now like to introduce Blake Vanier, Vice President of Investor Relations. Mr. Vanier, the floor is yours.
+Blake Vanier (VP of Investor Relations, Royal Caribbean Group): Good morning, everyone, and thank you for joining us today for our Fourth Quarter 2024 Earnings Call. Joining me here in Miami are Jason Liberty, our Chief Executive Officer, Naftali Holtz, our Chief Financial Officer, and Michael Bayley, President and CEO of the Royal Caribbean brand. Before we get started, I would like to note that we will be making forward-looking statements during this call. These statements are based on management's current expectations and are subject to risks and uncertainties. A number of factors could cause actual results to differ materially fro...
+
+            [Operator intro to analyst, if any]
+            Our next question comes from the line of James Hardiman with Citi. Please go ahead.
+
+            [Analyst question]
+            Hey, good morning. Thanks for taking my questions. I actually want to stay on that same page with the river cruise announcement, just trying to get a feel for the offering and how it's going to be similar versus different to the Viking offering. But I guess first, let's just start. So 10 ships, you're going to start in 2027. I'm assuming all 10 ships won't be up and running by 2027. What's the shape of that ramp? And then as I just think about sort of what the offering's going to look like, are kids going to be allowed on the ships? Is it primarily U.S. customers going to Europe? I'm assuming that there's going to be a big nightlife component given that sort of Celebrity's brand, just trying to put some meat on these bones.
+
+            [Management response excerpt]
+            Jason Liberty: Okay. Okay. Well, also, there's also going to be a lot to come, which I think is going to be great. On the river side, our plan is to deliver a couple of ships in 2027, and then it's about four a year. I'd also point out, because we are very intentional in our words, the word put in front of it was initial order of 10 ships, and so this is not a hobby for us, so we are going into this space, so I just wanted to point that out, and of course, 2027, when these ships come in, is g...
+
+--- TURN 8 | CALL: 2024-Q4 | FIRM: Director and Leisure and Travel Analyst, Citi ---
+            [Setup: management presentation excerpt]
+            Operator: Good morning. My name is Regina, and I will be your conference operator today. At this time, I would like to welcome everyone to the Royal Caribbean Group Fourth Quarter and Full Year 2024 Earnings Conference Call. All participants are in a listen-only mode. After the speaker presentation, there will be a question-and-answer session. To ask a question during this session, you'll need to press star one on your telephone keypad. I would now like to introduce Blake Vanier, Vice President of Investor Relations. Mr. Vanier, the floor is yours.
+Blake Vanier (VP of Investor Relations, Royal Caribbean Group): Good morning, everyone, and thank you for joining us today for our Fourth Quarter 2024 Earnings Call. Joining me here in Miami are Jason Liberty, our Chief Executive Officer, Naftali Holtz, our Chief Financial Officer, and Michael Bayley, President and CEO of the Royal Caribbean brand. Before we get started, I would like to note that we will be making forward-looking statements during this call. These statements are based on management's current expectations and are subject to risks and uncertainties. A number of factors could cause actual results to differ materially fro...
+
+            [Operator intro to analyst, if any]
+            Our next question comes from the line of James Hardiman with Citi. Please go ahead.
+
+            [Analyst question]
+            That's great color and love the tease. I guess, secondly, just on the CapEx front, I think you guided 2025 to $5 billion. Pretty big step up. I'm assuming we'll need to wait on the free cash flow front until the analyst day to get a more sort of unified outlook. Maybe, is there any way to think about sort of CapEx requirements moving forward? I think we're looking at $3.4 billion new build, $1.6 billion non-new build. How should we model those going forward? I'm assuming the new build piece goes up with capacity, but then non-new build, there's a lot of non-new build opportunities for you guys, for sure. So how do we think about that $5 billion number and how it moves into 2026, 2027?
+
+            [Management response excerpt]
+            Naftali Holtz: Hi, it's Naf. I think if you kind of think about what we have this year and kind of what we laid out in terms of our priorities, you think about the ships that we have to deliver this year, both Star of the Seas and Celebrity Xcel, compared to what we had last year. Remember, Icon last year did not actually deliver in 2024. We actually delivered in 2023. That capital was counted in 2023. You have the ship layout in terms of our delivery and what we're expecting. You should expe...
+
+--- TURN 9 | CALL: 2024-Q4 | FIRM: Director and Leisure and Travel Analyst, Citi ---
+            [Setup: management presentation excerpt]
+            Operator: Good morning. My name is Regina, and I will be your conference operator today. At this time, I would like to welcome everyone to the Royal Caribbean Group Fourth Quarter and Full Year 2024 Earnings Conference Call. All participants are in a listen-only mode. After the speaker presentation, there will be a question-and-answer session. To ask a question during this session, you'll need to press star one on your telephone keypad. I would now like to introduce Blake Vanier, Vice President of Investor Relations. Mr. Vanier, the floor is yours.
+Blake Vanier (VP of Investor Relations, Royal Caribbean Group): Good morning, everyone, and thank you for joining us today for our Fourth Quarter 2024 Earnings Call. Joining me here in Miami are Jason Liberty, our Chief Executive Officer, Naftali Holtz, our Chief Financial Officer, and Michael Bayley, President and CEO of the Royal Caribbean brand. Before we get started, I would like to note that we will be making forward-looking statements during this call. These statements are based on management's current expectations and are subject to risks and uncertainties. A number of factors could cause actual results to differ materially fro...
+
+            [Operator intro to analyst, if any]
+
+
+            [Analyst question]
+            Makes a lot of sense. Thanks, Naf.
+
+            [Management response excerpt]
+            Naftali Holtz: Thanks, Jason. Our next question comes from the line of Steven Wieczynski with Stifel. Please go ahead.
+
+--- TURN 10 | CALL: 2025-Q3 | FIRM: Director and Leisure and Travel Analyst, Citi ---
+            [Setup: management presentation excerpt]
+            Operator: Good morning. My name is Regina, and I will be your conference operator today. At this time, I would like to welcome everyone to the Royal Caribbean Group's Third Quarter 2025 Earnings Call. All participants are in the listen-only mode. After the speaker presentation, there will be a question-and-answer session. To ask a question during this session, you'll need to press star one on your telephone keypad. Given the number of participants on today's call, we are strictly limiting each person to one question only. I would now like to introduce Blake Vanier, Vice President of Investor Relations. Mr. Vanier, the floor is yours.
+Blake Vanier (VP of Investor Relations, Royal Caribbean Group): Good morning, everyone, and thank you for joining us today for our Third Quarter 2025 Earnings Call. Joining me here in Miami are Jason Liberty, our President and Chief Executive Officer, Naftali Holtz, our Chief Financial Officer, and Michael Bayley, President and CEO of the Royal Caribbean Brand. Before we get started, I would like to note that we will be making forward-looking statements during this call. These statements are based on management's current expectations and are subject...
+
+            [Operator intro to analyst, if any]
+            Our next question comes from the line of James Hardiman with Citi. Please go ahead.
+
+            [Analyst question]
+            Hey, good morning. So maybe to that last point, as we sort of roll things forward into 2026, I think investors are very keen as we think about puts and takes that there's a lot of puts, right? You've got. Whereas in 2025, you had sort of negative ship timing. That was a headwind that now becomes a tailwind. Obviously, weather, it's not a big number, but in theory, that becomes a tailwind as we think about 2026. I guess where I struggle a little bit is to get to anything less than $18 if I don't assume that yields are, I don't know, less than they were this year as we think about growth. So maybe help us. Are there any takes as we think about puts and takes? Specifically, are some of these tailwinds maybe offset by a weaker consumer environment broadly? It doesn't really sound like it, but just trying to sort of put some of these items. Thanks.
+
+            [Management response excerpt]
+            Jason Liberty: Yeah. So thanks, James, for the question. I think first to start off is that the consumer or our guests is strong. They have great jobs. They have great balance sheets, bank accounts, and they have a strong desire to vacation and build experiences and memories with their friends and family. But we're also not immune to what's generally happening in the environment. And so it's what the consumer is willing, their willingness to pay up. And they are willing to pay up. They may no...
+
+--- TURN 11 | CALL: 2025-Q4 | FIRM: Leisure and Travel Analyst, Citi ---
+            [Setup: management presentation excerpt]
+            Operator: Good morning. My name is Morgan, and I'll be your conference operator today. At this time, I would like to welcome everyone to the Royal Caribbean Group fourth quarter and full year 2025 earnings call. All participants are in a listen-only mode. After the speaker presentation, there will be a question-and-answer session. To ask a question during this session, you will need to press star, then the number one on your telephone. I would like to introduce Mr. Blake Vanier, Vice President of Investor Relations. Mr. Vanier, the floor is yours.
+Blake Vanier (VP of Investor Relations, Royal Caribbean Group): Good morning, everyone, and thank you for joining us today for our fourth quarter 2025 earnings call. Joining me here in Miami are Jason Liberty, our Chairman and Chief Executive Officer, Naftali Holtz, our Chief Financial Officer, and Michael Bayley, President and CEO of the Royal Caribbean brand. Before we get started, I'd like to note that we will be making forward-looking statements during this call. These statements are based on management's current expectations and are subject to risks and uncertainties. A number of factors could cause actual results to differ materi...
+
+            [Operator intro to analyst, if any]
+            Your next question comes from James Hardiman with Citi. Your line is open.
+
+            [Analyst question]
+            Hey, good morning. I actually just wanted to continue down that same line of thinking. Maybe if you could help us think about your business sort of organic versus inorganic. Obviously, you've got another Icon Class ship coming on. You've got some calendar benefits from last year's Icon and Celebrity ships. And then you've got the Royal Beach Club coming on. I don't think you're going to get any benefit from the second one in Cozumel, but at least that first one. And so when I just think about the inorganic stuff, it sort of feels like you could get maybe north of 2% on that alone. So how should I think about the organic business and then maybe specifically the organic business in Caribbean, just given the idea that that seems to be, if there's going to be more capacity coming to the Caribbean, those older ships, the older tonnage probably is taking on the brunt of that, the competitive environment that you're seeing from one of your peers. Thanks.
+
+            [Management response excerpt]
+            Jason Liberty: Yeah. Okay. Well, thanks, James, for the question. And I think first, as we look at our yield profile for this year, about half of it's going to come from new hardware. By the way, as we add new hardware into our environment, just because the denominator is bigger, it has less of an effect on our yield improvement. So half of it's going to come from new hardware, and the other half is coming from like-for-like. I'll have Michael talk for a second here in a minute on the Royal B...

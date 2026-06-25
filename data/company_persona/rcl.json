@@ -1,0 +1,1954 @@
+{
+  "company_name": "Royal Caribbean Group",
+  "tickers": [
+    "RCL"
+  ],
+  "brands": [
+    "Royal Caribbean International",
+    "Celebrity Cruises",
+    "Silversea"
+  ],
+  "strategic_pillars": [
+    {
+      "name": "Trifecta",
+      "horizon": "2022-2025",
+      "status": "achieved ahead of plan (delivered in 2024, one year early)",
+      "targets": "Triple-digit Adjusted EBITDA per APCD, double-digit Adjusted EPS, and ROIC in the teens by year-end 2025; framed as the financial bridge out of the pandemic and back to investment-grade metrics."
+    },
+    {
+      "name": "Perfecta",
+      "horizon": "2024-2027",
+      "status": "in-flight",
+      "targets": "By 2027: Adjusted EPS of approximately $21 (20% CAGR off 2024 base), 17% Adjusted EBITDA margin expansion, and ROIC of 17%+; supported by new ships (Icon/Star/Utopia class), destination investments (Perfect Day Mexico, Royal Beach Club Paradise Island/Cozumel), and the loyalty/commercial platform."
+    }
+  ],
+  "kpi_lexicon": {
+    "yield": [
+      "Net Yield",
+      "constant currency",
+      "Booking Curve",
+      "Wave Season"
+    ],
+    "cost": [
+      "NCC ex-fuel",
+      "Hedged"
+    ],
+    "profitability": [
+      "Adjusted EBITDA",
+      "Adjusted EPS",
+      "Free Cash Flow",
+      "Operating Income"
+    ],
+    "capital": [
+      "ROIC",
+      "Net Leverage"
+    ],
+    "capacity": [
+      "Load Factor",
+      "Capacity Growth",
+      "APCD",
+      "APD",
+      "Trifecta",
+      "Perfecta"
+    ]
+  },
+  "recurring_headwinds": {
+    "fuel": "Fuel is managed through hedging and consumption optimization rather than passed through. Hedge coverage has stayed in a 54%-68% band on the current year (55% in 2022-Q1, 64% in 2022-Q3, 61% across 2023-Q4 through 2024-Q3, 66% in 2025-Q2, 68% in 2025-Q3, and ~60% for 2026 per 2026-Q1). Even with hedging, fuel and FX combined have repeatedly been called out as a $0.20+ EPS drag (e.g., -$0.21 in 2023-Q3 guidance) and were quantified at $0.62/share standalone (or $0.74 including JVs) in the 2026-Q1 outlook.",
+    "fx": "Roughly 20% of revenue is now sourced in non-USD currencies after the post-COVID shift to more North American itineraries (2022-Q3), down from ~25% pre-pandemic. Management presents nearly all yield and cost metrics on a constant-currency basis (2022-Q2 through 2023-Q2), and FX is routinely bundled with fuel and interest into the quarterly EPS guide framework. 2026-Q1 reiterates a 1.5%-2.5% constant-currency Net Yield range for the full year as the cleanest demand signal.",
+    "dry_dock": "Dry-dock cadence is structurally elevated post-COVID because ships that missed their pandemic-era windows are being re-sequenced (2023-Q2). 2024 carried roughly double the dry-dock days of 2023 and, together with the opening of Hideaway Beach, added ~300-380 bps to NCC ex-fuel (2023-Q3, 2023-Q4). Cost cadence is front-half loaded as most dry docks fall in late Q1/early Q2, with second-half relief from fewer dock days and incremental APCDs from new ships such as Utopia.",
+    "geopolitical": "The war in Ukraine was flagged immediately in 2022-Q1 (2,000+ Ukrainian crew) along with broader supply-chain pressure. Middle East exposure resurfaced in 2023-Q3 when sailings that included Israel were called out as part of a -$0.21 EPS impact alongside fuel/FX. Management consistently frames geopolitical events as itinerary-redeployment problems rather than demand problems, leveraging the global fleet to reposition capacity.",
+    "macro": "Management's standing view is that the consumer remains healthy and that cruise trades at a meaningful value gap to land-based vacations, which historically cushions demand in softer macro periods (2022-Q1). Close-in booking strength, record onboard spend and pre-cruise penetration are cited as evidence the consumer continues to prioritize experiences (reiterated through 2025-Q3 and 2026-Q1). Inflation and rate volatility are acknowledged but are typically described as managed through pricing power, the loyalty base, and the value-gap narrative rather than as demand destruction."
+  },
+  "speaker_roles": {
+    "Jason Liberty": "President and CEO, Royal Caribbean Group; primary voice on strategy, Trifecta/Perfecta progress, and capital allocation.",
+    "Naftali Holtz": "CFO, Royal Caribbean Group; owns guidance walk, fuel/FX/interest sensitivities, leverage and buyback commentary.",
+    "Michael Bayley": "President and CEO, Royal Caribbean International; speaks to flagship brand demand, Perfect Day at CocoCay/Royal Beach Club, new-ship launches (Icon/Star class).",
+    "Michael McCarthy": "VP / Head of Investor Relations, Royal Caribbean Group (through 2024-Q2); hosted and framed the earnings calls.",
+    "Blake Vanier": "VP of Investor Relations, Royal Caribbean Group (Blake Bannier in 2024-Q3 transcript); current IR host from 2024-Q3 onward.",
+    "Sean Wagner": "AVP, Leisure Equity Research, Citigroup; recurring sell-side questioner on yield and cost cadence.",
+    "Lizzie Dove": "VP and Equity Research Analyst, Goldman Sachs; recurring sell-side questioner on consumer health and capital returns."
+  },
+  "period_anchors_by_quarter": {
+    "2022-Q1": {
+      "guidance_for_fy": 2022,
+      "fy_net_yield_guide": null,
+      "fy_eps_guide": null,
+      "fy_capacity_growth": null,
+      "fy_fuel_expense": null,
+      "fuel_hedged_pct": {
+        "value": 55,
+        "unit": "%"
+      },
+      "fy_ncc_exfuel_guide": null,
+      "caribbean_share": null,
+      "_provenance": {
+        "fy_net_yield_guide": "needs_review",
+        "fy_eps_guide": "needs_review",
+        "fy_capacity_growth": "needs_review",
+        "fy_fuel_expense": "needs_review",
+        "fuel_hedged_pct": "parsed",
+        "fy_ncc_exfuel_guide": "needs_review",
+        "caribbean_share": "needs_review"
+      },
+      "_needs_review": [
+        "caribbean_share",
+        "fy_capacity_growth",
+        "fy_eps_guide",
+        "fy_fuel_expense",
+        "fy_ncc_exfuel_guide",
+        "fy_net_yield_guide"
+      ]
+    },
+    "2022-Q2": {
+      "guidance_for_fy": 2022,
+      "fy_net_yield_guide": null,
+      "fy_eps_guide": null,
+      "fy_capacity_growth": null,
+      "fy_fuel_expense": {
+        "value": 2.9,
+        "unit": "$B"
+      },
+      "fuel_hedged_pct": {
+        "value": 56,
+        "unit": "%"
+      },
+      "fy_ncc_exfuel_guide": null,
+      "caribbean_share": null,
+      "_provenance": {
+        "fy_net_yield_guide": "needs_review",
+        "fy_eps_guide": "needs_review",
+        "fy_capacity_growth": "needs_review",
+        "fy_fuel_expense": "parsed",
+        "fuel_hedged_pct": "parsed",
+        "fy_ncc_exfuel_guide": "needs_review",
+        "caribbean_share": "needs_review"
+      },
+      "_needs_review": [
+        "caribbean_share",
+        "fy_capacity_growth",
+        "fy_eps_guide",
+        "fy_ncc_exfuel_guide",
+        "fy_net_yield_guide"
+      ]
+    },
+    "2022-Q3": {
+      "guidance_for_fy": 2022,
+      "fy_net_yield_guide": null,
+      "fy_eps_guide": null,
+      "fy_capacity_growth": null,
+      "fy_fuel_expense": null,
+      "fuel_hedged_pct": {
+        "value": 64,
+        "unit": "%"
+      },
+      "fy_ncc_exfuel_guide": null,
+      "caribbean_share": null,
+      "_provenance": {
+        "fy_net_yield_guide": "needs_review",
+        "fy_eps_guide": "needs_review",
+        "fy_capacity_growth": "needs_review",
+        "fy_fuel_expense": "needs_review",
+        "fuel_hedged_pct": "parsed",
+        "fy_ncc_exfuel_guide": "needs_review",
+        "caribbean_share": "needs_review"
+      },
+      "_needs_review": [
+        "caribbean_share",
+        "fy_capacity_growth",
+        "fy_eps_guide",
+        "fy_fuel_expense",
+        "fy_ncc_exfuel_guide",
+        "fy_net_yield_guide"
+      ]
+    },
+    "2022-Q4": {
+      "guidance_for_fy": 2023,
+      "fy_net_yield_guide": null,
+      "fy_eps_guide": null,
+      "fy_capacity_growth": null,
+      "fy_fuel_expense": {
+        "value": 1.1,
+        "unit": "$B"
+      },
+      "fuel_hedged_pct": {
+        "value": 55,
+        "unit": "%"
+      },
+      "fy_ncc_exfuel_guide": null,
+      "caribbean_share": null,
+      "_provenance": {
+        "fy_net_yield_guide": "needs_review",
+        "fy_eps_guide": "needs_review",
+        "fy_capacity_growth": "needs_review",
+        "fy_fuel_expense": "parsed",
+        "fuel_hedged_pct": "parsed",
+        "fy_ncc_exfuel_guide": "needs_review",
+        "caribbean_share": "needs_review"
+      },
+      "_needs_review": [
+        "caribbean_share",
+        "fy_capacity_growth",
+        "fy_eps_guide",
+        "fy_ncc_exfuel_guide",
+        "fy_net_yield_guide"
+      ]
+    },
+    "2023-Q1": {
+      "guidance_for_fy": 2023,
+      "fy_net_yield_guide": null,
+      "fy_eps_guide": {
+        "text": "$4.40-$4.80"
+      },
+      "fy_capacity_growth": null,
+      "fy_fuel_expense": {
+        "value": 1.1,
+        "unit": "$B"
+      },
+      "fuel_hedged_pct": {
+        "value": 54,
+        "unit": "%"
+      },
+      "fy_ncc_exfuel_guide": null,
+      "caribbean_share": null,
+      "_provenance": {
+        "fy_net_yield_guide": "needs_review",
+        "fy_eps_guide": "rcl_existing",
+        "fy_capacity_growth": "needs_review",
+        "fy_fuel_expense": "parsed",
+        "fuel_hedged_pct": "parsed",
+        "fy_ncc_exfuel_guide": "needs_review",
+        "caribbean_share": "needs_review"
+      },
+      "_needs_review": [
+        "caribbean_share",
+        "fy_capacity_growth",
+        "fy_ncc_exfuel_guide",
+        "fy_net_yield_guide"
+      ]
+    },
+    "2023-Q2": {
+      "guidance_for_fy": 2023,
+      "fy_net_yield_guide": null,
+      "fy_eps_guide": null,
+      "fy_capacity_growth": null,
+      "fy_fuel_expense": null,
+      "fuel_hedged_pct": null,
+      "fy_ncc_exfuel_guide": null,
+      "caribbean_share": null,
+      "_provenance": {
+        "fy_net_yield_guide": "needs_review",
+        "fy_eps_guide": "needs_review",
+        "fy_capacity_growth": "needs_review",
+        "fy_fuel_expense": "needs_review",
+        "fuel_hedged_pct": "needs_review",
+        "fy_ncc_exfuel_guide": "needs_review",
+        "caribbean_share": "needs_review"
+      },
+      "_needs_review": [
+        "caribbean_share",
+        "fuel_hedged_pct",
+        "fy_capacity_growth",
+        "fy_eps_guide",
+        "fy_fuel_expense",
+        "fy_ncc_exfuel_guide",
+        "fy_net_yield_guide"
+      ]
+    },
+    "2023-Q3": {
+      "guidance_for_fy": 2023,
+      "fy_net_yield_guide": null,
+      "fy_eps_guide": null,
+      "fy_capacity_growth": null,
+      "fy_fuel_expense": null,
+      "fuel_hedged_pct": null,
+      "fy_ncc_exfuel_guide": null,
+      "caribbean_share": null,
+      "_provenance": {
+        "fy_net_yield_guide": "needs_review",
+        "fy_eps_guide": "needs_review",
+        "fy_capacity_growth": "needs_review",
+        "fy_fuel_expense": "needs_review",
+        "fuel_hedged_pct": "needs_review",
+        "fy_ncc_exfuel_guide": "needs_review",
+        "caribbean_share": "needs_review"
+      },
+      "_needs_review": [
+        "caribbean_share",
+        "fuel_hedged_pct",
+        "fy_capacity_growth",
+        "fy_eps_guide",
+        "fy_fuel_expense",
+        "fy_ncc_exfuel_guide",
+        "fy_net_yield_guide"
+      ]
+    },
+    "2023-Q4": {
+      "guidance_for_fy": 2024,
+      "fy_net_yield_guide": null,
+      "fy_eps_guide": {
+        "text": "$9.50-$9.70"
+      },
+      "fy_capacity_growth": null,
+      "fy_fuel_expense": {
+        "value": 1.16,
+        "unit": "$B"
+      },
+      "fuel_hedged_pct": {
+        "value": 61,
+        "unit": "%"
+      },
+      "fy_ncc_exfuel_guide": null,
+      "caribbean_share": {
+        "value": 55,
+        "unit": "%"
+      },
+      "_provenance": {
+        "fy_net_yield_guide": "needs_review",
+        "fy_eps_guide": "rcl_existing",
+        "fy_capacity_growth": "needs_review",
+        "fy_fuel_expense": "parsed",
+        "fuel_hedged_pct": "parsed",
+        "fy_ncc_exfuel_guide": "needs_review",
+        "caribbean_share": "parsed"
+      },
+      "_needs_review": [
+        "fy_capacity_growth",
+        "fy_ncc_exfuel_guide",
+        "fy_net_yield_guide"
+      ]
+    },
+    "2024-Q1": {
+      "guidance_for_fy": 2024,
+      "fy_net_yield_guide": null,
+      "fy_eps_guide": {
+        "text": "$10.70-$10.90"
+      },
+      "fy_capacity_growth": null,
+      "fy_fuel_expense": {
+        "value": 1.18,
+        "unit": "$B"
+      },
+      "fuel_hedged_pct": {
+        "value": 61,
+        "unit": "%"
+      },
+      "fy_ncc_exfuel_guide": null,
+      "caribbean_share": null,
+      "_provenance": {
+        "fy_net_yield_guide": "needs_review",
+        "fy_eps_guide": "rcl_existing",
+        "fy_capacity_growth": "needs_review",
+        "fy_fuel_expense": "parsed",
+        "fuel_hedged_pct": "parsed",
+        "fy_ncc_exfuel_guide": "needs_review",
+        "caribbean_share": "needs_review"
+      },
+      "_needs_review": [
+        "caribbean_share",
+        "fy_capacity_growth",
+        "fy_ncc_exfuel_guide",
+        "fy_net_yield_guide"
+      ]
+    },
+    "2024-Q2": {
+      "guidance_for_fy": 2024,
+      "fy_net_yield_guide": null,
+      "fy_eps_guide": null,
+      "fy_capacity_growth": null,
+      "fy_fuel_expense": {
+        "value": 1.17,
+        "unit": "$B"
+      },
+      "fuel_hedged_pct": {
+        "value": 61,
+        "unit": "%"
+      },
+      "fy_ncc_exfuel_guide": null,
+      "caribbean_share": null,
+      "_provenance": {
+        "fy_net_yield_guide": "needs_review",
+        "fy_eps_guide": "needs_review",
+        "fy_capacity_growth": "needs_review",
+        "fy_fuel_expense": "parsed",
+        "fuel_hedged_pct": "parsed",
+        "fy_ncc_exfuel_guide": "needs_review",
+        "caribbean_share": "needs_review"
+      },
+      "_needs_review": [
+        "caribbean_share",
+        "fy_capacity_growth",
+        "fy_eps_guide",
+        "fy_ncc_exfuel_guide",
+        "fy_net_yield_guide"
+      ]
+    },
+    "2024-Q3": {
+      "guidance_for_fy": 2024,
+      "fy_net_yield_guide": null,
+      "fy_eps_guide": null,
+      "fy_capacity_growth": null,
+      "fy_fuel_expense": {
+        "value": 1.16,
+        "unit": "$B"
+      },
+      "fuel_hedged_pct": {
+        "value": 61,
+        "unit": "%"
+      },
+      "fy_ncc_exfuel_guide": null,
+      "caribbean_share": null,
+      "_provenance": {
+        "fy_net_yield_guide": "needs_review",
+        "fy_eps_guide": "needs_review",
+        "fy_capacity_growth": "needs_review",
+        "fy_fuel_expense": "parsed",
+        "fuel_hedged_pct": "parsed",
+        "fy_ncc_exfuel_guide": "needs_review",
+        "caribbean_share": "needs_review"
+      },
+      "_needs_review": [
+        "caribbean_share",
+        "fy_capacity_growth",
+        "fy_eps_guide",
+        "fy_ncc_exfuel_guide",
+        "fy_net_yield_guide"
+      ]
+    },
+    "2024-Q4": {
+      "guidance_for_fy": 2025,
+      "fy_net_yield_guide": null,
+      "fy_eps_guide": null,
+      "fy_capacity_growth": null,
+      "fy_fuel_expense": {
+        "value": 1.17,
+        "unit": "$B"
+      },
+      "fuel_hedged_pct": {
+        "value": 60,
+        "unit": "%"
+      },
+      "fy_ncc_exfuel_guide": null,
+      "caribbean_share": {
+        "value": 57,
+        "unit": "%"
+      },
+      "notes": "First full year reporting Trifecta achievement (one year ahead of plan); Perfecta program articulated.",
+      "_provenance": {
+        "fy_net_yield_guide": "needs_review",
+        "fy_eps_guide": "needs_review",
+        "fy_capacity_growth": "needs_review",
+        "fy_fuel_expense": "parsed",
+        "fuel_hedged_pct": "parsed",
+        "fy_ncc_exfuel_guide": "needs_review",
+        "caribbean_share": "parsed"
+      },
+      "_needs_review": [
+        "fy_capacity_growth",
+        "fy_eps_guide",
+        "fy_ncc_exfuel_guide",
+        "fy_net_yield_guide"
+      ]
+    },
+    "2025-Q1": {
+      "guidance_for_fy": 2025,
+      "fy_net_yield_guide": null,
+      "fy_eps_guide": null,
+      "fy_capacity_growth": null,
+      "fy_fuel_expense": {
+        "value": 1.14,
+        "unit": "$B"
+      },
+      "fuel_hedged_pct": {
+        "value": 59,
+        "unit": "%"
+      },
+      "fy_ncc_exfuel_guide": null,
+      "caribbean_share": {
+        "value": 57,
+        "unit": "%"
+      },
+      "_provenance": {
+        "fy_net_yield_guide": "needs_review",
+        "fy_eps_guide": "needs_review",
+        "fy_capacity_growth": "needs_review",
+        "fy_fuel_expense": "parsed",
+        "fuel_hedged_pct": "parsed",
+        "fy_ncc_exfuel_guide": "needs_review",
+        "caribbean_share": "parsed"
+      },
+      "_needs_review": [
+        "fy_capacity_growth",
+        "fy_eps_guide",
+        "fy_ncc_exfuel_guide",
+        "fy_net_yield_guide"
+      ]
+    },
+    "2025-Q2": {
+      "guidance_for_fy": 2025,
+      "fy_net_yield_guide": null,
+      "fy_eps_guide": null,
+      "fy_capacity_growth": null,
+      "fy_fuel_expense": {
+        "value": 1.14,
+        "unit": "$B"
+      },
+      "fuel_hedged_pct": {
+        "value": 66,
+        "unit": "%"
+      },
+      "fy_ncc_exfuel_guide": null,
+      "caribbean_share": {
+        "value": 57,
+        "unit": "%"
+      },
+      "notes": "Call hosted in Miami with Liberty, Holtz, and Bayley; reiterated consumer strength and forward bookings.",
+      "_provenance": {
+        "fy_net_yield_guide": "needs_review",
+        "fy_eps_guide": "needs_review",
+        "fy_capacity_growth": "needs_review",
+        "fy_fuel_expense": "parsed",
+        "fuel_hedged_pct": "parsed",
+        "fy_ncc_exfuel_guide": "needs_review",
+        "caribbean_share": "parsed"
+      },
+      "_needs_review": [
+        "fy_capacity_growth",
+        "fy_eps_guide",
+        "fy_ncc_exfuel_guide",
+        "fy_net_yield_guide"
+      ]
+    },
+    "2025-Q3": {
+      "guidance_for_fy": 2025,
+      "fy_net_yield_guide": null,
+      "fy_eps_guide": null,
+      "fy_capacity_growth": null,
+      "fy_fuel_expense": {
+        "value": 1.14,
+        "unit": "$B"
+      },
+      "fuel_hedged_pct": {
+        "value": 68,
+        "unit": "%"
+      },
+      "fy_ncc_exfuel_guide": null,
+      "caribbean_share": {
+        "value": 57,
+        "unit": "%"
+      },
+      "notes": "Strict one-question-per-analyst format on the call; continued strong booked position and onboard spend.",
+      "_provenance": {
+        "fy_net_yield_guide": "needs_review",
+        "fy_eps_guide": "needs_review",
+        "fy_capacity_growth": "needs_review",
+        "fy_fuel_expense": "parsed",
+        "fuel_hedged_pct": "parsed",
+        "fy_ncc_exfuel_guide": "needs_review",
+        "caribbean_share": "parsed"
+      },
+      "_needs_review": [
+        "fy_capacity_growth",
+        "fy_eps_guide",
+        "fy_ncc_exfuel_guide",
+        "fy_net_yield_guide"
+      ]
+    },
+    "2025-Q4": {
+      "guidance_for_fy": 2026,
+      "fy_net_yield_guide": {
+        "low": 1.5,
+        "high": 3.5,
+        "unit": "%cc"
+      },
+      "fy_eps_guide": {
+        "low": 17.7,
+        "high": 18.1,
+        "unit": "$"
+      },
+      "fy_capacity_growth": {
+        "value": 6.7,
+        "unit": "%"
+      },
+      "fy_fuel_expense": {
+        "value": 1.17,
+        "unit": "$B"
+      },
+      "fuel_hedged_pct": {
+        "value": 60,
+        "unit": "%"
+      },
+      "fy_ncc_exfuel_guide": {
+        "text": "initial FY2026 NCC ex-fuel guide",
+        "midpoint": null
+      },
+      "caribbean_share": {
+        "value": 57,
+        "unit": "%"
+      },
+      "quarter_result": {
+        "net_yield_pct": 2.5,
+        "eps": 2.8
+      },
+      "_provenance": {
+        "fy_net_yield_guide": "verified",
+        "fy_eps_guide": "verified",
+        "fy_capacity_growth": "verified",
+        "fy_fuel_expense": "verified",
+        "fuel_hedged_pct": "verified",
+        "fy_ncc_exfuel_guide": "verified",
+        "caribbean_share": "verified",
+        "quarter_result": "verified"
+      }
+    },
+    "2026-Q1": {
+      "guidance_for_fy": 2026,
+      "fy_net_yield_guide": {
+        "low": 1.5,
+        "high": 2.5,
+        "unit": "%cc"
+      },
+      "fy_eps_guide": {
+        "low": 17.1,
+        "high": 17.5,
+        "unit": "$"
+      },
+      "fy_capacity_growth": {
+        "value": 6.7,
+        "unit": "%"
+      },
+      "fy_fuel_expense": {
+        "value": 1.35,
+        "unit": "$B"
+      },
+      "fuel_hedged_pct": {
+        "value": 60,
+        "unit": "%"
+      },
+      "fy_ncc_exfuel_guide": {
+        "text": "improved vs prior guide",
+        "midpoint": null,
+        "changed_vs_prior": "improved"
+      },
+      "caribbean_share": {
+        "value": 57,
+        "unit": "%"
+      },
+      "quarter_result": {
+        "net_yield_pct": 2.0,
+        "eps": null
+      },
+      "quarter_highlights": "Q1 revenue +11% YoY; earnings ~11% above guidance; $1.1B returned via dividends and buybacks; record Wave Season.",
+      "_provenance": {
+        "fy_net_yield_guide": "verified",
+        "fy_eps_guide": "verified",
+        "fy_capacity_growth": "verified",
+        "fy_fuel_expense": "verified",
+        "fuel_hedged_pct": "verified",
+        "fy_ncc_exfuel_guide": "verified",
+        "caribbean_share": "verified",
+        "quarter_result": "verified"
+      }
+    }
+  },
+  "deltas_by_transition": {
+    "2022-Q1 -> 2022-Q2": {
+      "guidance_for_fy": 2022,
+      "moved_most": [
+        "fuel_hedge"
+      ],
+      "unchanged": [],
+      "per_metric": {
+        "yield": {
+          "prior": null,
+          "current": null,
+          "delta": null,
+          "direction": "unknown",
+          "magnitude_rank": null
+        },
+        "EPS": {
+          "prior": null,
+          "current": null,
+          "delta": null,
+          "direction": "unknown",
+          "magnitude_rank": null
+        },
+        "capacity": {
+          "prior": null,
+          "current": null,
+          "delta": null,
+          "direction": "unknown",
+          "magnitude_rank": null
+        },
+        "fuel": {
+          "prior": null,
+          "current": {
+            "value": 2.9,
+            "unit": "$B"
+          },
+          "delta": null,
+          "direction": "unknown",
+          "magnitude_rank": null
+        },
+        "fuel_hedge": {
+          "prior": {
+            "value": 55,
+            "unit": "%"
+          },
+          "current": {
+            "value": 56,
+            "unit": "%"
+          },
+          "delta": 1.0,
+          "direction": "up",
+          "magnitude_rank": 1
+        },
+        "NCC": {
+          "prior": null,
+          "current": null,
+          "delta": null,
+          "direction": "unknown",
+          "magnitude_rank": null
+        },
+        "Caribbean": {
+          "prior": null,
+          "current": null,
+          "delta": null,
+          "direction": "unknown",
+          "magnitude_rank": null
+        }
+      }
+    },
+    "2022-Q2 -> 2022-Q3": {
+      "guidance_for_fy": 2022,
+      "moved_most": [
+        "fuel_hedge"
+      ],
+      "unchanged": [],
+      "per_metric": {
+        "yield": {
+          "prior": null,
+          "current": null,
+          "delta": null,
+          "direction": "unknown",
+          "magnitude_rank": null
+        },
+        "EPS": {
+          "prior": null,
+          "current": null,
+          "delta": null,
+          "direction": "unknown",
+          "magnitude_rank": null
+        },
+        "capacity": {
+          "prior": null,
+          "current": null,
+          "delta": null,
+          "direction": "unknown",
+          "magnitude_rank": null
+        },
+        "fuel": {
+          "prior": {
+            "value": 2.9,
+            "unit": "$B"
+          },
+          "current": null,
+          "delta": null,
+          "direction": "unknown",
+          "magnitude_rank": null
+        },
+        "fuel_hedge": {
+          "prior": {
+            "value": 56,
+            "unit": "%"
+          },
+          "current": {
+            "value": 64,
+            "unit": "%"
+          },
+          "delta": 8.0,
+          "direction": "up",
+          "magnitude_rank": 1
+        },
+        "NCC": {
+          "prior": null,
+          "current": null,
+          "delta": null,
+          "direction": "unknown",
+          "magnitude_rank": null
+        },
+        "Caribbean": {
+          "prior": null,
+          "current": null,
+          "delta": null,
+          "direction": "unknown",
+          "magnitude_rank": null
+        }
+      }
+    },
+    "2022-Q4 -> 2023-Q1": {
+      "guidance_for_fy": 2023,
+      "moved_most": [
+        "fuel_hedge"
+      ],
+      "unchanged": [
+        "fuel"
+      ],
+      "per_metric": {
+        "yield": {
+          "prior": null,
+          "current": null,
+          "delta": null,
+          "direction": "unknown",
+          "magnitude_rank": null
+        },
+        "EPS": {
+          "prior": null,
+          "current": {
+            "text": "$4.40-$4.80"
+          },
+          "delta": null,
+          "direction": "unknown",
+          "magnitude_rank": null
+        },
+        "capacity": {
+          "prior": null,
+          "current": null,
+          "delta": null,
+          "direction": "unknown",
+          "magnitude_rank": null
+        },
+        "fuel": {
+          "prior": {
+            "value": 1.1,
+            "unit": "$B"
+          },
+          "current": {
+            "value": 1.1,
+            "unit": "$B"
+          },
+          "delta": 0.0,
+          "direction": "flat"
+        },
+        "fuel_hedge": {
+          "prior": {
+            "value": 55,
+            "unit": "%"
+          },
+          "current": {
+            "value": 54,
+            "unit": "%"
+          },
+          "delta": -1.0,
+          "direction": "down",
+          "magnitude_rank": 1
+        },
+        "NCC": {
+          "prior": null,
+          "current": null,
+          "delta": null,
+          "direction": "unknown",
+          "magnitude_rank": null
+        },
+        "Caribbean": {
+          "prior": null,
+          "current": null,
+          "delta": null,
+          "direction": "unknown",
+          "magnitude_rank": null
+        }
+      }
+    },
+    "2023-Q1 -> 2023-Q2": {
+      "guidance_for_fy": 2023,
+      "moved_most": [],
+      "unchanged": [],
+      "per_metric": {
+        "yield": {
+          "prior": null,
+          "current": null,
+          "delta": null,
+          "direction": "unknown",
+          "magnitude_rank": null
+        },
+        "EPS": {
+          "prior": {
+            "text": "$4.40-$4.80"
+          },
+          "current": null,
+          "delta": null,
+          "direction": "unknown",
+          "magnitude_rank": null
+        },
+        "capacity": {
+          "prior": null,
+          "current": null,
+          "delta": null,
+          "direction": "unknown",
+          "magnitude_rank": null
+        },
+        "fuel": {
+          "prior": {
+            "value": 1.1,
+            "unit": "$B"
+          },
+          "current": null,
+          "delta": null,
+          "direction": "unknown",
+          "magnitude_rank": null
+        },
+        "fuel_hedge": {
+          "prior": {
+            "value": 54,
+            "unit": "%"
+          },
+          "current": null,
+          "delta": null,
+          "direction": "unknown",
+          "magnitude_rank": null
+        },
+        "NCC": {
+          "prior": null,
+          "current": null,
+          "delta": null,
+          "direction": "unknown",
+          "magnitude_rank": null
+        },
+        "Caribbean": {
+          "prior": null,
+          "current": null,
+          "delta": null,
+          "direction": "unknown",
+          "magnitude_rank": null
+        }
+      }
+    },
+    "2023-Q2 -> 2023-Q3": {
+      "guidance_for_fy": 2023,
+      "moved_most": [],
+      "unchanged": [],
+      "per_metric": {
+        "yield": {
+          "prior": null,
+          "current": null,
+          "delta": null,
+          "direction": "unknown",
+          "magnitude_rank": null
+        },
+        "EPS": {
+          "prior": null,
+          "current": null,
+          "delta": null,
+          "direction": "unknown",
+          "magnitude_rank": null
+        },
+        "capacity": {
+          "prior": null,
+          "current": null,
+          "delta": null,
+          "direction": "unknown",
+          "magnitude_rank": null
+        },
+        "fuel": {
+          "prior": null,
+          "current": null,
+          "delta": null,
+          "direction": "unknown",
+          "magnitude_rank": null
+        },
+        "fuel_hedge": {
+          "prior": null,
+          "current": null,
+          "delta": null,
+          "direction": "unknown",
+          "magnitude_rank": null
+        },
+        "NCC": {
+          "prior": null,
+          "current": null,
+          "delta": null,
+          "direction": "unknown",
+          "magnitude_rank": null
+        },
+        "Caribbean": {
+          "prior": null,
+          "current": null,
+          "delta": null,
+          "direction": "unknown",
+          "magnitude_rank": null
+        }
+      }
+    },
+    "2023-Q4 -> 2024-Q1": {
+      "guidance_for_fy": 2024,
+      "moved_most": [
+        "fuel"
+      ],
+      "unchanged": [
+        "fuel_hedge"
+      ],
+      "per_metric": {
+        "yield": {
+          "prior": null,
+          "current": null,
+          "delta": null,
+          "direction": "unknown",
+          "magnitude_rank": null
+        },
+        "EPS": {
+          "prior": {
+            "text": "$9.50-$9.70"
+          },
+          "current": {
+            "text": "$10.70-$10.90"
+          },
+          "delta": null,
+          "direction": "unknown",
+          "magnitude_rank": null
+        },
+        "capacity": {
+          "prior": null,
+          "current": null,
+          "delta": null,
+          "direction": "unknown",
+          "magnitude_rank": null
+        },
+        "fuel": {
+          "prior": {
+            "value": 1.16,
+            "unit": "$B"
+          },
+          "current": {
+            "value": 1.18,
+            "unit": "$B"
+          },
+          "delta": 0.02,
+          "direction": "up",
+          "magnitude_rank": 1
+        },
+        "fuel_hedge": {
+          "prior": {
+            "value": 61,
+            "unit": "%"
+          },
+          "current": {
+            "value": 61,
+            "unit": "%"
+          },
+          "delta": 0.0,
+          "direction": "flat"
+        },
+        "NCC": {
+          "prior": null,
+          "current": null,
+          "delta": null,
+          "direction": "unknown",
+          "magnitude_rank": null
+        },
+        "Caribbean": {
+          "prior": {
+            "value": 55,
+            "unit": "%"
+          },
+          "current": null,
+          "delta": null,
+          "direction": "unknown",
+          "magnitude_rank": null
+        }
+      }
+    },
+    "2024-Q1 -> 2024-Q2": {
+      "guidance_for_fy": 2024,
+      "moved_most": [
+        "fuel"
+      ],
+      "unchanged": [
+        "fuel_hedge"
+      ],
+      "per_metric": {
+        "yield": {
+          "prior": null,
+          "current": null,
+          "delta": null,
+          "direction": "unknown",
+          "magnitude_rank": null
+        },
+        "EPS": {
+          "prior": {
+            "text": "$10.70-$10.90"
+          },
+          "current": null,
+          "delta": null,
+          "direction": "unknown",
+          "magnitude_rank": null
+        },
+        "capacity": {
+          "prior": null,
+          "current": null,
+          "delta": null,
+          "direction": "unknown",
+          "magnitude_rank": null
+        },
+        "fuel": {
+          "prior": {
+            "value": 1.18,
+            "unit": "$B"
+          },
+          "current": {
+            "value": 1.17,
+            "unit": "$B"
+          },
+          "delta": -0.01,
+          "direction": "down",
+          "magnitude_rank": 1
+        },
+        "fuel_hedge": {
+          "prior": {
+            "value": 61,
+            "unit": "%"
+          },
+          "current": {
+            "value": 61,
+            "unit": "%"
+          },
+          "delta": 0.0,
+          "direction": "flat"
+        },
+        "NCC": {
+          "prior": null,
+          "current": null,
+          "delta": null,
+          "direction": "unknown",
+          "magnitude_rank": null
+        },
+        "Caribbean": {
+          "prior": null,
+          "current": null,
+          "delta": null,
+          "direction": "unknown",
+          "magnitude_rank": null
+        }
+      }
+    },
+    "2024-Q2 -> 2024-Q3": {
+      "guidance_for_fy": 2024,
+      "moved_most": [
+        "fuel"
+      ],
+      "unchanged": [
+        "fuel_hedge"
+      ],
+      "per_metric": {
+        "yield": {
+          "prior": null,
+          "current": null,
+          "delta": null,
+          "direction": "unknown",
+          "magnitude_rank": null
+        },
+        "EPS": {
+          "prior": null,
+          "current": null,
+          "delta": null,
+          "direction": "unknown",
+          "magnitude_rank": null
+        },
+        "capacity": {
+          "prior": null,
+          "current": null,
+          "delta": null,
+          "direction": "unknown",
+          "magnitude_rank": null
+        },
+        "fuel": {
+          "prior": {
+            "value": 1.17,
+            "unit": "$B"
+          },
+          "current": {
+            "value": 1.16,
+            "unit": "$B"
+          },
+          "delta": -0.01,
+          "direction": "down",
+          "magnitude_rank": 1
+        },
+        "fuel_hedge": {
+          "prior": {
+            "value": 61,
+            "unit": "%"
+          },
+          "current": {
+            "value": 61,
+            "unit": "%"
+          },
+          "delta": 0.0,
+          "direction": "flat"
+        },
+        "NCC": {
+          "prior": null,
+          "current": null,
+          "delta": null,
+          "direction": "unknown",
+          "magnitude_rank": null
+        },
+        "Caribbean": {
+          "prior": null,
+          "current": null,
+          "delta": null,
+          "direction": "unknown",
+          "magnitude_rank": null
+        }
+      }
+    },
+    "2024-Q4 -> 2025-Q1": {
+      "guidance_for_fy": 2025,
+      "moved_most": [
+        "fuel_hedge",
+        "fuel"
+      ],
+      "unchanged": [
+        "Caribbean"
+      ],
+      "per_metric": {
+        "yield": {
+          "prior": null,
+          "current": null,
+          "delta": null,
+          "direction": "unknown",
+          "magnitude_rank": null
+        },
+        "EPS": {
+          "prior": null,
+          "current": null,
+          "delta": null,
+          "direction": "unknown",
+          "magnitude_rank": null
+        },
+        "capacity": {
+          "prior": null,
+          "current": null,
+          "delta": null,
+          "direction": "unknown",
+          "magnitude_rank": null
+        },
+        "fuel": {
+          "prior": {
+            "value": 1.17,
+            "unit": "$B"
+          },
+          "current": {
+            "value": 1.14,
+            "unit": "$B"
+          },
+          "delta": -0.03,
+          "direction": "down",
+          "magnitude_rank": 2
+        },
+        "fuel_hedge": {
+          "prior": {
+            "value": 60,
+            "unit": "%"
+          },
+          "current": {
+            "value": 59,
+            "unit": "%"
+          },
+          "delta": -1.0,
+          "direction": "down",
+          "magnitude_rank": 1
+        },
+        "NCC": {
+          "prior": null,
+          "current": null,
+          "delta": null,
+          "direction": "unknown",
+          "magnitude_rank": null
+        },
+        "Caribbean": {
+          "prior": {
+            "value": 57,
+            "unit": "%"
+          },
+          "current": {
+            "value": 57,
+            "unit": "%"
+          },
+          "delta": 0.0,
+          "direction": "flat"
+        }
+      }
+    },
+    "2025-Q1 -> 2025-Q2": {
+      "guidance_for_fy": 2025,
+      "moved_most": [
+        "fuel_hedge"
+      ],
+      "unchanged": [
+        "Caribbean",
+        "fuel"
+      ],
+      "per_metric": {
+        "yield": {
+          "prior": null,
+          "current": null,
+          "delta": null,
+          "direction": "unknown",
+          "magnitude_rank": null
+        },
+        "EPS": {
+          "prior": null,
+          "current": null,
+          "delta": null,
+          "direction": "unknown",
+          "magnitude_rank": null
+        },
+        "capacity": {
+          "prior": null,
+          "current": null,
+          "delta": null,
+          "direction": "unknown",
+          "magnitude_rank": null
+        },
+        "fuel": {
+          "prior": {
+            "value": 1.14,
+            "unit": "$B"
+          },
+          "current": {
+            "value": 1.14,
+            "unit": "$B"
+          },
+          "delta": 0.0,
+          "direction": "flat"
+        },
+        "fuel_hedge": {
+          "prior": {
+            "value": 59,
+            "unit": "%"
+          },
+          "current": {
+            "value": 66,
+            "unit": "%"
+          },
+          "delta": 7.0,
+          "direction": "up",
+          "magnitude_rank": 1
+        },
+        "NCC": {
+          "prior": null,
+          "current": null,
+          "delta": null,
+          "direction": "unknown",
+          "magnitude_rank": null
+        },
+        "Caribbean": {
+          "prior": {
+            "value": 57,
+            "unit": "%"
+          },
+          "current": {
+            "value": 57,
+            "unit": "%"
+          },
+          "delta": 0.0,
+          "direction": "flat"
+        }
+      }
+    },
+    "2025-Q2 -> 2025-Q3": {
+      "guidance_for_fy": 2025,
+      "moved_most": [
+        "fuel_hedge"
+      ],
+      "unchanged": [
+        "Caribbean",
+        "fuel"
+      ],
+      "per_metric": {
+        "yield": {
+          "prior": null,
+          "current": null,
+          "delta": null,
+          "direction": "unknown",
+          "magnitude_rank": null
+        },
+        "EPS": {
+          "prior": null,
+          "current": null,
+          "delta": null,
+          "direction": "unknown",
+          "magnitude_rank": null
+        },
+        "capacity": {
+          "prior": null,
+          "current": null,
+          "delta": null,
+          "direction": "unknown",
+          "magnitude_rank": null
+        },
+        "fuel": {
+          "prior": {
+            "value": 1.14,
+            "unit": "$B"
+          },
+          "current": {
+            "value": 1.14,
+            "unit": "$B"
+          },
+          "delta": 0.0,
+          "direction": "flat"
+        },
+        "fuel_hedge": {
+          "prior": {
+            "value": 66,
+            "unit": "%"
+          },
+          "current": {
+            "value": 68,
+            "unit": "%"
+          },
+          "delta": 2.0,
+          "direction": "up",
+          "magnitude_rank": 1
+        },
+        "NCC": {
+          "prior": null,
+          "current": null,
+          "delta": null,
+          "direction": "unknown",
+          "magnitude_rank": null
+        },
+        "Caribbean": {
+          "prior": {
+            "value": 57,
+            "unit": "%"
+          },
+          "current": {
+            "value": 57,
+            "unit": "%"
+          },
+          "delta": 0.0,
+          "direction": "flat"
+        }
+      }
+    },
+    "2025-Q4 -> 2026-Q1": {
+      "guidance_for_fy": 2026,
+      "moved_most": [
+        "EPS",
+        "yield",
+        "fuel",
+        "NCC"
+      ],
+      "unchanged": [
+        "Caribbean",
+        "capacity",
+        "fuel_hedge"
+      ],
+      "per_metric": {
+        "yield": {
+          "prior": {
+            "low": 1.5,
+            "high": 3.5,
+            "unit": "%cc"
+          },
+          "current": {
+            "low": 1.5,
+            "high": 2.5,
+            "unit": "%cc"
+          },
+          "delta": -0.5,
+          "direction": "down",
+          "magnitude_rank": 2
+        },
+        "EPS": {
+          "prior": {
+            "low": 17.7,
+            "high": 18.1,
+            "unit": "$"
+          },
+          "current": {
+            "low": 17.1,
+            "high": 17.5,
+            "unit": "$"
+          },
+          "delta": -0.6,
+          "direction": "down",
+          "magnitude_rank": 1
+        },
+        "capacity": {
+          "prior": {
+            "value": 6.7,
+            "unit": "%"
+          },
+          "current": {
+            "value": 6.7,
+            "unit": "%"
+          },
+          "delta": 0.0,
+          "direction": "flat"
+        },
+        "fuel": {
+          "prior": {
+            "value": 1.17,
+            "unit": "$B"
+          },
+          "current": {
+            "value": 1.35,
+            "unit": "$B"
+          },
+          "delta": 0.18,
+          "direction": "up",
+          "magnitude_rank": 3
+        },
+        "fuel_hedge": {
+          "prior": {
+            "value": 60,
+            "unit": "%"
+          },
+          "current": {
+            "value": 60,
+            "unit": "%"
+          },
+          "delta": 0.0,
+          "direction": "flat"
+        },
+        "NCC": {
+          "prior": {
+            "text": "initial FY2026 NCC ex-fuel guide",
+            "midpoint": null
+          },
+          "current": {
+            "text": "improved vs prior guide",
+            "midpoint": null,
+            "changed_vs_prior": "improved"
+          },
+          "delta": null,
+          "direction": "improved",
+          "magnitude_rank": 4
+        },
+        "Caribbean": {
+          "prior": {
+            "value": 57,
+            "unit": "%"
+          },
+          "current": {
+            "value": 57,
+            "unit": "%"
+          },
+          "delta": 0.0,
+          "direction": "flat"
+        }
+      }
+    }
+  },
+  "qualitative_narrative_by_quarter": {
+    "2022-Q1": {
+      "demand_environment": [
+        "Naftali will follow with a recap of our first quarter results and an update on our latest actions and on the current booking environment.",
+        "During the first quarter, we managed through the challenges brought on by the Omicron variant that resulted in the cancellation of 57 sailings in Q1, moderated our load factors in January and February, and softened demand for future voya...",
+        "We have now sailed through these operational and short-term demand challenges caused by the variant."
+      ],
+      "consumer_health": [
+        "We continue to be thoughtful about the build of our business, being mindful of maintaining price integrity, taking advantage of high onboard spenders, and as always, focusing on the health and safety of our guests and crew.",
+        "Consumers are now re-engaging with the world, and as a result, spending on travel in 2022 is set to outpace pre-pandemic levels, with consumers planning to travel more frequently.",
+        "Consumers are in a healthy financial position."
+      ],
+      "competitive_positioning": [
+        "Our teams have done an exceptional job getting our fleet back into service so that we can continue our mission of delivering the best vacation experiences in a responsible way.",
+        "Since we resumed operations, we have delivered memorable vacation experiences to over two million guests worldwide while earning record high guest satisfaction scores."
+      ],
+      "notable_claims": [
+        "Our teams have done an exceptional job getting our fleet back into service so that we can continue our mission of delivering the best vacation experiences in a responsible way.",
+        "Since we resumed operations, we have delivered memorable vacation experiences to over two million guests worldwide while earning record high guest satisfaction scores.",
+        "We continue to see strong demand for leisure travel and cruising.",
+        "The robust secular trend of experiences over things that propelled our business in the past years is now recovering towards pre-COVID levels.",
+        "Cruise consideration is the highest it has been in two years and nearing pre-pandemic levels, with the most significant recovery among those new to cruising."
+      ],
+      "_source": "deterministic_stub"
+    },
+    "2022-Q2": {
+      "demand_environment": [
+        "Naftali will follow with a recap of our second quarter results and an update on our latest actions and on the current booking environment.",
+        "This outperformance in Q2 versus our expectations was driven by continued strength in our onboard revenue and accelerating load factors, which hit nearly 90% in June and delivered 82% for the quarter.",
+        "Our North American itineraries are now sailing at over 100% load factors, and we are building on this momentum as we expect to reach load factors in the mid-90s in Q3 and then return to triple-digit load factors globally by year-end."
+      ],
+      "consumer_health": [
+        "The combination of consumers' strong propensity to experience and travel, accelerating demographic trends which are pulling in more bucket list and multigenerational travel, a very compelling value proposition, and a strong preference fo...",
+        "Now keep in mind that every day we have well over 100,000 guests experiencing and spending on our ships.",
+        "Overall, we continue to see a financially healthy, highly engaged consumer with a strong hunger to dream and seek experiences, and they are willing to spend more than ever with us to create those memories."
+      ],
+      "competitive_positioning": [
+        "This was a herculean task by our team, and I'm so thankful and proud of our shipboard and shoreside teams who have worked so incredibly hard under unthinkable and ever-changing circumstances to execute on such a successful return to deli...",
+        "That platform, which includes our leading brand, the most innovative fleet in the industry, our global sourcing and technology apparatus, and the best people in the world, is now positioned to deliver the best vacations in the world resp..."
+      ],
+      "notable_claims": [
+        "This was a herculean task by our team, and I'm so thankful and proud of our shipboard and shoreside teams who have worked so incredibly hard under unthinkable and ever-changing circumstances to execute on such a successful return to deli...",
+        "That platform, which includes our leading brand, the most innovative fleet in the industry, our global sourcing and technology apparatus, and the best people in the world, is now positioned to deliver the best vacations in the world resp...",
+        "This outperformance in Q2 versus our expectations was driven by continued strength in our onboard revenue and accelerating load factors, which hit nearly 90% in June and delivered 82% for the quarter.",
+        "Our North American itineraries are now sailing at over 100% load factors, and we are building on this momentum as we expect to reach load factors in the mid-90s in Q3 and then return to triple-digit load factors globally by year-end.",
+        "The combination of consumers' strong propensity to experience and travel, accelerating demographic trends which are pulling in more bucket list and multigenerational travel, a very compelling value proposition, and a strong preference fo..."
+      ],
+      "_source": "deterministic_stub"
+    },
+    "2022-Q3": {
+      "demand_environment": [
+        "Naftali will follow with a recap of our third quarter results and an update on our latest actions and on the current booking environment.",
+        "Over the past several months, our teams have been very busy and focused on generating strong quality demand, combating inflation, and most of all, delivering the best vacations in the world as we return our business closer to historical ...",
+        "Demand for our experiences was very strong, and we achieved 96% Load Factor overall, with the Caribbean at close to 105% at record pricing and high satisfaction scores."
+      ],
+      "consumer_health": [
+        "Global demand for travel is ramping up as consumers continue to shift spend to experiences.",
+        "Overall, across markets, brands, and products, we continue to see a financially healthy, highly engaged consumer with a strong hunger to dream and seek a variety of vacation experiences.",
+        "Consumers are engaging earlier in the planning their vacation with about 60% purchasing onboard experiences before they even set sail."
+      ],
+      "competitive_positioning": [
+        "Over the past several months, our teams have been very busy and focused on generating strong quality demand, combating inflation, and most of all, delivering the best vacations in the world as we return our business closer to historical ...",
+        "As our third quarter results clearly demonstrate the strength of our vacation platform, which includes our leading global brands, the best and most innovative ships in the industry and a powerful and nimble commercial apparatus, coupled ..."
+      ],
+      "notable_claims": [
+        "Over the past several months, our teams have been very busy and focused on generating strong quality demand, combating inflation, and most of all, delivering the best vacations in the world as we return our business closer to historical ...",
+        "As our third quarter results clearly demonstrate the strength of our vacation platform, which includes our leading global brands, the best and most innovative ships in the industry and a powerful and nimble commercial apparatus, coupled ...",
+        "Demand for our experiences was very strong, and we achieved 96% Load Factor overall, with the Caribbean at close to 105% at record pricing and high satisfaction scores.",
+        "Our strong financial performance, coupled with proactive refinancing actions, further strengthen our already strong liquidity position and improved our debt maturity profile.",
+        "I am thankful and proud of everyone at the Royal Caribbean Group for delivering the best vacation experiences to our customers in a responsible way while executing so well on our recovery and building on our future."
+      ],
+      "_source": "deterministic_stub"
+    },
+    "2022-Q4": {
+      "demand_environment": [
+        "Naftali will follow with a recap of our fourth quarter and full-year results and an update on our latest actions and on the current booking environment.",
+        "As you can see on slide seven, during the fourth quarter, demand for our brands accelerated.",
+        "We delivered a record 1.8 million vacations, achieved a 95% load factor, and successfully returned to Australia for the first time in three years."
+      ],
+      "consumer_health": [
+        "There has been a lot of talk about the state of the consumer, I want to share what we are seeing from daily interactions with consumers who are either booking their dream vacations or who are currently sailing on one of our amazing ships.",
+        "Overall, we continue to see robust demand from financially healthy, highly engaged consumers that are excited to sail on our brands.",
+        "Secular tailwinds continue to benefit us as consumer preferences shift from goods to experiences."
+      ],
+      "competitive_positioning": [
+        "As highlighted on slide six, 2022 was a challenging but successful transitional year as we returned our business to full operations and delivered memorable vacations to 6 million guests.",
+        "We delivered a record 1.8 million vacations, achieved a 95% load factor, and successfully returned to Australia for the first time in three years."
+      ],
+      "notable_claims": [
+        "In fact, as you saw in the release this morning, our business is accelerating.",
+        "As you can see on slide seven, during the fourth quarter, demand for our brands accelerated.",
+        "We delivered a record 1.8 million vacations, achieved a 95% load factor, and successfully returned to Australia for the first time in three years.",
+        "Pricing for our vacation experiences was higher than record 2019 levels when we operated with normalized occupancy, and guest satisfaction scores were exceptional.",
+        "Our fourth quarter results clearly demonstrate that we are back to usual occupancy, back to our full addressable market, back to EBITDA and Cash Flow Profitability , back to providing full-year guidance, and most importantly, back to del..."
+      ],
+      "_source": "deterministic_stub"
+    },
+    "2023-Q1": {
+      "demand_environment": [
+        "Naftali will follow with a recap of our  Q1 and an update on our latest actions and on the current booking environment.",
+        "We knew that demand for our business was strong, but what has transpired was a record-breaking extended wave season that translated into robust bookings and meaningfully better prices.",
+        "In the  Q1 , we delivered a record 1.9 million memorable vacations, achieved a 102% load factor at higher pricing than 2019, and earned exceptional guest satisfaction scores."
+      ],
+      "consumer_health": [
+        "When we turned the page from 2022 into 2023, with the full strength of our operating platform deployed and numerous tailwinds related to the consumer's desire to travel and experience the world, we believe this would be a great year.",
+        "The fact that demand for the coming nine months is so much stronger than our already robust expectations says a lot about the strength of the consumer and the strength of our brands.",
+        "The booking window is now completely back to normal, demonstrating consumers' desire to continue to plan their vacation travel with us well in advance."
+      ],
+      "competitive_positioning": [
+        "Their dedication and commitment allow us to deliver the very best vacation experiences responsibly while generating strong financial results.",
+        "In the  Q1 , we delivered a record 1.9 million memorable vacations, achieved a 102% load factor at higher pricing than 2019, and earned exceptional guest satisfaction scores."
+      ],
+      "notable_claims": [
+        "I'm thrilled to be here this morning to share our incredible  Q1 results and the strong trajectory of our business.",
+        "We expect it to finally return to yield growth in the  Q1 and accelerate even more through the rest of the year.",
+        "Our brands are stronger than ever, and our yield in Q1 blew away previous records.",
+        "Before getting into the detail, I want to thank the entire Royal Caribbean Group team, 100,000+ strong for another outstanding quarter.",
+        "Their dedication and commitment allow us to deliver the very best vacation experiences responsibly while generating strong financial results."
+      ],
+      "_source": "deterministic_stub"
+    },
+    "2023-Q2": {
+      "demand_environment": [
+        "Naftali will follow with a recap of our second quarter and an update on our latest actions and on the current booking environment.",
+        "You may recall that we doubled our revenue yield guidance and increased our earnings expectations by 40% in May on the heels of a record wave period that drove strong booking momentum for our brands.",
+        "The combination of strong preference for our leading brands, numerous consumer tailwinds, and the attractive value proposition of cruise contributed to strong and accelerated demand for our vacation experiences."
+      ],
+      "consumer_health": [
+        "The combination of strong preference for our leading brands, numerous consumer tailwinds, and the attractive value proposition of cruise contributed to strong and accelerated demand for our vacation experiences.",
+        "Strong close-in demand, higher pricing, and continued strength of onboard spend drove the revenue outperformance.",
+        "The North American consumer remains incredibly strong, and volumes from European consumers looking to book their summer vacations accelerated."
+      ],
+      "competitive_positioning": [
+        "The combination of strong preference for our leading brands, numerous consumer tailwinds, and the attractive value proposition of cruise contributed to strong and accelerated demand for our vacation experiences.",
+        "Their passion, dedication, and commitment allow us to deliver the very best vacation experiences responsibly while generating strong financial results."
+      ],
+      "notable_claims": [
+        "I'm thrilled to share with you this morning our strong second quarter results and another step change in the trajectory of our business.",
+        "You may recall that we doubled our revenue yield guidance and increased our earnings expectations by 40% in May on the heels of a record wave period that drove strong booking momentum for our brands.",
+        "The combination of strong preference for our leading brands, numerous consumer tailwinds, and the attractive value proposition of cruise contributed to strong and accelerated demand for our vacation experiences.",
+        "Our brands continue to excel, and we not only delivered another outstanding quarter that significantly exceeded expectations, but are also increasing our full-year earnings guidance by another 33%.",
+        "Their passion, dedication, and commitment allow us to deliver the very best vacation experiences responsibly while generating strong financial results."
+      ],
+      "_source": "deterministic_stub"
+    },
+    "2023-Q3": {
+      "demand_environment": [
+        "Naftali will follow with a recap of our third quarter and an update on our latest actions and on the current booking environment.",
+        "As we look to the full year, the strong performance in the third quarter and continued acceleration in the booking environment is positioning us well to deliver over 13% yield growth for the year and earnings per share that is twice our ...",
+        "The unprecedented acceleration in demand and pricing for our leading brands, combined with stronger demand for onboard experiences, were certainly the main drivers of our outperformance."
+      ],
+      "consumer_health": [
+        "As we think about 2024 for the Royal Caribbean Group from a consumer demand standpoint, we look to both macro trends and data points from the millions of daily customer interactions.",
+        "What we continue to see across all markets, brands, and products is an exceptionally engaged consumer that is looking to book their dream vacations with us."
+      ],
+      "competitive_positioning": [
+        "I want to thank the entire Royal Caribbean Group team, whose enthusiasm and dedication enables us to deliver the very best vacation experiences responsibly while generating strong financial results.",
+        "During the third quarter, all key itineraries exceeded our already elevated expectations as we delivered a record 2 million memorable vacations at exceptional guest satisfaction scores."
+      ],
+      "notable_claims": [
+        "Now, moving on to the business, our teams have done an outstanding job delivering on another strong quarter as we delivered a yield improvement of close to 17% and beat the midpoint of our EPS guidance by 12%.",
+        "I want to thank the entire Royal Caribbean Group team, whose enthusiasm and dedication enables us to deliver the very best vacation experiences responsibly while generating strong financial results.",
+        "During the third quarter, all key itineraries exceeded our already elevated expectations as we delivered a record 2 million memorable vacations at exceptional guest satisfaction scores.",
+        "As you can see on slide three, we had record yields for the quarter, driven by new hardware, record pricing in the Caribbean and Europe, as well as onboard revenue rates that were up about 30%.",
+        "As we look to the full year, the strong performance in the third quarter and continued acceleration in the booking environment is positioning us well to deliver over 13% yield growth for the year and earnings per share that is twice our ..."
+      ],
+      "_source": "deterministic_stub"
+    },
+    "2023-Q4": {
+      "demand_environment": [
+        "Naftali will follow with a recap of our fourth quarter, the full year 2023, an update on the current booking environment and our outlook for 2024.",
+        "2023 was an exceptional year, fueled by unmatched demand for our brands as you see on slide five.",
+        "We received exceptionally high guest satisfaction scores and attracted a record number of both new and loyal guests, who are rebooking at twice the rate we were seeing in 2019."
+      ],
+      "consumer_health": [
+        "Our direct-to-consumer channels continue to perform exceptionally well as consumer preferences for digital engagement and our ongoing investment in enhanced capabilities is supporting record-breaking bookings.",
+        "Our brands lead in their respective segments and are very successful at capturing quality demand across sectors and sourcing from new consumer bases.",
+        "As we think about consumer demand for 2024 and beyond, we look to both macro trends and data points from millions of daily interactions with our customers."
+      ],
+      "competitive_positioning": [
+        "For the vacation industry, that product, Icon of the Seas, debuted last week to incredible fanfare.",
+        "Our mission at the Royal Caribbean Group is to deliver the best vacation experiences responsibly, and Icon is going to deliver the best family vacation on the planet with her incredible experiences and amazing crew."
+      ],
+      "notable_claims": [
+        "Every once in a while, a revolutionary product comes along that resonates so strongly and makes such a widespread impact that it forever changes the status quo.",
+        "Our mission at the Royal Caribbean Group is to deliver the best vacation experiences responsibly, and Icon is going to deliver the best family vacation on the planet with her incredible experiences and amazing crew.",
+        "Net yields were up 13.5% compared to 2019, more than 3.5x our January expectations, and we delivered margins that were back to record 2019 levels.",
+        "Our net income exceeded our January expectations by about $1 billion, resulting in adjusted earnings per share, more than double our January guidance.",
+        "We received exceptionally high guest satisfaction scores and attracted a record number of both new and loyal guests, who are rebooking at twice the rate we were seeing in 2019."
+      ],
+      "_source": "deterministic_stub"
+    },
+    "2024-Q1": {
+      "demand_environment": [
+        "Naftali will follow with a recap of our Q1 , the current booking environment, and our updated outlook for 2024.",
+        "Our brands are stronger than ever, and demand for our vacation experiences continues to accelerate.",
+        "Wave Season, combined with the record-breaking introduction of the revolutionary Icon of the Seas, resulted in consistently robust bookings at much higher prices than 2023."
+      ],
+      "consumer_health": [
+        "When we turn the page from an incredible 2023 with a record booked position for 2024 and numerous tailwinds related to the consumer's desire to vacation with us, we expected this would be another great year.",
+        "This strong booking and pricing environment across all key itineraries, coupled with continued strength in onboard spend, led to higher revenue in the Q1 and a further improvement in full-year yield expectations.",
+        "With our return to China, we are now finally back in all of our key markets, which enables us to capture quality, global demand, and source from new consumer bases."
+      ],
+      "competitive_positioning": [
+        "When we turn the page from an incredible 2023 with a record booked position for 2024 and numerous tailwinds related to the consumer's desire to vacation with us, we expected this would be another great year.",
+        "Our brands are stronger than ever, and demand for our vacation experiences continues to accelerate."
+      ],
+      "notable_claims": [
+        "I'm proud to share our robust Q1 results and the continued upward trajectory of our business.",
+        "When we turn the page from an incredible 2023 with a record booked position for 2024 and numerous tailwinds related to the consumer's desire to vacation with us, we expected this would be another great year.",
+        "Our brands are stronger than ever, and demand for our vacation experiences continues to accelerate.",
+        "Our formula for success remains unchanged: moderate capacity growth, moderate yield growth, and strong cost controls lead to robust financial performance and long-term shareholder value.",
+        "Before getting into the details, I want to recognize our incredible teams that are working together day in and day out delivering the best vacation experiences to our guests and doing so while driving exceptional results."
+      ],
+      "_source": "deterministic_stub"
+    },
+    "2024-Q2": {
+      "demand_environment": [
+        "Naftali will follow with a recap of our second quarter, the current booking environment, and our updated outlook for 2024.",
+        "Demand for the incredible experiences our leading brands deliver continue to be robust.",
+        "We have seen an incredibly robust booking and pricing environment across all our key itineraries, which is not only setting us up for success in the future periods, but also contributed to the outperformance in the second quarter."
+      ],
+      "consumer_health": [
+        "This, coupled with continued strength in onboard spend, which is heavily influenced by our pre-cruise commercial engine, drove the revenue and earnings outperformance for the quarter.",
+        "The North American consumer, who represents approximately 80% of our sourcing this year, continues to be robust, driving strong yield growth across all key products.",
+        "sourced from new and younger consumer bases and attract the highest-yielding guests."
+      ],
+      "competitive_positioning": [
+        "Their efforts helped accelerate our path to reaching Trifecta and will continue to ensure us to deliver the best vacation experiences responsibly while driving exceptional financial results.",
+        "We are excited by the large opportunity in front of us as we seek to take a greater share from the rapidly growing $1.9 trillion vacation market."
+      ],
+      "notable_claims": [
+        "As you saw in the press release this morning, our momentum continues.",
+        "Demand for the incredible experiences our leading brands deliver continue to be robust.",
+        "Today, I'm delighted to share that we have achieved all three Trifecta goals on a trailing 12-month basis, 18 months ahead of schedule.",
+        "With Trifecta accomplished and our balance sheet in a strong position, we are excited to broaden our capital allocation by reinstating a quarterly dividend of $0.40 per share.",
+        "Their efforts helped accelerate our path to reaching Trifecta and will continue to ensure us to deliver the best vacation experiences responsibly while driving exceptional financial results."
+      ],
+      "_source": "deterministic_stub"
+    },
+    "2024-Q3": {
+      "demand_environment": [
+        "Naftali will follow with a recap of our third quarter, the current booking environment, and our updated outlook for 2024.",
+        "Third-quarter results exceeded our expectations due to strong close-in demand at higher prices on all of our key itineraries, coupled with continued strength in onboard revenue.",
+        "As strong demand for our experiences across itineraries is translating into higher load factors, stronger pricing, and continued growth in onboard revenue."
+      ],
+      "consumer_health": [
+        "Our nimble sourcing model and AI-enabled yield management tools, coupled with our brand's global and multi-generational appeal, allow us to successfully capture quality demand across segments, source from new and younger consumer bases, ...",
+        "American households are wealthier than ever, with continued wage growth and low unemployment driving strong consumer spending.",
+        "Our research suggests that this trend will continue over the next 12 months, with leisure travel spending growing by more than any other leisure category."
+      ],
+      "competitive_positioning": [
+        "I want to thank the entire Royal Caribbean Group team for their passion, dedication, and commitment that enables us to deliver the best vacation experiences responsibly and to drive exceptional financial results.",
+        "With our industry-leading global brands, the most innovative fleet and private destinations, and the best people, we remain focused on winning a greater share of the $1.9 trillion vacation market."
+      ],
+      "notable_claims": [
+        "This has been an incredible year for us, and the third quarter was no exception, with momentum continuing to build.",
+        "I want to thank the entire Royal Caribbean Group team for their passion, dedication, and commitment that enables us to deliver the best vacation experiences responsibly and to drive exceptional financial results.",
+        "These strong financial results and the achievement of our Trifecta financial goals 18 months ahead of schedule are truly just the beginning for us.",
+        "With our industry-leading global brands, the most innovative fleet and private destinations, and the best people, we remain focused on winning a greater share of the $1.9 trillion vacation market.",
+        "Our plan to capitalize on this opportunity is grounded in our proven formula for success: moderate capacity growth, moderate yield growth, and strong cost control."
+      ],
+      "_source": "deterministic_stub"
+    },
+    "2024-Q4": {
+      "demand_environment": [
+        "Naftali will follow with a recap of our fourth quarter, the current booking environment, and our outlook for 2025.",
+        "River cruising is a sizable and attractive market that has experienced double-digit growth over the last decade, driven by increasing demand from both seasoned cruisers as well as new customers.",
+        "Furthermore, Celebrity's existing reputation for exceptional hospitality and unparalleled experiences will attract new demand from travelers who are curious about river cruising but who haven't yet taken that leap."
+      ],
+      "consumer_health": [
+        "In 2024, we expanded our capabilities across distribution channels to create a digital experience that connects the dots across all aspects of the consumer journey.",
+        "Our direct-to-consumer channels are performing extremely well.",
+        "We added hundreds of new capabilities across our digital platforms last year as consumers' preference for digital engagement continues to grow."
+      ],
+      "competitive_positioning": [
+        "We delivered a record 8.6 million memorable vacations at very high customer satisfaction scores, achieved an 11.6% net yield growth, generated more than $5 billion of operating cash flow, and returned the balance sheet to investment-grad...",
+        "With our industry-leading global brands, the most innovative fleet, and private destinations, and the best people, we remain focused on winning a greater share of the $2 trillion vacation market."
+      ],
+      "notable_claims": [
+        "We delivered a record 8.6 million memorable vacations at very high customer satisfaction scores, achieved an 11.6% net yield growth, generated more than $5 billion of operating cash flow, and returned the balance sheet to investment-grad...",
+        "We achieved our Trifecta financial goals 18 months ahead of schedule, and at the same time, we expanded capital allocation, all while continuing to invest in the business to support our growth ambitions.",
+        "We also met our double-digit carbon intensity reduction target a full year ahead of schedule.",
+        "These strong financial results set the foundation for a very bright future, which is truly just beginning for us.",
+        "With our industry-leading global brands, the most innovative fleet, and private destinations, and the best people, we remain focused on winning a greater share of the $2 trillion vacation market."
+      ],
+      "_source": "deterministic_stub"
+    },
+    "2025-Q1": {
+      "demand_environment": [
+        "Naftali will follow with a recap of our Q1, the current booking environment, and our outlook for 2025.",
+        "Likewise, wave season was the best in our company's history, putting us in a strong booked position for the remainder of the year and for 2026.",
+        "We are certainly not immune to macro volatility, but what we're seeing on the ground in our bookings and the real-time spending occurring on our ships is that consumers are still prioritizing experiences, planning to spend more on them t..."
+      ],
+      "consumer_health": [
+        "Clearly, consumers continue to choose our vacations because we consistently deliver the best experiences and provide value to our guests.",
+        "The combination of the world-class experiences we deliver, continued strong secular tailwinds, and the persistent value gap to land-based vacation positions us well to navigate the current environment.",
+        "We are certainly not immune to macro volatility, but what we're seeing on the ground in our bookings and the real-time spending occurring on our ships is that consumers are still prioritizing experiences, planning to spend more on them t..."
+      ],
+      "competitive_positioning": [
+        "During the Q1, we delivered over 2 million unforgettable vacations at exceptional guest satisfaction scores and achieved financial results that exceeded our expectations.",
+        "Clearly, consumers continue to choose our vacations because we consistently deliver the best experiences and provide value to our guests."
+      ],
+      "notable_claims": [
+        "I am pleased to share our strong Q1 results and updated outlook for the year.",
+        "During the Q1, we delivered over 2 million unforgettable vacations at exceptional guest satisfaction scores and achieved financial results that exceeded our expectations.",
+        "Likewise, wave season was the best in our company's history, putting us in a strong booked position for the remainder of the year and for 2026.",
+        "Clearly, consumers continue to choose our vacations because we consistently deliver the best experiences and provide value to our guests.",
+        "The combination of the world-class experiences we deliver, continued strong secular tailwinds, and the persistent value gap to land-based vacation positions us well to navigate the current environment."
+      ],
+      "_source": "deterministic_stub"
+    },
+    "2025-Q2": {
+      "demand_environment": [
+        "Naftali will follow with a recap of our second quarter, the current booking environment, and our outlook for 2025.",
+        "Our world-class brands and the exceptional experiences they offer continue to resonate deeply with consumers, driving both strong demand and excellent financial results.",
+        "Our second quarter results exceeded expectations, mainly driven by stronger-than-expected close-in demand, a shift in the timing of some expenses, and favorability below the line that was mainly driven by the outperformance of our two cr..."
+      ],
+      "consumer_health": [
+        "Our world-class brands and the exceptional experiences they offer continue to resonate deeply with consumers, driving both strong demand and excellent financial results.",
+        "We continue to see engaged and excited consumers, with roughly 75% intending to spend the same or more on leisure travel over the next 12 months.",
+        "At the same time, more than half of consumers tell us they are booking closer to their departure date than they used to, and for the people who intend to travel over the next 12 months, the majority have not yet booked."
+      ],
+      "competitive_positioning": [
+        "We are delivering exceptional value to our guests while continuously raising the bar with a powerful pipeline of industry and segment-leading new ships, a growing portfolio of meaningfully differentiated land-based private destinations, ...",
+        "These key differentiators and accelerators are resulting in another significant increase to this year's earnings estimates and accelerating our path to achieving our Profecta financial targets by 2027 as we continue to win share on the r..."
+      ],
+      "notable_claims": [
+        "I am thrilled to share our strong second quarter results and updated outlook for the year.",
+        "Our world-class brands and the exceptional experiences they offer continue to resonate deeply with consumers, driving both strong demand and excellent financial results.",
+        "Our second quarter results exceeded expectations, mainly driven by stronger-than-expected close-in demand, a shift in the timing of some expenses, and favorability below the line that was mainly driven by the outperformance of our two cr...",
+        "These key differentiators and accelerators are resulting in another significant increase to this year's earnings estimates and accelerating our path to achieving our Profecta financial targets by 2027 as we continue to win share on the r...",
+        "I want to thank the entire team here at the Royal Caribbean Group for their passion, dedication, and commitment, who continue to deliver the best vacation experiences responsibly every single day."
+      ],
+      "_source": "deterministic_stub"
+    },
+    "2025-Q3": {
+      "demand_environment": [
+        "Jason will begin the call by providing a strategic overview and update on the business, and Naftali will follow with a recap of our third quarter, the current booking environment, and our outlook for the remainder of 2025.",
+        "We continue to see strong momentum across our business, powered by accelerated demand, growing loyalty, and all-time high guest satisfaction.",
+        "Turning to our results and outlook, third quarter results exceeded our expectations, driven primarily by strong close-in demand for our vacation offerings and lower costs."
+      ],
+      "consumer_health": [
+        "Consumers continue to prioritize experiences and make room in their budgets for meaningful vacations.",
+        "Roughly three quarters of consumers intend to spend the same or more on vacations over the next 12 months, a level that has remained consistent for several quarters.",
+        "While the broader consumer environment has normalized from the exceptional strength over the past two years, demand for experiences and leisure travel remains intact."
+      ],
+      "competitive_positioning": [
+        "Our commercial flywheel, combining innovative ships, distinctive destinations, and world-class brands, continues to drive sustained growth in guests' trust and our ability to deliver the best vacation experiences responsibly.",
+        "Before getting to the results for the third quarter, I want to highlight how we are continuing to build a stronger, further-leading, and more resilient vacation company for the long term."
+      ],
+      "notable_claims": [
+        "I am pleased to discuss our third quarter results, updated outlook, and the many exciting initiatives fueling our momentum at the Royal Caribbean Group.",
+        "We continue to see strong momentum across our business, powered by accelerated demand, growing loyalty, and all-time high guest satisfaction.",
+        "Our commercial flywheel, combining innovative ships, distinctive destinations, and world-class brands, continues to drive sustained growth in guests' trust and our ability to deliver the best vacation experiences responsibly.",
+        "Before getting to the results for the third quarter, I want to highlight how we are continuing to build a stronger, further-leading, and more resilient vacation company for the long term.",
+        "Cruising and leisure travel continue to outperform the broader travel industry, and we are exceptionally well-positioned to capture that momentum."
+      ],
+      "_source": "deterministic_stub"
+    },
+    "2025-Q4": {
+      "demand_environment": [
+        "Naftali will follow with a recap of our fourth quarter, the current booking environment, and our outlook for 2026.",
+        "2025 was an outstanding year, defined by strong demand for our brands and vacation experiences, disciplined execution of our strategies, strong balance sheet management, and robust financial performance.",
+        "Flawless execution of our incredible teams propelled our strong performance in 2025, elevating demand across our brands and driving durable margin expansion."
+      ],
+      "consumer_health": [
+        "We recently shared the next evolution of our loyalty program with Points Choice, which gives consumers the freedom to earn points on any of our three vacation brands and apply them where they matter most, regardless of the ship they're s...",
+        "All commercial channels are delivering quality demand, with direct-to-consumer performing particularly well.",
+        "Last year, we added hundreds of new digital capabilities as consumers' preference for digital engagement continues to grow."
+      ],
+      "competitive_positioning": [
+        "2025 was an outstanding year, defined by strong demand for our brands and vacation experiences, disciplined execution of our strategies, strong balance sheet management, and robust financial performance.",
+        "We delivered a record 9.4 million memorable vacations at a very high customer satisfaction score, achieved nearly $18 billion of total revenue, and 33% earnings growth, all while expanding our margins, increasing return on invested capit..."
+      ],
+      "notable_claims": [
+        "I'm very pleased to share our fourth quarter and full year 2025 results, our outlook for 2026, and our exciting strategic investments that will continue to shape and accelerate Royal Caribbean Group's future success.",
+        "2025 was an outstanding year, defined by strong demand for our brands and vacation experiences, disciplined execution of our strategies, strong balance sheet management, and robust financial performance.",
+        "We delivered a record 9.4 million memorable vacations at a very high customer satisfaction score, achieved nearly $18 billion of total revenue, and 33% earnings growth, all while expanding our margins, increasing return on invested capit...",
+        "I want to thank our team members worldwide for their passion and unwavering dedication to providing outstanding vacation experiences every day.",
+        "Flawless execution of our incredible teams propelled our strong performance in 2025, elevating demand across our brands and driving durable margin expansion."
+      ],
+      "_source": "deterministic_stub"
+    },
+    "2026-Q1": {
+      "demand_environment": [
+        "This morning we reported first quarter results that exceeded our expectations, along with a record wave season that reinforced the continued strength and demand for our leading vacation brands.",
+        "The consumer backdrop remains healthy and demand for our vacation experiences continue to be strong.",
+        "Across our portfolio, we see consistent engagement from guests, strong booking volumes and onboard spending that remains well above prior years."
+      ],
+      "consumer_health": [
+        "Our performance reflects consistently strong execution by our teams and the compelling value proposition and differentiated experiences our brands offer consumers who continue to prioritize experiences.",
+        "The consumer backdrop remains healthy and demand for our vacation experiences continue to be strong.",
+        "Across our portfolio, we see consistent engagement from guests, strong booking volumes and onboard spending that remains well above prior years."
+      ],
+      "competitive_positioning": [
+        "This morning we reported first quarter results that exceeded our expectations, along with a record wave season that reinforced the continued strength and demand for our leading vacation brands.",
+        "The consumer backdrop remains healthy and demand for our vacation experiences continue to be strong."
+      ],
+      "notable_claims": [
+        "This morning we reported first quarter results that exceeded our expectations, along with a record wave season that reinforced the continued strength and demand for our leading vacation brands.",
+        "Our performance reflects consistently strong execution by our teams and the compelling value proposition and differentiated experiences our brands offer consumers who continue to prioritize experiences.",
+        "The consumer backdrop remains healthy and demand for our vacation experiences continue to be strong.",
+        "Across our portfolio, we see consistent engagement from guests, strong booking volumes and onboard spending that remains well above prior years.",
+        "The softer booking trends lasted for a few weeks, but we have now turned a corner and are experiencing improved demand for the limited inventory we have remaining for Q2 and Q3 sailings."
+      ],
+      "_source": "deterministic_stub"
+    }
+  }
+}

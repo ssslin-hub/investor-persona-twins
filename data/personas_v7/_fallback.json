@@ -1,0 +1,67 @@
+{
+  "analyst_name": "_fallback",
+  "covers_companies": [
+    "RCL"
+  ],
+  "probe_type_profile": {
+    "distribution": {
+      "DELTA": 0.2069,
+      "UNQUANTIFIED": 0.0684,
+      "CLAIM": 0.1563,
+      "ANNOUNCEMENT": 0.0589,
+      "EXTERNAL": 0.1576,
+      "PERSONA": 0.1552,
+      "CHAIN": 0.1252
+    },
+    "lift_vs_population": {
+      "DELTA": 1.0,
+      "UNQUANTIFIED": 1.0,
+      "CLAIM": 1.0,
+      "ANNOUNCEMENT": 1.0,
+      "EXTERNAL": 1.0,
+      "PERSONA": 1.0,
+      "CHAIN": 1.0
+    },
+    "primary": "DELTA",
+    "primary_by_lift": null,
+    "trajectory_length": 2.0,
+    "trajectory_label": "medium"
+  },
+  "topic_emphasis": {
+    "distribution": {
+      "yield": 0.0909,
+      "cost_ncc": 0.0909,
+      "capacity": 0.0909,
+      "bookings": 0.0909,
+      "fuel": 0.0909,
+      "capital_return": 0.0909,
+      "guidance_targets": 0.0909,
+      "destinations": 0.0909,
+      "consumer_macro": 0.0909,
+      "loyalty": 0.0909,
+      "new_ships": 0.0909
+    },
+    "lift_vs_population": {
+      "yield": 1.0,
+      "cost_ncc": 1.0,
+      "capacity": 1.0,
+      "bookings": 1.0,
+      "fuel": 1.0,
+      "capital_return": 1.0,
+      "guidance_targets": 1.0,
+      "destinations": 1.0,
+      "consumer_macro": 1.0,
+      "loyalty": 1.0,
+      "new_ships": 1.0
+    }
+  },
+  "signature_questions": [],
+  "distinctive_concerns": {
+    "topics": [],
+    "blind_spots": null,
+    "stance_drift": null
+  },
+  "coverage_profile": null,
+  "reasoning_style": null,
+  "_built_from": "v7 fallback: population-average probe + uniform topic emphasis"
+}

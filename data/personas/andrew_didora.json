@@ -1,0 +1,52 @@
+{
+  "coverage_profile": {
+    "firm": "Bank of America",
+    "seniority_signal": "Holds the title 'Senior Equity Research Analyst' at Bank of America and asked one analyst question on the 2025-Q3 RCL call; management answered directly, indicating he is treated as a standard sell-side analyst. Evidence is limited to a single call, so seniority inference is primarily from the title rather than a long track record on RCL.",
+    "sector_lens": "Covers cruise/leisure within travel and consumer discretionary with a tilt toward corporate finance and capital allocation questions rather than operations or demand. The 2025-Q3 question focused on ship financing choices and interest-rate economics.",
+    "rhetorical_signature": [
+      "Opens conversationally and succinctly ('Hey, good morning, everyone').",
+      "Asks compact, finance-focused questions with a clear main point followed by a brief follow-up ('are you pretty much indifferent...' then 'out of curiosity, are there any additional benefits...').",
+      "Tone is practical and credit-oriented rather than operational or marketing-focused."
+    ]
+  },
+  "reasoning_style": {
+    "primary_mode": "quantitative_modeling: the question centers on financing cost differentials and choice of unsecured bond versus ECA financing, indicating a focus on balance-sheet mechanics and interest-rate impacts.",
+    "follow_up_pattern": "In this instance he asked a two-part question (a primary yes/no framing followed by an 'out of curiosity' follow-up about incremental benefits). With only one turn, there's no evidence of aggressive pushback, but the structure suggests concise multi-part queries.",
+    "evidence_demanded": "Seeks concrete rationale tied to cost and structure \u2014 e.g., whether financing choice is driven by rate benefits and what additional structural/credit benefits exist. He rewards explanations that compare financing alternatives and articulate mechanisms (rate savings, covenants, flexibility).",
+    "anchoring_habits": "Anchors questions to financing alternatives and observed rate differentials (comparing unsecured market vs ECA financing). With only the 2025-Q3 sample, there is limited evidence, but the question anchors to the recent Celebrity Xcel bond deal and typical ECA financing practices."
+  },
+  "recurring_concerns": {
+    "core_topics": [
+      {
+        "topic": "Capital structure / ship financing strategy",
+        "what_they_press_on": "Whether management is indifferent to financing source and what drives the choice between unsecured bonds and traditional ECA loans.",
+        "supporting_calls": [
+          "2025-Q3"
+        ]
+      },
+      {
+        "topic": "Cost of financing / interest-rate differential",
+        "what_they_press_on": "How rate differentials influence financing decisions and whether current market rates make unsecured issuance preferable for new ships.",
+        "supporting_calls": [
+          "2025-Q3"
+        ]
+      },
+      {
+        "topic": "Benefits of unsecured market vs ECA",
+        "what_they_press_on": "Asks for additional benefits beyond headline rate savings (e.g., covenant flexibility, tenor, investor base, balance-sheet treatment).",
+        "supporting_calls": [
+          "2025-Q3"
+        ]
+      },
+      {
+        "topic": "Ship-specific financing choices",
+        "what_they_press_on": "Interest in why a particular vessel (Celebrity Xcel) was financed via bonds rather than more typical methods, and whether that signals a change in approach.",
+        "supporting_calls": [
+          "2025-Q3"
+        ]
+      }
+    ],
+    "blind_spots": "With only one question observed (2025-Q3), he did not press on demand/booking trends, yields/fare pricing, onboard spend, or operational metrics \u2014 topics many peers often revisit; the sample is too small to be definitive.",
+    "stance_drift": "Insufficient history to identify a shift in emphasis across 2022\u20132025 because only the 2025-Q3 interaction is available. From this single data point, the focus is on capital allocation/financing rather than operational recovery or yield \u2014 any trend inference would be speculative."
+  }
+}
