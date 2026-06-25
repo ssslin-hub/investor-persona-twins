@@ -1,0 +1,726 @@
+{
+  "predicted": [
+    {
+      "candidate_id": "matthew_boss-pred-0",
+      "source_analyst": "matthew boss",
+      "question": "Congrats on the quarter \u2014 quick one on bookings and pricing: you noted Mediterranean and West Coast Mexico demand softened for a few weeks and then started to rebound; can you quantify how much of the moderation was lost price versus lost load (i.e., APD versus load factor), how close-in bookings and pricing have behaved since the dip, and whether the rebound is broad-based across brands/routes or concentrated in lower-yield inventory?",
+      "topic_label": "demand/booking_curve"
+    },
+    {
+      "candidate_id": "matthew_boss-pred-1",
+      "source_analyst": "matthew boss",
+      "question": "Two-parter on yield-to-margin math: given you reiterated Net Yield guidance of +1.5%-2.5% for the year and said Net Cruise Costs ex\u2011fuel are roughly flat (or ~50bp better), can you walk us through the expected flow\u2011through to Adjusted EPS/margins in bps (or $ per APD) \u2014 and how that ties to the Perfecta target of 20% CAGR in Adj EPS through 2027 (i.e., what portion of the 20% is yield vs cost vs other levers)?",
+      "topic_label": "yield_to_cost_margin"
+    },
+    {
+      "candidate_id": "matthew_boss-pred-2",
+      "source_analyst": "matthew boss",
+      "question": "A fuel clarification: you referenced being ~60% hedged for 2026 (Naftali 59% rest-of-year) and a roughly $0.62 EPS headwind \u2014 can you be specific on the average hedge price for the hedged portion, the assumed spot price for the unhedged portion behind the $1.35bn fuel guide, and the EPS sensitivity for, say, a $10 / barrel move?",
+      "topic_label": "fuel_hedging_sensitivity"
+    },
+    {
+      "candidate_id": "matthew_boss-pred-3",
+      "source_analyst": "matthew boss",
+      "question": "Congrats again \u2014 on capital allocation: with liquidity of $6.9bn, leverage below 3x, the $2.5bn bond and $836m of buybacks this quarter and $1bn remaining, how should we think about your priority framework over the next 12\u201318 months (delever higher, accelerate buybacks, raise dividends, or pursue M&A/portfolio investment)? At what metric or timing would you pivot to a more aggressive buyback or M&A posture?",
+      "topic_label": "capital_allocation"
+    },
+    {
+      "candidate_id": "matthew_boss-pred-4",
+      "source_analyst": "matthew boss",
+      "question": "On guest mix and onboard economics: you called out a meaningful increase in millennials/younger guests and more repeat guests \u2014 can you quantify the change (e.g., % of passengers millennials vs 2019), and how much of the year-over-year increase in onboard spend / spend per night is driven by cohort mix versus higher attachment rates per cohort?",
+      "topic_label": "onboard_spend_guest_mix"
+    },
+    {
+      "candidate_id": "matthew_boss-pred-5",
+      "source_analyst": "matthew boss",
+      "question": "Regarding your destination investments: Royal Beach Club Santorini and Paradise Island are highlighted as accretive \u2014 can you give us a simple ROI/earnback framework (expected incremental APD, margin uplift and payback period) for Santorini and the expected timing and yield uplift from Cozumel/Perfect Day Mexico and Costa Maya as they ramp in 2027\u20132028?",
+      "topic_label": "private_destinations_market_share"
+    },
+    {
+      "candidate_id": "matthew_boss-pred-6",
+      "source_analyst": "matthew boss",
+      "question": "On the Q2 cadence: you guide Q2 Net Yields to roughly +0.2% with ~200bp headwind and Net Cruise Costs ex\u2011fuel up 4.6%\u20135.1% (almost 400bp of cost headwinds) \u2014 can you reconcile how those cadence assumptions net into the $3.83\u20133.93 Q2 EPS range and quantify the 'almost $1' of items affecting the quarter (split between TUI, dry docks, crew travel, and fuel)?",
+      "topic_label": "guidance_setting_q2"
+    },
+    {
+      "candidate_id": "matthew_boss-pred-7",
+      "source_analyst": "matthew boss",
+      "question": "JV/TUI clarification: Q1 JVs were better than expected but you also called out a $0.12 FY headwind from lower TUI contribution \u2014 what do you expect from JV contributions for the remainder of 2026 (TUI versus other JVs), and what upside/downside should we model versus the guidance assumption?",
+      "topic_label": "joint_ventures_TUI"
+    },
+    {
+      "candidate_id": "matthew_boss-pred-8",
+      "source_analyst": "matthew boss",
+      "question": "On the Icon fleet economics and Legend of the Seas: you said Legend is in a very strong book position with prices higher than Icon and Star \u2014 can you give us a ship-level APD or yield differential versus the fleet average and the expected incremental margin/ROIC profile for Icon 6/7 and Legend deployments?",
+      "topic_label": "fleet_unit_economics"
+    },
+    {
+      "candidate_id": "matthew_boss-pred-9",
+      "source_analyst": "matthew boss",
+      "question": "One on technology and loyalty: you noted MAUs 5x 2019 and the Royal ONE card launch \u2014 can you quantify the incremental revenue or EBITDA contribution you expect from digital penetration and the credit-card/loyalty ecosystem over the next 2\u20133 years (e.g., incremental APD or percentage of onboard sales attributable to digital/loyalty), and how that feeds into your longer\u2011term TAM/market\u2011share targets?",
+      "topic_label": "digital_loyalty_monetization"
+    },
+    {
+      "candidate_id": "steven_wieczynski-pred-0",
+      "source_analyst": "steven wieczynski",
+      "question": "Congrats on a strong quarter \u2014 quick one on booking visibility: you said booked load factor is within historical ranges at record APD and that digital engagement/booking windows have shifted materially since 2019. Can you quantify current percent booked and APD for the remainder of 2026 and for key 2027 sailings (vs. the same purchase window in 2019), and as a follow-up, how much of the incremental demand you described is close\u2011in versus forward (i.e., how much upside to your 1.5%\u20132.5% Net Yield guide is still ticketed vs still optional)?",
+      "topic_label": "bookings/booking_curve"
+    },
+    {
+      "candidate_id": "steven_wieczynski-pred-1",
+      "source_analyst": "steven wieczynski",
+      "question": "Congrats \u2014 on the yield/guidance front: you reiterated 1.5%\u20132.5% Net Yield growth and $17.10\u2013$17.50 EPS that already embeds a $0.62 fuel headwind; can you walk us through the ticket vs onboard split behind the guide (bps or $ per APD), and as a follow-up, how much close\u2011in pricing upside do you think management intentionally left in the model (i.e., is the guide conservative relative to current booking/pricing momentum)?",
+      "topic_label": "yield_vs_onboard/guidance_conservatism"
+    },
+    {
+      "candidate_id": "steven_wieczynski-pred-2",
+      "source_analyst": "steven wieczynski",
+      "question": "Nice work \u2014 on costs and Perfecta: you said Net Cruise Costs ex\u2011fuel are roughly flat (or ~50bp better) and that cost cadence is heavier in H1 due to dry docks; can you be specific on the 2\u20133 line items or initiatives that will drive the second\u2011half improvement (and quantify expected bps contribution from Perfecta initiatives this year)?",
+      "topic_label": "costs/cadence"
+    },
+    {
+      "candidate_id": "steven_wieczynski-pred-3",
+      "source_analyst": "steven wieczynski",
+      "question": "Congrats \u2014 one on fuel: you called out a ~$0.62 per\u2011share headwind and that roughly 59\u201360% of remaining 2026 consumption is hedged but guidance is based on spot; can you give us EPS sensitivity to a move in fuel (e.g., $10/MT or $5/barrel/NYMEX equivalent), and as a follow\u2011up, do you plan to materially change hedging cadence given current volatility?",
+      "topic_label": "fuel/hedging"
+    },
+    {
+      "candidate_id": "steven_wieczynski-pred-4",
+      "source_analyst": "steven wieczynski",
+      "question": "Good quarter \u2014 on capital allocation: you returned $1.1bn this quarter and repurchased $836m with $1bn remaining on authorization \u2014 does your full\u2011year EPS range assume any additional buybacks beyond what you've executed to date, and as a follow\u2011up, what explicit leverage or liquidity trigger would you need to materially accelerate buybacks or consider restoring a regular dividend?",
+      "topic_label": "capital_allocation"
+    },
+    {
+      "candidate_id": "steven_wieczynski-pred-5",
+      "source_analyst": "steven wieczynski",
+      "question": "Congrats \u2014 on the region dynamics: you flagged a short\u2011term moderation in Mediterranean and West Coast Mexico bookings due to geopolitical/air travel issues but said bookings are rebounding; what percent of summer Mediterranean capacity/pricing is still exposed at materially higher air\u2011costs or customer reluctance, and what mitigants (pricing, itinerary changes, air programs) are you deploying to recapture yield in Q2\u2013Q3?",
+      "topic_label": "deployment/geography"
+    },
+    {
+      "candidate_id": "steven_wieczynski-pred-6",
+      "source_analyst": "steven wieczynski",
+      "question": "Nice quarter \u2014 on your experiential assets: demand for Royal Beach Club Santorini looks strong and Cozumel/Perfect Day Mexico are coming online in 2027\u201328; can you quantify the expected APD uplift and margin profile from a mature Beach Club (Santorini/Paradise Island) and the timeline to meaningful contribution to your 2027 Perfecta targets?",
+      "topic_label": "private_destinations"
+    },
+    {
+      "candidate_id": "steven_wieczynski-pred-7",
+      "source_analyst": "steven wieczynski",
+      "question": "Congrats \u2014 on the fleet/product side: you said Legend of the Seas is very strongly booked with prices higher than Icon and Star \u2014 can you help quantify the incremental APD or yield lift you expect from deploying Legend into the Caribbean in November versus the ship it replaces, and does this pricing signal change your pricing assumptions for future Icon orders (Icon 6/7)?",
+      "topic_label": "fleet_deployment/pricing_power"
+    },
+    {
+      "candidate_id": "steven_wieczynski-pred-8",
+      "source_analyst": "steven wieczynski",
+      "question": "Nice results \u2014 on commercialization and AI: you noted over 70% penetration pre\u2011cruise booking with >5 items per booking and that over half of onboard revenue is booked before embarkation \u2014 can you quantify the marginal lift to onboard spend per incremental point of pre\u2011book penetration and how sustainable you view that mix (i.e., any risk of saturating pre\u2011book incremental spend)?",
+      "topic_label": "technology/monetization"
+    },
+    {
+      "candidate_id": "steven_wieczynski-pred-9",
+      "source_analyst": "steven wieczynski",
+      "question": "Congrats \u2014 last one on joint ventures: you mentioned lower income from joint ventures and a $0.12 EPS headwind from TUI Cruises \u2014 can you quantify expected JV contribution for 2026 versus 2025 (and the drivers), and as a follow\u2011up, when do you expect TUI contribution to normalize back to prior levels?",
+      "topic_label": "joint_ventures"
+    },
+    {
+      "candidate_id": "brandt_montour-pred-0",
+      "source_analyst": "brandt montour",
+      "question": "Good morning, thanks and congrats on the quarter \u2014 quick one on yields: you came in with Net Yield +2% in Q1 (above the guidance range) yet you guide 1.5%-2.5% for the year with a region-specific haircut \u2014 can you walk us through a numeric yield bridge from the Q1 outperformance to the full-year midpoint (itemize puts-and-takes: Med softness, West Coast Mexico, fuel headwind, JV contribution, new hardware), and quantify how much of the guidance midpoint is driven by mix versus price per available passenger-day?",
+      "topic_label": "pricing/yield"
+    },
+    {
+      "candidate_id": "brandt_montour-pred-1",
+      "source_analyst": "brandt montour",
+      "question": "Thanks \u2014 following up on demand dynamics: you called the Mediterranean moderation short-lived and said bookings have rebounded \u2014 can you quantify the booking curve change (how many weeks of slowed bookings, percent decline in pace at the trough, how much of Q2/Q3 Mediterranean inventory is still available and at what relative price bands), and tell us whether lead times have shortened or simply re-priced?",
+      "topic_label": "booking_curve & demand dynamics"
+    },
+    {
+      "candidate_id": "brandt_montour-pred-2",
+      "source_analyst": "brandt montour",
+      "question": "Good morning \u2014 on the Caribbean, you noted it is 57% of deployment and you expect positive yields despite elevated industry capacity; will you defend price or flex load to protect APD this summer? Please give the trade-off target (delta APD versus load factor you would accept) and whether your booked load factor and APD today are consistent with that posture.",
+      "topic_label": "occupancy/load factor vs price trade-offs"
+    },
+    {
+      "candidate_id": "brandt_montour-pred-3",
+      "source_analyst": "brandt montour",
+      "question": "Thanks, and a quick one on the commercial flywheel: you said over 70% penetration in pre-cruise booking engines with 5 items per booking and that more than half of onboard revenue is booked pre-cruise \u2014 can you break that down (percent of total onboard rev now pre-booked, average spend per passenger pre-book vs onboard-when-onboard, attach-rate lift from app personalization) and how much of the year-over-year spend-per-night improvement is driven by pre-cruise versus onboard conversion?",
+      "topic_label": "onboard_revenue / pre-cruise bookings"
+    },
+    {
+      "candidate_id": "brandt_montour-pred-4",
+      "source_analyst": "brandt montour",
+      "question": "Good morning \u2014 on the Royal ONE card and loyalty: you said cardholder accounts doubled since 2019 and you see an opportunity to double again \u2014 what are your targeted card-account and spend KPIs over the next 24 months, the expected incremental yield/retention lift per cardholder, and any early economics (net revenue per account) you can share to help us model the payback?",
+      "topic_label": "loyalty/credit card"
+    },
+    {
+      "candidate_id": "brandt_montour-pred-5",
+      "source_analyst": "brandt montour",
+      "question": "Thanks \u2014 on Royal Beach Club and other new destination assets: Santorini demand is 'very strong' and Cozumel/Perfect Day are coming \u2014 can you quantify contribution: what percentage of guests on Santorini are buying the Beach Club, the realized APD premium versus a comparable port call, and the ramp profile (penetration/revenue per guest) you assume for Cozumel and Mexico when modeling the accretion you referenced?",
+      "topic_label": "new_product_rollout"
+    },
+    {
+      "candidate_id": "brandt_montour-pred-6",
+      "source_analyst": "brandt montour",
+      "question": "Good morning \u2014 on Icon and Legend of the Seas: you said Legend is 'very strong' and priced higher than Icon and Star \u2014 can you give current APD/price comparisons (Legend vs Icon/Star on a like-for-like itinerary), any observed cross-booking or cannibalization effects from redeploying Legend into the Caribbean, and the ROIC/return assumptions you use for the Icon platform evolution?",
+      "topic_label": "new_ships / capacity deployment"
+    },
+    {
+      "candidate_id": "brandt_montour-pred-7",
+      "source_analyst": "brandt montour",
+      "question": "Thanks \u2014 a quick clarification on fuel: Naftali mentioned roughly $0.62 per share headwind for the year from higher spot fuel and that you're ~59% hedged for the remainder \u2014 can you reconcile the 60%/59% language, give the forward curve you used to calculate the $0.62, and state sensitivity ($ per share) to a $10 / $20 / $30 move in oil so we can bake in scenarios?",
+      "topic_label": "fuel_hedging / costs"
+    },
+    {
+      "candidate_id": "brandt_montour-pred-8",
+      "source_analyst": "brandt montour",
+      "question": "Good morning \u2014 on costs and the cadence into Q2: you called for Net Cruise Costs ex-fuel roughly flat for the year but Q2 ex-fuel is up ~4.6%-5.1% driven by additional dry-dock days and crew travel; can you quantify the dry-dock headwind in basis points or dollars, describe the timing we should expect cost improvement (how much of the annual benefit sits in H2), and identify any one-off versus structural cost increases this year?",
+      "topic_label": "costs / cadence"
+    },
+    {
+      "candidate_id": "brandt_montour-pred-9",
+      "source_analyst": "brandt montour",
+      "question": "One final one on JV exposure and industry behavior \u2014 given your comments on lower TUI contribution (-$0.12) and strong demand broadly, and invoking veteran industry experience: are you seeing peers act more disciplined, less disciplined, or roughly in line with historical precedent on pricing and deployment in this environment?",
+      "topic_label": "industry_discipline / joint_ventures"
+    },
+    {
+      "candidate_id": "james_hardiman-pred-0",
+      "source_analyst": "james hardiman",
+      "question": "Good morning \u2014 quick clarification on fuel math: early in the prepared remarks you referenced roughly a $0.62 per\u2011share hit from higher spot fuel and later the outlook references $0.74 of fuel headwinds in the EPS bridge while the CFO also referenced a $0.62 headwind and $1.35bn of fuel expense \u2014 can you reconcile those numbers, walk us through the math (bunker $/MT or $/barrel sensitivity and % hedged), and tell us how we should model fuel sensitivity for the remainder of 2026?",
+      "topic_label": "fuel/hedging"
+    },
+    {
+      "candidate_id": "james_hardiman-pred-1",
+      "source_analyst": "james hardiman",
+      "question": "Thanks \u2014 on Net Yield: you reported Net Yields +2% in Q1 and guide +1.5%\u20132.5% for 2026; can you decompose that Q1 outperformance and the guide into ticket vs onboard vs itinerary/mix (APD) and same\u2011ship vs mix effects, and quantify how much of the year\u2011over\u2011year gain is structural versus driven by remaining inventory/pricing timing that could normalize toward 2019 levels?",
+      "topic_label": "pricing/yield"
+    },
+    {
+      "candidate_id": "james_hardiman-pred-2",
+      "source_analyst": "james hardiman",
+      "question": "Good morning \u2014 you reiterated a Perfecta target of ROIC in the high\u2011teens and announced Icon 6 and 7 orders; can you give us the expected unlevered ROIC, payback period and EBITDA margin you model for a representative Icon ship (and for Legend of the Seas specifically), and explain how those metrics map into the group ROIC target and capital\u2011allocation priority versus private\u2011island projects?",
+      "topic_label": "ROIC/capital_allocation"
+    },
+    {
+      "candidate_id": "james_hardiman-pred-3",
+      "source_analyst": "james hardiman",
+      "question": "Thanks \u2014 on CapEx and free\u2011cash\u2011flow cadence: with multiple destination openings (Royal Beach Club Cozumel early 2028, Perfect Day Mexico/Costa Maya late\u20112027/early\u20112028) and new ship deliveries (Legend in Nov, Icon fleet growth), can you quantify expected incremental cash CapEx by year 2026\u20132028, how you expect the ramp to FCF to look (peak CapEx year and normalization year), and whether there are material non\u2011recurring items we should model?",
+      "topic_label": "capex/cash_flow"
+    },
+    {
+      "candidate_id": "james_hardiman-pred-4",
+      "source_analyst": "james hardiman",
+      "question": "Good morning \u2014 on capital allocation and leverage: you finished the quarter with $6.9bn liquidity, leverage below 3x, repurchased $836m and have $1bn remaining authorization \u2014 what is your target net\u2011leverage range, what triggers a step\u2011up in opportunistic repurchases versus debt paydown, and can you give a simple sensitivity (e.g., if EBITDA grows X% and FCF yields Y% how much excess cash for buybacks would you expect)?",
+      "topic_label": "capital_structure/share_returns"
+    },
+    {
+      "candidate_id": "james_hardiman-pred-5",
+      "source_analyst": "james hardiman",
+      "question": "Thanks \u2014 on the Mediterranean and West\u2011Coast Mexico moderation: you noted a short\u2011term moderation for Mediterranean (now rebounding) and some West Coast Mexico disruption \u2014 can you quantify the booking\u2011curve shift (weeks of lost bookings or % of inventory impacted), how much of the change to the January yield outlook is driven by Mediterranean vs West Coast, and what redeployment/pricing actions you took to mitigate the impact?",
+      "topic_label": "demand/booking_curve"
+    },
+    {
+      "candidate_id": "james_hardiman-pred-6",
+      "source_analyst": "james hardiman",
+      "question": "Good morning \u2014 on Net Cruise Costs ex\u2011fuel: Q1 came in better than expected and you guide full\u2011year roughly flat (or +/\u201150bps better) but Q2 is +4.6%\u20135.1% year\u2011over\u2011year \u2014 can you give us the normalized exit run\u2011rate ex\u2011drydock (APD or $/day) you expect by year\u2011end, and quantify the one\u2011time and timing items (dry\u2011dock days, crew travel) embedded in the quarterly cadence?",
+      "topic_label": "costs"
+    },
+    {
+      "candidate_id": "james_hardiman-pred-7",
+      "source_analyst": "james hardiman",
+      "question": "Thanks \u2014 on joint\u2011venture contributions and TUI specifically: you called out better JV performance in Q1 but the guide includes a $0.12 headwind from lower expected TUI earnings \u2014 can you quantify expected JV EBITDA or EPS contribution from your JVs for 2026, the cadence across quarters, and the path/timing you expect for TUI earnings to normalize?",
+      "topic_label": "joint_ventures"
+    },
+    {
+      "candidate_id": "james_hardiman-pred-8",
+      "source_analyst": "james hardiman",
+      "question": "Good morning \u2014 on loyalty and the Royal ONE card: you said cardholders have doubled since 2019 and you see an opportunity to double again \u2014 can you quantify the economics (incremental revenue or APD uplift per active card, NPV per new account, % of bookings attributable to card promotions), and over what timeline you expect loyalty/credit\u2011card penetration to meaningfully move company yields and ROIC assumptions?",
+      "topic_label": "loyalty/consumer_engagement"
+    },
+    {
+      "candidate_id": "james_hardiman-pred-9",
+      "source_analyst": "james hardiman",
+      "question": "Thanks \u2014 last one on Legend of the Seas and the Icon series: you said Legend is in a very strong book position with prices higher than Icon and Star \u2014 can you quantify the APD premium you are seeing for Legend vs Icon/Star, any incremental cabin or onboard spend assumptions you use, and how you model potential cannibalization when redeploying Icon\u2011class capacity into similar regions?",
+      "topic_label": "new_ships/product_mix"
+    },
+    {
+      "candidate_id": "lizzie_dove-pred-0",
+      "source_analyst": "lizzie dove",
+      "question": "Hi, good morning and thanks \u2014 Net Yield was +2% in Q1 and you reiterated 1.5%-2.5% for 2026; can you quantify how many yield points of the Q1 outperformance and the current full\u2011year guide are coming from (a) new hardware/Icon/Legend pricing, (b) private\u2011destination/Beach Club premiums, and (c) like\u2011for\u2011like pricing or mix? Please give point contributions and the quarterly phasing you expect.",
+      "topic_label": "pricing/yield"
+    },
+    {
+      "candidate_id": "lizzie_dove-pred-1",
+      "source_analyst": "lizzie dove",
+      "question": "Thanks \u2014 on costs: you called out Net Cruise Costs ex\u2011fuel roughly flat for the year but Q2 costs up 4.6%-5.1% with almost 400 bps of headwinds from extra dry docks and crew travel; can you decompose that ~400 bps into dry\u2011dock/MRO, crew travel/air, labor and other operating buckets, and tell us how much of that is one\u2011time Q2 timing versus a recurring run\u2011rate into H2?",
+      "topic_label": "costs"
+    },
+    {
+      "candidate_id": "lizzie_dove-pred-2",
+      "source_analyst": "lizzie dove",
+      "question": "Good morning \u2014 you describe a record APD and a strong book position with Mediterranean bookings moderating then rebounding; can you walk through the booking curve today \u2014 percent of revenue already booked for Q3 and Q4, APD on remaining inventory versus a year ago, and which regions/itineraries/brands still have the most unbooked pricing upside?",
+      "topic_label": "demand/booking_curve"
+    },
+    {
+      "candidate_id": "lizzie_dove-pred-3",
+      "source_analyst": "lizzie dove",
+      "question": "Hi \u2014 on fleet deployment: moving Legend of the Seas from Europe to the Caribbean and continuing the Icon platform is a material change in regional mix; what incremental APD uplift and margin delta do you expect when Legend enters the Caribbean versus where it would have been priced in Europe, and do you expect any cannibalization across your Caribbean itineraries or brands?",
+      "topic_label": "fleet/deployment"
+    },
+    {
+      "candidate_id": "lizzie_dove-pred-4",
+      "source_analyst": "lizzie dove",
+      "question": "Thanks \u2014 capacity is up 6.7% for the year and Caribbean is 57% of deployment; given industry additions and your own Icon placements, how do you see the regional supply/demand balance in the Caribbean and Mediterranean over the next 12\u201124 months, and is there a cadence risk that could turn the near\u2011term strength into a multi\u2011quarter headwind?",
+      "topic_label": "regional supply balance"
+    },
+    {
+      "candidate_id": "lizzie_dove-pred-5",
+      "source_analyst": "lizzie dove",
+      "question": "Good morning \u2014 you said Beach Club Santorini demand is very strong and that these destinations are accretive to yield; for modeling, can you quantify the current APD or percent yield uplift from Royal Beach Club Paradise Island and Santorini, and outline the ramp and expected incremental APD contribution from Cozumel and Perfect Day Mexico as they open in 2027/2028?",
+      "topic_label": "private_destinations"
+    },
+    {
+      "candidate_id": "lizzie_dove-pred-6",
+      "source_analyst": "lizzie dove",
+      "question": "Hi \u2014 on fuel you said you're ~59%-60% hedged and guidance is based on spot, with a $0.62 EPS headwind for the year and $1.35bn of fuel expense; what's your sensitivity in EPS to a $10/bbl move in Brent (or a $0.05/gal move), and can you confirm the hedged volumes and tenor so we can map potential downside/upsides into our model?",
+      "topic_label": "costs/fuel_hedging"
+    },
+    {
+      "candidate_id": "lizzie_dove-pred-7",
+      "source_analyst": "lizzie dove",
+      "question": "Thanks \u2014 you noted better\u2011than\u2011expected JV performance in Q1 but also a $0.12 EPS headwind from lower expected TUI contribution for the year; can you reconcile those points, and provide the expected 2026 JV contribution to Adjusted EPS and the main drivers and timing for TUI to normalize?",
+      "topic_label": "joint_ventures"
+    },
+    {
+      "candidate_id": "lizzie_dove-pred-8",
+      "source_analyst": "lizzie dove",
+      "question": "Good morning \u2014 you highlighted AI/digital with app MAUs 5x 2019 and over half of onboard revenue booked pre\u2011cruise; can you quantify the measurable impact to APD, onboard spend or margins from the digital/AI initiatives to date and what incremental uplift you expect to realize over the next 24 months?",
+      "topic_label": "technology/AI"
+    },
+    {
+      "candidate_id": "lizzie_dove-pred-9",
+      "source_analyst": "lizzie dove",
+      "question": "Hi \u2014 you noted an increase in younger guests and more repeat guests in Q1; can you quantify the mix shift (share of bookings from millennials / under\u201135s), and do younger guests book differently (booking lead time, APD, onboard spend) versus older cohorts \u2014 should we be modeling a different margin profile as this demographic mix evolves?",
+      "topic_label": "bookings/demographics"
+    },
+    {
+      "candidate_id": "robin_farley-pred-0",
+      "source_analyst": "robin farley",
+      "question": "Thanks, good morning \u2014 just circling back on yields: you gave full\u2011year Net Yield guidance of +1.5%\u20132.5% and said Q2 is roughly +0.2% with almost a 200bp regional/dry\u2011dock headwind. Can you quantify the 'underlying' or clean Net Yield growth ex\u2011Med and West\u2011Coast\u2011Mexico disruption and ex\u2011timing (dry docks)? Specifically, what would your midpoint yield growth be on a like\u2011for\u2011like deployment basis so I can plug a clean yield into my model?",
+      "topic_label": "pricing/yield"
+    },
+    {
+      "candidate_id": "robin_farley-pred-1",
+      "source_analyst": "robin farley",
+      "question": "If I could follow up on the book: you said booked load factor is within historical ranges at record APD and that Mediterranean bookings rebounded in recent weeks \u2014 how much of full\u2011year capacity is already booked (as % of sail days and as a % of APD), and what is the current exposure (remaining inventory) for the high\u2011yield Med sailings in Q2/Q3 so we can assess reprice/close\u2011in booking upside?",
+      "topic_label": "booking_curve/forward_bookings"
+    },
+    {
+      "candidate_id": "robin_farley-pred-2",
+      "source_analyst": "robin farley",
+      "question": "Quick fuel hedge and sensitivity question: you referenced being ~59%\u201360% hedged for 2026 and a fuel expense view of $1.35bn with a ~$0.62 EPS headwind for the year (and CFO noted the guidance is based on spot), plus the comment that fuel would be ~4% lower on the forward curve \u2014 can you give the sensitivity to EPS per $10/bbl (or per $0.10/gal) move in bunker so we can size upside/downside to your $17.10\u2013$17.50 range?",
+      "topic_label": "costs/fuel_hedging"
+    },
+    {
+      "candidate_id": "robin_farley-pred-3",
+      "source_analyst": "robin farley",
+      "question": "Thanks \u2014 a two\u2011part on onboard/ancillary: you noted more than half of onboard revenue is booked pre\u2011cruise, >70% penetration in pre\u2011cruise engines, five items per booking, and spend per night is up \u2014 can you break out onboard spend by category (F&B, shore excursions, retail, spa, other) as a % of total onboard and comment whether these amounts are reported gross or net and the incremental margin contribution to Net Yield?",
+      "topic_label": "ancillary/onboard_spend"
+    },
+    {
+      "candidate_id": "robin_farley-pred-4",
+      "source_analyst": "robin farley",
+      "question": "On capacity and the orderbook: you said capacity growth is planned at 6.7% this year and you announced Icon 6 and 7 \u2014 can you outline remaining optionality in the orderbook (how many options, when they expire) and your current thinking on exercising options versus moderating capacity given your stated intent for 'moderate' capacity growth?",
+      "topic_label": "fleet/orderbook"
+    },
+    {
+      "candidate_id": "robin_farley-pred-5",
+      "source_analyst": "robin farley",
+      "question": "If I could squeeze one on Icon/Legend economics: you said Legend of the Seas is in a very strong book position with prices higher than Icon and Star \u2014 can you quantify the APD delta versus the fleet for Legend/Icon and give the incremental margin or ROIC profile you expect from Icon\u2011class deliveries (and any assumptions on ramp timing when Legend moves to the Caribbean in November)?",
+      "topic_label": "new_ship_economics"
+    },
+    {
+      "candidate_id": "robin_farley-pred-6",
+      "source_analyst": "robin farley",
+      "question": "On the regional disruption front: you cited Med softening driven by air travel cost/capacity reductions and West\u2011Coast Mexico moderation \u2014 can you quantify the revenue/APD hit you saw from those factors in Q1 and the incremental ticket\u2011oriented versus lead\u2011time flight disruption impact (i.e., what share of bookings include air and how much higher are average air costs on those itineraries)? And do you expect any permanent demand shift away from those itineraries?",
+      "topic_label": "demand/booking_curve"
+    },
+    {
+      "candidate_id": "robin_farley-pred-7",
+      "source_analyst": "robin farley",
+      "question": "A quick JV question: you called out a $0.12 headwind from lower expected contribution from TUI Cruises \u2014 can you walk through what's driving that shortfall (demand, pricing, fuel passthroughs, FX) and the sensitivity of your JV earnings to med/European capacity and yields so we can model a recovery path?",
+      "topic_label": "joint_ventures"
+    },
+    {
+      "candidate_id": "robin_farley-pred-8",
+      "source_analyst": "robin farley",
+      "question": "Last one on product and Perfect Day/Beach Club ramp: Santorini demand is strong and Cozumel is now expected in early 2028 with Perfect Day Mexico/Costa Maya late 2027 \u2014 can you provide the expected yield premium per guest and incremental EBITDA per available day (or per guest night) for these destination assets and the assumed ramp profile (year\u2011one occupancy/penetration and payback expectations)?",
+      "topic_label": "private_destinations/new_product_economics"
+    },
+    {
+      "candidate_id": "robin_farley-pred-9",
+      "source_analyst": "robin farley",
+      "question": "One on capital allocation: you returned $1.1bn this quarter and repurchased $836m (2.9m shares) with $1bn remaining under authorization \u2014 how should we think about cadence and triggers for buybacks versus deploying cash to growth (Icon deliveries/orders, Perfect Day investments), and is there a target net leverage or liquidity threshold that would constrain additional repurchases?",
+      "topic_label": "capital_return"
+    },
+    {
+      "candidate_id": "vince_ciepiel-pred-0",
+      "source_analyst": "vince ciepiel",
+      "question": "Thanks, and congrats on the quarter \u2014 on yields: you reported Net Yield up 2% in Q1 and set 2026 Net Yield guidance at +1.5%\u20132.5%. Could you decompose that 2% Q1 outperformance into (a) like\u2011for\u2011like ticket pricing, (b) onboard spend per passenger-day, (c) new\u2011hardware (Icon/Star/Legend) versus fleet mix, and (d) islands/shore\u2011product contribution \u2014 and then tell us which of those four drivers you expect to be the primary driver of the 1.5%\u20132.5% full\u2011year guide?",
+      "topic_label": "pricing/yield"
+    },
+    {
+      "candidate_id": "vince_ciepiel-pred-1",
+      "source_analyst": "vince ciepiel",
+      "question": "Great \u2014 on bookings: you emphasized a record wave season, 'strong book position' and that Mediterranean bookings rebounded after a short moderation. Can you quantify current booking coverage and APD for Q2 and Q3 versus the same point in your January wave\u2011season cadence, how much inventory remains in those high\u2011yield Med sailings, and whether the rebound has come from higher pricing, mix shift or simply reduced cancellations/holds?",
+      "topic_label": "bookings/booking_curve"
+    },
+    {
+      "candidate_id": "vince_ciepiel-pred-2",
+      "source_analyst": "vince ciepiel",
+      "question": "Thanks \u2014 regarding onboard monetization: you noted more than half of onboard revenue is booked pre\u2011cruise, >5 items per booking, and spend per night is up year\u2011over\u2011year. How much of the onboard APD improvement in Q1 was driven by (a) younger demographics, (b) repeat guests, and (c) pre\u2011cruise digital upsell versus onboard impulse \u2014 and please give absolute $/night and % contribution so we can model whether elevated onboard spend sustains as load factors normalize.",
+      "topic_label": "onboard_spend"
+    },
+    {
+      "candidate_id": "vince_ciepiel-pred-3",
+      "source_analyst": "vince ciepiel",
+      "question": "Great question \u2014 on shore products/islands: you said Santorini Beach Club demand has been very strong and Perfect Day Mexico and Costa Maya are expected to ramp in early 2028. For modeling: what is the current throughput/capacity per day for Paradise Island and Santorini, what incremental APD/yield lift do you assume per guest visiting a Beach Club/Perfect Day, and what repeat rates and margin profiles should we assume during the first 12\u201324 months of ramp?",
+      "topic_label": "private_destinations"
+    },
+    {
+      "candidate_id": "vince_ciepiel-pred-4",
+      "source_analyst": "vince ciepiel",
+      "question": "Thanks \u2014 on fuel and hedging: you cited a ~$0.62/share fuel headwind for 2026 and $1.35bn expected fuel expense with ~59% hedged at 'significantly below market.' Can you give the notional volumes/average strike for your current hedge book, sensitivity to $10/barrel move on EPS, and whether you plan to add hedges given current spot/forward spreads?",
+      "topic_label": "costs/fuel_hedging"
+    },
+    {
+      "candidate_id": "vince_ciepiel-pred-5",
+      "source_analyst": "vince ciepiel",
+      "question": "Thanks, and congrats \u2014 on new\u2011ship economics: you noted Legend of the Seas is in a 'very strong book position' with prices higher than Icon and Star, and you ordered Icon 6/7. For modeling ROIC and cannibalization: what is the incremental APD premium you are seeing for Legend versus a displaced ship on the same itinerary, what load factor dilution (if any) do you expect across the fleet as you add Icon units, and can you confirm the ROIC assumptions you are using for the Icon platform that supported Icon 6/7 orders?",
+      "topic_label": "new_ship_product"
+    },
+    {
+      "candidate_id": "vince_ciepiel-pred-6",
+      "source_analyst": "vince ciepiel",
+      "question": "Great, thanks \u2014 on capital allocation: you returned $1.1bn this quarter and repurchased $836m, with $1bn remaining authorization. Given the Icon orders, Perfecta targets and stated high\u2011teens ROIC goal, how are you prioritizing buybacks versus funding newbuild capex \u2014 what ROIC hurdle are you using for share repurchases, and do you expect leverage to remain below 3x on a sustained basis as you execute both buybacks and the Icon program?",
+      "topic_label": "capital_allocation"
+    },
+    {
+      "candidate_id": "vince_ciepiel-pred-7",
+      "source_analyst": "vince ciepiel",
+      "question": "Thanks \u2014 on joint ventures/TUI: you cited better JV performance in Q1 but also a $0.12 headwind from lower expected earnings contribution from TUI Cruises for the year. Can you reconcile what drove the Q1 JV outperformance versus the FY hit from TUI, give the expected run\u2011rate contribution from your JVs for 2026, and quantify downside risk to EPS if TUI underperforms further?",
+      "topic_label": "joint_ventures"
+    },
+    {
+      "candidate_id": "vince_ciepiel-pred-8",
+      "source_analyst": "vince ciepiel",
+      "question": "Great \u2014 on cost cadence and Perfecta: you said Net Cruise Costs ex\u2011fuel are roughly flat for the year and Q2 NCC ex\u2011fuel is up ~4.6%\u20135.1% driven by dry docks and crew travel. Please quantify the annualized run\u2011rate benefit from Perfecta in 2026 (in $ or bps), the one\u2011time versus recurring components of the Q2 cost pressure, and the implied NCC ex\u2011fuel trend for H2 once dry\u2011dock timing normalizes.",
+      "topic_label": "costs/cadence"
+    },
+    {
+      "candidate_id": "vince_ciepiel-pred-9",
+      "source_analyst": "vince ciepiel",
+      "question": "Thanks \u2014 on loyalty, digital and the Royal ONE card: you noted cardholders have doubled since 2019 and there's an opportunity to double again, plus higher digital penetration and cross\u2011brand bookings post\u2011Status Match. Can you quantify the incremental APD or margin lift you expect per incremental active cardholder or engaged app user, the typical CAC/payback on a card account, and any early metrics showing the Royal ONE launch moving purchase timing or mix?",
+      "topic_label": "loyalty/digital"
+    },
+    {
+      "candidate_id": "sharon_zackfia-pred-0",
+      "source_analyst": "sharon zackfia",
+      "question": "Hi, good morning \u2014 a two-parter on pre-cruise monetization: you said more than half of onboard revenue is booked before guests step on board, and Naftali said pre-cruise booking penetration is over 70% with over five items per booking; can you reconcile those two metrics for us (penetration vs. share of revenue) and then quantify how much incremental APD or onboard spend you\u2019re getting from a guest who pre-books versus one who doesn\u2019t?",
+      "topic_label": "pre-booking penetration"
+    },
+    {
+      "candidate_id": "sharon_zackfia-pred-1",
+      "source_analyst": "sharon zackfia",
+      "question": "You flagged an increase in younger guests, mainly millennials \u2014 can you walk through whether millennials are pre-booking at higher rates, buying more items per booking, and whether their onboard spend per night differs materially from older cohorts; and if so, how are you adjusting commercial targeting or bundles to capture that behavior?",
+      "topic_label": "demographics / spend"
+    },
+    {
+      "candidate_id": "sharon_zackfia-pred-2",
+      "source_analyst": "sharon zackfia",
+      "question": "On AI and digital UX you described a unified intelligence layer and scaling what works \u2014 can you give a concrete example of a recent A/B test or rollout, the measured uplift (percent lift in conversion or spend), the timeline to full rollout, and the expected annualized EBITDA or APD contribution from those improvements?",
+      "topic_label": "operational levers / AI"
+    },
+    {
+      "candidate_id": "sharon_zackfia-pred-3",
+      "source_analyst": "sharon zackfia",
+      "question": "You noted Mediterranean bookings softened for a few weeks and then rebounded; can you quantify remaining inventory on Mediterranean itineraries (as a percent of capacity), current price gap versus where you started the year, and how much of the Q2/Q3 yield shortfall you expect to recoup through price versus re-optimizing itineraries or moving capacity?",
+      "topic_label": "demand/booking_curve (Mediterranean)"
+    },
+    {
+      "candidate_id": "sharon_zackfia-pred-4",
+      "source_analyst": "sharon zackfia",
+      "question": "You called out West Coast Mexico moderations \u2014 for those itineraries that softened, are you seeing substitution to other RCL products (e.g., Caribbean) or to later sailings, and what is the expected net yield impact assuming substitution patterns we saw in the quarter?",
+      "topic_label": "demand/booking_curve (Mexico substitution)"
+    },
+    {
+      "candidate_id": "sharon_zackfia-pred-5",
+      "source_analyst": "sharon zackfia",
+      "question": "A quick one on pre-cruise purchase mix: you said customers buy over five items per booking and spend per night is up \u2014 can you break that down by category (shore, F&B, spa, excursions, retail), say which categories are driving the spend growth, and whether margins differ materially across those categories?",
+      "topic_label": "onboard revenue mix"
+    },
+    {
+      "candidate_id": "sharon_zackfia-pred-6",
+      "source_analyst": "sharon zackfia",
+      "question": "On the Royal ONE co-branded card: can you give current active cardholder count, average annual spend per card, take-rate or margin to RCL, and the expected incremental bookings or retention lift you\u2019re modeling from doubling the base again?",
+      "topic_label": "loyalty / credit card economics"
+    },
+    {
+      "candidate_id": "sharon_zackfia-pred-7",
+      "source_analyst": "sharon zackfia",
+      "question": "You highlighted Legend of the Seas entering the Caribbean and record APD for Icon-class pricing being higher than Icon/Star \u2014 can you quantify the APD premium you\u2019re seeing for Legend/Icon-class versus fleet average and whether you expect any cannibalization within your own portfolio when you redeploy these higher-APD ships?",
+      "topic_label": "product mix / APD"
+    },
+    {
+      "candidate_id": "sharon_zackfia-pred-8",
+      "source_analyst": "sharon zackfia",
+      "question": "On Perfecta you reiterated a 20% compound annual EPS target through 2027 and high-teens ROIC \u2014 can you decompose that target for us into the roughly expected contributions from ticket yield, onboard yield, cost savings/efficiencies, and capital returns (share repurchase/dividend) so we can model what drives the upside?",
+      "topic_label": "guidance_setting / Perfecta"
+    },
+    {
+      "candidate_id": "sharon_zackfia-pred-9",
+      "source_analyst": "sharon zackfia",
+      "question": "Lastly, a fuel and hedging clarification \u2014 you and Naftali referenced ~60% (59%) hedged for 2026 and a $0.62 fuel headwind in your guidance; can you walk through the hedge book by tenor (what\u2019s locked in for H1 vs H2), whether you intend to add hedges from here, and provide sensitivity (cents per share) to a $10 change in Brent or bunker delivered to the P&L?",
+      "topic_label": "fuel / hedging"
+    },
+    {
+      "candidate_id": "andrew_didora-pred-0",
+      "source_analyst": "andrew didora",
+      "question": "Hey Naftali, quick one on the book \u2014 can you quantify the booked position today as a % of full\u2011year APD or ticketed revenue by quarter (Q2/Q3/Q4), and how that maps back to your budgeted capacity and the comment that booked load factor is within historical ranges at record APD?",
+      "topic_label": "booking_curve / forward_visibility"
+    },
+    {
+      "candidate_id": "andrew_didora-pred-1",
+      "source_analyst": "andrew didora",
+      "question": "Jason/Naftali \u2014 on the Mediterranean and West Coast Mexico moderation, can you size the yield/revenue impact by quarter (how much of the downward tweak to Q2/Q3 yields is attributable to these regions) and how much was pricing deterioration versus mix or cancellations?",
+      "topic_label": "demand/booking_curve / geopolitical_impact"
+    },
+    {
+      "candidate_id": "andrew_didora-pred-2",
+      "source_analyst": "andrew didora",
+      "question": "Naftali \u2014 just to reconcile fuel math, you and Jason cited roughly 59\u201360% hedge coverage but the slide language referenced both a $0.62 and a $0.74 fuel headwind; can you reconcile the hedge percent, the $1.35bn fuel expense, and give us the sensitivity to EPS for a $10/bbl move so we can model the exposure?",
+      "topic_label": "costs / fuel_hedging"
+    },
+    {
+      "candidate_id": "andrew_didora-pred-3",
+      "source_analyst": "andrew didora",
+      "question": "Naftali \u2014 on the balance sheet and the $2.5bn bond deal, which specific maturities did you refinance and do you now have the ability to prepay or restructure any remaining near\u2011term maturities; how should we think about interest expense and leeway for buybacks versus additional deleveraging?",
+      "topic_label": "balance_sheet / debt_maturities"
+    },
+    {
+      "candidate_id": "andrew_didora-pred-4",
+      "source_analyst": "andrew didora",
+      "question": "Jason \u2014 you called out capacity growth of 6.7% for the year and that Legend of the Seas moves into the Caribbean in November; can you walk through how that capacity is distributed across quarters and how the Icon redeployments and new Beach Club openings are modeled into APD/yield for the year?",
+      "topic_label": "capacity / product_mix"
+    },
+    {
+      "candidate_id": "andrew_didora-pred-5",
+      "source_analyst": "andrew didora",
+      "question": "Naftali \u2014 Q2 looks challenged with ~200bp yield headwinds and nearly 400bp cost headwinds; can you break down the Q2 cost step\u2011up (dry docks vs crew travel vs other timing items), how much is timing versus structural, and when you expect that cost cadence to normalize through the back half?",
+      "topic_label": "costs / cadence"
+    },
+    {
+      "candidate_id": "andrew_didora-pred-6",
+      "source_analyst": "andrew didora",
+      "question": "Naftali \u2014 you flagged a lower contribution from TUI Cruises driving a ~$0.12 hit for the year; can you be specific on the drivers (volume, yield, ops, accounting) and whether you see further downside risk to that JV contribution into the back half?",
+      "topic_label": "joint_ventures / TUI"
+    },
+    {
+      "candidate_id": "andrew_didora-pred-7",
+      "source_analyst": "andrew didora",
+      "question": "Jason/Naftali \u2014 you repurchased $836m this quarter and have $1bn remaining under authorization; what is your near\u2011term repurchase cadence and are there explicit leverage or free\u2011cash\u2011flow targets that would change the pace versus deploying cash to prepay debt?",
+      "topic_label": "capital_return / buybacks"
+    },
+    {
+      "candidate_id": "andrew_didora-pred-8",
+      "source_analyst": "andrew didora",
+      "question": "Jason \u2014 on the Royal Beach Club assets and Perfect Day rollouts, can you quantify the APD uplift or incremental margin you are baking in for Paradise Island and Santorini today, and the expected cadence for Cozumel and Mexico (timing and assumed yield accretion into 2027\u201328)?",
+      "topic_label": "private_destinations / product_yield"
+    },
+    {
+      "candidate_id": "andrew_didora-pred-9",
+      "source_analyst": "andrew didora",
+      "question": "Jason \u2014 on the commercial/AI improvements and the new Royal ONE card, can you give us KPIs: current cardholders (net adds), activation/spend per card, and the timeframe and key milestones you expect to double cardholders and meaningfully monetize loyalty into revenue growth?",
+      "topic_label": "loyalty / commercial_monitization"
+    },
+    {
+      "candidate_id": "xian_siew-pred-0",
+      "source_analyst": "xian siew",
+      "question": "Hi, good morning \u2014 can you quantify the current forward book position versus what you were assuming in January (APD and remaining open inventory for Q2/Q3), and the split of close\u2011in versus forward bookings given the Mediterranean moderation and recent rebound?",
+      "topic_label": "demand/booking_curve"
+    },
+    {
+      "candidate_id": "xian_siew-pred-1",
+      "source_analyst": "xian siew",
+      "question": "Good morning \u2014 on yields, how much of your Q1 and full\u2011year Net Yield performance is coming from ticket pricing versus onboard spend, and what assumptions are you embedding for each in the 1.5%-2.5% Net Yield guidance?",
+      "topic_label": "pricing/yield"
+    },
+    {
+      "candidate_id": "xian_siew-pred-2",
+      "source_analyst": "xian siew",
+      "question": "Hi, morning \u2014 you referenced being ~59-60% hedged for 2026 and a ~$0.62 per\u2011share fuel headwind (and $1.35bn fuel expense); what's your sensitivity of EPS to a $10/mt move in bunker and how would you adjust hedging cadence if spot stays elevated?",
+      "topic_label": "costs"
+    },
+    {
+      "candidate_id": "xian_siew-pred-3",
+      "source_analyst": "xian siew",
+      "question": "Good morning \u2014 given you repurchased $836m of stock this quarter and have $1bn remaining on the program with ~$6.9bn liquidity and leverage <3x, what are the near\u2011term priorities/rules that would lead you to accelerate buybacks versus deploying incremental cash into Icon/Perfect Day investments?",
+      "topic_label": "capital_return"
+    },
+    {
+      "candidate_id": "xian_siew-pred-4",
+      "source_analyst": "xian siew",
+      "question": "Hi \u2014 can you walk through the quarter\u2011by\u2011quarter cadence you expect for Net Cruise Costs ex\u2011fuel (you flagged first\u2011half pressure from dry docks and Q2 up ~4.6%-5.1%), and quantify how much of the cost improvement you expect later in the year is timing versus structural?",
+      "topic_label": "costs"
+    },
+    {
+      "candidate_id": "xian_siew-pred-5",
+      "source_analyst": "xian siew",
+      "question": "Good morning \u2014 you noted better JV performance in Q1 but also a ~$0.12 headwind from TUI; can you give more granularity on expected JV earnings contribution for 2026 and your visibility into the TUI cadence that produces the $0.12 drag?",
+      "topic_label": "joint_ventures"
+    },
+    {
+      "candidate_id": "xian_siew-pred-6",
+      "source_analyst": "xian siew",
+      "question": "Hi, good morning \u2014 on the commercial side, you highlighted app MAUs ~5x 2019 and that >50% of onboard revenue is booked pre\u2011cruise; can you quantify the incremental margin or APD lift from shifting purchases pre\u2011cruise and the expected revenue/leverage benefit from Royal ONE card expansion in 2026\u201327?",
+      "topic_label": "pricing/yield"
+    },
+    {
+      "candidate_id": "xian_siew-pred-7",
+      "source_analyst": "xian siew",
+      "question": "Good morning \u2014 with capacity up ~6.7% for the year and Caribbean at 57% deployment (50% of Q2), plus Legend of the Seas moving to the Caribbean in November, how should we think about mix impact to APD and the magnitude of any yield dilution or accretion from these deployment shifts?",
+      "topic_label": "capacity"
+    },
+    {
+      "candidate_id": "xian_siew-pred-8",
+      "source_analyst": "xian siew",
+      "question": "Hi \u2014 you reiterated the Perfecta target of 20% CAGR in Adjusted EPS through 2027 and ROIC in the high teens; can you be more specific on the key levers and quantified contributions (cost takeout, yield upside, and digital/loyalty monetization) you expect to hit those targets?",
+      "topic_label": "guidance_setting"
+    },
+    {
+      "candidate_id": "xian_siew-pred-9",
+      "source_analyst": "xian siew",
+      "question": "Good morning \u2014 you mentioned an increase in younger guests and repeat guests this quarter; does this demographic shift change booking lead times, cancellation patterns or spend\u2011per\u2011guest dynamics in a way that materially affects your yield or inventory management assumptions?",
+      "topic_label": "demand/booking_curve"
+    },
+    {
+      "candidate_id": "kevin_kopelman-pred-0",
+      "source_analyst": "kevin kopelman",
+      "question": "Thanks, and quick one on the Mediterranean \u2014 can you quantify how much of the moderation you saw was a close\u2011in, short\u2011term pullback versus a deterioration in forward demand (i.e., what % of Q2/Q3 Med inventory remains unsold and how has APD for that remaining inventory moved since the pause)?",
+      "topic_label": "demand/booking_curve"
+    },
+    {
+      "candidate_id": "kevin_kopelman-pred-1",
+      "source_analyst": "kevin kopelman",
+      "question": "Good morning \u2014 on the full\u2011year Net Yield guide of +1.5%\u20132.5% (and the Q2 yield headwind you said is almost 200bps), can you walk through the expected quarterly yield trajectory and how much of the guidance range is driven by pricing versus itinerary/mix shifts?",
+      "topic_label": "pricing/yield"
+    },
+    {
+      "candidate_id": "kevin_kopelman-pred-2",
+      "source_analyst": "kevin kopelman",
+      "question": "Thanks \u2014 regarding fuel, you note ~60% hedged for 2026 and a $0.62 per\u2011share headwind at current spot; what is your $/share sensitivity to a $10/bbl move in bunker prices and how much of the remaining ~40% exposure do you plan to hedge and at what price bands?",
+      "topic_label": "costs/fuel"
+    },
+    {
+      "candidate_id": "kevin_kopelman-pred-3",
+      "source_analyst": "kevin kopelman",
+      "question": "Thanks, and quick question on onboard revenue \u2014 you said more than half of onboard revenue is pre\u2011booked and spend per night is up; what portion of the reported 2% Net Yield growth was driven by onboard versus ticket, and how much of the onboard uplift do you view as durable?",
+      "topic_label": "pricing/yield"
+    },
+    {
+      "candidate_id": "kevin_kopelman-pred-4",
+      "source_analyst": "kevin kopelman",
+      "question": "Thanks \u2014 on capital allocation: you repurchased $836m this quarter, have $1bn remaining and leverage below 3x \u2014 what is your prioritized framework for deploying incremental free cash (buybacks vs capex for Perfecta/Icon vs debt paydown) and at what leverage or ROIC thresholds would you step up buybacks materially?",
+      "topic_label": "capital_return / balance_sheet"
+    },
+    {
+      "candidate_id": "kevin_kopelman-pred-5",
+      "source_analyst": "kevin kopelman",
+      "question": "Thanks, and on joint ventures \u2014 you called out better JV performance this quarter but also a $0.12 headwind from TUI; can you quantify expected FY contribution from JVs (including TUI) and give a downside scenario if TUI or other partners underperform further?",
+      "topic_label": "joint_ventures"
+    },
+    {
+      "candidate_id": "kevin_kopelman-pred-6",
+      "source_analyst": "kevin kopelman",
+      "question": "Thanks \u2014 with Legend of the Seas redeployed to the Caribbean in November and the new Beach Club assets coming online, what APD or yield uplift do you expect from that redeployment and the Royal Beach Club Santorini/Paradise Island versus the itineraries they replace?",
+      "topic_label": "capacity"
+    },
+    {
+      "candidate_id": "kevin_kopelman-pred-7",
+      "source_analyst": "kevin kopelman",
+      "question": "Thanks \u2014 you reiterated Net Cruise Costs ex\u2011fuel are roughly flat for the year but Q2 costs are up ~4.6%\u20135.1% due to dry docks and crew travel; can you quantify the annualized run\u2011rate savings you've captured from Perfecta so far and the specific levers that produce the ~50bps improvement versus prior guidance?",
+      "topic_label": "costs"
+    },
+    {
+      "candidate_id": "kevin_kopelman-pred-8",
+      "source_analyst": "kevin kopelman",
+      "question": "Thanks \u2014 on loyalty and the new Royal ONE card, you said cardholder accounts have more than doubled since 2019 and you see an opportunity to double again \u2014 what's the timeline you model for that second doubling and the incremental APD or annualized revenue per incremental active cardholder?",
+      "topic_label": "loyalty/commerce"
+    },
+    {
+      "candidate_id": "kevin_kopelman-pred-9",
+      "source_analyst": "kevin kopelman",
+      "question": "Thanks \u2014 on Perfecta's target of 20% CAGR in adjusted EPS to 2027 and a high\u2011teens ROIC, can you summarize the key assumptions (capacity growth, net yield, margin expansion, share count) behind that target and how sensitive it is to a prolonged Mediterranean booking weakness?",
+      "topic_label": "guidance_setting"
+    }
+  ],
+  "actual": [
+    {
+      "actual_id": "matthew_boss-actual-0",
+      "source_analyst": "matthew boss",
+      "question": "Great. Thanks. Jason, maybe if we take a step back. Despite geopolitical developments and the elevated industry capacity in the Caribbean, your yield guide at the high end this year stands at 2.5% constant currency. Maybe could you speak to the drivers of durable growth multi-year, which seem intact here regardless of the macro, and just how you see the company set up today relative to pre-pandemic?"
+    },
+    {
+      "actual_id": "steven_wieczynski-actual-0",
+      "source_analyst": "steven wieczynski",
+      "question": "Yeah. Hey, guys. Good morning. Thanks for all the color so far. Jason, as we think about the rest of the year, we obviously have your second quarter yield guidance, and I have to assume based on Naftali's comments that your third quarter yields are gonna look somewhat similar to your second quarter given the exposure you have to Europe. You know, then if that's true, that would imply your fourth quarter yields are gonna be growing, you know, let's call it somewhere in that mid-single- digit range to kinda get you into that 2%, you know, midpoint. You know, wondering what gives you the confidence the fourth quarter could grow that much. I guess then that actually to me would imply, that without the European headwinds you guys encountered, you know, you guys would've actually been able to raise your full year yield guidance. Am I kinda thinking about that all the right way?"
+    },
+    {
+      "actual_id": "brandt_montour-actual-0",
+      "source_analyst": "brandt montour",
+      "question": "Great. Thanks for taking my question. I just wanted to circle back on the third quarter and the Med, and just maybe if you could put a bit of a finer point on it. You know, how much do you have left to book at this point in the year? How much damage do you think was done over the last few weeks? What are you sort of baking into your forward guidance in terms of how the conflict plays out and how bookings play out from here?"
+    },
+    {
+      "actual_id": "james_hardiman-actual-0",
+      "source_analyst": "james hardiman",
+      "question": "Good morning, thanks for taking my questions. I wanted to sort of zoom in on the idea that we're turning the corner. Obviously, you know, the weeks following the initial geopolitical disruption were probably the worst, but maybe some indication of where we stand today in terms of the booking trajectory versus where we were in February before a lot of this started. I don't know if we're fully back or we're just heading in that direction. As we think about sort of the 2Q and 3Q, we're saying that's most pronounced. I'm just curious if that's because those are what's next or whether consumers are comfortable booking beyond the third quarter and into 2027, assuming that, you know, this disruption will go away or we'll sort of worry about that when we get to that point in time. Thanks."
+    },
+    {
+      "actual_id": "lizzie_dove-actual-0",
+      "source_analyst": "lizzie dove",
+      "question": "Hi. Good morning. Thanks for taking the question. I was wondering if you could maybe give us a refresh on Perfect Day Mexico. You mentioned it's opening late 2027, ramping 2028. Could you maybe share some more details on the cadence of that ramp? You know, just bigger picture, your latest thinking around the long-term, you know, structural yield growth opportunity there in the Western Caribbean market and particularly around, you know, the Galveston, Texas penetration opportunity."
+    },
+    {
+      "actual_id": "robin_farley-actual-0",
+      "source_analyst": "robin farley",
+      "question": "Thanks. I had a question on yields, but also just a quick follow-up. Michael's comment may have just answered it, but, you know, it sounded like Mexico there had been, like, a little bit of a pause in construction because of that environmental stuff. Just wanna clarify if Michael's comment means that construction is, you know, resumed in Mexico there."
+    },
+    {
+      "actual_id": "robin_farley-actual-1",
+      "source_analyst": "robin farley",
+      "question": "Great. Thank you. Thank you. The other question was just sort of thinking about next year and, you know, if it's the 200 basis points impact in Q2, Q3 sounds like, you know, the entire 100 basis point change is maybe a mid-single digit sort of shift in where you had expected European yields to come, to come in this year. Is it fair to assume that you would kind of fully expect that to come back in 2027 when we're kind of thinking ahead to, you know, the impact this year being kind of, you know, not necessarily coming out of next year? Just help us to size that. Thank you."
+    },
+    {
+      "actual_id": "vince_ciepiel-actual-0",
+      "source_analyst": "vince ciepiel",
+      "question": "Thanks. Just wanted to dig a little bit more into yield outlook for the year. Could you maybe comment on how you think new hardware, you have Star , Xcel contribution, Paradise Island, RBC Santorini, like a lot of, you know, exciting new products out there, how they might be contributing to the yield growth overall versus the like- for-L ike impact. Also on a regional basis, I think you had mentioned or used the term that Europe was doing well, I think was the quote. Is it fair to assume that Europe yields will grow this year? What does the guide assume? Thanks."
+    },
+    {
+      "actual_id": "sharon_zackfia-actual-0",
+      "source_analyst": "sharon zackfia",
+      "question": "Hi. Thanks for taking the question. I guess I wanted to follow up on cost. Are you making any itinerary changes given higher fuel either currently or looking out to 2027, 2028? Obviously, Net Cruise Costs are coming in a bit lower. Is there anything you've pulled back on this year in terms of initiatives or spend that we should think of as deferring to 2027? Is this just harvesting some of those efficiencies that you just referred to? Thank you."
+    },
+    {
+      "actual_id": "andrew_didora-actual-0",
+      "source_analyst": "andrew didora",
+      "question": "Hi, good morning, everyone. T wo quick questions on costs, you know, so I guess for Naftali. I guess, one, you know, how do you think of rolling in new hedges in this high fuel environment? Second, just on unit costs. You continue to do a really nice job here. I guess my question is, at what level of capacity growth would we start to see maybe more inflationary type, you know, NCC ex-fuel growth and say, I don't know, 2%-3% range? Just curious your thoughts up there. Thank you."
+    },
+    {
+      "actual_id": "xian_siew-actual-0",
+      "source_analyst": "xian siew",
+      "question": "Hi, guys. Thanks for the question. You talked about the co-branded credit card and several changes to the loyalty program, also how repeat guests are kind of stepped up. I'm kind of wondering what do you think is kind of the implications of that in terms of how they could impact net yield growth, maybe repeat guests are booking further ahead, maybe they spend more on onboard. Kind of any learnings on how, you know, higher repeat penetration could be. Thank you."
+    },
+    {
+      "actual_id": "kevin_kopelman-actual-0",
+      "source_analyst": "kevin kopelman",
+      "question": "Great. Thanks a lot. I had a question on North American customers and higher airfares. Can you talk at all, you know, have you seen any consumer behavior change at all kind of reacting to the higher airfares in North America for your North America itineraries? How do you see consumers' ability to kind of swallow those airfare increases as they're getting to ports as the year goes on? Thanks."
+    }
+  ]
+}

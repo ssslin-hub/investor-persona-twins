@@ -1,0 +1,9 @@
+{
+  "evaluator_model": "gpt-5",
+  "evaluated_count": 12,
+  "binary_match_count": 7,
+  "binary_match_rate": 0.5833333333333334,
+  "strong_match_count": 1,
+  "strong_match_rate": 0.08333333333333333,
+  "average_match_score_0_to_4": 2.6666666666666665
+}

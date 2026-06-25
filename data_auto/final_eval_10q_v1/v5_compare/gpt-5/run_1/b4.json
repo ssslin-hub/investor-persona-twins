@@ -1,0 +1,892 @@
+{
+  "actual_question_count": 12,
+  "predicted_question_count": 110,
+  "actual_coverage": [
+    {
+      "actual_id": "matthew_boss-actual-0",
+      "best_predicted_candidate_id": "matthew_boss-pred-1",
+      "match_score_0_to_4": 3,
+      "covered": true,
+      "reasoning": "Predicted question bridges multi-year EPS/ROIC drivers (yield, costs, capital allocation), eliciting a similar discussion of durable multi-year growth vs pre-pandemic."
+    },
+    {
+      "actual_id": "steven_wieczynski-actual-0",
+      "best_predicted_candidate_id": "steven_wieczynski-pred-0",
+      "match_score_0_to_4": 2,
+      "covered": false,
+      "reasoning": "Predicted addresses booking/visibility and Med rebound, but not the specific Q4 yield acceleration/confidence needed to hit full-year targets."
+    },
+    {
+      "actual_id": "brandt_montour-actual-0",
+      "best_predicted_candidate_id": "james_hardiman-pred-3",
+      "match_score_0_to_4": 4,
+      "covered": true,
+      "reasoning": "Directly targets Med moderation magnitude, booking curve shape, and downside/guidance sensitivity."
+    },
+    {
+      "actual_id": "james_hardiman-actual-0",
+      "best_predicted_candidate_id": "matthew_boss-pred-2",
+      "match_score_0_to_4": 4,
+      "covered": true,
+      "reasoning": "Asks for peak-to-trough Med impact and current booking run-rate vs pre-conflict, aligning with 'turning the corner' and timing beyond Q3."
+    },
+    {
+      "actual_id": "lizzie_dove-actual-0",
+      "best_predicted_candidate_id": "vince_ciepiel-pred-7",
+      "match_score_0_to_4": 3,
+      "covered": true,
+      "reasoning": "Quantifies APD uplift and ramp/payback for private destinations including Perfect Day Mexico; close but lacks Galveston penetration detail."
+    },
+    {
+      "actual_id": "robin_farley-actual-0",
+      "best_predicted_candidate_id": "sharon_zackfia-pred-5",
+      "match_score_0_to_4": 2,
+      "covered": false,
+      "reasoning": "Predicted addresses Mexico timing/mitigation, but not the specific construction pause/resumption confirmation."
+    },
+    {
+      "actual_id": "robin_farley-actual-1",
+      "best_predicted_candidate_id": "steven_wieczynski-pred-8",
+      "match_score_0_to_4": 2,
+      "covered": false,
+      "reasoning": "Predicted asks about conservatism; actual asks if 2024 Europe shortfall fully reverses in 2027. Partial theme of outlook but different ask."
+    },
+    {
+      "actual_id": "vince_ciepiel-actual-0",
+      "best_predicted_candidate_id": "vince_ciepiel-pred-0",
+      "match_score_0_to_4": 4,
+      "covered": true,
+      "reasoning": "Directly splits yield between like-for-like vs new hardware/private destinations and aligns with the regional (Europe) growth question."
+    },
+    {
+      "actual_id": "sharon_zackfia-actual-0",
+      "best_predicted_candidate_id": "james_hardiman-pred-4",
+      "match_score_0_to_4": 1,
+      "covered": false,
+      "reasoning": "Actual focuses on itinerary changes and deferrals due to higher fuel; predicted focuses on fuel hedge/sensitivity rather than deployment or deferral choices."
+    },
+    {
+      "actual_id": "andrew_didora-actual-0",
+      "best_predicted_candidate_id": "andrew_didora-pred-7",
+      "match_score_0_to_4": 3,
+      "covered": true,
+      "reasoning": "Predicted discusses hedge sizing/philosophy in a high fuel environment, substantially overlapping the first part of the actual; does not cover the NCC ex-fuel vs capacity threshold."
+    },
+    {
+      "actual_id": "xian_siew-actual-0",
+      "best_predicted_candidate_id": "sharon_zackfia-pred-7",
+      "match_score_0_to_4": 4,
+      "covered": true,
+      "reasoning": "Directly connects loyalty/card changes to booking frequency/APD and yield, matching implications for net yield growth from higher repeat penetration."
+    },
+    {
+      "actual_id": "kevin_kopelman-actual-0",
+      "best_predicted_candidate_id": "xian_siew-pred-6",
+      "match_score_0_to_4": 1,
+      "covered": false,
+      "reasoning": "Predicted mentions air capacity/connectivity mitigation for Med/Mex; actual asks about NA customers\u2019 behavior under higher NA airfares."
+    }
+  ],
+  "predicted_precision": [
+    {
+      "candidate_id": "matthew_boss-pred-0",
+      "best_actual_id": "matthew_boss-actual-0",
+      "match_score_0_to_4": 2,
+      "useful": false,
+      "reasoning": "Related to yield phasing/visibility but not the broader durable growth vs pre-pandemic framing."
+    },
+    {
+      "candidate_id": "matthew_boss-pred-1",
+      "best_actual_id": "matthew_boss-actual-0",
+      "match_score_0_to_4": 3,
+      "useful": true,
+      "reasoning": "Bridges multi-year EPS/ROIC drivers similar to durable growth question."
+    },
+    {
+      "candidate_id": "matthew_boss-pred-2",
+      "best_actual_id": "james_hardiman-actual-0",
+      "match_score_0_to_4": 4,
+      "useful": true,
+      "reasoning": "Quantifies Med moderation and rebound vs pre-conflict, matching 'turning the corner.'"
+    },
+    {
+      "candidate_id": "matthew_boss-pred-3",
+      "best_actual_id": "andrew_didora-actual-0",
+      "match_score_0_to_4": 3,
+      "useful": true,
+      "reasoning": "Fuel sensitivity/hedging detail aligns with the hedging approach asked."
+    },
+    {
+      "candidate_id": "matthew_boss-pred-4",
+      "best_actual_id": "xian_siew-actual-0",
+      "match_score_0_to_4": 3,
+      "useful": true,
+      "reasoning": "Connects digital/loyalty to onboard spend and frequency, overlapping yield uplift from loyalty/repeat."
+    },
+    {
+      "candidate_id": "matthew_boss-pred-5",
+      "best_actual_id": "lizzie_dove-actual-0",
+      "match_score_0_to_4": 1,
+      "useful": false,
+      "reasoning": "Focuses on West Coast Mexico demand/yield hits; actual Mexico topic is Perfect Day ramp/Galveston."
+    },
+    {
+      "candidate_id": "matthew_boss-pred-6",
+      "best_actual_id": null,
+      "match_score_0_to_4": 0,
+      "useful": false,
+      "reasoning": "No actual question on JV/TUI outlook modeling."
+    },
+    {
+      "candidate_id": "matthew_boss-pred-7",
+      "best_actual_id": "vince_ciepiel-actual-0",
+      "match_score_0_to_4": 2,
+      "useful": false,
+      "reasoning": "Related to deployment/yield premiums, but actual asks broader yield composition and Europe growth."
+    },
+    {
+      "candidate_id": "matthew_boss-pred-8",
+      "best_actual_id": "andrew_didora-actual-0",
+      "match_score_0_to_4": 2,
+      "useful": false,
+      "reasoning": "Cost cadence overlaps cost theme, but actual asks capacity/NCC threshold."
+    },
+    {
+      "candidate_id": "matthew_boss-pred-9",
+      "best_actual_id": "xian_siew-actual-0",
+      "match_score_0_to_4": 3,
+      "useful": true,
+      "reasoning": "Asks about cohorts and repeat behavior effects on spend and frequency, aligned with loyalty/repeat implications."
+    },
+    {
+      "candidate_id": "steven_wieczynski-pred-0",
+      "best_actual_id": "brandt_montour-actual-0",
+      "match_score_0_to_4": 3,
+      "useful": true,
+      "reasoning": "Covers booking/visibility and Med rebound durability similar to actual Med Q3 focus."
+    },
+    {
+      "candidate_id": "steven_wieczynski-pred-1",
+      "best_actual_id": "vince_ciepiel-actual-0",
+      "match_score_0_to_4": 3,
+      "useful": true,
+      "reasoning": "Ticket vs onboard split aligns with yield composition discussion."
+    },
+    {
+      "candidate_id": "steven_wieczynski-pred-2",
+      "best_actual_id": null,
+      "match_score_0_to_4": 0,
+      "useful": false,
+      "reasoning": "Capital return/leverage targets not discussed in actuals."
+    },
+    {
+      "candidate_id": "steven_wieczynski-pred-3",
+      "best_actual_id": "andrew_didora-actual-0",
+      "match_score_0_to_4": 3,
+      "useful": true,
+      "reasoning": "Fuel hedge and EPS sensitivity matches hedging discussion."
+    },
+    {
+      "candidate_id": "steven_wieczynski-pred-4",
+      "best_actual_id": null,
+      "match_score_0_to_4": 0,
+      "useful": false,
+      "reasoning": "No actual question reconciles JV/TUI contributions."
+    },
+    {
+      "candidate_id": "steven_wieczynski-pred-5",
+      "best_actual_id": "vince_ciepiel-actual-0",
+      "match_score_0_to_4": 3,
+      "useful": true,
+      "reasoning": "New asset yield uplift connects to hardware contribution to yields."
+    },
+    {
+      "candidate_id": "steven_wieczynski-pred-6",
+      "best_actual_id": "andrew_didora-actual-0",
+      "match_score_0_to_4": 2,
+      "useful": false,
+      "reasoning": "Discusses cost cadence; actual seeks NCC ex-fuel threshold vs capacity."
+    },
+    {
+      "candidate_id": "steven_wieczynski-pred-7",
+      "best_actual_id": "xian_siew-actual-0",
+      "match_score_0_to_4": 3,
+      "useful": true,
+      "reasoning": "Demographic effects on booking/spend align with loyalty/repeat yield implications."
+    },
+    {
+      "candidate_id": "steven_wieczynski-pred-8",
+      "best_actual_id": "steven_wieczynski-actual-0",
+      "match_score_0_to_4": 2,
+      "useful": false,
+      "reasoning": "Guidance conservatism overlaps outlook but not Q4 yield acceleration specifics."
+    },
+    {
+      "candidate_id": "steven_wieczynski-pred-9",
+      "best_actual_id": null,
+      "match_score_0_to_4": 0,
+      "useful": false,
+      "reasoning": "No actual topic on leverage targets/IG timing vs buybacks."
+    },
+    {
+      "candidate_id": "brandt_montour-pred-0",
+      "best_actual_id": "vince_ciepiel-actual-0",
+      "match_score_0_to_4": 4,
+      "useful": true,
+      "reasoning": "Direct yield decomposition: like-for-like vs hardware/destinations."
+    },
+    {
+      "candidate_id": "brandt_montour-pred-1",
+      "best_actual_id": "brandt_montour-actual-0",
+      "match_score_0_to_4": 4,
+      "useful": true,
+      "reasoning": "Quantifies booking curve, remaining inventory, and Med rebound."
+    },
+    {
+      "candidate_id": "brandt_montour-pred-2",
+      "best_actual_id": "andrew_didora-actual-0",
+      "match_score_0_to_4": 2,
+      "useful": false,
+      "reasoning": "Cost cadence overlap; actual asks about NCC thresholds and hedging."
+    },
+    {
+      "candidate_id": "brandt_montour-pred-3",
+      "best_actual_id": "andrew_didora-actual-0",
+      "match_score_0_to_4": 3,
+      "useful": true,
+      "reasoning": "Fuel sensitivity/hedging posture aligns with hedging discussion."
+    },
+    {
+      "candidate_id": "brandt_montour-pred-4",
+      "best_actual_id": null,
+      "match_score_0_to_4": 0,
+      "useful": false,
+      "reasoning": "Capital allocation thresholds not discussed in actuals."
+    },
+    {
+      "candidate_id": "brandt_montour-pred-5",
+      "best_actual_id": "vince_ciepiel-actual-0",
+      "match_score_0_to_4": 3,
+      "useful": true,
+      "reasoning": "New ship/product mix contribution to APD connects to yield drivers."
+    },
+    {
+      "candidate_id": "brandt_montour-pred-6",
+      "best_actual_id": "brandt_montour-actual-0",
+      "match_score_0_to_4": 3,
+      "useful": true,
+      "reasoning": "Asks to quantify regional yield headwinds and actions, consistent with Med impact into Q3 and guidance."
+    },
+    {
+      "candidate_id": "brandt_montour-pred-7",
+      "best_actual_id": "xian_siew-actual-0",
+      "match_score_0_to_4": 3,
+      "useful": true,
+      "reasoning": "Links digital/loyalty to onboard spend and cardholder growth, aligning with yield implications of loyalty."
+    },
+    {
+      "candidate_id": "brandt_montour-pred-8",
+      "best_actual_id": null,
+      "match_score_0_to_4": 0,
+      "useful": false,
+      "reasoning": "No JV/TUI reconciliation asked in actuals."
+    },
+    {
+      "candidate_id": "brandt_montour-pred-9",
+      "best_actual_id": "xian_siew-actual-0",
+      "match_score_0_to_4": 3,
+      "useful": true,
+      "reasoning": "Demographic shift monetization aligns with repeat/loyalty yield implications."
+    },
+    {
+      "candidate_id": "james_hardiman-pred-0",
+      "best_actual_id": "matthew_boss-actual-0",
+      "match_score_0_to_4": 3,
+      "useful": true,
+      "reasoning": "Explores ROIC drivers supporting durable multi-year growth."
+    },
+    {
+      "candidate_id": "james_hardiman-pred-1",
+      "best_actual_id": "vince_ciepiel-actual-0",
+      "match_score_0_to_4": 4,
+      "useful": true,
+      "reasoning": "Decomposes yields incl. hardware and regional softness assumptions."
+    },
+    {
+      "candidate_id": "james_hardiman-pred-2",
+      "best_actual_id": "vince_ciepiel-actual-0",
+      "match_score_0_to_4": 3,
+      "useful": true,
+      "reasoning": "Quantifies asset-level economics feeding yield/ROIC."
+    },
+    {
+      "candidate_id": "james_hardiman-pred-3",
+      "best_actual_id": "brandt_montour-actual-0",
+      "match_score_0_to_4": 4,
+      "useful": true,
+      "reasoning": "Direct Med moderation magnitude, curve and sensitivity."
+    },
+    {
+      "candidate_id": "james_hardiman-pred-4",
+      "best_actual_id": "andrew_didora-actual-0",
+      "match_score_0_to_4": 3,
+      "useful": true,
+      "reasoning": "Hedging tenor/sensitivity aligns with hedging approach."
+    },
+    {
+      "candidate_id": "james_hardiman-pred-5",
+      "best_actual_id": "xian_siew-actual-0",
+      "match_score_0_to_4": 4,
+      "useful": true,
+      "reasoning": "Directly models card/loyalty contribution to bookings/APD and yields."
+    },
+    {
+      "candidate_id": "james_hardiman-pred-6",
+      "best_actual_id": null,
+      "match_score_0_to_4": 0,
+      "useful": false,
+      "reasoning": "No JV cadence/capital allocation linkage asked."
+    },
+    {
+      "candidate_id": "james_hardiman-pred-7",
+      "best_actual_id": "xian_siew-actual-0",
+      "match_score_0_to_4": 3,
+      "useful": true,
+      "reasoning": "Cohort spend patterns align with loyalty/repeat yield implications."
+    },
+    {
+      "candidate_id": "james_hardiman-pred-8",
+      "best_actual_id": "andrew_didora-actual-0",
+      "match_score_0_to_4": 2,
+      "useful": false,
+      "reasoning": "Cost normalization theme overlaps, but actual asks for NCC threshold vs capacity."
+    },
+    {
+      "candidate_id": "james_hardiman-pred-9",
+      "best_actual_id": "vince_ciepiel-actual-0",
+      "match_score_0_to_4": 3,
+      "useful": true,
+      "reasoning": "New product APD premium sustainability ties to yield drivers."
+    },
+    {
+      "candidate_id": "lizzie_dove-pred-0",
+      "best_actual_id": "vince_ciepiel-actual-0",
+      "match_score_0_to_4": 4,
+      "useful": true,
+      "reasoning": "Yield guide decomposition by hardware vs like-for-like and cadence."
+    },
+    {
+      "candidate_id": "lizzie_dove-pred-1",
+      "best_actual_id": "andrew_didora-actual-0",
+      "match_score_0_to_4": 2,
+      "useful": false,
+      "reasoning": "Cost bucket timing overlaps but not NCC threshold."
+    },
+    {
+      "candidate_id": "lizzie_dove-pred-2",
+      "best_actual_id": "brandt_montour-actual-0",
+      "match_score_0_to_4": 2,
+      "useful": false,
+      "reasoning": "Remaining inventory/mix is adjacent to booking curve, but actual focuses on Med damage and guidance assumptions."
+    },
+    {
+      "candidate_id": "lizzie_dove-pred-3",
+      "best_actual_id": null,
+      "match_score_0_to_4": 1,
+      "useful": false,
+      "reasoning": "Caribbean pricing resilience wasn't an actual theme."
+    },
+    {
+      "candidate_id": "lizzie_dove-pred-4",
+      "best_actual_id": "james_hardiman-actual-0",
+      "match_score_0_to_4": 4,
+      "useful": true,
+      "reasoning": "Asks how far Med bookings have recovered vs pre-conflict with drivers."
+    },
+    {
+      "candidate_id": "lizzie_dove-pred-5",
+      "best_actual_id": "andrew_didora-actual-0",
+      "match_score_0_to_4": 3,
+      "useful": true,
+      "reasoning": "Fuel hedge reconciliation and EPS sensitivity fits hedging approach."
+    },
+    {
+      "candidate_id": "lizzie_dove-pred-6",
+      "best_actual_id": "vince_ciepiel-actual-0",
+      "match_score_0_to_4": 3,
+      "useful": true,
+      "reasoning": "Private destinations\u2019 yield/margin accretion supports yield outlook."
+    },
+    {
+      "candidate_id": "lizzie_dove-pred-7",
+      "best_actual_id": "vince_ciepiel-actual-0",
+      "match_score_0_to_4": 3,
+      "useful": true,
+      "reasoning": "Legend premium quantification contributes to yield mix discussion."
+    },
+    {
+      "candidate_id": "lizzie_dove-pred-8",
+      "best_actual_id": "xian_siew-actual-0",
+      "match_score_0_to_4": 3,
+      "useful": true,
+      "reasoning": "Pre-cruise onboard share and margin impact align with loyalty/commercial uplift to yields."
+    },
+    {
+      "candidate_id": "lizzie_dove-pred-9",
+      "best_actual_id": null,
+      "match_score_0_to_4": 0,
+      "useful": false,
+      "reasoning": "No quarter beat decomposition asked."
+    },
+    {
+      "candidate_id": "robin_farley-pred-0",
+      "best_actual_id": "vince_ciepiel-actual-0",
+      "match_score_0_to_4": 4,
+      "useful": true,
+      "reasoning": "Splits ticket vs onboard contribution to yields."
+    },
+    {
+      "candidate_id": "robin_farley-pred-1",
+      "best_actual_id": "brandt_montour-actual-0",
+      "match_score_0_to_4": 3,
+      "useful": true,
+      "reasoning": "Quantifies Med/West Coast impacts into Q2/Q3 similar to Med damage/guidance."
+    },
+    {
+      "candidate_id": "robin_farley-pred-2",
+      "best_actual_id": "andrew_didora-actual-0",
+      "match_score_0_to_4": 2,
+      "useful": false,
+      "reasoning": "Dry dock cost detail overlaps cost theme but not NCC threshold."
+    },
+    {
+      "candidate_id": "robin_farley-pred-3",
+      "best_actual_id": "vince_ciepiel-actual-0",
+      "match_score_0_to_4": 3,
+      "useful": true,
+      "reasoning": "Icon platform economics relate to hardware contribution to yields."
+    },
+    {
+      "candidate_id": "robin_farley-pred-4",
+      "best_actual_id": "lizzie_dove-actual-0",
+      "match_score_0_to_4": 3,
+      "useful": true,
+      "reasoning": "Private destination accretion timing aligns with Mexico/Western Caribbean structural yield discussion."
+    },
+    {
+      "candidate_id": "robin_farley-pred-5",
+      "best_actual_id": "xian_siew-actual-0",
+      "match_score_0_to_4": 3,
+      "useful": true,
+      "reasoning": "Quantifies pre-booking/app/card impact on onboard/yield."
+    },
+    {
+      "candidate_id": "robin_farley-pred-6",
+      "best_actual_id": null,
+      "match_score_0_to_4": 0,
+      "useful": false,
+      "reasoning": "No financing/ECA mix question in actuals."
+    },
+    {
+      "candidate_id": "robin_farley-pred-7",
+      "best_actual_id": "andrew_didora-actual-0",
+      "match_score_0_to_4": 3,
+      "useful": true,
+      "reasoning": "Fuel hedge percent/sensitivity matches hedging topic."
+    },
+    {
+      "candidate_id": "robin_farley-pred-8",
+      "best_actual_id": null,
+      "match_score_0_to_4": 0,
+      "useful": false,
+      "reasoning": "JV/TUI contribution path not asked."
+    },
+    {
+      "candidate_id": "robin_farley-pred-9",
+      "best_actual_id": "vince_ciepiel-actual-0",
+      "match_score_0_to_4": 3,
+      "useful": true,
+      "reasoning": "APD split cabin vs onboard aligns with yield composition."
+    },
+    {
+      "candidate_id": "vince_ciepiel-pred-0",
+      "best_actual_id": "vince_ciepiel-actual-0",
+      "match_score_0_to_4": 4,
+      "useful": true,
+      "reasoning": "Direct full-year yield split and mix vs hardware."
+    },
+    {
+      "candidate_id": "vince_ciepiel-pred-1",
+      "best_actual_id": "brandt_montour-actual-0",
+      "match_score_0_to_4": 4,
+      "useful": true,
+      "reasoning": "Booking curve, conversion and sensitivity for Med/Mex aligns with guidance assumptions."
+    },
+    {
+      "candidate_id": "vince_ciepiel-pred-2",
+      "best_actual_id": "vince_ciepiel-actual-0",
+      "match_score_0_to_4": 3,
+      "useful": true,
+      "reasoning": "New hardware redeployment economics connect to yield growth."
+    },
+    {
+      "candidate_id": "vince_ciepiel-pred-3",
+      "best_actual_id": "xian_siew-actual-0",
+      "match_score_0_to_4": 3,
+      "useful": true,
+      "reasoning": "Onboard vs ticket contribution and pre-cruise margin link to yield uplift from loyalty/commercial."
+    },
+    {
+      "candidate_id": "vince_ciepiel-pred-4",
+      "best_actual_id": "andrew_didora-actual-0",
+      "match_score_0_to_4": 2,
+      "useful": false,
+      "reasoning": "Cost cadence overlaps but not itinerary/threshold asks."
+    },
+    {
+      "candidate_id": "vince_ciepiel-pred-5",
+      "best_actual_id": "andrew_didora-actual-0",
+      "match_score_0_to_4": 3,
+      "useful": true,
+      "reasoning": "Fuel sensitivity and mitigation levers align with hedging/cost management theme."
+    },
+    {
+      "candidate_id": "vince_ciepiel-pred-6",
+      "best_actual_id": "xian_siew-actual-0",
+      "match_score_0_to_4": 4,
+      "useful": true,
+      "reasoning": "Directly targets cardholder metrics and APD/LTV uplift."
+    },
+    {
+      "candidate_id": "vince_ciepiel-pred-7",
+      "best_actual_id": "lizzie_dove-actual-0",
+      "match_score_0_to_4": 3,
+      "useful": true,
+      "reasoning": "Private destination APD uplift and ramp timing match Mexico ramp theme."
+    },
+    {
+      "candidate_id": "vince_ciepiel-pred-8",
+      "best_actual_id": null,
+      "match_score_0_to_4": 1,
+      "useful": false,
+      "reasoning": "Capital return/leverage priorities not discussed."
+    },
+    {
+      "candidate_id": "vince_ciepiel-pred-9",
+      "best_actual_id": null,
+      "match_score_0_to_4": 0,
+      "useful": false,
+      "reasoning": "No JV/TUI breakdown in actuals."
+    },
+    {
+      "candidate_id": "sharon_zackfia-pred-0",
+      "best_actual_id": "kevin_kopelman-actual-0",
+      "match_score_0_to_4": 1,
+      "useful": false,
+      "reasoning": "Both touch North America but predicted is source-market mix vs actual airfares/behavior."
+    },
+    {
+      "candidate_id": "sharon_zackfia-pred-1",
+      "best_actual_id": "xian_siew-actual-0",
+      "match_score_0_to_4": 4,
+      "useful": true,
+      "reasoning": "Directly quantifies pre-book penetration/spend by younger cohorts tied to yield."
+    },
+    {
+      "candidate_id": "sharon_zackfia-pred-2",
+      "best_actual_id": "vince_ciepiel-actual-0",
+      "match_score_0_to_4": 3,
+      "useful": true,
+      "reasoning": "Owned-destination ticket vs onboard attach aligns with yield composition."
+    },
+    {
+      "candidate_id": "sharon_zackfia-pred-3",
+      "best_actual_id": "xian_siew-actual-0",
+      "match_score_0_to_4": 3,
+      "useful": true,
+      "reasoning": "Pre-book vs onboard spend incremental/timing contributes to yield uplift discussion."
+    },
+    {
+      "candidate_id": "sharon_zackfia-pred-4",
+      "best_actual_id": "brandt_montour-actual-0",
+      "match_score_0_to_4": 4,
+      "useful": true,
+      "reasoning": "Quantifies Med moderation impact and recovery."
+    },
+    {
+      "candidate_id": "sharon_zackfia-pred-5",
+      "best_actual_id": "lizzie_dove-actual-0",
+      "match_score_0_to_4": 2,
+      "useful": false,
+      "reasoning": "Touches Cozumel/Mexico timing but not construction status; includes West Coast demand mitigation not asked."
+    },
+    {
+      "candidate_id": "sharon_zackfia-pred-6",
+      "best_actual_id": "matthew_boss-actual-0",
+      "match_score_0_to_4": 3,
+      "useful": true,
+      "reasoning": "Breaks down Perfecta drivers supporting multi-year growth."
+    },
+    {
+      "candidate_id": "sharon_zackfia-pred-7",
+      "best_actual_id": "xian_siew-actual-0",
+      "match_score_0_to_4": 4,
+      "useful": true,
+      "reasoning": "Cardholder base and translation to frequency/APD matches loyalty yield implications."
+    },
+    {
+      "candidate_id": "sharon_zackfia-pred-8",
+      "best_actual_id": "vince_ciepiel-actual-0",
+      "match_score_0_to_4": 3,
+      "useful": true,
+      "reasoning": "New-ship pricing premium informs hardware contribution to yields."
+    },
+    {
+      "candidate_id": "sharon_zackfia-pred-9",
+      "best_actual_id": "xian_siew-actual-0",
+      "match_score_0_to_4": 2,
+      "useful": false,
+      "reasoning": "App/AI conversion improvement is adjacent but more tactical than actual\u2019s broader loyalty/repeat implications."
+    },
+    {
+      "candidate_id": "andrew_didora-pred-0",
+      "best_actual_id": null,
+      "match_score_0_to_4": 0,
+      "useful": false,
+      "reasoning": "Unsecured vs ECA benefits not covered."
+    },
+    {
+      "candidate_id": "andrew_didora-pred-1",
+      "best_actual_id": null,
+      "match_score_0_to_4": 0,
+      "useful": false,
+      "reasoning": "Bond economics vs ECA not discussed."
+    },
+    {
+      "candidate_id": "andrew_didora-pred-2",
+      "best_actual_id": null,
+      "match_score_0_to_4": 0,
+      "useful": false,
+      "reasoning": "Maturity ladder changes not asked."
+    },
+    {
+      "candidate_id": "andrew_didora-pred-3",
+      "best_actual_id": null,
+      "match_score_0_to_4": 0,
+      "useful": false,
+      "reasoning": "Future funding mix (unsecured vs ECA) not an actual theme."
+    },
+    {
+      "candidate_id": "andrew_didora-pred-4",
+      "best_actual_id": null,
+      "match_score_0_to_4": 1,
+      "useful": false,
+      "reasoning": "Capital return vs deleveraging priorities not covered."
+    },
+    {
+      "candidate_id": "andrew_didora-pred-5",
+      "best_actual_id": null,
+      "match_score_0_to_4": 0,
+      "useful": false,
+      "reasoning": "Covenant/flexibility differences not in actuals."
+    },
+    {
+      "candidate_id": "andrew_didora-pred-6",
+      "best_actual_id": null,
+      "match_score_0_to_4": 1,
+      "useful": false,
+      "reasoning": "Liquidity stance vs capital markets timing not covered."
+    },
+    {
+      "candidate_id": "andrew_didora-pred-7",
+      "best_actual_id": "andrew_didora-actual-0",
+      "match_score_0_to_4": 4,
+      "useful": true,
+      "reasoning": "Directly addresses hedge sizing/pricing philosophy in high fuel environment."
+    },
+    {
+      "candidate_id": "andrew_didora-pred-8",
+      "best_actual_id": "matthew_boss-actual-0",
+      "match_score_0_to_4": 1,
+      "useful": false,
+      "reasoning": "ROIC vs financing mix is tangential to durable growth drivers."
+    },
+    {
+      "candidate_id": "andrew_didora-pred-9",
+      "best_actual_id": null,
+      "match_score_0_to_4": 0,
+      "useful": false,
+      "reasoning": "JV dynamics\u2019 impact on capital allocation not asked."
+    },
+    {
+      "candidate_id": "xian_siew-pred-0",
+      "best_actual_id": "brandt_montour-actual-0",
+      "match_score_0_to_4": 4,
+      "useful": true,
+      "reasoning": "Quantifies Med booking pace shift and remaining summer inventory."
+    },
+    {
+      "candidate_id": "xian_siew-pred-1",
+      "best_actual_id": "vince_ciepiel-actual-0",
+      "match_score_0_to_4": 3,
+      "useful": true,
+      "reasoning": "Separates close-in vs forward booked APD and product mix affecting yields."
+    },
+    {
+      "candidate_id": "xian_siew-pred-2",
+      "best_actual_id": "andrew_didora-actual-0",
+      "match_score_0_to_4": 3,
+      "useful": true,
+      "reasoning": "Unhedged exposure breakdown and EPS sensitivity aligns with hedging question."
+    },
+    {
+      "candidate_id": "xian_siew-pred-3",
+      "best_actual_id": "steven_wieczynski-actual-0",
+      "match_score_0_to_4": 1,
+      "useful": false,
+      "reasoning": "Q2 EPS itemization is adjacent to quarterly cadence but not the Q4 acceleration ask."
+    },
+    {
+      "candidate_id": "xian_siew-pred-4",
+      "best_actual_id": null,
+      "match_score_0_to_4": 0,
+      "useful": false,
+      "reasoning": "Board framework for capital returns vs capex not discussed."
+    },
+    {
+      "candidate_id": "xian_siew-pred-5",
+      "best_actual_id": "xian_siew-actual-0",
+      "match_score_0_to_4": 3,
+      "useful": true,
+      "reasoning": "Quantifies incremental margin/APD from pre-booked onboard, tying to yield uplift."
+    },
+    {
+      "candidate_id": "xian_siew-pred-6",
+      "best_actual_id": "james_hardiman-actual-0",
+      "match_score_0_to_4": 2,
+      "useful": false,
+      "reasoning": "Air connectivity levers are adjacent to Med booking recovery but different focus."
+    },
+    {
+      "candidate_id": "xian_siew-pred-7",
+      "best_actual_id": "lizzie_dove-actual-0",
+      "match_score_0_to_4": 3,
+      "useful": true,
+      "reasoning": "Private destination APD/margin deltas support Mexico ramp discussion."
+    },
+    {
+      "candidate_id": "xian_siew-pred-8",
+      "best_actual_id": "vince_ciepiel-actual-0",
+      "match_score_0_to_4": 2,
+      "useful": false,
+      "reasoning": "Legend deployment APD increment is related to hardware yields but narrower."
+    },
+    {
+      "candidate_id": "xian_siew-pred-9",
+      "best_actual_id": null,
+      "match_score_0_to_4": 1,
+      "useful": false,
+      "reasoning": "General sensitivity table not asked."
+    },
+    {
+      "candidate_id": "kevin_kopelman-pred-0",
+      "best_actual_id": "james_hardiman-actual-0",
+      "match_score_0_to_4": 2,
+      "useful": false,
+      "reasoning": "General booking curve vs record APD only partially overlaps turning-the-corner Med narrative."
+    },
+    {
+      "candidate_id": "kevin_kopelman-pred-1",
+      "best_actual_id": "brandt_montour-actual-0",
+      "match_score_0_to_4": 4,
+      "useful": true,
+      "reasoning": "Med remaining inventory and current prices vs peak directly asked."
+    },
+    {
+      "candidate_id": "kevin_kopelman-pred-2",
+      "best_actual_id": "andrew_didora-actual-0",
+      "match_score_0_to_4": 3,
+      "useful": true,
+      "reasoning": "Fuel EPS sensitivity and hedge profile aligns with hedging approach."
+    },
+    {
+      "candidate_id": "kevin_kopelman-pred-3",
+      "best_actual_id": null,
+      "match_score_0_to_4": 1,
+      "useful": false,
+      "reasoning": "Buyback cadence vs growth funding not covered."
+    },
+    {
+      "candidate_id": "kevin_kopelman-pred-4",
+      "best_actual_id": "vince_ciepiel-actual-0",
+      "match_score_0_to_4": 3,
+      "useful": true,
+      "reasoning": "Splits Net Yield improvement between ticket and onboard."
+    },
+    {
+      "candidate_id": "kevin_kopelman-pred-5",
+      "best_actual_id": "andrew_didora-actual-0",
+      "match_score_0_to_4": 2,
+      "useful": false,
+      "reasoning": "Cost drivers repeatability adjacent to NCC threshold ask."
+    },
+    {
+      "candidate_id": "kevin_kopelman-pred-6",
+      "best_actual_id": "steven_wieczynski-actual-0",
+      "match_score_0_to_4": 2,
+      "useful": false,
+      "reasoning": "Underlying Q2 yields ex-headwinds is adjacent but not Q4 acceleration confidence."
+    },
+    {
+      "candidate_id": "kevin_kopelman-pred-7",
+      "best_actual_id": null,
+      "match_score_0_to_4": 0,
+      "useful": false,
+      "reasoning": "JV contribution modeling not covered."
+    },
+    {
+      "candidate_id": "kevin_kopelman-pred-8",
+      "best_actual_id": "matthew_boss-actual-0",
+      "match_score_0_to_4": 3,
+      "useful": true,
+      "reasoning": "Breakdown of Perfecta drivers supports durable multi-year growth."
+    },
+    {
+      "candidate_id": "kevin_kopelman-pred-9",
+      "best_actual_id": "lizzie_dove-actual-0",
+      "match_score_0_to_4": 2,
+      "useful": false,
+      "reasoning": "Private destination uplift/payback is related but not focused on Mexico ramp cadence/Galveston."
+    }
+  ],
+  "set_metrics": {
+    "coverage_count": 7,
+    "coverage_rate": 0.583,
+    "useful_prediction_count": 62,
+    "precision_rate": 0.564,
+    "average_actual_best_score": 2.75,
+    "average_predicted_best_score": 2.291
+  },
+  "missed_actual_themes": [
+    "Quarterly yield cadence and confidence in Q4 acceleration to achieve full-year yield guide",
+    "Status of construction/resumption at Perfect Day Mexico following environmental pause",
+    "Whether 2024 European yield headwinds should fully reverse in 2027",
+    "Operational itinerary changes or initiative deferrals due to higher fuel costs (vs harvesting efficiencies)",
+    "Impact of higher North American airfares on NA customer behavior and booking patterns"
+  ],
+  "overpredicted_themes": [
+    "Capital allocation, buybacks, leverage targets and path to investment grade; financing mix (unsecured vs ECA) and covenants",
+    "Granular fuel EPS sensitivity tables beyond hedge approach specifics",
+    "Detailed JV/TUI contribution reconciliations and guidance bridges",
+    "West Coast Mexico demand softness/yield impact and mitigation",
+    "Highly granular APD premiums/payback for specific new ships and private destinations",
+    "Quarterly beat decomposition and explicit guidance conservatism buffers"
+  ],
+  "summary": "Coverage was solid on Mediterranean booking recovery, yield decomposition (hardware vs like-for-like), hedging strategy, and loyalty/card monetization, driving 7/12 actuals covered (avg score 2.75). Precision was moderate (62/110 useful; avg score 2.29), with many overpredictions on capital allocation/financing and JV details. Key misses were Q4 yield cadence confidence, Mexico construction status, 2027 Europe recapture, fuel-driven itinerary changes/deferrals, and NA airfare effects.",
+  "derived": {
+    "evaluator_model": "gpt-5",
+    "identity_matched_coverage": 3,
+    "coverage_strong_count": 4,
+    "precision_strong_count": 18
+  }
+}

@@ -1,0 +1,369 @@
+{
+  "predicted": [
+    {
+      "candidate_id": "steven_wieczynski-pred-0",
+      "source_analyst": "steven wieczynski",
+      "question": "On fuel: your 1.17$B guide moved to 1.35$B \u2014 what drove the change and how should we think about it going forward?",
+      "topic_label": "fuel",
+      "hook_id": "metric:fuel",
+      "probe_type": "CLAIM",
+      "_cold_start": false
+    },
+    {
+      "candidate_id": "steven_wieczynski-pred-1",
+      "source_analyst": "steven wieczynski",
+      "question": "On guidance_targets: your 17.7-18.1$ guide moved to 17.1-17.5$ \u2014 what drove the change and how should we think about it going forward?",
+      "topic_label": "guidance_targets",
+      "hook_id": "metric:EPS",
+      "probe_type": "CLAIM",
+      "_cold_start": false
+    },
+    {
+      "candidate_id": "steven_wieczynski-pred-2",
+      "source_analyst": "steven wieczynski",
+      "question": "On yield: your 1.5-3.5%cc guide moved to 1.5-2.5%cc \u2014 what drove the change and how should we think about it going forward?",
+      "topic_label": "yield",
+      "hook_id": "metric:yield",
+      "probe_type": "CLAIM",
+      "_cold_start": false
+    },
+    {
+      "candidate_id": "matthew_boss-pred-0",
+      "source_analyst": "matthew boss",
+      "question": "On yield: your 1.5-3.5%cc guide moved to 1.5-2.5%cc \u2014 what drove the change and how should we think about it going forward?",
+      "topic_label": "yield",
+      "hook_id": "metric:yield",
+      "probe_type": "PERSONA",
+      "_cold_start": false
+    },
+    {
+      "candidate_id": "matthew_boss-pred-1",
+      "source_analyst": "matthew boss",
+      "question": "On guidance_targets: your 17.7-18.1$ guide moved to 17.1-17.5$ \u2014 what drove the change and how should we think about it going forward?",
+      "topic_label": "guidance_targets",
+      "hook_id": "metric:EPS",
+      "probe_type": "PERSONA",
+      "_cold_start": false
+    },
+    {
+      "candidate_id": "matthew_boss-pred-2",
+      "source_analyst": "matthew boss",
+      "question": "You said: \"This morning we reported first quarter results that exceeded our expectations, along with a record wave season that reinforced the continued strength and demand for our leading vacation brands.\" \u2014 what underpins that and is it durable?",
+      "topic_label": "bookings",
+      "hook_id": "claim:0",
+      "probe_type": "CLAIM",
+      "_cold_start": false
+    },
+    {
+      "candidate_id": "brandt_montour-pred-0",
+      "source_analyst": "brandt montour",
+      "question": "On yield: your 1.5-3.5%cc guide moved to 1.5-2.5%cc \u2014 what drove the change and how should we think about it going forward?",
+      "topic_label": "yield",
+      "hook_id": "metric:yield",
+      "probe_type": "UNQUANTIFIED",
+      "_cold_start": false
+    },
+    {
+      "candidate_id": "brandt_montour-pred-1",
+      "source_analyst": "brandt montour",
+      "question": "On guidance_targets: your 17.7-18.1$ guide moved to 17.1-17.5$ \u2014 what drove the change and how should we think about it going forward?",
+      "topic_label": "guidance_targets",
+      "hook_id": "metric:EPS",
+      "probe_type": "UNQUANTIFIED",
+      "_cold_start": false
+    },
+    {
+      "candidate_id": "brandt_montour-pred-2",
+      "source_analyst": "brandt montour",
+      "question": "Can you update us on $2.5B Investment-Grade bond (2025-Q1) status changed (newly_tracked: first quarter this asset appears in the lifecycle record) and what it means for the model?",
+      "topic_label": "destinations",
+      "hook_id": "asset:ig_bond_2_5b_2025",
+      "probe_type": "UNQUANTIFIED",
+      "_cold_start": false
+    },
+    {
+      "candidate_id": "james_hardiman-pred-0",
+      "source_analyst": "james hardiman",
+      "question": "On yield: your 1.5-3.5%cc guide moved to 1.5-2.5%cc \u2014 what drove the change and how should we think about it going forward?",
+      "topic_label": "yield",
+      "hook_id": "metric:yield",
+      "probe_type": "EXTERNAL",
+      "_cold_start": false
+    },
+    {
+      "candidate_id": "james_hardiman-pred-1",
+      "source_analyst": "james hardiman",
+      "question": "On guidance_targets: your 17.7-18.1$ guide moved to 17.1-17.5$ \u2014 what drove the change and how should we think about it going forward?",
+      "topic_label": "guidance_targets",
+      "hook_id": "metric:EPS",
+      "probe_type": "EXTERNAL",
+      "_cold_start": false
+    },
+    {
+      "candidate_id": "james_hardiman-pred-2",
+      "source_analyst": "james hardiman",
+      "question": "Can you update us on $2.5B Investment-Grade bond (2025-Q1) status changed (newly_tracked: first quarter this asset appears in the lifecycle record) and what it means for the model?",
+      "topic_label": "destinations",
+      "hook_id": "asset:ig_bond_2_5b_2025",
+      "probe_type": "EXTERNAL",
+      "_cold_start": false
+    },
+    {
+      "candidate_id": "lizzie_dove-pred-0",
+      "source_analyst": "lizzie dove",
+      "question": "On guidance_targets: your 17.7-18.1$ guide moved to 17.1-17.5$ \u2014 what drove the change and how should we think about it going forward?",
+      "topic_label": "guidance_targets",
+      "hook_id": "metric:EPS",
+      "probe_type": "ANNOUNCEMENT",
+      "_cold_start": false
+    },
+    {
+      "candidate_id": "lizzie_dove-pred-1",
+      "source_analyst": "lizzie dove",
+      "question": "Can you update us on $2.5B Investment-Grade bond (2025-Q1) status changed (newly_tracked: first quarter this asset appears in the lifecycle record) and what it means for the model?",
+      "topic_label": "destinations",
+      "hook_id": "asset:ig_bond_2_5b_2025",
+      "probe_type": "ANNOUNCEMENT",
+      "_cold_start": false
+    },
+    {
+      "candidate_id": "lizzie_dove-pred-2",
+      "source_analyst": "lizzie dove",
+      "question": "Can you update us on Legend of the Seas status changed (status_transition: pre_delivery_financed -> pre_delivery_redeployment_planned) and what it means for the model?",
+      "topic_label": "destinations",
+      "hook_id": "asset:legend_of_the_seas",
+      "probe_type": "ANNOUNCEMENT",
+      "_cold_start": false
+    },
+    {
+      "candidate_id": "robin_farley-pred-0",
+      "source_analyst": "robin farley",
+      "question": "On fuel: your 1.17$B guide moved to 1.35$B \u2014 what drove the change and how should we think about it going forward?",
+      "topic_label": "fuel",
+      "hook_id": "metric:fuel",
+      "probe_type": "UNQUANTIFIED",
+      "_cold_start": false
+    },
+    {
+      "candidate_id": "robin_farley-pred-1",
+      "source_analyst": "robin farley",
+      "question": "On guidance_targets: your 17.7-18.1$ guide moved to 17.1-17.5$ \u2014 what drove the change and how should we think about it going forward?",
+      "topic_label": "guidance_targets",
+      "hook_id": "metric:EPS",
+      "probe_type": "UNQUANTIFIED",
+      "_cold_start": false
+    },
+    {
+      "candidate_id": "robin_farley-pred-2",
+      "source_analyst": "robin farley",
+      "question": "On cost_ncc: your initial FY2026 NCC ex-fuel guide guide moved to improved vs prior guide \u2014 what drove the change and how should we think about it going forward?",
+      "topic_label": "cost_ncc",
+      "hook_id": "metric:NCC",
+      "probe_type": "UNQUANTIFIED",
+      "_cold_start": false
+    },
+    {
+      "candidate_id": "xian_siew-pred-0",
+      "source_analyst": "xian siew",
+      "question": "On guidance_targets: your 17.7-18.1$ guide moved to 17.1-17.5$ \u2014 what drove the change and how should we think about it going forward?",
+      "topic_label": "guidance_targets",
+      "hook_id": "metric:EPS",
+      "probe_type": "DELTA",
+      "_cold_start": true
+    },
+    {
+      "candidate_id": "xian_siew-pred-1",
+      "source_analyst": "xian siew",
+      "question": "On yield: your 1.5-3.5%cc guide moved to 1.5-2.5%cc \u2014 what drove the change and how should we think about it going forward?",
+      "topic_label": "yield",
+      "hook_id": "metric:yield",
+      "probe_type": "DELTA",
+      "_cold_start": true
+    },
+    {
+      "candidate_id": "xian_siew-pred-2",
+      "source_analyst": "xian siew",
+      "question": "On fuel: your 1.17$B guide moved to 1.35$B \u2014 what drove the change and how should we think about it going forward?",
+      "topic_label": "fuel",
+      "hook_id": "metric:fuel",
+      "probe_type": "DELTA",
+      "_cold_start": true
+    },
+    {
+      "candidate_id": "kevin_kopelman-pred-0",
+      "source_analyst": "kevin kopelman",
+      "question": "On guidance_targets: your 17.7-18.1$ guide moved to 17.1-17.5$ \u2014 what drove the change and how should we think about it going forward?",
+      "topic_label": "guidance_targets",
+      "hook_id": "metric:EPS",
+      "probe_type": "DELTA",
+      "_cold_start": true
+    },
+    {
+      "candidate_id": "kevin_kopelman-pred-1",
+      "source_analyst": "kevin kopelman",
+      "question": "On yield: your 1.5-3.5%cc guide moved to 1.5-2.5%cc \u2014 what drove the change and how should we think about it going forward?",
+      "topic_label": "yield",
+      "hook_id": "metric:yield",
+      "probe_type": "DELTA",
+      "_cold_start": true
+    },
+    {
+      "candidate_id": "kevin_kopelman-pred-2",
+      "source_analyst": "kevin kopelman",
+      "question": "On fuel: your 1.17$B guide moved to 1.35$B \u2014 what drove the change and how should we think about it going forward?",
+      "topic_label": "fuel",
+      "hook_id": "metric:fuel",
+      "probe_type": "DELTA",
+      "_cold_start": true
+    },
+    {
+      "candidate_id": "andrew_didora-pred-0",
+      "source_analyst": "andrew didora",
+      "question": "On guidance_targets: your 17.7-18.1$ guide moved to 17.1-17.5$ \u2014 what drove the change and how should we think about it going forward?",
+      "topic_label": "guidance_targets",
+      "hook_id": "metric:EPS",
+      "probe_type": "DELTA",
+      "_cold_start": true
+    },
+    {
+      "candidate_id": "andrew_didora-pred-1",
+      "source_analyst": "andrew didora",
+      "question": "On yield: your 1.5-3.5%cc guide moved to 1.5-2.5%cc \u2014 what drove the change and how should we think about it going forward?",
+      "topic_label": "yield",
+      "hook_id": "metric:yield",
+      "probe_type": "DELTA",
+      "_cold_start": true
+    },
+    {
+      "candidate_id": "andrew_didora-pred-2",
+      "source_analyst": "andrew didora",
+      "question": "On fuel: your 1.17$B guide moved to 1.35$B \u2014 what drove the change and how should we think about it going forward?",
+      "topic_label": "fuel",
+      "hook_id": "metric:fuel",
+      "probe_type": "DELTA",
+      "_cold_start": true
+    },
+    {
+      "candidate_id": "sharon_zackfia-pred-0",
+      "source_analyst": "sharon zackfia",
+      "question": "On guidance_targets: your 17.7-18.1$ guide moved to 17.1-17.5$ \u2014 what drove the change and how should we think about it going forward?",
+      "topic_label": "guidance_targets",
+      "hook_id": "metric:EPS",
+      "probe_type": "DELTA",
+      "_cold_start": true
+    },
+    {
+      "candidate_id": "sharon_zackfia-pred-1",
+      "source_analyst": "sharon zackfia",
+      "question": "On yield: your 1.5-3.5%cc guide moved to 1.5-2.5%cc \u2014 what drove the change and how should we think about it going forward?",
+      "topic_label": "yield",
+      "hook_id": "metric:yield",
+      "probe_type": "DELTA",
+      "_cold_start": true
+    },
+    {
+      "candidate_id": "sharon_zackfia-pred-2",
+      "source_analyst": "sharon zackfia",
+      "question": "On fuel: your 1.17$B guide moved to 1.35$B \u2014 what drove the change and how should we think about it going forward?",
+      "topic_label": "fuel",
+      "hook_id": "metric:fuel",
+      "probe_type": "DELTA",
+      "_cold_start": true
+    },
+    {
+      "candidate_id": "vince_ciepiel-pred-0",
+      "source_analyst": "vince ciepiel",
+      "question": "On fuel: your 1.17$B guide moved to 1.35$B \u2014 what drove the change and how should we think about it going forward?",
+      "topic_label": "fuel",
+      "hook_id": "metric:fuel",
+      "probe_type": "PERSONA",
+      "_cold_start": false
+    },
+    {
+      "candidate_id": "vince_ciepiel-pred-1",
+      "source_analyst": "vince ciepiel",
+      "question": "On yield: your 1.5-3.5%cc guide moved to 1.5-2.5%cc \u2014 what drove the change and how should we think about it going forward?",
+      "topic_label": "yield",
+      "hook_id": "metric:yield",
+      "probe_type": "PERSONA",
+      "_cold_start": false
+    },
+    {
+      "candidate_id": "vince_ciepiel-pred-2",
+      "source_analyst": "vince ciepiel",
+      "question": "On guidance_targets: your 17.7-18.1$ guide moved to 17.1-17.5$ \u2014 what drove the change and how should we think about it going forward?",
+      "topic_label": "guidance_targets",
+      "hook_id": "metric:EPS",
+      "probe_type": "PERSONA",
+      "_cold_start": false
+    }
+  ],
+  "actual": [
+    {
+      "actual_id": "steven_wieczynski-actual-0",
+      "source_analyst": "steven wieczynski",
+      "question": "Yeah. Hey, guys. Good morning. Thanks for all the color so far. Jason, as we think about the rest of the year, we obviously have your second quarter yield guidance, and I have to assume based on Naftali's comments that your third quarter yields are gonna look somewhat similar to your second quarter given the exposure you have to Europe. You know, then if that's true, that would imply your fourth quarter yields are gonna be growing, you know, let's call it somewhere in that mid-single- digit range to kinda get you into that 2%, you know, midpoint. You know, wondering what gives you the confidence the fourth quarter could grow that much. I guess then that actually to me would imply, that without the European headwinds you guys encountered, you know, you guys would've actually been able to raise your full year yield guidance. Am I kinda thinking about that all the right way?"
+    },
+    {
+      "actual_id": "matthew_boss-actual-0",
+      "source_analyst": "matthew boss",
+      "question": "Great. Thanks. Jason, maybe if we take a step back. Despite geopolitical developments and the elevated industry capacity in the Caribbean, your yield guide at the high end this year stands at 2.5% constant currency. Maybe could you speak to the drivers of durable growth multi-year, which seem intact here regardless of the macro, and just how you see the company set up today relative to pre-pandemic?"
+    },
+    {
+      "actual_id": "brandt_montour-actual-0",
+      "source_analyst": "brandt montour",
+      "question": "Great. Thanks for taking my question. I just wanted to circle back on the third quarter and the Med, and just maybe if you could put a bit of a finer point on it. You know, how much do you have left to book at this point in the year? How much damage do you think was done over the last few weeks? What are you sort of baking into your forward guidance in terms of how the conflict plays out and how bookings play out from here?"
+    },
+    {
+      "actual_id": "james_hardiman-actual-0",
+      "source_analyst": "james hardiman",
+      "question": "Good morning, thanks for taking my questions. I wanted to sort of zoom in on the idea that we're turning the corner. Obviously, you know, the weeks following the initial geopolitical disruption were probably the worst, but maybe some indication of where we stand today in terms of the booking trajectory versus where we were in February before a lot of this started. I don't know if we're fully back or we're just heading in that direction. As we think about sort of the 2Q and 3Q, we're saying that's most pronounced. I'm just curious if that's because those are what's next or whether consumers are comfortable booking beyond the third quarter and into 2027, assuming that, you know, this disruption will go away or we'll sort of worry about that when we get to that point in time. Thanks."
+    },
+    {
+      "actual_id": "lizzie_dove-actual-0",
+      "source_analyst": "lizzie dove",
+      "question": "Hi. Good morning. Thanks for taking the question. I was wondering if you could maybe give us a refresh on Perfect Day Mexico. You mentioned it's opening late 2027, ramping 2028. Could you maybe share some more details on the cadence of that ramp? You know, just bigger picture, your latest thinking around the long-term, you know, structural yield growth opportunity there in the Western Caribbean market and particularly around, you know, the Galveston, Texas penetration opportunity."
+    },
+    {
+      "actual_id": "robin_farley-actual-0",
+      "source_analyst": "robin farley",
+      "question": "Thanks. I had a question on yields, but also just a quick follow-up. Michael's comment may have just answered it, but, you know, it sounded like Mexico there had been, like, a little bit of a pause in construction because of that environmental stuff. Just wanna clarify if Michael's comment means that construction is, you know, resumed in Mexico there."
+    },
+    {
+      "actual_id": "robin_farley-actual-1",
+      "source_analyst": "robin farley",
+      "question": "Great. Thank you. Thank you. The other question was just sort of thinking about next year and, you know, if it's the 200 basis points impact in Q2, Q3 sounds like, you know, the entire 100 basis point change is maybe a mid-single digit sort of shift in where you had expected European yields to come, to come in this year. Is it fair to assume that you would kind of fully expect that to come back in 2027 when we're kind of thinking ahead to, you know, the impact this year being kind of, you know, not necessarily coming out of next year? Just help us to size that. Thank you."
+    },
+    {
+      "actual_id": "xian_siew-actual-0",
+      "source_analyst": "xian siew",
+      "question": "Hi, guys. Thanks for the question. You talked about the co-branded credit card and several changes to the loyalty program, also how repeat guests are kind of stepped up. I'm kind of wondering what do you think is kind of the implications of that in terms of how they could impact net yield growth, maybe repeat guests are booking further ahead, maybe they spend more on onboard. Kind of any learnings on how, you know, higher repeat penetration could be. Thank you."
+    },
+    {
+      "actual_id": "kevin_kopelman-actual-0",
+      "source_analyst": "kevin kopelman",
+      "question": "Great. Thanks a lot. I had a question on North American customers and higher airfares. Can you talk at all, you know, have you seen any consumer behavior change at all kind of reacting to the higher airfares in North America for your North America itineraries? How do you see consumers' ability to kind of swallow those airfare increases as they're getting to ports as the year goes on? Thanks."
+    },
+    {
+      "actual_id": "andrew_didora-actual-0",
+      "source_analyst": "andrew didora",
+      "question": "Hi, good morning, everyone. T wo quick questions on costs, you know, so I guess for Naftali. I guess, one, you know, how do you think of rolling in new hedges in this high fuel environment? Second, just on unit costs. You continue to do a really nice job here. I guess my question is, at what level of capacity growth would we start to see maybe more inflationary type, you know, NCC ex-fuel growth and say, I don't know, 2%-3% range? Just curious your thoughts up there. Thank you."
+    },
+    {
+      "actual_id": "sharon_zackfia-actual-0",
+      "source_analyst": "sharon zackfia",
+      "question": "Hi. Thanks for taking the question. I guess I wanted to follow up on cost. Are you making any itinerary changes given higher fuel either currently or looking out to 2027, 2028? Obviously, Net Cruise Costs are coming in a bit lower. Is there anything you've pulled back on this year in terms of initiatives or spend that we should think of as deferring to 2027? Is this just harvesting some of those efficiencies that you just referred to? Thank you."
+    },
+    {
+      "actual_id": "vince_ciepiel-actual-0",
+      "source_analyst": "vince ciepiel",
+      "question": "Thanks. Just wanted to dig a little bit more into yield outlook for the year. Could you maybe comment on how you think new hardware, you have Star , Xcel contribution, Paradise Island, RBC Santorini, like a lot of, you know, exciting new products out there, how they might be contributing to the yield growth overall versus the like- for-L ike impact. Also on a regional basis, I think you had mentioned or used the term that Europe was doing well, I think was the quote. Is it fair to assume that Europe yields will grow this year? What does the guide assume? Thanks."
+    }
+  ],
+  "_meta": {
+    "version": "v7",
+    "k": 3,
+    "mode": "company+persona",
+    "target_quarter": "2026-Q1"
+  }
+}

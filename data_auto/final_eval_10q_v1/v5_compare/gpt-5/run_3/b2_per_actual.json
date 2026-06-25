@@ -1,0 +1,159 @@
+{
+  "summary": {
+    "evaluator_model": "gpt-5",
+    "evaluated_count": 12,
+    "binary_match_count": 6,
+    "binary_match_rate": 0.5,
+    "strong_match_count": 1,
+    "strong_match_rate": 0.08333333333333333,
+    "average_match_score_0_to_4": 2.5
+  },
+  "cells": [
+    {
+      "analyst_name": "matthew boss",
+      "best_match_actual_tuple_id": "matthew boss-actual-single",
+      "match_score_0_to_4": 3,
+      "binary_match": true,
+      "topic_match": "strong",
+      "trigger_alignment": "partial",
+      "question_form_alignment": "partial",
+      "granularity_alignment": "partial",
+      "reasoning": "The predicted question asks management to bridge the multi-year 20% EPS CAGR target into yield, cost, JV, and buybacks with timing, which would prompt a discussion of the company\u2019s long-term growth algorithm and drivers. The actual question seeks the drivers of durable multi-year growth and how the company is set up vs. pre-pandemic, anchored by the current 2.5% yield guide despite macro/geopolitical factors. Both target durability of growth over multiple years, but the prediction is more quantitative and centered on the Perfecta plan rather than the yield-guide/geopolitical framing and does not explicitly request a pre-pandemic comparison.",
+      "miss_or_gap": "Does not ask for a pre-pandemic setup comparison or address the geopolitical/elevated Caribbean capacity context; emphasizes a numeric bridge and timing cadence instead of a broader strategic narrative tied to the current-year yield guide."
+    },
+    {
+      "analyst_name": "steven wieczynski",
+      "best_match_actual_tuple_id": "steven wieczynski-actual-single",
+      "match_score_0_to_4": 3,
+      "binary_match": true,
+      "topic_match": "strong",
+      "trigger_alignment": "partial",
+      "question_form_alignment": "partial",
+      "granularity_alignment": "partial",
+      "reasoning": "The predicted Q1 item asks for Q2\u2013Q4 booking levels and APD, and probes the durability of the Mediterranean rebound into Q3. The actual asks about yield phasing (Q2, Q3 under Europe headwinds, and confidence in a stronger Q4 to hit the full-year yield guide). Both target the same uncertainty: how Europe affects near-term yields and what underpins back-half yield strength, with quarter-by-quarter framing. The prediction would likely elicit commentary on booking load factors, APD/pricing by quarter, and the Europe/Mediterranean dynamic, which overlaps with the management answer the actual question seeks.",
+      "miss_or_gap": "The prediction does not explicitly press on confidence in Q4 yield acceleration or the implication that, absent Europe headwinds, full-year yield guidance would have increased; it also introduces a ticket vs onboard APD mix component not central to the actual question."
+    },
+    {
+      "analyst_name": "brandt montour",
+      "best_match_actual_tuple_id": "brandt montour-actual-single",
+      "match_score_0_to_4": 3,
+      "binary_match": true,
+      "topic_match": "strong",
+      "trigger_alignment": "strong",
+      "question_form_alignment": "strong",
+      "granularity_alignment": "partial",
+      "reasoning": "The predicted booking-curve question asks for percent sold, remaining inventory, and booking velocity and explicitly references the Med moderation/rebound, which targets the same uncertainty as the actual: Q3/Med booking position and recent disruption effects. It would likely elicit similar management commentary on how much is left to book and current momentum. However, it does not directly ask for the magnitude of the recent damage or the explicit assumptions embedded in guidance about the conflict path.",
+      "miss_or_gap": "Did not explicitly request quantification of the recent Med-related booking impact (\u201cdamage over the last few weeks\u201d) or spell out what conflict assumptions are embedded in guidance; broadened scope to Q3/Q4 and 2019 comps and price bands, which are adjacent but not the core of the actual ask."
+    },
+    {
+      "analyst_name": "james hardiman",
+      "best_match_actual_tuple_id": "james hardiman-actual-single",
+      "match_score_0_to_4": 3,
+      "binary_match": true,
+      "topic_match": "strong",
+      "trigger_alignment": "strong",
+      "question_form_alignment": "partial",
+      "granularity_alignment": "partial",
+      "reasoning": "Predicted Q4 (demand/booking_curve) targets the same uncertainty as the actual: recovery in bookings after geopolitical disruption, concentration of impact in 2Q/3Q, and the state of the booking curve versus normal. It asks for weeks of softness, booking lead times, and near-term sensitivity\u2014information management would use to answer the actual question about whether bookings are back and why the effect is most pronounced in Q2/Q3.",
+      "miss_or_gap": "Predicted adds APD/Net Yield downside sensitivity and cancellations detail not required, and it does not explicitly ask about consumer willingness to book beyond Q3 into 2027 or compare directly to the February baseline."
+    },
+    {
+      "analyst_name": "lizzie dove",
+      "best_match_actual_tuple_id": "lizzie dove-actual-single",
+      "match_score_0_to_4": 2,
+      "binary_match": false,
+      "topic_match": "partial",
+      "trigger_alignment": "weak",
+      "question_form_alignment": "partial",
+      "granularity_alignment": "partial",
+      "reasoning": "The closest predicted question is the one on private destinations (Beach Clubs Paradise Island and Santorini) asking for yield contribution and run-rate uplift into 2026\u20132028. The actual asks about Perfect Day Mexico\u2019s ramp cadence (late 2027, 2028) and the structural yield opportunity in the Western Caribbean, specifically tied to Galveston penetration. Both target private-destination-driven yield uplift and timeline, but the prediction focuses on different assets and a backward-looking Q1 contribution rather than the Mexico project and Texas source-market penetration. Management\u2019s answer would only partially overlap.",
+      "miss_or_gap": "Prediction omits Perfect Day Mexico, its specific ramp cadence, Western Caribbean framing, and Galveston/Texas penetration dynamics; it instead centers on other private destinations and near-term contribution, not the long-term regional opportunity actually asked."
+    },
+    {
+      "analyst_name": "robin farley",
+      "best_match_actual_tuple_id": "robin farley-actual-single",
+      "match_score_0_to_4": 2,
+      "binary_match": false,
+      "topic_match": "partial",
+      "trigger_alignment": "weak",
+      "question_form_alignment": "weak",
+      "granularity_alignment": "weak",
+      "reasoning": "The closest prediction is the private-destinations question referencing Perfect Day Mexico/Costa Maya, but it asks for yield/margin accretion and guidance timing. The actual question is a narrow clarification on whether construction in Mexico has resumed after an environmental-related pause. Same general area (Mexico private destination), but different trigger and intent; the predicted would not elicit the yes/no construction-status update.",
+      "miss_or_gap": "Did not address construction status/resumption and environmental permitting issues in Mexico; focused instead on economics (yield/margin) and guidance contribution.",
+      "robin_actual_index": 0
+    },
+    {
+      "analyst_name": "robin farley",
+      "best_match_actual_tuple_id": "robin farley-actual-single",
+      "match_score_0_to_4": 2,
+      "binary_match": false,
+      "topic_match": "partial",
+      "trigger_alignment": "partial",
+      "question_form_alignment": "partial",
+      "granularity_alignment": "partial",
+      "reasoning": "The prediction about Mediterranean and West Coast Mexico disruptions asks for Q2/Q3 yield impact in bps and attribution to these regions, which overlaps with the actual question\u2019s focus on the European/Mediterranean yield moderation and the 200 bps impact in Q2/Q3. However, the actual question\u2019s core aim is about reversibility and timing\u2014whether the 2026 European yield shortfall is expected to return in 2027 and how to size that\u2014while the prediction centers on near\u2011term quantification and attribution without addressing 2027 recovery. Thus, it matches the theme and partial triggers but misses the main forward\u2011looking ask.",
+      "miss_or_gap": "Does not ask about the 2027 recovery/normalization of European yields or whether the 2026 shortfall fully comes back next year; adds West Coast Mexico (not central to the actual) and focuses on near\u2011term bps quantification rather than the transitory vs structural framing.",
+      "robin_actual_index": 1
+    },
+    {
+      "analyst_name": "vince ciepiel",
+      "best_match_actual_tuple_id": "vince ciepiel-actual-single",
+      "match_score_0_to_4": 3,
+      "binary_match": true,
+      "topic_match": "strong",
+      "trigger_alignment": "strong",
+      "question_form_alignment": "strong",
+      "granularity_alignment": "partial",
+      "reasoning": "The predicted question targets the same core uncertainty as the actual: decomposing full-year yield growth between like-for-like pricing and contributions from new hardware/private destinations. It asks for quantitative attribution similar to the actual request. Differences: the prediction adds a ticket vs onboard split and 2019 comparisons and omits the actual\u2019s regional follow-up on Europe yields.",
+      "miss_or_gap": "Does not address the Europe yield outlook/assumptions that the actual question explicitly asks; adds extra segmentation (ticket vs onboard) that was not sought."
+    },
+    {
+      "analyst_name": "sharon zackfia",
+      "best_match_actual_tuple_id": "sharon zackfia-actual-single",
+      "match_score_0_to_4": 2,
+      "binary_match": false,
+      "topic_match": "partial",
+      "trigger_alignment": "weak",
+      "question_form_alignment": "weak",
+      "granularity_alignment": "weak",
+      "reasoning": "Most predicted questions focus on demand, pricing, and product/owned-destination benefits rather than costs. The closest is the Perfecta levers question, which at least references cost efficiencies, adjacent to the actual ask about NCC, deferrals, and harvesting efficiencies. However, it does not address fuel-driven itinerary changes or near-term cost actions, so it would not elicit the same management answer.",
+      "miss_or_gap": "No prediction asked about higher fuel and related itinerary optimization, NCC trajectory, or whether initiatives were deferred versus harvested efficiencies in 2026\u20132028."
+    },
+    {
+      "analyst_name": "andrew didora",
+      "best_match_actual_tuple_id": "andrew didora-actual-single",
+      "match_score_0_to_4": 4,
+      "binary_match": true,
+      "topic_match": "strong",
+      "trigger_alignment": "strong",
+      "question_form_alignment": "strong",
+      "granularity_alignment": "strong",
+      "reasoning": "Among the predictions, the fuel-hedging question closely mirrors the actual ask about rolling in new hedges in a high fuel environment. It targets the same uncertainty (hedge philosophy, timing/sizing in current conditions) and would likely elicit the same management discussion about layering hedges, tenor, and approach. The phrasing and openness are aligned, and the added mention of hedge percentage/forward curve in the prediction stays within the same granularity.",
+      "miss_or_gap": "The actual question also asked about NCC ex-fuel/unit cost inflation thresholds with capacity growth, which none of the predicted questions addressed."
+    },
+    {
+      "analyst_name": "xian siew",
+      "best_match_actual_tuple_id": "xian siew-actual-single",
+      "match_score_0_to_4": 2,
+      "binary_match": false,
+      "topic_match": "partial",
+      "trigger_alignment": "none",
+      "question_form_alignment": "partial",
+      "granularity_alignment": "partial",
+      "reasoning": "The closest prediction asked for a breakdown of Net Yield growth between close-in pricing, forward-booked APD, and product mix. The actual question targets the impact of loyalty/credit card initiatives and higher repeat guest penetration on yield, booking cadence, and onboard spend. While both center on Net Yield drivers and guest behavior, the predicted question lacks the loyalty/credit card and repeat-guest trigger and would likely elicit a different management response focused on pricing timing and mix rather than loyalty-driven behaviors.",
+      "miss_or_gap": "No reference to the co-branded credit card, loyalty program changes, or repeat guest penetration; lacks linkage to how these factors affect booking further ahead and onboard spend patterns."
+    },
+    {
+      "analyst_name": "kevin kopelman",
+      "best_match_actual_tuple_id": "kevin kopelman-actual-single",
+      "match_score_0_to_4": 1,
+      "binary_match": false,
+      "topic_match": "weak",
+      "trigger_alignment": "none",
+      "question_form_alignment": "weak",
+      "granularity_alignment": "weak",
+      "reasoning": "The actual question targets the impact of higher North American airfares on consumer behavior and demand for North America itineraries. None of the predicted questions mention airfares, fly-to vs. drive-to mix, Air2Sea, or regional (North America) dynamics. The closest prediction is about booking curve/close-in vs. forward APD, which touches demand timing but would not elicit the same management answer focused on airfare sensitivity or consumer elasticity. The form and granularity also diverge (predicted seeks quantified booking mix vs. actual seeks behavioral trends and affordability).",
+      "miss_or_gap": "Predictions omitted airfare/airlift cost sensitivity and its effect on North American demand, including consumer behavior, willingness to absorb higher air costs, and potential shifts in booking patterns or itinerary choice."
+    }
+  ]
+}
