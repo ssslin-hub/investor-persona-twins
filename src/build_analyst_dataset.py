@@ -221,6 +221,8 @@ def main(
             "per_analyst_actual_questions": dict(test_records),
         }, fp, indent=2)
     print(f"Wrote {test_out_path}")
+    from denoise_dataset import denoise_test_file
+    denoise_test_file(test_out_path)   # keep rebuilt eval data denoised
 
 
 if __name__ == "__main__":

@@ -298,6 +298,8 @@ def run(
     test_set = json.load(open(os.path.join(data_dir, "analysts_test.json")))
     mgmt_pres = test_set["management_context"]
     actuals = test_set["per_analyst_actual_questions"]
+    from denoise_dataset import clean_actuals
+    actuals, _ = clean_actuals(actuals)   # Step 3: denoise actuals before judging
 
     extraction_tpl = load_text(os.path.join(PROMPTS, extraction_prompt))
     simulator_tpl = load_text(os.path.join(PROMPTS, simulator_prompt)) if not skip_simulate_and_judge else ""
